@@ -1,0 +1,721 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Auto Wallpaper 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-26 15:00-0600\n"
+"PO-Revision-Date: 2026-10-26 15:00-0600\n"
+"Last-Translator: Lumory\n"
+"Language-Team: Русский\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Auto Wallpaper"
+msgstr "Auto Wallpaper"
+
+msgid "Apariencia"
+msgstr "Внешний вид"
+
+msgid "Estilo"
+msgstr "Стиль"
+
+msgid "Haz clic en una miniatura para cambiar el fondo de pantalla del tema correspondiente."
+msgstr "Нажмите на миниатюру, чтобы сменить обои для соответствующей темы."
+
+msgid "Haz clic para cambiar el fondo claro (Predeterminado)"
+msgstr "Нажмите, чтобы сменить светлые обои (По умолчанию)"
+
+msgid "Haz clic para cambiar el fondo oscuro (Dark)"
+msgstr "Нажмите, чтобы сменить тёмные обои (Тёмная)"
+
+msgid "Predeterminado"
+msgstr "По умолчанию"
+
+msgid "Oscuro"
+msgstr "Тёмная"
+
+msgid "cambiando el tema"
+msgstr "сменив тему"
+
+msgid "Se ha cambiado el fondo del tema"
+msgstr "Обои для темы изменены"
+
+msgid "puede verlo"
+msgstr "можно увидеть"
+
+msgid "Seleccionar fondo de pantalla claro"
+msgstr "Выбрать светлые обои"
+
+msgid "Seleccionar fondo de pantalla oscuro"
+msgstr "Выбрать тёмные обои"
+
+msgid "Carpetas de Fondos"
+msgstr "Папки с обоями"
+
+msgid "Selecciona las carpetas de imágenes asignadas a cada tema."
+msgstr "Выберите папки с изображениями, назначенные для каждой темы."
+
+msgid "Colección Claro"
+msgstr "Светлая коллекция"
+
+msgid "Colección Oscuro"
+msgstr "Тёмная коллекция"
+
+msgid "Cambiar carpeta seleccionada"
+msgstr "Изменить выбранную папку"
+
+msgid "Abrir carpeta en Archivos"
+msgstr "Открыть папку в Файлах"
+
+msgid "Rotación de fondos del conjunto"
+msgstr "Смена обоев в коллекции"
+
+msgid "Configura el orden en que se van a proyectar las imágenes."
+msgstr "Настройте порядок смены изображений."
+
+msgid "Se han detectado cambios en los fondos almacenados. "
+msgstr "Обнаружены изменения в сохранённых обоях. "
+
+msgid "Recarga"
+msgstr "Перезагрузите"
+
+msgid "Recargar fondos ahora"
+msgstr "Перезагрузить обои сейчас"
+
+msgid " para actualizar los fondos"
+msgstr " чтобы обновить обои"
+
+msgid "Descartar aviso"
+msgstr "Закрыть уведомление"
+
+msgid "Servicio en segundo plano"
+msgstr "Фоновая служба"
+
+msgid "Comprobando estado..."
+msgstr "Проверка состояния..."
+
+msgid "Siguiente"
+msgstr "Следующие"
+
+msgid "Pasar al siguiente fondo de la secuencia actual"
+msgstr "Перейти к следующим обоям в текущей последовательности"
+
+msgid "Barajar"
+msgstr "Перемешать"
+
+msgid "Revolver la lista de fondos pendientes sin reiniciar el ciclo"
+msgstr "Перемешать оставшиеся обои без перезапуска цикла"
+
+msgid "Recargar"
+msgstr "Перезагрузить"
+
+msgid "Re-escanear carpetas, reiniciar la baraja completa y aplicar nuevos fondos"
+msgstr "Пересканировать папки, сбросить всю колоду и применить новые обои"
+
+msgid "Secuencia de rotación"
+msgstr "Последовательность смены"
+
+msgid "Al azar"
+msgstr "Случайно"
+
+msgid "Al azar sin repeticiones (baraja completa)"
+msgstr "Случайно без повторений (полная колода)"
+
+msgid "Rotación automática"
+msgstr "Автоматическая смена"
+
+msgid "Temporizador y automatización del cambio en segundo plano."
+msgstr "Таймер и автоматическая смена в фоновом режиме."
+
+msgid "Activar rotación automática"
+msgstr "Включить автоматическую смену"
+
+msgid "Habilitar el servicio para cambiar las imágenes según la frecuencia programada"
+msgstr "Включить службу для смены обоев с заданной периодичностью"
+
+msgid "Frecuencia de cambio"
+msgstr "Частота смены"
+
+msgid "Intervalo de tiempo (minutos)"
+msgstr "Интервал времени (минуты)"
+
+msgid "Hora fija diaria"
+msgstr "Фиксированное время в день"
+
+msgid "Minutos entre cambios"
+msgstr "Минуты между сменами"
+
+msgid "Tiempo que permanece cada fondo de pantalla"
+msgstr "Время показа каждого фонового рисунка"
+
+msgid "Hora de cambio diario"
+msgstr "Время ежедневной смены"
+
+msgid "Hora programada para rotar el fondo cada día (formato 24h)"
+msgstr "Запланированное время ежедневной смены (формат 24ч)"
+
+msgid "Hora (00 a 23)"
+msgstr "Часы (от 00 до 23)"
+
+msgid "Minutos (00 a 59)"
+msgstr "Минуты (от 00 до 59)"
+
+msgid "Días entre cambios"
+msgstr "Дни между сменами"
+
+msgid "Frecuencia en días de la rotación diaria"
+msgstr "Частота в днях для ежедневной смены"
+
+msgid "Contar cambio de estilo no visto en la rotación"
+msgstr "Считать смену стиля новым вращением, если фон не был просмотрен"
+
+msgid "Al alternar entre claro y oscuro, si el fondo aún no se había visto, reinicia el temporizador (solo en intervalo de tiempo)"
+msgstr "При переключении между светлой и темной темой, если фон еще не был виден, перезапускает таймер (только в режиме интервала)"
+
+msgid "Herramientas y Mantenimiento"
+msgstr "Инструменты и обслуживание"
+
+msgid "Mantenimiento, gestión del fondo en pantalla, organización inteligente y optimización."
+msgstr "Обслуживание, управление активными обоями, умная организация и оптимизация."
+
+msgid "Fondo actual en pantalla"
+msgstr "Текущие обои на экране"
+
+msgid "Detectando fondo visible..."
+msgstr "Определение активных обоев..."
+
+msgid "Ubicar y mostrar archivo en Archivos (Nautilus)"
+msgstr "Найти и показать файл в Файлах (Nautilus)"
+
+msgid "Fijar fondo en pinned/ (proteger en este tema)"
+msgstr "Закрепить в pinned/ (защитить в этой теме)"
+
+msgid "Excluir fondo de la rotación (mover a exclude/)"
+msgstr "Исключить из смены (переместить в exclude/)"
+
+msgid "No hay ningún fondo configurado o el archivo no existe"
+msgstr "Обои не настроены или файл не существует"
+
+msgid "Fijado (pinned)"
+msgstr "Закреплено (pinned)"
+
+msgid "Desfijar fondo (regresar a la carpeta principal)"
+msgstr "Открепить обои (вернуть в основную папку)"
+
+msgid "Fijar fondo en pinned/ (no mover de este tema)"
+msgstr "Закрепить в pinned/ (не перемещать из этой темы)"
+
+msgid "Fondo desfijado y devuelto a la carpeta principal"
+msgstr "Обои откреплены и возвращены в основную папку"
+
+msgid "Fondo fijado en pinned/"
+msgstr "Обои закреплены в pinned/"
+
+msgid "¿Excluir este fondo de pantalla?"
+msgstr "Исключить эти обои?"
+
+msgid "se moverá a la carpeta 'exclude/' y se cambiará al siguiente fondo disponible de la rotación."
+msgstr "файл будет перемещён в папку 'exclude/', и произойдёт переход к следующим обоям."
+
+msgid "Cancelar"
+msgstr "Отмена"
+
+msgid "Excluir"
+msgstr "Исключить"
+
+msgid "Fondo excluido y rotado"
+msgstr "Обои исключены и сменены"
+
+msgid "Detector de Fondos Duplicados"
+msgstr "Поиск дубликатов обоев"
+
+msgid "Detecta imágenes repetidas o casi idénticas con firmas estructurales (dHash)"
+msgstr "Поиск повторяющихся или почти идентичных изображений с помощью перцептивных хешей (dHash)"
+
+msgid "Buscar duplicados"
+msgstr "Найти дубликаты"
+
+msgid "Clasificar Fondos por Luminosidad"
+msgstr "Классификация обоев по яркости"
+
+msgid "Evalúa el brillo perceptual (CIELAB L*) y clasifica automáticamente entre claro y oscuro"
+msgstr "Оценка перцептивной яркости (CIELAB L*) и автоматическое распределение на светлые и тёмные"
+
+msgid "Clasificar"
+msgstr "Классифицировать"
+
+msgid "Reescalado con IA (Smart Upscale)"
+msgstr "Масштабирование с ИИ (Smart Upscale)"
+
+msgid "Comprobando compatibilidad de aceleración Vulkan y motor Real-CUGAN..."
+msgstr "Проверка совместимости ускорения Vulkan и движка Real-CUGAN..."
+
+msgid "Reescalar..."
+msgstr "Масштабировать..."
+
+msgid "Requiere aceleración Vulkan y motor Real-CUGAN instalado"
+msgstr "Требуется ускорение Vulkan и установленный движок Real-CUGAN"
+
+msgid "No compatible"
+msgstr "Не поддерживается"
+
+msgid "¿Verificar compatibilidad nuevamente?"
+msgstr "Проверить совместимость ещё раз?"
+
+msgid "El motor Real-CUGAN con aceleración Vulkan reportó incompatibilidad o no respondió en la última comprobación."
+msgstr "Движок Real-CUGAN с ускорением Vulkan сообщил о несовместимости или не ответил при последней проверке."
+
+msgid "¿Deseas volver a escanear los controladores de GPU Vulkan y el motor ahora?"
+msgstr "Повторно просканировать драйверы GPU Vulkan и движок сейчас?"
+
+msgid "Verificar nuevamente"
+msgstr "Проверить снова"
+
+msgid "Verificando..."
+msgstr "Проверка..."
+
+msgid "Atajos"
+msgstr "Комбинации клавиш"
+
+msgid "Atajos de teclado"
+msgstr "Комбинации клавиш"
+
+msgid "Atajos nativos de GNOME para cambiar y recargar fondos rápidamente."
+msgstr "Встроенные комбинации клавиш GNOME для быстрой смены и перезагрузки обоев."
+
+msgid "Habilitar atajos de teclado"
+msgstr "Включить комбинации клавиш"
+
+msgid "Activa los atajos globales en el entorno de escritorio"
+msgstr "Включает глобальные комбинации клавиш в среде рабочего стола"
+
+msgid "Siguiente wallpaper"
+msgstr "Следующие обои"
+
+msgid "Recargar conjuntos"
+msgstr "Перезагрузить коллекции"
+
+msgid "Ejecuta: auto-wallpaper next"
+msgstr "Запуск: auto-wallpaper next"
+
+msgid "Ejecuta: auto-wallpaper reload"
+msgstr "Запуск: auto-wallpaper reload"
+
+msgid "Super + W (Predeterminado)"
+msgstr "Super + W (По умолчанию)"
+
+msgid "Super + Alt + W (Predeterminado)"
+msgstr "Super + Alt + W (По умолчанию)"
+
+msgid "Super + Espacio"
+msgstr "Super + Пробел"
+
+msgid "Super + Flecha Derecha"
+msgstr "Super + Стрелка вправо"
+
+msgid "Personalizado"
+msgstr "Пользовательский"
+
+msgid "Desactivado"
+msgstr "Отключено"
+
+msgid "Servicio detenido"
+msgstr "Служба остановлена"
+
+msgid "El temporizador automático está detenido"
+msgstr "Автоматический таймер остановлен"
+
+msgid "Servicio activo"
+msgstr "Служба активна"
+
+msgid "Próximo cambio en:"
+msgstr "Следующая смена через:"
+
+msgid "Restantes:"
+msgstr "Осталось:"
+
+msgid "Modo:"
+msgstr "Режим:"
+
+msgid "Seleccionar carpeta de fondos claros"
+msgstr "Выбрать папку светлых обоев"
+
+msgid "Seleccionar carpeta de fondos oscuros"
+msgstr "Выбрать папку тёмных обоев"
+
+msgid "¿Recargar todos los fondos?"
+msgstr "Перезагрузить все обои?"
+
+msgid "Esto re-escaneará las carpetas y recargará toda la lista de fondos, incluyendo el fondo actual."
+msgstr "Это повторно просканирует папки и перезагрузит весь список обоев, включая текущие."
+
+msgid "Desactivado (Manual)"
+msgstr "Отключено (Вручную)"
+
+msgid "Calculando / Inminente..."
+msgstr "Расчёт / Скоро..."
+
+msgid "Imágenes (*.png, *.jpg, *.jpeg, *.webp)"
+msgstr "Изображения (*.png, *.jpg, *.jpeg, *.webp)"
+
+msgid "Fondos Duplicados o Repetidos"
+msgstr "Повторяющиеся обои или дубликаты"
+
+msgid "Volver a escanear"
+msgstr "Сканировать снова"
+
+msgid "Escaneando colecciones de fondos..."
+msgstr "Сканирование коллекций обоев..."
+
+msgid "Calculando firmas estructurales dHash y comparando similitudes..."
+msgstr "Вычисление структурных хешей dHash и сравнение сходства..."
+
+msgid "¡No hay duplicados!"
+msgstr "Дубликатов не найдено!"
+
+msgid "Todas las imágenes de tus colecciones son únicas. No se detectaron fondos repetidos ni versiones comprimidas."
+msgstr "Все изображения в коллекциях уникальны. Повторяющихся или сжатых копий не обнаружено."
+
+msgid "Iniciando escaneo..."
+msgstr "Запуск сканирования..."
+
+msgid "Se encontraron"
+msgstr "Найдено:"
+
+msgid "coincidencias de fondos repetidos o casi idénticos:"
+msgstr "совпадений повторяющихся или почти идентичных обоев:"
+
+msgid "DUPLICADO EXACTO (100% idéntico)"
+msgstr "ТОЧНЫЙ ДУБЛИКАТ (100% совпадение)"
+
+msgid "CASI IDÉNTICO"
+msgstr "ПОЧТИ ИДЕНТИЧНО"
+
+msgid "similitud"
+msgstr "сходство"
+
+msgid "Mover esta versión a la subcarpeta exclude/"
+msgstr "Переместить эту версию в подпапку exclude/"
+
+msgid "Ubicar en Archivos"
+msgstr "Показать в Файлах"
+
+msgid "Excluida ✓"
+msgstr "Исключено ✓"
+
+msgid "movida a exclude/"
+msgstr "перемещено в exclude/"
+
+msgid "Aviso:"
+msgstr "Примечание:"
+
+msgid "El análisis perceptual examina la luminosidad píxel a píxel de cada imagen. En colecciones con muchos fondos, el proceso puede tardar un poco según el rendimiento de tu equipo."
+msgstr "Перцептивный анализ оценивает яркость каждого пикселя. Для больших коллекций процесс может занять некоторое время в зависимости от оборудования."
+
+msgid "Parámetros de Clasificación por Luminosidad"
+msgstr "Параметры классификации по яркости"
+
+msgid "Organiza automáticamente tus fondos en las carpetas Claro y Oscuro según el modelo perceptivo humano (CIELAB L* + Percentil 65)."
+msgstr "Автоматически распределяет обои по папкам Светлые и Тёмные по модели зрительного восприятия человека (CIELAB L* + 65-й процентиль)."
+
+msgid "Muy permisivo"
+msgstr "Очень мягкий"
+
+msgid "Permisivo"
+msgstr "Мягкий"
+
+msgid "Equilibrado"
+msgstr "Сбалансированный"
+
+msgid "Exigente"
+msgstr "Строгий"
+
+msgid "Muy estricto"
+msgstr "Очень строгий"
+
+msgid "Más Claros"
+msgstr "Больше светлых"
+
+msgid "Más Oscuros"
+msgstr "Больше тёмных"
+
+msgid "Muy permisivo para Claro · Máximo favorecedor para fondos claros"
+msgstr "Очень мягкий для Светлых · Максимальный приоритет светлым обоям"
+
+msgid "Permisivo para Claro · Favorece fondos claros"
+msgstr "Мягкий для Светлых · Приоритет светлым обоям"
+
+msgid "Equilibrada / Estándar · Recomendado · Balance perceptivo óptimo"
+msgstr "Сбалансированный / Стандарт · Рекомендуется · Оптимальный баланс"
+
+msgid "Exigente para Claro · Más fondos a Oscuro"
+msgstr "Строгий для Светлых · Больше обоев отправляются в Тёмные"
+
+msgid "Muy estricto para Claro · Mínimo favorecedor para Claro"
+msgstr "Очень строгий для Светлых · Минимальный приоритет светлым обоям"
+
+msgid "Sensibilidad de brillo (Umbral CIELAB L*)"
+msgstr "Чувствительность к яркости (Порог CIELAB L*)"
+
+msgid "Colecciones a analizar"
+msgstr "Коллекции для анализа"
+
+msgid "Las subcarpetas pinned/ y exclude/ siempre están protegidas."
+msgstr "Подпапки pinned/ и exclude/ всегда защищены."
+
+msgid "Ambos conjuntos (Claro y Oscuro - Recomendado)"
+msgstr "Обе коллекции (Светлая и Тёмная - Рекомендуется)"
+
+msgid "Solo conjunto Claro (Reevaluar y mover fondos oscuros)"
+msgstr "Только светлая коллекция (Переоценить и переместить тёмные обои)"
+
+msgid "Solo conjunto Oscuro (Reevaluar y mover fondos claros)"
+msgstr "Только тёмная коллекция (Переоценить и переместить светлые обои)"
+
+msgid "Carpeta personalizada (Analizar y clasificar imágenes hacia Claro/Oscuro)"
+msgstr "Пользовательская папка (Анализ и сортировка в Светлые/Тёмные)"
+
+msgid "Carpeta a clasificar"
+msgstr "Папка для классификации"
+
+msgid "Ninguna carpeta seleccionada"
+msgstr "Папка не выбрана"
+
+msgid "Seleccionar carpeta..."
+msgstr "Выбрать папку..."
+
+msgid "Seleccionar carpeta personalizada"
+msgstr "Выбрать пользовательскую папку"
+
+msgid "Iniciar clasificación"
+msgstr "Начать классификацию"
+
+msgid "Clasificando fondos mediante CIELAB L*..."
+msgstr "Классификация обоев через CIELAB L*..."
+
+msgid "Evaluando brillo perceptual y percentil 65 en cada imagen..."
+msgstr "Оценка перцептивной яркости и 65-го процентиля для каждого изображения..."
+
+msgid "Movidos a Claro"
+msgstr "Перемещено в Светлые"
+
+msgid "Movidos a Oscuro"
+msgstr "Перемещено в Тёмные"
+
+msgid "Iniciando análisis..."
+msgstr "Запуск анализа..."
+
+msgid "Las subcarpetas"
+msgstr "Подпапки"
+
+msgid "fondos fijados"
+msgstr "закреплённые обои"
+
+msgid "y"
+msgstr "и"
+
+msgid "fondos excluidos"
+msgstr "исключённые обои"
+
+msgid "están protegidas y no se moverán."
+msgstr "защищены и не будут перемещены."
+
+msgid "Escaneando y clasificando fondos..."
+msgstr "Сканирование и классификация обоев..."
+
+msgid "Analizando brillo perceptual (CIELAB L*) y percentil 65 en cada imagen"
+msgstr "Анализ перцептивной яркости (CIELAB L*) и 65-го процентиля для каждого изображения"
+
+msgid "Detener"
+msgstr "Остановить"
+
+msgid "Cerrar"
+msgstr "Закрыть"
+
+msgid "Proceso detenido por el usuario"
+msgstr "Процесс остановлен пользователем"
+
+msgid "Clasificación completada"
+msgstr "Классификация завершена"
+
+msgid "¡Colecciones ya equilibradas!"
+msgstr "Коллекции уже сбалансированы!"
+
+msgid "Todos los fondos ya se encuentran en su carpeta adecuada según el umbral seleccionado."
+msgstr "Все обои уже находятся в соответствующих папках согласно выбранному порогу."
+
+msgid "Colecciones equilibradas"
+msgstr "Сбалансированные коллекции"
+
+msgid "No se requirió mover ningún fondo. Ambas carpetas coinciden con sus perfiles de luminosidad."
+msgstr "Перемещать обои не потребовалось. Обе папки соответствуют заданным профилям яркости."
+
+msgid "Clasificación finalizada con éxito"
+msgstr "Классификация успешно завершена"
+
+msgid "mostrando los últimos"
+msgstr "показаны последние"
+
+msgid "en vivo"
+msgstr "в реальном времени"
+
+msgid "Se movieron"
+msgstr "Перемещено:"
+
+msgid "a claro y"
+msgstr "в светлые и"
+
+msgid "a oscuro en total"
+msgstr "в тёмные всего"
+
+msgid "Clasificación de fondos finalizada"
+msgstr "Классификация обоев завершена"
+
+msgid "Evaluando:"
+msgstr "Оценка:"
+
+msgid "Brillo L*"
+msgstr "Яркость L*"
+
+msgid "Reescalado Inteligente (Real-CUGAN)"
+msgstr "Умное масштабирование (Real-CUGAN)"
+
+msgid "El proceso de reescalado utiliza aceleración neuronal por GPU (Vulkan). Puede tardar en completarse y ocasionar pérdida temporal de rendimiento mientras se ejecuta."
+msgstr "Процесс масштабирования использует нейросетевое ускорение GPU (Vulkan). Он может занять время и временно снизить быстродействие во время работы."
+
+msgid "Parámetros del Reescalado IA"
+msgstr "Параметры масштабирования с ИИ"
+
+msgid "Acelera la nitidez y resolución usando Real-CUGAN."
+msgstr "Улучшайте чёткость и разрешение с помощью Real-CUGAN."
+
+msgid "GPU detectada:"
+msgstr "Обнаруженный GPU:"
+
+msgid "Carpeta a reescalar"
+msgstr "Папка для масштабирования"
+
+msgid "☀️ Conjunto claro"
+msgstr "☀️ Светлая коллекция"
+
+msgid "🌙 Conjunto oscuro"
+msgstr "🌙 Тёмная коллекция"
+
+msgid "🌓 Ambos conjuntos (claro y oscuro)"
+msgstr "🌓 Обе коллекции (светлая и тёмная)"
+
+msgid "Factor de escala"
+msgstr "Коэффициент масштабирования"
+
+msgid "Multiplicador de resolución"
+msgstr "Множитель разрешения"
+
+msgid "2x (Recomendado para 1080p -> 4K)"
+msgstr "2x (Рекомендуется для 1080p -> 4K)"
+
+msgid "Reducción de ruido (Denoise)"
+msgstr "Подавление шума (Denoise)"
+
+msgid "Nivel de limpieza de artefactos y compresión"
+msgstr "Степень очистки от артефактов и сжатия"
+
+msgid "Nivel 0 - Predeterminado (Nitidez óptima)"
+msgstr "Уровень 0 - По умолчанию (Оптимальная чёткость)"
+
+msgid "Nivel 1 - Suave"
+msgstr "Уровень 1 - Мягкий"
+
+msgid "Nivel 2 - Medio"
+msgstr "Уровень 2 - Средний"
+
+msgid "Nivel 3 - Intenso"
+msgstr "Уровень 3 - Сильный"
+
+msgid "Nivel -1 - Sin denoise (Preserva grano)"
+msgstr "Уровень -1 - Без шумоподавления (Сохранять зернистость)"
+
+msgid "Límite de resolución"
+msgstr "Ограничение разрешения"
+
+msgid "Omitir imágenes que ya alcancen o superen este tamaño"
+msgstr "Пропускать изображения, которые уже достигают или превышают этот размер"
+
+msgid "2560x1440 (2K QHD - Recomendado)"
+msgstr "2560x1440 (2K QHD - Рекомендуется)"
+
+msgid "1920x1080 (Full HD)"
+msgstr "1920x1080 (Full HD)"
+
+msgid "3840x2160 (4K UHD)"
+msgstr "3840x2160 (4K UHD)"
+
+msgid "Sin límite (procesar todas las imágenes)"
+msgstr "Без ограничений (обрабатывать все изображения)"
+
+msgid "Copia de seguridad"
+msgstr "Резервная копия"
+
+msgid "Guardar copia de las imágenes originales en exclude/backup_upscale_original/"
+msgstr "Сохранять копию оригинальных изображений в exclude/backup_upscale_original/"
+
+msgid "Ignorar etiqueta de reescalado previo"
+msgstr "Игнорировать метку предыдущего масштабирования"
+
+msgid "Permite reescalar imágenes que ya fueron procesadas anteriormente con IA"
+msgstr "Позволяет повторно масштабировать изображения, уже обработанные ИИ"
+
+msgid "¿Ignorar etiqueta de reescalado previo?"
+msgstr "Игнорировать метку предыдущего масштабирования?"
+
+msgid "Advertencia: Reescalar sucesivamente una imagen ya procesada con IA puede introducir artefactos no deseados o degradar la calidad original."
+msgstr "Предупреждение: Повторное масштабирование уже обработанного ИИ изображения может привести к нежелательным артефактам или снижению качества оригинала."
+
+msgid "¿Estás seguro de que deseas forzar el reescalado sobre imágenes previamente tratadas?"
+msgstr "Вы уверены, что хотите принудительно масштабировать ранее обработанные изображения?"
+
+msgid "Activar de todos modos"
+msgstr "Всё равно включить"
+
+msgid "Iniciar reescalado"
+msgstr "Начать масштабирование"
+
+msgid "Reescalando fondos con Real-CUGAN..."
+msgstr "Масштабирование обоев с помощью Real-CUGAN..."
+
+msgid "Iniciando..."
+msgstr "Запуск..."
+
+msgid "Reescalado con IA finalizado"
+msgstr "Масштабирование с ИИ завершено"
+
+msgid "Analizando candidatos:"
+msgstr "Анализ кандидатов:"
+
+msgid "de"
+msgstr "из"
+
+msgid "Comprobando resolución y firmas de reescalado previo..."
+msgstr "Проверка разрешения и сигнатур предыдущей обработки..."
+
+msgid "procesadas"
+msgstr "обработано"
+
+msgid "Reescalando"
+msgstr "Масштабирование"
+
+msgid "Completada"
+msgstr "Завершено"
+
+msgid "guardada exitosamente"
+msgstr "успешно сохранено"
+
+msgid "Reescalado completado"
+msgstr "Масштабирование завершено"
+
+msgid "Procesamiento de carpeta finalizado"
+msgstr "Обработка папки завершена"
+
+msgid "Sin imágenes pendientes por procesar"
+msgstr "Нет изображений, ожидающих обработки"
+

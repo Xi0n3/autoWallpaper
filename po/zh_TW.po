@@ -1,0 +1,721 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Auto Wallpaper 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-26 15:00-0600\n"
+"PO-Revision-Date: 2026-10-26 21:00-0600\n"
+"Last-Translator: Lumory\n"
+"Language-Team: Traditional Chinese (繁體中文)\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Auto Wallpaper"
+msgstr "Auto Wallpaper"
+
+msgid "Apariencia"
+msgstr "外觀"
+
+msgid "Estilo"
+msgstr "風格"
+
+msgid "Haz clic en una miniatura para cambiar el fondo de pantalla del tema correspondiente."
+msgstr "點擊縮圖以變更對應主題的桌布。"
+
+msgid "Haz clic para cambiar el fondo claro (Predeterminado)"
+msgstr "點擊變更淺色桌布（預設）"
+
+msgid "Haz clic para cambiar el fondo oscuro (Dark)"
+msgstr "點擊變更深色桌布（深色）"
+
+msgid "Predeterminado"
+msgstr "預設"
+
+msgid "Oscuro"
+msgstr "深色"
+
+msgid "cambiando el tema"
+msgstr "切換主題"
+
+msgid "Se ha cambiado el fondo del tema"
+msgstr "已變更主題桌布"
+
+msgid "puede verlo"
+msgstr "可以查看"
+
+msgid "Seleccionar fondo de pantalla claro"
+msgstr "選擇淺色桌布"
+
+msgid "Seleccionar fondo de pantalla oscuro"
+msgstr "選擇深色桌布"
+
+msgid "Carpetas de Fondos"
+msgstr "桌布資料夾"
+
+msgid "Selecciona las carpetas de imágenes asignadas a cada tema."
+msgstr "選擇分配給各個主題的圖片資料夾。"
+
+msgid "Colección Claro"
+msgstr "淺色收藏"
+
+msgid "Colección Oscuro"
+msgstr "深色收藏"
+
+msgid "Cambiar carpeta seleccionada"
+msgstr "變更所選資料夾"
+
+msgid "Abrir carpeta en Archivos"
+msgstr "在檔案管理員中開啟資料夾"
+
+msgid "Rotación de fondos del conjunto"
+msgstr "合集桌布輪換"
+
+msgid "Configura el orden en que se van a proyectar las imágenes."
+msgstr "設定圖片循環切換的順序。"
+
+msgid "Se han detectado cambios en los fondos almacenados. "
+msgstr "偵測到儲存的桌布有所變更。 "
+
+msgid "Recarga"
+msgstr "重新載入"
+
+msgid "Recargar fondos ahora"
+msgstr "立即重新載入桌布"
+
+msgid " para actualizar los fondos"
+msgstr " 以更新桌布"
+
+msgid "Descartar aviso"
+msgstr "略過通知"
+
+msgid "Servicio en segundo plano"
+msgstr "背景服務"
+
+msgid "Comprobando estado..."
+msgstr "正在檢查狀態..."
+
+msgid "Siguiente"
+msgstr "下一張"
+
+msgid "Pasar al siguiente fondo de la secuencia actual"
+msgstr "切換到目前序列中的下一張桌布"
+
+msgid "Barajar"
+msgstr "隨機重排"
+
+msgid "Revolver la lista de fondos pendientes sin reiniciar el ciclo"
+msgstr "在不重設循環的情況下重排待顯示桌布清單"
+
+msgid "Recargar"
+msgstr "重新載入"
+
+msgid "Re-escanear carpetas, reiniciar la baraja completa y aplicar nuevos fondos"
+msgstr "重新掃描資料夾，重設整組桌布並套用新桌布"
+
+msgid "Secuencia de rotación"
+msgstr "輪換順序"
+
+msgid "Al azar"
+msgstr "隨機"
+
+msgid "Al azar sin repeticiones (baraja completa)"
+msgstr "無重複隨機（整組洗牌）"
+
+msgid "Rotación automática"
+msgstr "自動輪換"
+
+msgid "Temporizador y automatización del cambio en segundo plano."
+msgstr "計時器與背景自動化切換。"
+
+msgid "Activar rotación automática"
+msgstr "啟用自動輪換"
+
+msgid "Habilitar el servicio para cambiar las imágenes según la frecuencia programada"
+msgstr "啟用服務以按排程頻率自動更換桌布"
+
+msgid "Frecuencia de cambio"
+msgstr "更換頻率"
+
+msgid "Intervalo de tiempo (minutos)"
+msgstr "時間間隔（分鐘）"
+
+msgid "Hora fija diaria"
+msgstr "每日固定時間"
+
+msgid "Minutos entre cambios"
+msgstr "切換間隔分鐘數"
+
+msgid "Tiempo que permanece cada fondo de pantalla"
+msgstr "每張桌布停留時間"
+
+msgid "Hora de cambio diario"
+msgstr "每日更換時間"
+
+msgid "Hora programada para rotar el fondo cada día (formato 24h)"
+msgstr "每天輪換桌布的排程時間（24小時制）"
+
+msgid "Hora (00 a 23)"
+msgstr "小時（00 至 23）"
+
+msgid "Minutos (00 a 59)"
+msgstr "分鐘（00 至 59）"
+
+msgid "Días entre cambios"
+msgstr "切換間隔天數"
+
+msgid "Frecuencia en días de la rotación diaria"
+msgstr "每日輪換的天數頻率"
+
+msgid "Contar cambio de estilo no visto en la rotación"
+msgstr "切換外觀且尚未看過桌布時計入輪換"
+
+msgid "Al alternar entre claro y oscuro, si el fondo aún no se había visto, reinicia el temporizador (solo en intervalo de tiempo)"
+msgstr "在淺色與深色之間切換時，若該桌布尚未被看過，則重設計時器（僅適用於時間間隔模式）"
+
+msgid "Herramientas y Mantenimiento"
+msgstr "工具與維護"
+
+msgid "Mantenimiento, gestión del fondo en pantalla, organización inteligente y optimización."
+msgstr "維護、目前桌布管理、智慧分類與最佳化。"
+
+msgid "Fondo actual en pantalla"
+msgstr "目前螢幕桌布"
+
+msgid "Detectando fondo visible..."
+msgstr "正在偵測使用中桌布..."
+
+msgid "Ubicar y mostrar archivo en Archivos (Nautilus)"
+msgstr "在檔案管理員（Nautilus）中定位並顯示"
+
+msgid "Fijar fondo en pinned/ (proteger en este tema)"
+msgstr "釘選到 pinned/（在此主題中保護）"
+
+msgid "Excluir fondo de la rotación (mover a exclude/)"
+msgstr "從輪換中排除（移至 exclude/）"
+
+msgid "No hay ningún fondo configurado o el archivo no existe"
+msgstr "未設定桌布或檔案不存在"
+
+msgid "Fijado (pinned)"
+msgstr "已釘選（pinned）"
+
+msgid "Desfijar fondo (regresar a la carpeta principal)"
+msgstr "取消釘選桌布（返回主資料夾）"
+
+msgid "Fijar fondo en pinned/ (no mover de este tema)"
+msgstr "釘選到 pinned/（不移出此主題）"
+
+msgid "Fondo desfijado y devuelto a la carpeta principal"
+msgstr "桌布已取消釘選並放回主資料夾"
+
+msgid "Fondo fijado en pinned/"
+msgstr "桌布已釘選至 pinned/"
+
+msgid "¿Excluir este fondo de pantalla?"
+msgstr "是否排除此桌布？"
+
+msgid "se moverá a la carpeta 'exclude/' y se cambiará al siguiente fondo disponible de la rotación."
+msgstr "將移動至「exclude/」資料夾，並切換到輪換中的下一張可用桌布。"
+
+msgid "Cancelar"
+msgstr "取消"
+
+msgid "Excluir"
+msgstr "排除"
+
+msgid "Fondo excluido y rotado"
+msgstr "桌布已排除並切換"
+
+msgid "Detector de Fondos Duplicados"
+msgstr "重複桌布偵測器"
+
+msgid "Detecta imágenes repetidas o casi idénticas con firmas estructurales (dHash)"
+msgstr "使用感知雜湊（dHash）偵測重複或極為相似的圖片"
+
+msgid "Buscar duplicados"
+msgstr "掃描重複項"
+
+msgid "Clasificar Fondos por Luminosidad"
+msgstr "按亮度對桌布分類"
+
+msgid "Evalúa el brillo perceptual (CIELAB L*) y clasifica automáticamente entre claro y oscuro"
+msgstr "基於感知亮度（CIELAB L*）自動分類為淺色與深色"
+
+msgid "Clasificar"
+msgstr "分類"
+
+msgid "Reescalado con IA (Smart Upscale)"
+msgstr "AI 智慧超解析度放大 (Smart Upscale)"
+
+msgid "Comprobando compatibilidad de aceleración Vulkan y motor Real-CUGAN..."
+msgstr "正在檢查 Vulkan 加速相容性及 Real-CUGAN 引擎..."
+
+msgid "Reescalar..."
+msgstr "放大..."
+
+msgid "Requiere aceleración Vulkan y motor Real-CUGAN instalado"
+msgstr "需要 Vulkan 硬體加速並安裝 Real-CUGAN 引擎"
+
+msgid "No compatible"
+msgstr "不相容"
+
+msgid "¿Verificar compatibilidad nuevamente?"
+msgstr "是否重新檢查相容性？"
+
+msgid "El motor Real-CUGAN con aceleración Vulkan reportó incompatibilidad o no respondió en la última comprobación."
+msgstr "Real-CUGAN 引擎與 Vulkan 加速在上次檢查中回報不相容或未回應。"
+
+msgid "¿Deseas volver a escanear los controladores de GPU Vulkan y el motor ahora?"
+msgstr "是否立即重新掃描 Vulkan GPU 驅動程式與引擎？"
+
+msgid "Verificar nuevamente"
+msgstr "再次檢查"
+
+msgid "Verificando..."
+msgstr "正在檢查..."
+
+msgid "Atajos"
+msgstr "捷徑"
+
+msgid "Atajos de teclado"
+msgstr "鍵盤快速鍵"
+
+msgid "Atajos nativos de GNOME para cambiar y recargar fondos rápidamente."
+msgstr "用於快速切換和重新載入桌布的原生 GNOME 快速鍵。"
+
+msgid "Habilitar atajos de teclado"
+msgstr "啟用鍵盤快速鍵"
+
+msgid "Activa los atajos globales en el entorno de escritorio"
+msgstr "在桌面環境中啟用全域快速鍵"
+
+msgid "Siguiente wallpaper"
+msgstr "下一張桌布"
+
+msgid "Recargar conjuntos"
+msgstr "重新載入合集"
+
+msgid "Ejecuta: auto-wallpaper next"
+msgstr "執行：auto-wallpaper next"
+
+msgid "Ejecuta: auto-wallpaper reload"
+msgstr "執行：auto-wallpaper reload"
+
+msgid "Super + W (Predeterminado)"
+msgstr "Super + W（預設）"
+
+msgid "Super + Alt + W (Predeterminado)"
+msgstr "Super + Alt + W（預設）"
+
+msgid "Super + Espacio"
+msgstr "Super + 空白鍵"
+
+msgid "Super + Flecha Derecha"
+msgstr "Super + 右方向鍵"
+
+msgid "Personalizado"
+msgstr "自訂"
+
+msgid "Desactivado"
+msgstr "已停用"
+
+msgid "Servicio detenido"
+msgstr "服務已停止"
+
+msgid "El temporizador automático está detenido"
+msgstr "自動計時器已停止"
+
+msgid "Servicio activo"
+msgstr "服務執行中"
+
+msgid "Próximo cambio en:"
+msgstr "下次更換時間："
+
+msgid "Restantes:"
+msgstr "剩餘："
+
+msgid "Modo:"
+msgstr "模式："
+
+msgid "Seleccionar carpeta de fondos claros"
+msgstr "選擇淺色桌布資料夾"
+
+msgid "Seleccionar carpeta de fondos oscuros"
+msgstr "選擇深色桌布資料夾"
+
+msgid "¿Recargar todos los fondos?"
+msgstr "重新載入所有桌布？"
+
+msgid "Esto re-escaneará las carpetas y recargará toda la lista de fondos, incluyendo el fondo actual."
+msgstr "這將重新掃描資料夾並重新載入所有桌布清單，包含目前桌布。"
+
+msgid "Desactivado (Manual)"
+msgstr "已停用（手動）"
+
+msgid "Calculando / Inminente..."
+msgstr "正在計算 / 即將切換..."
+
+msgid "Imágenes (*.png, *.jpg, *.jpeg, *.webp)"
+msgstr "圖片檔案 (*.png, *.jpg, *.jpeg, *.webp)"
+
+msgid "Fondos Duplicados o Repetidos"
+msgstr "重複或相似的桌布"
+
+msgid "Volver a escanear"
+msgstr "重新掃描"
+
+msgid "Escaneando colecciones de fondos..."
+msgstr "正在掃描桌布合集..."
+
+msgid "Calculando firmas estructurales dHash y comparando similitudes..."
+msgstr "計算 dHash 結構雜湊並比對相似度..."
+
+msgid "¡No hay duplicados!"
+msgstr "未發現重複項！"
+
+msgid "Todas las imágenes de tus colecciones son únicas. No se detectaron fondos repetidos ni versiones comprimidas."
+msgstr "您的合集中的所有圖片都是獨一無二的。未偵測到重複桌布或壓縮複本。"
+
+msgid "Iniciando escaneo..."
+msgstr "正在開始掃描..."
+
+msgid "Se encontraron"
+msgstr "已找到："
+
+msgid "coincidencias de fondos repetidos o casi idénticos:"
+msgstr "處重複或近乎相同的桌布相符項："
+
+msgid "DUPLICADO EXACTO (100% idéntico)"
+msgstr "完全重複（100% 相同）"
+
+msgid "CASI IDÉNTICO"
+msgstr "近乎相同"
+
+msgid "similitud"
+msgstr "相似度"
+
+msgid "Mover esta versión a la subcarpeta exclude/"
+msgstr "將此版本移至 exclude/ 子資料夾"
+
+msgid "Ubicar en Archivos"
+msgstr "在檔案管理員中定位"
+
+msgid "Excluida ✓"
+msgstr "已排除 ✓"
+
+msgid "movida a exclude/"
+msgstr "已移至 exclude/"
+
+msgid "Aviso:"
+msgstr "注意："
+
+msgid "El análisis perceptual examina la luminosidad píxel a píxel de cada imagen. En colecciones con muchos fondos, el proceso puede tardar un poco según el rendimiento de tu equipo."
+msgstr "感知分析會對每張圖片的像素亮度進行逐一計算。對於大型合集，耗時取決於您的硬體效能。"
+
+msgid "Parámetros de Clasificación por Luminosidad"
+msgstr "亮度分類參數"
+
+msgid "Organiza automáticamente tus fondos en las carpetas Claro y Oscuro según el modelo perceptivo humano (CIELAB L* + Percentil 65)."
+msgstr "根據人類感知色彩模型（CIELAB L* + 65百分位數）自動將桌布歸類至淺色和深色資料夾。"
+
+msgid "Muy permisivo"
+msgstr "非常寬鬆"
+
+msgid "Permisivo"
+msgstr "寬鬆"
+
+msgid "Equilibrado"
+msgstr "均衡"
+
+msgid "Exigente"
+msgstr "嚴格"
+
+msgid "Muy estricto"
+msgstr "非常嚴格"
+
+msgid "Más Claros"
+msgstr "偏向淺色"
+
+msgid "Más Oscuros"
+msgstr "偏向深色"
+
+msgid "Muy permisivo para Claro · Máximo favorecedor para fondos claros"
+msgstr "對淺色非常寬鬆 · 最大限度保留在淺色合集"
+
+msgid "Permisivo para Claro · Favorece fondos claros"
+msgstr "對淺色寬鬆 · 偏向淺色桌布"
+
+msgid "Equilibrada / Estándar · Recomendado · Balance perceptivo óptimo"
+msgstr "均衡 / 標準 · 推薦 · 最佳感知平衡"
+
+msgid "Exigente para Claro · Más fondos a Oscuro"
+msgstr "對淺色嚴格 · 更多桌布劃入深色"
+
+msgid "Muy estricto para Claro · Mínimo favorecedor para Claro"
+msgstr "對淺色非常嚴格 · 極少判定為淺色"
+
+msgid "Sensibilidad de brillo (Umbral CIELAB L*)"
+msgstr "亮度敏感度（CIELAB L* 閥值）"
+
+msgid "Colecciones a analizar"
+msgstr "要分析的合集"
+
+msgid "Las subcarpetas pinned/ y exclude/ siempre están protegidas."
+msgstr "pinned/ 與 exclude/ 子資料夾始終受到保護。"
+
+msgid "Ambos conjuntos (Claro y Oscuro - Recomendado)"
+msgstr "兩個合集（淺色和深色 - 推薦）"
+
+msgid "Solo conjunto Claro (Reevaluar y mover fondos oscuros)"
+msgstr "僅淺色合集（重新評估並將深色桌布移出）"
+
+msgid "Solo conjunto Oscuro (Reevaluar y mover fondos claros)"
+msgstr "僅深色合集（重新評估並將淺色桌布移出）"
+
+msgid "Carpeta personalizada (Analizar y clasificar imágenes hacia Claro/Oscuro)"
+msgstr "自訂資料夾（分析圖片並歸類至淺色/深色）"
+
+msgid "Carpeta a clasificar"
+msgstr "要分類的資料夾"
+
+msgid "Ninguna carpeta seleccionada"
+msgstr "未選取資料夾"
+
+msgid "Seleccionar carpeta..."
+msgstr "選取資料夾..."
+
+msgid "Seleccionar carpeta personalizada"
+msgstr "選取自訂資料夾"
+
+msgid "Iniciar clasificación"
+msgstr "開始分類"
+
+msgid "Clasificando fondos mediante CIELAB L*..."
+msgstr "正在透過 CIELAB L* 分類桌布..."
+
+msgid "Evaluando brillo perceptual y percentil 65 en cada imagen..."
+msgstr "正在評估每張圖片的感知亮度和 65 百分位數..."
+
+msgid "Movidos a Claro"
+msgstr "已移至淺色"
+
+msgid "Movidos a Oscuro"
+msgstr "已移至深色"
+
+msgid "Iniciando análisis..."
+msgstr "正在啟動分析..."
+
+msgid "Las subcarpetas"
+msgstr "子資料夾"
+
+msgid "fondos fijados"
+msgstr "已釘選桌布"
+
+msgid "y"
+msgstr "以及"
+
+msgid "fondos excluidos"
+msgstr "已排除桌布"
+
+msgid "están protegidas y no se moverán."
+msgstr "均受保護且不會被移動。"
+
+msgid "Escaneando y clasificando fondos..."
+msgstr "正在掃描並分類桌布..."
+
+msgid "Analizando brillo perceptual (CIELAB L*) y percentil 65 en cada imagen"
+msgstr "分析每張圖片的感知亮度 (CIELAB L*) 與 65 百分位數"
+
+msgid "Detener"
+msgstr "停止"
+
+msgid "Cerrar"
+msgstr "關閉"
+
+msgid "Proceso detenido por el usuario"
+msgstr "使用者已停止處理"
+
+msgid "Clasificación completada"
+msgstr "分類完成"
+
+msgid "¡Colecciones ya equilibradas!"
+msgstr "合集已處於平衡狀態！"
+
+msgid "Todos los fondos ya se encuentran en su carpeta adecuada según el umbral seleccionado."
+msgstr "根據目前選擇的閥值，所有桌布均已位於合適資料夾中。"
+
+msgid "Colecciones equilibradas"
+msgstr "合集已均衡"
+
+msgid "No se requirió mover ningún fondo. Ambas carpetas coinciden con sus perfiles de luminosidad."
+msgstr "無需移動任何桌布。兩個資料夾均符合設定的亮度特徵。"
+
+msgid "Clasificación finalizada con éxito"
+msgstr "分類圓滿完成"
+
+msgid "mostrando los últimos"
+msgstr "顯示最後"
+
+msgid "en vivo"
+msgstr "即時"
+
+msgid "Se movieron"
+msgstr "共移動了"
+
+msgid "a claro y"
+msgstr "張到淺色，"
+
+msgid "a oscuro en total"
+msgstr "張到深色"
+
+msgid "Clasificación de fondos finalizada"
+msgstr "桌布分類完成"
+
+msgid "Evaluando:"
+msgstr "正在評估："
+
+msgid "Brillo L*"
+msgstr "亮度 L*"
+
+msgid "Reescalado Inteligente (Real-CUGAN)"
+msgstr "智慧超解析度放大 (Real-CUGAN)"
+
+msgid "El proceso de reescalado utiliza aceleración neuronal por GPU (Vulkan). Puede tardar en completarse y ocasionar pérdida temporal de rendimiento mientras se ejecuta."
+msgstr "超解析度處理利用 GPU 神經網路加速（Vulkan）。可能需要較長時間，並在執行時暫時影響系統效能。"
+
+msgid "Parámetros del Reescalado IA"
+msgstr "AI 超解析度參數"
+
+msgid "Acelera la nitidez y resolución usando Real-CUGAN."
+msgstr "使用 Real-CUGAN 增強影像清晰度與解析度。"
+
+msgid "GPU detectada:"
+msgstr "偵測到的 GPU："
+
+msgid "Carpeta a reescalar"
+msgstr "要超解析度放大的資料夾"
+
+msgid "☀️ Conjunto claro"
+msgstr "☀️ 淺色合集"
+
+msgid "🌙 Conjunto oscuro"
+msgstr "🌙 深色合集"
+
+msgid "🌓 Ambos conjuntos (claro y oscuro)"
+msgstr "🌓 兩個合集（淺色和深色）"
+
+msgid "Factor de escala"
+msgstr "縮放倍率"
+
+msgid "Multiplicador de resolución"
+msgstr "解析度放大倍數"
+
+msgid "2x (Recomendado para 1080p -> 4K)"
+msgstr "2x（推薦：1080p -> 4K）"
+
+msgid "Reducción de ruido (Denoise)"
+msgstr "降噪等級 (Denoise)"
+
+msgid "Nivel de limpieza de artefactos y compresión"
+msgstr "壓縮噪點與偽影清理等級"
+
+msgid "Nivel 0 - Predeterminado (Nitidez óptima)"
+msgstr "層級 0 - 預設（最佳清晰度）"
+
+msgid "Nivel 1 - Suave"
+msgstr "層級 1 - 柔和"
+
+msgid "Nivel 2 - Medio"
+msgstr "層級 2 - 中度"
+
+msgid "Nivel 3 - Intenso"
+msgstr "層級 3 - 強力"
+
+msgid "Nivel -1 - Sin denoise (Preserva grano)"
+msgstr "層級 -1 - 不降噪（保留顆粒感）"
+
+msgid "Límite de resolución"
+msgstr "解析度限制"
+
+msgid "Omitir imágenes que ya alcancen o superen este tamaño"
+msgstr "略過已達到或超過此尺寸的圖片"
+
+msgid "2560x1440 (2K QHD - Recomendado)"
+msgstr "2560x1440 (2K QHD - 推薦)"
+
+msgid "1920x1080 (Full HD)"
+msgstr "1920x1080 (Full HD)"
+
+msgid "3840x2160 (4K UHD)"
+msgstr "3840x2160 (4K UHD)"
+
+msgid "Sin límite (procesar todas las imágenes)"
+msgstr "無限制（處理所有圖片）"
+
+msgid "Copia de seguridad"
+msgstr "備份原始檔"
+
+msgid "Guardar copia de las imágenes originales en exclude/backup_upscale_original/"
+msgstr "將原始圖片備份至 exclude/backup_upscale_original/"
+
+msgid "Ignorar etiqueta de reescalado previo"
+msgstr "略過歷程放大標記"
+
+msgid "Permite reescalar imágenes que ya fueron procesadas anteriormente con IA"
+msgstr "允許重新對之前已用 AI 處理過的圖片進行放大"
+
+msgid "¿Ignorar etiqueta de reescalado previo?"
+msgstr "是否略過歷程放大標記？"
+
+msgid "Advertencia: Reescalar sucesivamente una imagen ya procesada con IA puede introducir artefactos no deseados o degradar la calidad original."
+msgstr "警告：重複對已處理過的影像進行 AI 超解析度放大可能會引入瑕疵或損失原始畫質。"
+
+msgid "¿Estás seguro de que deseas forzar el reescalado sobre imágenes previamente tratadas?"
+msgstr "確定要強制重新放大已處理過的影像嗎？"
+
+msgid "Activar de todos modos"
+msgstr "仍然啟用"
+
+msgid "Iniciar reescalado"
+msgstr "開始放大"
+
+msgid "Reescalando fondos con Real-CUGAN..."
+msgstr "正在使用 Real-CUGAN 放大桌布..."
+
+msgid "Iniciando..."
+msgstr "正在啟動..."
+
+msgid "Reescalado con IA finalizado"
+msgstr "AI 超解析度放大完成"
+
+msgid "Analizando candidatos:"
+msgstr "正在分析候選圖片："
+
+msgid "de"
+msgstr "/"
+
+msgid "Comprobando resolución y firmas de reescalado previo..."
+msgstr "正在檢查解析度及先前的放大標記..."
+
+msgid "procesadas"
+msgstr "已處理"
+
+msgid "Reescalando"
+msgstr "正在放大"
+
+msgid "Completada"
+msgstr "已完成"
+
+msgid "guardada exitosamente"
+msgstr "儲存成功"
+
+msgid "Reescalado completado"
+msgstr "放大完成"
+
+msgid "Procesamiento de carpeta finalizado"
+msgstr "資料夾處理完畢"
+
+msgid "Sin imágenes pendientes por procesar"
+msgstr "沒有待處理的圖片"
+

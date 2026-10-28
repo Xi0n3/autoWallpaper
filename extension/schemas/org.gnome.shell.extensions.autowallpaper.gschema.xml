@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist gettext-domain="autowallpaper@lumory">
+  <schema id="org.gnome.shell.extensions.autowallpaper" path="/org/gnome/shell/extensions/autowallpaper/">
+    <key name="shortcuts-enabled" type="b">
+      <default>false</default>
+      <summary>Habilitar atajos de teclado</summary>
+      <description>Activa los atajos globales nativos en GNOME Shell.</description>
+    </key>
+    <key name="shortcut-next" type="as">
+      <default>['&lt;Super&gt;w']</default>
+      <summary>Siguiente wallpaper</summary>
+      <description>Atajo para pasar al siguiente fondo de pantalla en la secuencia actual.</description>
+    </key>
+    <key name="shortcut-reload" type="as">
+      <default>['&lt;Super&gt;&lt;Alt&gt;w']</default>
+      <summary>Recargar y barajar conjuntos</summary>
+      <description>Atajo para re-escanear carpetas, barajar de nuevo y aplicar nuevos fondos.</description>
+    </key>
+  </schema>
+</schemalist>
+

@@ -1,0 +1,721 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Auto Wallpaper 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-26 15:00-0600\n"
+"PO-Revision-Date: 2026-10-26 21:00-0600\n"
+"Last-Translator: Lumory\n"
+"Language-Team: Polish (Polski)\n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Auto Wallpaper"
+msgstr "Auto Wallpaper"
+
+msgid "Apariencia"
+msgstr "Wygląd"
+
+msgid "Estilo"
+msgstr "Styl"
+
+msgid "Haz clic en una miniatura para cambiar el fondo de pantalla del tema correspondiente."
+msgstr "Kliknij miniaturę, aby zmienić tapetę dla odpowiedniego motywu."
+
+msgid "Haz clic para cambiar el fondo claro (Predeterminado)"
+msgstr "Kliknij, aby zmienić jasną tapetę (Domyślny)"
+
+msgid "Haz clic para cambiar el fondo oscuro (Dark)"
+msgstr "Kliknij, aby zmienić ciemną tapetę (Ciemny)"
+
+msgid "Predeterminado"
+msgstr "Domyślny"
+
+msgid "Oscuro"
+msgstr "Ciemny"
+
+msgid "cambiando el tema"
+msgstr "zmieniając motyw"
+
+msgid "Se ha cambiado el fondo del tema"
+msgstr "Tapeta motywu została zmieniona"
+
+msgid "puede verlo"
+msgstr "można to zobaczyć"
+
+msgid "Seleccionar fondo de pantalla claro"
+msgstr "Wybierz jasną tapetę"
+
+msgid "Seleccionar fondo de pantalla oscuro"
+msgstr "Wybierz ciemną tapetę"
+
+msgid "Carpetas de Fondos"
+msgstr "Katalogi tapet"
+
+msgid "Selecciona las carpetas de imágenes asignadas a cada tema."
+msgstr "Wybierz katalogi obrazów przypisane do każdego motywu."
+
+msgid "Colección Claro"
+msgstr "Kolekcja Jasna"
+
+msgid "Colección Oscuro"
+msgstr "Kolekcja Ciemna"
+
+msgid "Cambiar carpeta seleccionada"
+msgstr "Zmień wybrany katalog"
+
+msgid "Abrir carpeta en Archivos"
+msgstr "Otwórz katalog w Menedżerze plików"
+
+msgid "Rotación de fondos del conjunto"
+msgstr "Rotacja tapet kolekcji"
+
+msgid "Configura el orden en que se van a proyectar las imágenes."
+msgstr "Skonfiguruj kolejność wyświetlania obrazów."
+
+msgid "Se han detectado cambios en los fondos almacenados. "
+msgstr "Wykryto zmiany w przechowywanych tapetach. "
+
+msgid "Recarga"
+msgstr "Przeładuj"
+
+msgid "Recargar fondos ahora"
+msgstr "Przeładuj tapety teraz"
+
+msgid " para actualizar los fondos"
+msgstr " aby zaktualizować tapety"
+
+msgid "Descartar aviso"
+msgstr "Odrzuć powiadomienie"
+
+msgid "Servicio en segundo plano"
+msgstr "Usługa w tle"
+
+msgid "Comprobando estado..."
+msgstr "Sprawdzanie stanu..."
+
+msgid "Siguiente"
+msgstr "Następna"
+
+msgid "Pasar al siguiente fondo de la secuencia actual"
+msgstr "Przejdź do następnej tapety w bieżącej sekwencji"
+
+msgid "Barajar"
+msgstr "Wymieszaj"
+
+msgid "Revolver la lista de fondos pendientes sin reiniciar el ciclo"
+msgstr "Wymieszaj listę oczekujących tapet bez restartowania cyklu"
+
+msgid "Recargar"
+msgstr "Przeładuj"
+
+msgid "Re-escanear carpetas, reiniciar la baraja completa y aplicar nuevos fondos"
+msgstr "Przeskanuj katalogi ponownie, zresetuj talię i zastosuj nowe tapety"
+
+msgid "Secuencia de rotación"
+msgstr "Sekwencja rotacji"
+
+msgid "Al azar"
+msgstr "Losowo"
+
+msgid "Al azar sin repeticiones (baraja completa)"
+msgstr "Losowo bez powtórzeń (pełna talia)"
+
+msgid "Rotación automática"
+msgstr "Automatyczna rotacja"
+
+msgid "Temporizador y automatización del cambio en segundo plano."
+msgstr "Czasomierz i automatyczna zmiana w tle."
+
+msgid "Activar rotación automática"
+msgstr "Włącz automatyczną rotację"
+
+msgid "Habilitar el servicio para cambiar las imágenes según la frecuencia programada"
+msgstr "Włącz usługę, aby zmieniać obrazy według zaplanowanej częstotliwości"
+
+msgid "Frecuencia de cambio"
+msgstr "Częstotliwość zmian"
+
+msgid "Intervalo de tiempo (minutos)"
+msgstr "Interwał czasowy (minuty)"
+
+msgid "Hora fija diaria"
+msgstr "Stała godzina każdego dnia"
+
+msgid "Minutos entre cambios"
+msgstr "Minuty między zmianami"
+
+msgid "Tiempo que permanece cada fondo de pantalla"
+msgstr "Czas wyświetlania każdej tapety"
+
+msgid "Hora de cambio diario"
+msgstr "Godzina codziennej zmiany"
+
+msgid "Hora programada para rotar el fondo cada día (formato 24h)"
+msgstr "Zaplanowana godzina codziennej rotacji tapety (format 24h)"
+
+msgid "Hora (00 a 23)"
+msgstr "Godzina (00 do 23)"
+
+msgid "Minutos (00 a 59)"
+msgstr "Minuty (00 do 59)"
+
+msgid "Días entre cambios"
+msgstr "Dni między zmianami"
+
+msgid "Frecuencia en días de la rotación diaria"
+msgstr "Częstotliwość w dniach dla codziennej rotacji"
+
+msgid "Contar cambio de estilo no visto en la rotación"
+msgstr "Licz nieobejrzaną zmianę stylu jako rotację"
+
+msgid "Al alternar entre claro y oscuro, si el fondo aún no se había visto, reinicia el temporizador (solo en intervalo de tiempo)"
+msgstr "Podczas przełączania między jasnym a ciemnym, jeśli tło nie było jeszcze widziane, resetuje czasomierz (tylko w trybie interwału)"
+
+msgid "Herramientas y Mantenimiento"
+msgstr "Narzędzia i konserwacja"
+
+msgid "Mantenimiento, gestión del fondo en pantalla, organización inteligente y optimización."
+msgstr "Konserwacja, zarządzanie aktywną tapetą, inteligentna organizacja i optymalizacja."
+
+msgid "Fondo actual en pantalla"
+msgstr "Bieżąca tapeta na ekranie"
+
+msgid "Detectando fondo visible..."
+msgstr "Wykrywanie aktywnej tapety..."
+
+msgid "Ubicar y mostrar archivo en Archivos (Nautilus)"
+msgstr "Zlokalizuj i pokaż plik w Menedżerze plików (Nautilus)"
+
+msgid "Fijar fondo en pinned/ (proteger en este tema)"
+msgstr "Przypnij w pinned/ (chroń w tym motywie)"
+
+msgid "Excluir fondo de la rotación (mover a exclude/)"
+msgstr "Wyklucz z rotacji (przenieś do exclude/)"
+
+msgid "No hay ningún fondo configurado o el archivo no existe"
+msgstr "Brak skonfigurowanej tapety lub plik nie istnieje"
+
+msgid "Fijado (pinned)"
+msgstr "Przypięto (pinned)"
+
+msgid "Desfijar fondo (regresar a la carpeta principal)"
+msgstr "Odepnij tapetę (przywróć do katalogu głównego)"
+
+msgid "Fijar fondo en pinned/ (no mover de este tema)"
+msgstr "Przypnij w pinned/ (nie przenoś z tego motywu)"
+
+msgid "Fondo desfijado y devuelto a la carpeta principal"
+msgstr "Tapeta została odpięta i przywrócona do katalogu głównego"
+
+msgid "Fondo fijado en pinned/"
+msgstr "Tapeta przypięta w pinned/"
+
+msgid "¿Excluir este fondo de pantalla?"
+msgstr "Wykluczyć tę tapetę?"
+
+msgid "se moverá a la carpeta 'exclude/' y se cambiará al siguiente fondo disponible de la rotación."
+msgstr "zostanie przeniesiona do katalogu 'exclude/' i nastąpi zmiana na kolejną dostępną tapetę."
+
+msgid "Cancelar"
+msgstr "Anuluj"
+
+msgid "Excluir"
+msgstr "Wyklucz"
+
+msgid "Fondo excluido y rotado"
+msgstr "Tapeta wykluczona i zmieniona"
+
+msgid "Detector de Fondos Duplicados"
+msgstr "Wykrywacz duplikatów tapet"
+
+msgid "Detecta imágenes repetidas o casi idénticas con firmas estructurales (dHash)"
+msgstr "Wykrywa powtarzające się lub niemal identyczne obrazy za pomocą hashy percepcyjnych (dHash)"
+
+msgid "Buscar duplicados"
+msgstr "Skanuj duplikaty"
+
+msgid "Clasificar Fondos por Luminosidad"
+msgstr "Klasyfikuj tapety według jasności"
+
+msgid "Evalúa el brillo perceptual (CIELAB L*) y clasifica automáticamente entre claro y oscuro"
+msgstr "Ocenia jasność percepcyjną (CIELAB L*) i automatycznie klasyfikuje na jasne i ciemne"
+
+msgid "Clasificar"
+msgstr "Klasyfikuj"
+
+msgid "Reescalado con IA (Smart Upscale)"
+msgstr "Skalowanie SI (Smart Upscale)"
+
+msgid "Comprobando compatibilidad de aceleración Vulkan y motor Real-CUGAN..."
+msgstr "Sprawdzanie zgodności z akceleracją Vulkan i silnikiem Real-CUGAN..."
+
+msgid "Reescalar..."
+msgstr "Skaluj..."
+
+msgid "Requiere aceleración Vulkan y motor Real-CUGAN instalado"
+msgstr "Wymaga akceleracji Vulkan oraz zainstalowanego silnika Real-CUGAN"
+
+msgid "No compatible"
+msgstr "Niezgodne"
+
+msgid "¿Verificar compatibilidad nuevamente?"
+msgstr "Sprawdzić zgodność ponownie?"
+
+msgid "El motor Real-CUGAN con aceleración Vulkan reportó incompatibilidad o no respondió en la última comprobación."
+msgstr "Silnik Real-CUGAN z akceleracją Vulkan zgłosił brak zgodności lub nie odpowiedział podczas ostatniego testu."
+
+msgid "¿Deseas volver a escanear los controladores de GPU Vulkan y el motor ahora?"
+msgstr "Czy chcesz teraz ponownie przeskanować sterowniki GPU Vulkan oraz silnik?"
+
+msgid "Verificar nuevamente"
+msgstr "Sprawdź ponownie"
+
+msgid "Verificando..."
+msgstr "Sprawdzanie..."
+
+msgid "Atajos"
+msgstr "Skróty"
+
+msgid "Atajos de teclado"
+msgstr "Skróty klawiszowe"
+
+msgid "Atajos nativos de GNOME para cambiar y recargar fondos rápidamente."
+msgstr "Natywne skróty GNOME do szybkiego przełączania i przeładowywania tapet."
+
+msgid "Habilitar atajos de teclado"
+msgstr "Włącz skróty klawiszowe"
+
+msgid "Activa los atajos globales en el entorno de escritorio"
+msgstr "Aktywuje globalne skróty klawiszowe w środowisku graficznym"
+
+msgid "Siguiente wallpaper"
+msgstr "Następna tapeta"
+
+msgid "Recargar conjuntos"
+msgstr "Przeładuj kolekcje"
+
+msgid "Ejecuta: auto-wallpaper next"
+msgstr "Uruchamia: auto-wallpaper next"
+
+msgid "Ejecuta: auto-wallpaper reload"
+msgstr "Uruchamia: auto-wallpaper reload"
+
+msgid "Super + W (Predeterminado)"
+msgstr "Super + W (Domyślny)"
+
+msgid "Super + Alt + W (Predeterminado)"
+msgstr "Super + Alt + W (Domyślny)"
+
+msgid "Super + Espacio"
+msgstr "Super + Spacja"
+
+msgid "Super + Flecha Derecha"
+msgstr "Super + Strzałka w prawo"
+
+msgid "Personalizado"
+msgstr "Własny"
+
+msgid "Desactivado"
+msgstr "Wyłączone"
+
+msgid "Servicio detenido"
+msgstr "Usługa zatrzymana"
+
+msgid "El temporizador automático está detenido"
+msgstr "Automatyczny czasomierz jest zatrzymany"
+
+msgid "Servicio activo"
+msgstr "Usługa aktywna"
+
+msgid "Próximo cambio en:"
+msgstr "Następna zmiana za:"
+
+msgid "Restantes:"
+msgstr "Pozostało:"
+
+msgid "Modo:"
+msgstr "Tryb:"
+
+msgid "Seleccionar carpeta de fondos claros"
+msgstr "Wybierz katalog jasnych tapet"
+
+msgid "Seleccionar carpeta de fondos oscuros"
+msgstr "Wybierz katalog ciemnych tapet"
+
+msgid "¿Recargar todos los fondos?"
+msgstr "Przeładować wszystkie tapety?"
+
+msgid "Esto re-escaneará las carpetas y recargará toda la lista de fondos, incluyendo el fondo actual."
+msgstr "Spowoduje to ponowne przeskanowanie katalogów i przeładowanie całej listy tapet, w tym bieżącej."
+
+msgid "Desactivado (Manual)"
+msgstr "Wyłączone (Ręczny)"
+
+msgid "Calculando / Inminente..."
+msgstr "Obliczanie / Wkrótce..."
+
+msgid "Imágenes (*.png, *.jpg, *.jpeg, *.webp)"
+msgstr "Obrazy (*.png, *.jpg, *.jpeg, *.webp)"
+
+msgid "Fondos Duplicados o Repetidos"
+msgstr "Zduplikowane lub powtarzające się tapety"
+
+msgid "Volver a escanear"
+msgstr "Skanuj ponownie"
+
+msgid "Escaneando colecciones de fondos..."
+msgstr "Skanowanie kolekcji tapet..."
+
+msgid "Calculando firmas estructurales dHash y comparando similitudes..."
+msgstr "Obliczanie hashy dHash i porównywanie podobieństwa..."
+
+msgid "¡No hay duplicados!"
+msgstr "Brak duplikatów!"
+
+msgid "Todas las imágenes de tus colecciones son únicas. No se detectaron fondos repetidos ni versiones comprimidas."
+msgstr "Wszystkie obrazy w Twoich kolekcjach są unikalne. Nie wykryto powtarzających się tapet ani skompresowanych kopii."
+
+msgid "Iniciando escaneo..."
+msgstr "Rozpoczynanie skanowania..."
+
+msgid "Se encontraron"
+msgstr "Znaleziono:"
+
+msgid "coincidencias de fondos repetidos o casi idénticos:"
+msgstr "dopasowań zduplikowanych lub niemal identycznych tapet:"
+
+msgid "DUPLICADO EXACTO (100% idéntico)"
+msgstr "DOKŁADNY DUPLIKAT (100% identyczny)"
+
+msgid "CASI IDÉNTICO"
+msgstr "NIEMAL IDENTYCZNY"
+
+msgid "similitud"
+msgstr "podobieństwo"
+
+msgid "Mover esta versión a la subcarpeta exclude/"
+msgstr "Przenieś tę wersję do podkatalogu exclude/"
+
+msgid "Ubicar en Archivos"
+msgstr "Pokaż w Menedżerze plików"
+
+msgid "Excluida ✓"
+msgstr "Wykluczono ✓"
+
+msgid "movida a exclude/"
+msgstr "przeniesiono do exclude/"
+
+msgid "Aviso:"
+msgstr "Uwaga:"
+
+msgid "El análisis perceptual examina la luminosidad píxel a píxel de cada imagen. En colecciones con muchos fondos, el proceso puede tardar un poco según el rendimiento de tu equipo."
+msgstr "Analiza percepcyjna bada jasność każdego piksela. W przypadku dużych kolekcji proces może chwilę potrwać w zależności od wydajności sprzętu."
+
+msgid "Parámetros de Clasificación por Luminosidad"
+msgstr "Parametry klasyfikacji według jasności"
+
+msgid "Organiza automáticamente tus fondos en las carpetas Claro y Oscuro según el modelo perceptivo humano (CIELAB L* + Percentil 65)."
+msgstr "Automatycznie organizuje tapety w katalogach Jasne i Ciemne według ludzkiego modelu percepcji (CIELAB L* + 65. percentyl)."
+
+msgid "Muy permisivo"
+msgstr "Bardzo tolerancyjny"
+
+msgid "Permisivo"
+msgstr "Tolerancyjny"
+
+msgid "Equilibrado"
+msgstr "Zrównoważony"
+
+msgid "Exigente"
+msgstr "Rygorystyczny"
+
+msgid "Muy estricto"
+msgstr "Bardzo rygorystyczny"
+
+msgid "Más Claros"
+msgstr "Więcej Jasnych"
+
+msgid "Más Oscuros"
+msgstr "Więcej Ciemnych"
+
+msgid "Muy permisivo para Claro · Máximo favorecedor para fondos claros"
+msgstr "Bardzo tolerancyjny dla Jasnych · Maksymalne faworyzowanie jasnych tapet"
+
+msgid "Permisivo para Claro · Favorece fondos claros"
+msgstr "Tolerancyjny dla Jasnych · Faworyzuje jasne tapety"
+
+msgid "Equilibrada / Estándar · Recomendado · Balance perceptivo óptimo"
+msgstr "Zrównoważony / Standardowy · Zalecany · Optymalna równowaga percepcyjna"
+
+msgid "Exigente para Claro · Más fondos a Oscuro"
+msgstr "Rygorystyczny dla Jasnych · Więcej tapet przeniesionych do Ciemnych"
+
+msgid "Muy estricto para Claro · Mínimo favorecedor para Claro"
+msgstr "Bardzo rygorystyczny dla Jasnych · Minimalne faworyzowanie Jasnych"
+
+msgid "Sensibilidad de brillo (Umbral CIELAB L*)"
+msgstr "Czułość jasności (Próg CIELAB L*)"
+
+msgid "Colecciones a analizar"
+msgstr "Kolekcje do analizy"
+
+msgid "Las subcarpetas pinned/ y exclude/ siempre están protegidas."
+msgstr "Podkatalogi pinned/ i exclude/ są zawsze chronione."
+
+msgid "Ambos conjuntos (Claro y Oscuro - Recomendado)"
+msgstr "Obie kolekcje (Jasna i Ciemna - Zalecane)"
+
+msgid "Solo conjunto Claro (Reevaluar y mover fondos oscuros)"
+msgstr "Tylko kolekcja Jasna (Ponownie oceń i przenieś ciemne tapety)"
+
+msgid "Solo conjunto Oscuro (Reevaluar y mover fondos claros)"
+msgstr "Tylko kolekcja Ciemna (Ponownie oceń i przenieś jasne tapety)"
+
+msgid "Carpeta personalizada (Analizar y clasificar imágenes hacia Claro/Oscuro)"
+msgstr "Katalog niestandardowy (Analizuj i klasyfikuj obrazy do Jasne/Ciemne)"
+
+msgid "Carpeta a clasificar"
+msgstr "Katalog do sklasyfikowania"
+
+msgid "Ninguna carpeta seleccionada"
+msgstr "Nie wybrano żadnego katalogu"
+
+msgid "Seleccionar carpeta..."
+msgstr "Wybierz katalog..."
+
+msgid "Seleccionar carpeta personalizada"
+msgstr "Wybierz własny katalog"
+
+msgid "Iniciar clasificación"
+msgstr "Rozpocznij klasyfikację"
+
+msgid "Clasificando fondos mediante CIELAB L*..."
+msgstr "Klasyfikowanie tapet za pomocą CIELAB L*..."
+
+msgid "Evaluando brillo perceptual y percentil 65 en cada imagen..."
+msgstr "Ocena jasności percepcyjnej i 65. percentyla dla każdego obrazu..."
+
+msgid "Movidos a Claro"
+msgstr "Przeniesiono do Jasnych"
+
+msgid "Movidos a Oscuro"
+msgstr "Przeniesiono do Ciemnych"
+
+msgid "Iniciando análisis..."
+msgstr "Rozpoczynanie analizy..."
+
+msgid "Las subcarpetas"
+msgstr "Podkatalogi"
+
+msgid "fondos fijados"
+msgstr "przypięte tapety"
+
+msgid "y"
+msgstr "oraz"
+
+msgid "fondos excluidos"
+msgstr "wykluczone tapety"
+
+msgid "están protegidas y no se moverán."
+msgstr "są chronione i nie zostaną przeniesione."
+
+msgid "Escaneando y clasificando fondos..."
+msgstr "Skanowanie i klasyfikowanie tapet..."
+
+msgid "Analizando brillo perceptual (CIELAB L*) y percentil 65 en cada imagen"
+msgstr "Analiza jasności percepcyjnej (CIELAB L*) i 65. percentyla każdego obrazu"
+
+msgid "Detener"
+msgstr "Zatrzymaj"
+
+msgid "Cerrar"
+msgstr "Zamknij"
+
+msgid "Proceso detenido por el usuario"
+msgstr "Proces zatrzymany przez użytkownika"
+
+msgid "Clasificación completada"
+msgstr "Klasyfikacja zakończona"
+
+msgid "¡Colecciones ya equilibradas!"
+msgstr "Kolekcje są już zrównoważone!"
+
+msgid "Todos los fondos ya se encuentran en su carpeta adecuada según el umbral seleccionado."
+msgstr "Wszystkie tapety znajdują się już w odpowiednim katalogu zgodnie z wybranym progiem."
+
+msgid "Colecciones equilibradas"
+msgstr "Zrównoważone kolekcje"
+
+msgid "No se requirió mover ningún fondo. Ambas carpetas coinciden con sus perfiles de luminosidad."
+msgstr "Nie było konieczności przenoszenia żadnej tapety. Obydwa katalogi odpowiadają profilom jasności."
+
+msgid "Clasificación finalizada con éxito"
+msgstr "Klasyfikacja zakończona pomyślnie"
+
+msgid "mostrando los últimos"
+msgstr "wyświetlanie ostatnich"
+
+msgid "en vivo"
+msgstr "na żywo"
+
+msgid "Se movieron"
+msgstr "Przeniesiono łącznie"
+
+msgid "a claro y"
+msgstr "do jasnych oraz"
+
+msgid "a oscuro en total"
+msgstr "do ciemnych"
+
+msgid "Clasificación de fondos finalizada"
+msgstr "Klasyfikacja tapet zakończona"
+
+msgid "Evaluando:"
+msgstr "Ocena:"
+
+msgid "Brillo L*"
+msgstr "Jasność L*"
+
+msgid "Reescalado Inteligente (Real-CUGAN)"
+msgstr "Inteligentne skalowanie (Real-CUGAN)"
+
+msgid "El proceso de reescalado utiliza aceleración neuronal por GPU (Vulkan). Puede tardar en completarse y ocasionar pérdida temporal de rendimiento mientras se ejecuta."
+msgstr "Proces skalowania wykorzystuje akcelerację neuronową GPU (Vulkan). Może zająć trochę czasu i tymczasowo wpłynąć na wydajność komputera."
+
+msgid "Parámetros del Reescalado IA"
+msgstr "Parametry skalowania SI"
+
+msgid "Acelera la nitidez y resolución usando Real-CUGAN."
+msgstr "Zwiększ ostrość i rozdzielczość za pomocą Real-CUGAN."
+
+msgid "GPU detectada:"
+msgstr "Wykryty układ GPU:"
+
+msgid "Carpeta a reescalar"
+msgstr "Katalog do przeskalowania"
+
+msgid "☀️ Conjunto claro"
+msgstr "☀️ Kolekcja jasna"
+
+msgid "🌙 Conjunto oscuro"
+msgstr "🌙 Kolekcja ciemna"
+
+msgid "🌓 Ambos conjuntos (claro y oscuro)"
+msgstr "🌓 Obie kolekcje (jasna i ciemna)"
+
+msgid "Factor de escala"
+msgstr "Współczynnik skali"
+
+msgid "Multiplicador de resolución"
+msgstr "Mnożnik rozdzielczości"
+
+msgid "2x (Recomendado para 1080p -> 4K)"
+msgstr "2x (Zalecane dla 1080p -> 4K)"
+
+msgid "Reducción de ruido (Denoise)"
+msgstr "Redukcja szumów (Denoise)"
+
+msgid "Nivel de limpieza de artefactos y compresión"
+msgstr "Poziom usuwania artefaktów i kompresji"
+
+msgid "Nivel 0 - Predeterminado (Nitidez óptima)"
+msgstr "Poziom 0 - Domyślny (Optymalna ostrość)"
+
+msgid "Nivel 1 - Suave"
+msgstr "Poziom 1 - Łagodny"
+
+msgid "Nivel 2 - Medio"
+msgstr "Poziom 2 - Średni"
+
+msgid "Nivel 3 - Intenso"
+msgstr "Poziom 3 - Silny"
+
+msgid "Nivel -1 - Sin denoise (Preserva grano)"
+msgstr "Poziom -1 - Bez redukcji szumów (Zachowuje ziarno)"
+
+msgid "Límite de resolución"
+msgstr "Limit rozdzielczości"
+
+msgid "Omitir imágenes que ya alcancen o superen este tamaño"
+msgstr "Pomiń obrazy, które już osiągają lub przekraczają ten rozmiar"
+
+msgid "2560x1440 (2K QHD - Recomendado)"
+msgstr "2560x1440 (2K QHD - Zalecane)"
+
+msgid "1920x1080 (Full HD)"
+msgstr "1920x1080 (Full HD)"
+
+msgid "3840x2160 (4K UHD)"
+msgstr "3840x2160 (4K UHD)"
+
+msgid "Sin límite (procesar todas las imágenes)"
+msgstr "Bez limitu (przetwarzaj wszystkie obrazy)"
+
+msgid "Copia de seguridad"
+msgstr "Kopia zapasowa"
+
+msgid "Guardar copia de las imágenes originales en exclude/backup_upscale_original/"
+msgstr "Zapisz kopię oryginalnych obrazów w exclude/backup_upscale_original/"
+
+msgid "Ignorar etiqueta de reescalado previo"
+msgstr "Ignoruj znacznik wcześniejszego skalowania"
+
+msgid "Permite reescalar imágenes que ya fueron procesadas anteriormente con IA"
+msgstr "Umożliwia ponowne skalowanie obrazów przetworzonych wcześniej za pomocą SI"
+
+msgid "¿Ignorar etiqueta de reescalado previo?"
+msgstr "Zignorować znacznik wcześniejszego skalowania?"
+
+msgid "Advertencia: Reescalar sucesivamente una imagen ya procesada con IA puede introducir artefactos no deseados o degradar la calidad original."
+msgstr "Ostrzeżenie: Wielokrotne skalowanie obrazu przetworzonego przez SI może wprowadzić niepożądane artefakty lub obniżyć pierwotną jakość."
+
+msgid "¿Estás seguro de que deseas forzar el reescalado sobre imágenes previamente tratadas?"
+msgstr "Czy na pewno chcesz wymusić ponowne skalowanie wcześniej przetworzonych obrazów?"
+
+msgid "Activar de todos modos"
+msgstr "Włącz mimo to"
+
+msgid "Iniciar reescalado"
+msgstr "Rozpocznij skalowanie"
+
+msgid "Reescalando fondos con Real-CUGAN..."
+msgstr "Skalowanie tapet za pomocą Real-CUGAN..."
+
+msgid "Iniciando..."
+msgstr "Uruchamianie..."
+
+msgid "Reescalado con IA finalizado"
+msgstr "Skalowanie SI zakończone"
+
+msgid "Analizando candidatos:"
+msgstr "Analizowanie kandydatów:"
+
+msgid "de"
+msgstr "z"
+
+msgid "Comprobando resolución y firmas de reescalado previo..."
+msgstr "Sprawdzanie rozdzielczości i podpisów wcześniejszego skalowania..."
+
+msgid "procesadas"
+msgstr "przetworzono"
+
+msgid "Reescalando"
+msgstr "Skalowanie"
+
+msgid "Completada"
+msgstr "Ukończono"
+
+msgid "guardada exitosamente"
+msgstr "zapisano pomyślnie"
+
+msgid "Reescalado completado"
+msgstr "Skalowanie zakończone"
+
+msgid "Procesamiento de carpeta finalizado"
+msgstr "Przetwarzanie katalogu zakończone"
+
+msgid "Sin imágenes pendientes por procesar"
+msgstr "Brak oczekujących obrazów do przetworzenia"
+

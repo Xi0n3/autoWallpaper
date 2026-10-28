@@ -1,0 +1,244 @@
+/* Auto Wallpaper - Estilo nativo Libadwaita */
+
+.style-container-card {
+    background-color: alpha(@card_bg_color, 0.7);
+    border-radius: 16px;
+    padding: 18px 24px 16px 24px;
+}
+
+/* Botón que contiene ÚNICAMENTE la imagen en miniatura */
+.wallpaper-thumbnail-btn {
+    padding: 0;
+    border-radius: 14px;
+    border: 3px solid transparent;
+    background: transparent;
+    transition: all 180ms ease-in-out;
+}
+
+.wallpaper-thumbnail-btn:hover {
+    opacity: 0.92;
+}
+
+/* Borde de acento dinámico según el tema activo del sistema */
+.wallpaper-thumbnail-btn.active-style {
+    border-color: @accent_color;
+    box-shadow: 0 0 0 1px @accent_color;
+}
+
+.wallpaper-preview-img {
+    border-radius: 11px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+}
+
+.wallpaper-title-label {
+    font-weight: 600;
+    margin-top: 2px;
+}
+
+/* Notificación discreta en escala de grises de una sola línea */
+.subtle-theme-notice {
+    margin-top: 12px;
+}
+
+.subtle-notice-text {
+    color: alpha(@theme_fg_color, 0.55);
+    font-size: 0.82rem;
+}
+
+.subtle-notice-link {
+    color: alpha(@theme_fg_color, 0.78);
+    font-size: 0.82rem;
+    font-weight: 500;
+    text-decoration: underline;
+    padding: 0 2px;
+    min-height: 0;
+    min-width: 0;
+}
+
+.subtle-notice-link:hover {
+    color: @accent_color;
+}
+
+.spacer-separator {
+    margin-top: 18px;
+    margin-bottom: 4px;
+    opacity: 0.35;
+}
+
+.subtle-notice-close {
+    padding: 2px;
+    min-width: 18px;
+    min-height: 18px;
+    border-radius: 9999px;
+    color: alpha(@theme_fg_color, 0.45);
+    margin-left: 6px;
+}
+
+.subtle-notice-close:hover {
+    color: @theme_fg_color;
+    background-color: alpha(@theme_fg_color, 0.12);
+}
+
+/* =====================================================================
+   SECCIÓN 3: HERRAMIENTAS Y MODALES
+   ===================================================================== */
+
+/* Tarjetas comparativas de duplicados */
+.dupe-card {
+    background-color: alpha(@card_bg_color, 0.65);
+    border: 1px solid alpha(@borders, 0.5);
+    border-radius: 14px;
+    padding: 12px 16px;
+    margin-bottom: 10px;
+    transition: all 180ms ease;
+}
+
+.dupe-preview-img {
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+}
+
+.dupe-badge-exact {
+    background-color: #e01b24;
+    color: #ffffff;
+    font-size: 0.74rem;
+    font-weight: 700;
+    padding: 3px 10px;
+    border-radius: 9999px;
+}
+
+.dupe-badge-similar {
+    background-color: #e5a50a;
+    color: #1c1c1c;
+    font-size: 0.74rem;
+    font-weight: 700;
+    padding: 3px 10px;
+    border-radius: 9999px;
+}
+
+/* Terminal / Log de reescalado IA */
+.terminal-log-view {
+    font-family: monospace;
+    font-size: 0.85rem;
+    background-color: #181818;
+    color: #e0e0e0;
+    border-radius: 10px;
+    padding: 12px;
+    border: 1px solid alpha(@borders, 0.35);
+}
+
+/* Tarjetas de organización perceptual por luminosidad */
+.organize-card {
+    background-color: alpha(@card_bg_color, 0.65);
+    border: 1px solid alpha(@borders, 0.5);
+    border-radius: 14px;
+    padding: 12px 18px;
+    margin-bottom: 10px;
+    transition: all 180ms ease;
+}
+
+.organize-thumb {
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+}
+
+.organize-folder-card {
+    background-color: alpha(@theme_bg_color, 0.5);
+    border: 1px dashed alpha(@borders, 0.7);
+    border-radius: 10px;
+    padding: 12px 16px;
+}
+
+/* Contenedor del icono de flecha profesional entre tarjetas */
+.organize-arrow-container {
+    background-color: alpha(@card_bg_color, 0.85);
+    border: 1px solid alpha(@borders, 0.6);
+    border-radius: 9999px;
+    padding: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.organize-icon-dark {
+    color: #3584e4;
+}
+
+.organize-icon-light {
+    color: #e5a50a;
+}
+
+/* Píldoras de resumen del clasificador */
+.sort-stat-pill-light {
+    background-color: alpha(#e5a50a, 0.18);
+    color: #e5a50a;
+    border: 1px solid alpha(#e5a50a, 0.35);
+    border-radius: 9999px;
+    padding: 5px 14px;
+    font-weight: 600;
+}
+
+.sort-stat-pill-dark {
+    background-color: alpha(#3584e4, 0.18);
+    color: #3584e4;
+    border: 1px solid alpha(#3584e4, 0.35);
+    border-radius: 9999px;
+    padding: 5px 14px;
+    font-weight: 600;
+}
+
+.sort-stat-pill-neutral {
+    background-color: alpha(@theme_fg_color, 0.1);
+    color: @theme_fg_color;
+    border: 1px solid alpha(@borders, 0.6);
+    border-radius: 9999px;
+    padding: 5px 14px;
+    font-weight: 600;
+}
+
+.sort-threshold-badge {
+    font-size: 0.78rem;
+    padding: 4px 12px;
+}
+
+/* Aviso sutil y discreto de carpetas protegidas (sin marcos llamativos) */
+.sort-tip-subtle {
+    padding: 2px 2px;
+}
+
+/* Aviso sutil de rendimiento para diálogos de procesamiento intensivo */
+.subtle-perf-notice {
+    background-color: alpha(@borders, 0.25);
+    border-radius: 8px;
+    padding: 8px 12px;
+}
+
+/* Tarjeta de imagen en procesamiento activo de Smart Upscale */
+.upscale-current-card {
+    background-color: alpha(@card_bg_color, 0.7);
+    border: 1px solid alpha(@borders, 0.5);
+    border-radius: 14px;
+    padding: 14px 18px;
+    margin-bottom: 12px;
+}
+
+.upscale-current-thumb {
+    border-radius: 9px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Pie de página discreto para información de versión / entorno dev */
+.dev-footer-info {
+    font-family: monospace;
+    font-size: 0.72rem;
+    color: alpha(@theme_fg_color, 0.32);
+}
+
+/* Recuadro de comandos para copiar en un clic */
+.cmd-box-label {
+    font-family: monospace;
+    font-size: 0.82rem;
+    padding: 12px 16px;
+}
+
+
+
+

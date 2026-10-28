@@ -1,0 +1,16 @@
+{
+  "name": "Auto Wallpaper",
+  "description": "Gestor y apariencia de fondos de pantalla claros y oscuros integrado con GNOME.",
+  "uuid": "autowallpaper@lumory",
+  "gettext-domain": "autowallpaper@lumory",
+  "settings-schema": "org.gnome.shell.extensions.autowallpaper",
+  "shell-version": [
+    "45",
+    "46",
+    "47",
+    "48",
+    "49",
+    "50"
+  ],
+  "url": "https://github.com/lumory/autoWallpaper"
+}

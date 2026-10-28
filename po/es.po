@@ -1,0 +1,721 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Auto Wallpaper 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-26 15:00-0600\n"
+"PO-Revision-Date: 2026-10-26 15:00-0600\n"
+"Last-Translator: Lumory\n"
+"Language-Team: Spanish\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Auto Wallpaper"
+msgstr "Auto Wallpaper"
+
+msgid "Apariencia"
+msgstr "Apariencia"
+
+msgid "Estilo"
+msgstr "Estilo"
+
+msgid "Haz clic en una miniatura para cambiar el fondo de pantalla del tema correspondiente."
+msgstr "Haz clic en una miniatura para cambiar el fondo de pantalla del tema correspondiente."
+
+msgid "Haz clic para cambiar el fondo claro (Predeterminado)"
+msgstr "Haz clic para cambiar el fondo claro (Predeterminado)"
+
+msgid "Haz clic para cambiar el fondo oscuro (Dark)"
+msgstr "Haz clic para cambiar el fondo oscuro (Dark)"
+
+msgid "Predeterminado"
+msgstr "Predeterminado"
+
+msgid "Oscuro"
+msgstr "Oscuro"
+
+msgid "cambiando el tema"
+msgstr "cambiando el tema"
+
+msgid "Se ha cambiado el fondo del tema"
+msgstr "Se ha cambiado el fondo del tema"
+
+msgid "puede verlo"
+msgstr "puede verlo"
+
+msgid "Seleccionar fondo de pantalla claro"
+msgstr "Seleccionar fondo de pantalla claro"
+
+msgid "Seleccionar fondo de pantalla oscuro"
+msgstr "Seleccionar fondo de pantalla oscuro"
+
+msgid "Carpetas de Fondos"
+msgstr "Carpetas de Fondos"
+
+msgid "Selecciona las carpetas de imágenes asignadas a cada tema."
+msgstr "Selecciona las carpetas de imágenes asignadas a cada tema."
+
+msgid "Colección Claro"
+msgstr "Colección Claro"
+
+msgid "Colección Oscuro"
+msgstr "Colección Oscuro"
+
+msgid "Cambiar carpeta seleccionada"
+msgstr "Cambiar carpeta seleccionada"
+
+msgid "Abrir carpeta en Archivos"
+msgstr "Abrir carpeta en Archivos"
+
+msgid "Rotación de fondos del conjunto"
+msgstr "Rotación de fondos del conjunto"
+
+msgid "Configura el orden en que se van a proyectar las imágenes."
+msgstr "Configura el orden en que se van a proyectar las imágenes."
+
+msgid "Se han detectado cambios en los fondos almacenados. "
+msgstr "Se han detectado cambios en los fondos almacenados. "
+
+msgid "Recarga"
+msgstr "Recarga"
+
+msgid "Recargar fondos ahora"
+msgstr "Recargar fondos ahora"
+
+msgid " para actualizar los fondos"
+msgstr " para actualizar los fondos"
+
+msgid "Descartar aviso"
+msgstr "Descartar aviso"
+
+msgid "Servicio en segundo plano"
+msgstr "Servicio en segundo plano"
+
+msgid "Comprobando estado..."
+msgstr "Comprobando estado..."
+
+msgid "Siguiente"
+msgstr "Siguiente"
+
+msgid "Pasar al siguiente fondo de la secuencia actual"
+msgstr "Pasar al siguiente fondo de la secuencia actual"
+
+msgid "Barajar"
+msgstr "Barajar"
+
+msgid "Revolver la lista de fondos pendientes sin reiniciar el ciclo"
+msgstr "Revolver la lista de fondos pendientes sin reiniciar el ciclo"
+
+msgid "Recargar"
+msgstr "Recargar"
+
+msgid "Re-escanear carpetas, reiniciar la baraja completa y aplicar nuevos fondos"
+msgstr "Re-escanear carpetas, reiniciar la baraja completa y aplicar nuevos fondos"
+
+msgid "Secuencia de rotación"
+msgstr "Secuencia de rotación"
+
+msgid "Al azar"
+msgstr "Al azar"
+
+msgid "Al azar sin repeticiones (baraja completa)"
+msgstr "Al azar sin repeticiones (baraja completa)"
+
+msgid "Rotación automática"
+msgstr "Rotación automática"
+
+msgid "Temporizador y automatización del cambio en segundo plano."
+msgstr "Temporizador y automatización del cambio en segundo plano."
+
+msgid "Activar rotación automática"
+msgstr "Activar rotación automática"
+
+msgid "Habilitar el servicio para cambiar las imágenes según la frecuencia programada"
+msgstr "Habilitar el servicio para cambiar las imágenes según la frecuencia programada"
+
+msgid "Frecuencia de cambio"
+msgstr "Frecuencia de cambio"
+
+msgid "Intervalo de tiempo (minutos)"
+msgstr "Intervalo de tiempo (minutos)"
+
+msgid "Hora fija diaria"
+msgstr "Hora fija diaria"
+
+msgid "Minutos entre cambios"
+msgstr "Minutos entre cambios"
+
+msgid "Tiempo que permanece cada fondo de pantalla"
+msgstr "Tiempo que permanece cada fondo de pantalla"
+
+msgid "Hora de cambio diario"
+msgstr "Hora de cambio diario"
+
+msgid "Hora programada para rotar el fondo cada día (formato 24h)"
+msgstr "Hora programada para rotar el fondo cada día (formato 24h)"
+
+msgid "Hora (00 a 23)"
+msgstr "Hora (00 a 23)"
+
+msgid "Minutos (00 a 59)"
+msgstr "Minutos (00 a 59)"
+
+msgid "Días entre cambios"
+msgstr "Días entre cambios"
+
+msgid "Frecuencia en días de la rotación diaria"
+msgstr "Frecuencia en días de la rotación diaria"
+
+msgid "Contar cambio de estilo no visto en la rotación"
+msgstr "Contar cambio de estilo no visto en la rotación"
+
+msgid "Al alternar entre claro y oscuro, si el fondo aún no se había visto, reinicia el temporizador (solo en intervalo de tiempo)"
+msgstr "Al alternar entre claro y oscuro, si el fondo aún no se había visto, reinicia el temporizador (solo en intervalo de tiempo)"
+
+msgid "Herramientas y Mantenimiento"
+msgstr "Herramientas y Mantenimiento"
+
+msgid "Mantenimiento, gestión del fondo en pantalla, organización inteligente y optimización."
+msgstr "Mantenimiento, gestión del fondo en pantalla, organización inteligente y optimización."
+
+msgid "Fondo actual en pantalla"
+msgstr "Fondo actual en pantalla"
+
+msgid "Detectando fondo visible..."
+msgstr "Detectando fondo visible..."
+
+msgid "Ubicar y mostrar archivo en Archivos (Nautilus)"
+msgstr "Ubicar y mostrar archivo en Archivos (Nautilus)"
+
+msgid "Fijar fondo en pinned/ (proteger en este tema)"
+msgstr "Fijar fondo en pinned/ (proteger en este tema)"
+
+msgid "Excluir fondo de la rotación (mover a exclude/)"
+msgstr "Excluir fondo de la rotación (mover a exclude/)"
+
+msgid "No hay ningún fondo configurado o el archivo no existe"
+msgstr "No hay ningún fondo configurado o el archivo no existe"
+
+msgid "Fijado (pinned)"
+msgstr "Fijado (pinned)"
+
+msgid "Desfijar fondo (regresar a la carpeta principal)"
+msgstr "Desfijar fondo (regresar a la carpeta principal)"
+
+msgid "Fijar fondo en pinned/ (no mover de este tema)"
+msgstr "Fijar fondo en pinned/ (no mover de este tema)"
+
+msgid "Fondo desfijado y devuelto a la carpeta principal"
+msgstr "Fondo desfijado y devuelto a la carpeta principal"
+
+msgid "Fondo fijado en pinned/"
+msgstr "Fondo fijado en pinned/"
+
+msgid "¿Excluir este fondo de pantalla?"
+msgstr "¿Excluir este fondo de pantalla?"
+
+msgid "se moverá a la carpeta 'exclude/' y se cambiará al siguiente fondo disponible de la rotación."
+msgstr "se moverá a la carpeta 'exclude/' y se cambiará al siguiente fondo disponible de la rotación."
+
+msgid "Cancelar"
+msgstr "Cancelar"
+
+msgid "Excluir"
+msgstr "Excluir"
+
+msgid "Fondo excluido y rotado"
+msgstr "Fondo excluido y rotado"
+
+msgid "Detector de Fondos Duplicados"
+msgstr "Detector de Fondos Duplicados"
+
+msgid "Detecta imágenes repetidas o casi idénticas con firmas estructurales (dHash)"
+msgstr "Detecta imágenes repetidas o casi idénticas con firmas estructurales (dHash)"
+
+msgid "Buscar duplicados"
+msgstr "Buscar duplicados"
+
+msgid "Clasificar Fondos por Luminosidad"
+msgstr "Clasificar Fondos por Luminosidad"
+
+msgid "Evalúa el brillo perceptual (CIELAB L*) y clasifica automáticamente entre claro y oscuro"
+msgstr "Evalúa el brillo perceptual (CIELAB L*) y clasifica automáticamente entre claro y oscuro"
+
+msgid "Clasificar"
+msgstr "Clasificar"
+
+msgid "Reescalado con IA (Smart Upscale)"
+msgstr "Reescalado con IA (Smart Upscale)"
+
+msgid "Comprobando compatibilidad de aceleración Vulkan y motor Real-CUGAN..."
+msgstr "Comprobando compatibilidad de aceleración Vulkan y motor Real-CUGAN..."
+
+msgid "Reescalar..."
+msgstr "Reescalar..."
+
+msgid "Requiere aceleración Vulkan y motor Real-CUGAN instalado"
+msgstr "Requiere aceleración Vulkan y motor Real-CUGAN instalado"
+
+msgid "No compatible"
+msgstr "No compatible"
+
+msgid "¿Verificar compatibilidad nuevamente?"
+msgstr "¿Verificar compatibilidad nuevamente?"
+
+msgid "El motor Real-CUGAN con aceleración Vulkan reportó incompatibilidad o no respondió en la última comprobación."
+msgstr "El motor Real-CUGAN con aceleración Vulkan reportó incompatibilidad o no respondió en la última comprobación."
+
+msgid "¿Deseas volver a escanear los controladores de GPU Vulkan y el motor ahora?"
+msgstr "¿Deseas volver a escanear los controladores de GPU Vulkan y el motor ahora?"
+
+msgid "Verificar nuevamente"
+msgstr "Verificar nuevamente"
+
+msgid "Verificando..."
+msgstr "Verificando..."
+
+msgid "Atajos"
+msgstr "Atajos"
+
+msgid "Atajos de teclado"
+msgstr "Atajos de teclado"
+
+msgid "Atajos nativos de GNOME para cambiar y recargar fondos rápidamente."
+msgstr "Atajos nativos de GNOME para cambiar y recargar fondos rápidamente."
+
+msgid "Habilitar atajos de teclado"
+msgstr "Habilitar atajos de teclado"
+
+msgid "Activa los atajos globales en el entorno de escritorio"
+msgstr "Activa los atajos globales en el entorno de escritorio"
+
+msgid "Siguiente wallpaper"
+msgstr "Siguiente wallpaper"
+
+msgid "Recargar conjuntos"
+msgstr "Recargar conjuntos"
+
+msgid "Ejecuta: auto-wallpaper next"
+msgstr "Ejecuta: auto-wallpaper next"
+
+msgid "Ejecuta: auto-wallpaper reload"
+msgstr "Ejecuta: auto-wallpaper reload"
+
+msgid "Super + W (Predeterminado)"
+msgstr "Super + W (Predeterminado)"
+
+msgid "Super + Alt + W (Predeterminado)"
+msgstr "Super + Alt + W (Predeterminado)"
+
+msgid "Super + Espacio"
+msgstr "Super + Espacio"
+
+msgid "Super + Flecha Derecha"
+msgstr "Super + Flecha Derecha"
+
+msgid "Personalizado"
+msgstr "Personalizado"
+
+msgid "Desactivado"
+msgstr "Desactivado"
+
+msgid "Servicio detenido"
+msgstr "Servicio detenido"
+
+msgid "El temporizador automático está detenido"
+msgstr "El temporizador automático está detenido"
+
+msgid "Servicio activo"
+msgstr "Servicio activo"
+
+msgid "Próximo cambio en:"
+msgstr "Próximo cambio en:"
+
+msgid "Restantes:"
+msgstr "Restantes:"
+
+msgid "Modo:"
+msgstr "Modo:"
+
+msgid "Seleccionar carpeta de fondos claros"
+msgstr "Seleccionar carpeta de fondos claros"
+
+msgid "Seleccionar carpeta de fondos oscuros"
+msgstr "Seleccionar carpeta de fondos oscuros"
+
+msgid "¿Recargar todos los fondos?"
+msgstr "¿Recargar todos los fondos?"
+
+msgid "Esto re-escaneará las carpetas y recargará toda la lista de fondos, incluyendo el fondo actual."
+msgstr "Esto re-escaneará las carpetas y recargará toda la lista de fondos, incluyendo el fondo actual."
+
+msgid "Desactivado (Manual)"
+msgstr "Desactivado (Manual)"
+
+msgid "Calculando / Inminente..."
+msgstr "Calculando / Inminente..."
+
+msgid "Imágenes (*.png, *.jpg, *.jpeg, *.webp)"
+msgstr "Imágenes (*.png, *.jpg, *.jpeg, *.webp)"
+
+msgid "Fondos Duplicados o Repetidos"
+msgstr "Fondos Duplicados o Repetidos"
+
+msgid "Volver a escanear"
+msgstr "Volver a escanear"
+
+msgid "Escaneando colecciones de fondos..."
+msgstr "Escaneando colecciones de fondos..."
+
+msgid "Calculando firmas estructurales dHash y comparando similitudes..."
+msgstr "Calculando firmas estructurales dHash y comparando similitudes..."
+
+msgid "¡No hay duplicados!"
+msgstr "¡No hay duplicados!"
+
+msgid "Todas las imágenes de tus colecciones son únicas. No se detectaron fondos repetidos ni versiones comprimidas."
+msgstr "Todas las imágenes de tus colecciones son únicas. No se detectaron fondos repetidos ni versiones comprimidas."
+
+msgid "Iniciando escaneo..."
+msgstr "Iniciando escaneo..."
+
+msgid "Se encontraron"
+msgstr "Se encontraron"
+
+msgid "coincidencias de fondos repetidos o casi idénticos:"
+msgstr "coincidencias de fondos repetidos o casi idénticos:"
+
+msgid "DUPLICADO EXACTO (100% idéntico)"
+msgstr "DUPLICADO EXACTO (100% idéntico)"
+
+msgid "CASI IDÉNTICO"
+msgstr "CASI IDÉNTICO"
+
+msgid "similitud"
+msgstr "similitud"
+
+msgid "Mover esta versión a la subcarpeta exclude/"
+msgstr "Mover esta versión a la subcarpeta exclude/"
+
+msgid "Ubicar en Archivos"
+msgstr "Ubicar en Archivos"
+
+msgid "Excluida ✓"
+msgstr "Excluida ✓"
+
+msgid "movida a exclude/"
+msgstr "movida a exclude/"
+
+msgid "Aviso:"
+msgstr "Aviso:"
+
+msgid "El análisis perceptual examina la luminosidad píxel a píxel de cada imagen. En colecciones con muchos fondos, el proceso puede tardar un poco según el rendimiento de tu equipo."
+msgstr "El análisis perceptual examina la luminosidad píxel a píxel de cada imagen. En colecciones con muchos fondos, el proceso puede tardar un poco según el rendimiento de tu equipo."
+
+msgid "Parámetros de Clasificación por Luminosidad"
+msgstr "Parámetros de Clasificación por Luminosidad"
+
+msgid "Organiza automáticamente tus fondos en las carpetas Claro y Oscuro según el modelo perceptivo humano (CIELAB L* + Percentil 65)."
+msgstr "Organiza automáticamente tus fondos en las carpetas Claro y Oscuro según el modelo perceptivo humano (CIELAB L* + Percentil 65)."
+
+msgid "Muy permisivo"
+msgstr "Muy permisivo"
+
+msgid "Permisivo"
+msgstr "Permisivo"
+
+msgid "Equilibrado"
+msgstr "Equilibrado"
+
+msgid "Exigente"
+msgstr "Exigente"
+
+msgid "Muy estricto"
+msgstr "Muy estricto"
+
+msgid "Más Claros"
+msgstr "Más Claros"
+
+msgid "Más Oscuros"
+msgstr "Más Oscuros"
+
+msgid "Muy permisivo para Claro · Máximo favorecedor para fondos claros"
+msgstr "Muy permisivo para Claro · Máximo favorecedor para fondos claros"
+
+msgid "Permisivo para Claro · Favorece fondos claros"
+msgstr "Permisivo para Claro · Favorece fondos claros"
+
+msgid "Equilibrada / Estándar · Recomendado · Balance perceptivo óptimo"
+msgstr "Equilibrada / Estándar · Recomendado · Balance perceptivo óptimo"
+
+msgid "Exigente para Claro · Más fondos a Oscuro"
+msgstr "Exigente para Claro · Más fondos a Oscuro"
+
+msgid "Muy estricto para Claro · Mínimo favorecedor para Claro"
+msgstr "Muy estricto para Claro · Mínimo favorecedor para Claro"
+
+msgid "Sensibilidad de brillo (Umbral CIELAB L*)"
+msgstr "Sensibilidad de brillo (Umbral CIELAB L*)"
+
+msgid "Colecciones a analizar"
+msgstr "Colecciones a analizar"
+
+msgid "Las subcarpetas pinned/ y exclude/ siempre están protegidas."
+msgstr "Las subcarpetas pinned/ y exclude/ siempre están protegidas."
+
+msgid "Ambos conjuntos (Claro y Oscuro - Recomendado)"
+msgstr "Ambos conjuntos (Claro y Oscuro - Recomendado)"
+
+msgid "Solo conjunto Claro (Reevaluar y mover fondos oscuros)"
+msgstr "Solo conjunto Claro (Reevaluar y mover fondos oscuros)"
+
+msgid "Solo conjunto Oscuro (Reevaluar y mover fondos claros)"
+msgstr "Solo conjunto Oscuro (Reevaluar y mover fondos claros)"
+
+msgid "Carpeta personalizada (Analizar y clasificar imágenes hacia Claro/Oscuro)"
+msgstr "Carpeta personalizada (Analizar y clasificar imágenes hacia Claro/Oscuro)"
+
+msgid "Carpeta a clasificar"
+msgstr "Carpeta a clasificar"
+
+msgid "Ninguna carpeta seleccionada"
+msgstr "Ninguna carpeta seleccionada"
+
+msgid "Seleccionar carpeta..."
+msgstr "Seleccionar carpeta..."
+
+msgid "Seleccionar carpeta personalizada"
+msgstr "Seleccionar carpeta personalizada"
+
+msgid "Iniciar clasificación"
+msgstr "Iniciar clasificación"
+
+msgid "Clasificando fondos mediante CIELAB L*..."
+msgstr "Clasificando fondos mediante CIELAB L*..."
+
+msgid "Evaluando brillo perceptual y percentil 65 en cada imagen..."
+msgstr "Evaluando brillo perceptual y percentil 65 en cada imagen..."
+
+msgid "Movidos a Claro"
+msgstr "Movidos a Claro"
+
+msgid "Movidos a Oscuro"
+msgstr "Movidos a Oscuro"
+
+msgid "Iniciando análisis..."
+msgstr "Iniciando análisis..."
+
+msgid "Las subcarpetas"
+msgstr "Las subcarpetas"
+
+msgid "fondos fijados"
+msgstr "fondos fijados"
+
+msgid "y"
+msgstr "y"
+
+msgid "fondos excluidos"
+msgstr "fondos excluidos"
+
+msgid "están protegidas y no se moverán."
+msgstr "están protegidas y no se moverán."
+
+msgid "Escaneando y clasificando fondos..."
+msgstr "Escaneando y clasificando fondos..."
+
+msgid "Analizando brillo perceptual (CIELAB L*) y percentil 65 en cada imagen"
+msgstr "Analizando brillo perceptual (CIELAB L*) y percentil 65 en cada imagen"
+
+msgid "Detener"
+msgstr "Detener"
+
+msgid "Cerrar"
+msgstr "Cerrar"
+
+msgid "Proceso detenido por el usuario"
+msgstr "Proceso detenido por el usuario"
+
+msgid "Clasificación completada"
+msgstr "Clasificación completada"
+
+msgid "¡Colecciones ya equilibradas!"
+msgstr "¡Colecciones ya equilibradas!"
+
+msgid "Todos los fondos ya se encuentran en su carpeta adecuada según el umbral seleccionado."
+msgstr "Todos los fondos ya se encuentran en su carpeta adecuada según el umbral seleccionado."
+
+msgid "Colecciones equilibradas"
+msgstr "Colecciones equilibradas"
+
+msgid "No se requirió mover ningún fondo. Ambas carpetas coinciden con sus perfiles de luminosidad."
+msgstr "No se requirió mover ningún fondo. Ambas carpetas coinciden con sus perfiles de luminosidad."
+
+msgid "Clasificación finalizada con éxito"
+msgstr "Clasificación finalizada con éxito"
+
+msgid "mostrando los últimos"
+msgstr "mostrando los últimos"
+
+msgid "en vivo"
+msgstr "en vivo"
+
+msgid "Se movieron"
+msgstr "Se movieron"
+
+msgid "a claro y"
+msgstr "a claro y"
+
+msgid "a oscuro en total"
+msgstr "a oscuro en total"
+
+msgid "Clasificación de fondos finalizada"
+msgstr "Clasificación de fondos finalizada"
+
+msgid "Evaluando:"
+msgstr "Evaluando:"
+
+msgid "Brillo L*"
+msgstr "Brillo L*"
+
+msgid "Reescalado Inteligente (Real-CUGAN)"
+msgstr "Reescalado Inteligente (Real-CUGAN)"
+
+msgid "El proceso de reescalado utiliza aceleración neuronal por GPU (Vulkan). Puede tardar en completarse y ocasionar pérdida temporal de rendimiento mientras se ejecuta."
+msgstr "El proceso de reescalado utiliza aceleración neuronal por GPU (Vulkan). Puede tardar en completarse y ocasionar pérdida temporal de rendimiento mientras se ejecuta."
+
+msgid "Parámetros del Reescalado IA"
+msgstr "Parámetros del Reescalado IA"
+
+msgid "Acelera la nitidez y resolución usando Real-CUGAN."
+msgstr "Acelera la nitidez y resolución usando Real-CUGAN."
+
+msgid "GPU detectada:"
+msgstr "GPU detectada:"
+
+msgid "Carpeta a reescalar"
+msgstr "Carpeta a reescalar"
+
+msgid "☀️ Conjunto claro"
+msgstr "☀️ Conjunto claro"
+
+msgid "🌙 Conjunto oscuro"
+msgstr "🌙 Conjunto oscuro"
+
+msgid "🌓 Ambos conjuntos (claro y oscuro)"
+msgstr "🌓 Ambos conjuntos (claro y oscuro)"
+
+msgid "Factor de escala"
+msgstr "Factor de escala"
+
+msgid "Multiplicador de resolución"
+msgstr "Multiplicador de resolución"
+
+msgid "2x (Recomendado para 1080p -> 4K)"
+msgstr "2x (Recomendado para 1080p -> 4K)"
+
+msgid "Reducción de ruido (Denoise)"
+msgstr "Reducción de ruido (Denoise)"
+
+msgid "Nivel de limpieza de artefactos y compresión"
+msgstr "Nivel de limpieza de artefactos y compresión"
+
+msgid "Nivel 0 - Predeterminado (Nitidez óptima)"
+msgstr "Nivel 0 - Predeterminado (Nitidez óptima)"
+
+msgid "Nivel 1 - Suave"
+msgstr "Nivel 1 - Suave"
+
+msgid "Nivel 2 - Medio"
+msgstr "Nivel 2 - Medio"
+
+msgid "Nivel 3 - Intenso"
+msgstr "Nivel 3 - Intenso"
+
+msgid "Nivel -1 - Sin denoise (Preserva grano)"
+msgstr "Nivel -1 - Sin denoise (Preserva grano)"
+
+msgid "Límite de resolución"
+msgstr "Límite de resolución"
+
+msgid "Omitir imágenes que ya alcancen o superen este tamaño"
+msgstr "Omitir imágenes que ya alcancen o superen este tamaño"
+
+msgid "2560x1440 (2K QHD - Recomendado)"
+msgstr "2560x1440 (2K QHD - Recomendado)"
+
+msgid "1920x1080 (Full HD)"
+msgstr "1920x1080 (Full HD)"
+
+msgid "3840x2160 (4K UHD)"
+msgstr "3840x2160 (4K UHD)"
+
+msgid "Sin límite (procesar todas las imágenes)"
+msgstr "Sin límite (procesar todas las imágenes)"
+
+msgid "Copia de seguridad"
+msgstr "Copia de seguridad"
+
+msgid "Guardar copia de las imágenes originales en exclude/backup_upscale_original/"
+msgstr "Guardar copia de las imágenes originales en exclude/backup_upscale_original/"
+
+msgid "Ignorar etiqueta de reescalado previo"
+msgstr "Ignorar etiqueta de reescalado previo"
+
+msgid "Permite reescalar imágenes que ya fueron procesadas anteriormente con IA"
+msgstr "Permite reescalar imágenes que ya fueron procesadas anteriormente con IA"
+
+msgid "¿Ignorar etiqueta de reescalado previo?"
+msgstr "¿Ignorar etiqueta de reescalado previo?"
+
+msgid "Advertencia: Reescalar sucesivamente una imagen ya procesada con IA puede introducir artefactos no deseados o degradar la calidad original."
+msgstr "Advertencia: Reescalar sucesivamente una imagen ya procesada con IA puede introducir artefactos no deseados o degradar la calidad original."
+
+msgid "¿Estás seguro de que deseas forzar el reescalado sobre imágenes previamente tratadas?"
+msgstr "¿Estás seguro de que deseas forzar el reescalado sobre imágenes previamente tratadas?"
+
+msgid "Activar de todos modos"
+msgstr "Activar de todos modos"
+
+msgid "Iniciar reescalado"
+msgstr "Iniciar reescalado"
+
+msgid "Reescalando fondos con Real-CUGAN..."
+msgstr "Reescalando fondos con Real-CUGAN..."
+
+msgid "Iniciando..."
+msgstr "Iniciando..."
+
+msgid "Reescalado con IA finalizado"
+msgstr "Reescalado con IA finalizado"
+
+msgid "Analizando candidatos:"
+msgstr "Analizando candidatos:"
+
+msgid "de"
+msgstr "de"
+
+msgid "Comprobando resolución y firmas de reescalado previo..."
+msgstr "Comprobando resolución y firmas de reescalado previo..."
+
+msgid "procesadas"
+msgstr "procesadas"
+
+msgid "Reescalando"
+msgstr "Reescalando"
+
+msgid "Completada"
+msgstr "Completada"
+
+msgid "guardada exitosamente"
+msgstr "guardada exitosamente"
+
+msgid "Reescalado completado"
+msgstr "Reescalado completado"
+
+msgid "Procesamiento de carpeta finalizado"
+msgstr "Procesamiento de carpeta finalizado"
+
+msgid "Sin imágenes pendientes por procesar"
+msgstr "Sin imágenes pendientes por procesar"
+

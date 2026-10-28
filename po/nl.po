@@ -1,0 +1,721 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Auto Wallpaper 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-26 15:00-0600\n"
+"PO-Revision-Date: 2026-10-26 21:00-0600\n"
+"Last-Translator: Lumory\n"
+"Language-Team: Dutch (Nederlands)\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Auto Wallpaper"
+msgstr "Auto Wallpaper"
+
+msgid "Apariencia"
+msgstr "Uiterlijk"
+
+msgid "Estilo"
+msgstr "Stijl"
+
+msgid "Haz clic en una miniatura para cambiar el fondo de pantalla del tema correspondiente."
+msgstr "Klik op een miniatuur om de achtergrond voor het bijbehorende thema te wijzigen."
+
+msgid "Haz clic para cambiar el fondo claro (Predeterminado)"
+msgstr "Klik om lichte achtergrond te wijzigen (Standaard)"
+
+msgid "Haz clic para cambiar el fondo oscuro (Dark)"
+msgstr "Klik om donkere achtergrond te wijzigen (Donker)"
+
+msgid "Predeterminado"
+msgstr "Standaard"
+
+msgid "Oscuro"
+msgstr "Donker"
+
+msgid "cambiando el tema"
+msgstr "thema wisselen"
+
+msgid "Se ha cambiado el fondo del tema"
+msgstr "Achtergrond voor het thema is gewijzigd"
+
+msgid "puede verlo"
+msgstr "u kunt dit bekijken"
+
+msgid "Seleccionar fondo de pantalla claro"
+msgstr "Lichte achtergrond selecteren"
+
+msgid "Seleccionar fondo de pantalla oscuro"
+msgstr "Donkere achtergrond selecteren"
+
+msgid "Carpetas de Fondos"
+msgstr "Achtergrondmappen"
+
+msgid "Selecciona las carpetas de imágenes asignadas a cada tema."
+msgstr "Selecteer de afbeeldingsmappen die aan elk thema zijn toegewezen."
+
+msgid "Colección Claro"
+msgstr "Lichte collectie"
+
+msgid "Colección Oscuro"
+msgstr "Donkere collectie"
+
+msgid "Cambiar carpeta seleccionada"
+msgstr "Geselecteerde map wijzigen"
+
+msgid "Abrir carpeta en Archivos"
+msgstr "Map openen in Bestanden"
+
+msgid "Rotación de fondos del conjunto"
+msgstr "Achtergrondrotatie van de collectie"
+
+msgid "Configura el orden en que se van a proyectar las imágenes."
+msgstr "Stel de volgorde in waarin de afbeeldingen wisselen."
+
+msgid "Se han detectado cambios en los fondos almacenados. "
+msgstr "Wijzigingen gedetecteerd in opgeslagen achtergronden. "
+
+msgid "Recarga"
+msgstr "Herlaad"
+
+msgid "Recargar fondos ahora"
+msgstr "Achtergronden nu herladen"
+
+msgid " para actualizar los fondos"
+msgstr " om de achtergronden bij te werken"
+
+msgid "Descartar aviso"
+msgstr "Melding sluiten"
+
+msgid "Servicio en segundo plano"
+msgstr "Achtergronddienst"
+
+msgid "Comprobando estado..."
+msgstr "Status controleren..."
+
+msgid "Siguiente"
+msgstr "Volgende"
+
+msgid "Pasar al siguiente fondo de la secuencia actual"
+msgstr "Ga naar de volgende achtergrond in de huidige volgorde"
+
+msgid "Barajar"
+msgstr "Schudden"
+
+msgid "Revolver la lista de fondos pendientes sin reiniciar el ciclo"
+msgstr "Lijst met wachtende achtergronden schudden zonder de cyclus te herstarten"
+
+msgid "Recargar"
+msgstr "Herladen"
+
+msgid "Re-escanear carpetas, reiniciar la baraja completa y aplicar nuevos fondos"
+msgstr "Mappen opnieuw scannen, het hele stapel resetten en nieuwe achtergronden toepassen"
+
+msgid "Secuencia de rotación"
+msgstr "Rotatievolgorde"
+
+msgid "Al azar"
+msgstr "Willekeurig"
+
+msgid "Al azar sin repeticiones (baraja completa)"
+msgstr "Willekeurig zonder herhalingen (volledige stapel)"
+
+msgid "Rotación automática"
+msgstr "Automatische rotatie"
+
+msgid "Temporizador y automatización del cambio en segundo plano."
+msgstr "Timer en automatisering van achtergrondwissels op de achtergrond."
+
+msgid "Activar rotación automática"
+msgstr "Automatische rotatie inschakelen"
+
+msgid "Habilitar el servicio para cambiar las imágenes según la frecuencia programada"
+msgstr "Schakel de service in om afbeeldingen volgens het geplande schema te wisselen"
+
+msgid "Frecuencia de cambio"
+msgstr "Wisselfrequentie"
+
+msgid "Intervalo de tiempo (minutos)"
+msgstr "Tijdsinterval (minuten)"
+
+msgid "Hora fija diaria"
+msgstr "Vast dagelijks tijdstip"
+
+msgid "Minutos entre cambios"
+msgstr "Minuten tussen wissels"
+
+msgid "Tiempo que permanece cada fondo de pantalla"
+msgstr "Tijd dat elke achtergrond actief blijft"
+
+msgid "Hora de cambio diario"
+msgstr "Dagelijkse wisseltijd"
+
+msgid "Hora programada para rotar el fondo cada día (formato 24h)"
+msgstr "Geplande tijd voor dagelijkse rotatie (24-uursnotatie)"
+
+msgid "Hora (00 a 23)"
+msgstr "Uur (00 tot 23)"
+
+msgid "Minutos (00 a 59)"
+msgstr "Minuten (00 tot 59)"
+
+msgid "Días entre cambios"
+msgstr "Dagen tussen wissels"
+
+msgid "Frecuencia en días de la rotación diaria"
+msgstr "Frequentie in dagen voor dagelijkse rotatie"
+
+msgid "Contar cambio de estilo no visto en la rotación"
+msgstr "Ongeziene stijlwijziging meetellen als rotatie"
+
+msgid "Al alternar entre claro y oscuro, si el fondo aún no se había visto, reinicia el temporizador (solo en intervalo de tiempo)"
+msgstr "Herstart de timer bij het wisselen tussen licht en donker als de achtergrond nog niet bekeken was (alleen in intervalmodus)"
+
+msgid "Herramientas y Mantenimiento"
+msgstr "Gereedschap en onderhoud"
+
+msgid "Mantenimiento, gestión del fondo en pantalla, organización inteligente y optimización."
+msgstr "Onderhoud, beheer van actieve achtergrond, slimme organisatie en optimalisatie."
+
+msgid "Fondo actual en pantalla"
+msgstr "Huidige achtergrond op het scherm"
+
+msgid "Detectando fondo visible..."
+msgstr "Actieve achtergrond detecteren..."
+
+msgid "Ubicar y mostrar archivo en Archivos (Nautilus)"
+msgstr "Bestand lokaliseren en tonen in Bestanden (Nautilus)"
+
+msgid "Fijar fondo en pinned/ (proteger en este tema)"
+msgstr "Vastmaken in pinned/ (beschermen in dit thema)"
+
+msgid "Excluir fondo de la rotación (mover a exclude/)"
+msgstr "Uitsluiten van rotatie (verplaatsen naar exclude/)"
+
+msgid "No hay ningún fondo configurado o el archivo no existe"
+msgstr "Geen achtergrond geconfigureerd of bestand bestaat niet"
+
+msgid "Fijado (pinned)"
+msgstr "Vastgemaakt (pinned)"
+
+msgid "Desfijar fondo (regresar a la carpeta principal)"
+msgstr "Achtergrond losmaken (terugkeren naar hoofdmap)"
+
+msgid "Fijar fondo en pinned/ (no mover de este tema)"
+msgstr "Vastmaken in pinned/ (niet weghalen uit dit thema)"
+
+msgid "Fondo desfijado y devuelto a la carpeta principal"
+msgstr "Achtergrond losgemaakt en teruggezet in hoofdmap"
+
+msgid "Fondo fijado en pinned/"
+msgstr "Achtergrond vastgemaakt in pinned/"
+
+msgid "¿Excluir este fondo de pantalla?"
+msgstr "Deze achtergrond uitsluiten?"
+
+msgid "se moverá a la carpeta 'exclude/' y se cambiará al siguiente fondo disponible de la rotación."
+msgstr "wordt verplaatst naar de map 'exclude/' en er wordt gewisseld naar de volgende beschikbare achtergrond."
+
+msgid "Cancelar"
+msgstr "Annuleren"
+
+msgid "Excluir"
+msgstr "Uitsluiten"
+
+msgid "Fondo excluido y rotado"
+msgstr "Achtergrond uitgesloten en gewisseld"
+
+msgid "Detector de Fondos Duplicados"
+msgstr "Dubbele achtergronden detecteren"
+
+msgid "Detecta imágenes repetidas o casi idénticas con firmas estructurales (dHash)"
+msgstr "Detecteert herhaalde of bijna identieke afbeeldingen met perceptuele hashes (dHash)"
+
+msgid "Buscar duplicados"
+msgstr "Duplicaten scannen"
+
+msgid "Clasificar Fondos por Luminosidad"
+msgstr "Achtergronden classificeren op helderheid"
+
+msgid "Evalúa el brillo perceptual (CIELAB L*) y clasifica automáticamente entre claro y oscuro"
+msgstr "Evalueert waargenomen helderheid (CIELAB L*) en deelt automatisch in op licht en donker"
+
+msgid "Clasificar"
+msgstr "Classificeren"
+
+msgid "Reescalado con IA (Smart Upscale)"
+msgstr "AI-opschaling (Smart Upscale)"
+
+msgid "Comprobando compatibilidad de aceleración Vulkan y motor Real-CUGAN..."
+msgstr "Vulkan-versnelling en Real-CUGAN-engine controleren..."
+
+msgid "Reescalar..."
+msgstr "Opschalen..."
+
+msgid "Requiere aceleración Vulkan y motor Real-CUGAN instalado"
+msgstr "Vereist Vulkan-versnelling en geïnstalleerde Real-CUGAN-engine"
+
+msgid "No compatible"
+msgstr "Niet ondersteund"
+
+msgid "¿Verificar compatibilidad nuevamente?"
+msgstr "Compatibiliteit opnieuw controleren?"
+
+msgid "El motor Real-CUGAN con aceleración Vulkan reportó incompatibilidad o no respondió en la última comprobación."
+msgstr "De Real-CUGAN-engine met Vulkan-versnelling meldde incompatibiliteit of reageerde niet tijdens de laatste test."
+
+msgid "¿Deseas volver a escanear los controladores de GPU Vulkan y el motor ahora?"
+msgstr "Wilt u de Vulkan GPU-stuurprogramma's en de engine nu opnieuw scannen?"
+
+msgid "Verificar nuevamente"
+msgstr "Opnieuw controleren"
+
+msgid "Verificando..."
+msgstr "Controleren..."
+
+msgid "Atajos"
+msgstr "Sneltoetsen"
+
+msgid "Atajos de teclado"
+msgstr "Sneltoetsen"
+
+msgid "Atajos nativos de GNOME para cambiar y recargar fondos rápidamente."
+msgstr "Standaard GNOME-sneltoetsen om achtergronden snel te wisselen en opnieuw te laden."
+
+msgid "Habilitar atajos de teclado"
+msgstr "Sneltoetsen inschakelen"
+
+msgid "Activa los atajos globales en el entorno de escritorio"
+msgstr "Activeert algemene sneltoetsen in de desktopomgeving"
+
+msgid "Siguiente wallpaper"
+msgstr "Volgende achtergrond"
+
+msgid "Recargar conjuntos"
+msgstr "Collecties herladen"
+
+msgid "Ejecuta: auto-wallpaper next"
+msgstr "Voert uit: auto-wallpaper next"
+
+msgid "Ejecuta: auto-wallpaper reload"
+msgstr "Voert uit: auto-wallpaper reload"
+
+msgid "Super + W (Predeterminado)"
+msgstr "Super + W (Standaard)"
+
+msgid "Super + Alt + W (Predeterminado)"
+msgstr "Super + Alt + W (Standaard)"
+
+msgid "Super + Espacio"
+msgstr "Super + Spatiebalk"
+
+msgid "Super + Flecha Derecha"
+msgstr "Super + Pijl-rechts"
+
+msgid "Personalizado"
+msgstr "Aangepast"
+
+msgid "Desactivado"
+msgstr "Uitgeschakeld"
+
+msgid "Servicio detenido"
+msgstr "Dienst gestopt"
+
+msgid "El temporizador automático está detenido"
+msgstr "De automatische timer is gestopt"
+
+msgid "Servicio activo"
+msgstr "Dienst actief"
+
+msgid "Próximo cambio en:"
+msgstr "Volgende wissel over:"
+
+msgid "Restantes:"
+msgstr "Resterend:"
+
+msgid "Modo:"
+msgstr "Modus:"
+
+msgid "Seleccionar carpeta de fondos claros"
+msgstr "Map voor lichte achtergronden selecteren"
+
+msgid "Seleccionar carpeta de fondos oscuros"
+msgstr "Map voor donkere achtergronden selecteren"
+
+msgid "¿Recargar todos los fondos?"
+msgstr "Alle achtergronden herladen?"
+
+msgid "Esto re-escaneará las carpetas y recargará toda la lista de fondos, incluyendo el fondo actual."
+msgstr "Hiermee worden de mappen opnieuw gescand en de hele lijst met achtergronden herladen, inclusief de huidige."
+
+msgid "Desactivado (Manual)"
+msgstr "Uitgeschakeld (Handmatig)"
+
+msgid "Calculando / Inminente..."
+msgstr "Berekenen / Binnenkort..."
+
+msgid "Imágenes (*.png, *.jpg, *.jpeg, *.webp)"
+msgstr "Afbeeldingen (*.png, *.jpg, *.jpeg, *.webp)"
+
+msgid "Fondos Duplicados o Repetidos"
+msgstr "Dubbele of herhaalde achtergronden"
+
+msgid "Volver a escanear"
+msgstr "Opnieuw scannen"
+
+msgid "Escaneando colecciones de fondos..."
+msgstr "Achtergrondcollecties scannen..."
+
+msgid "Calculando firmas estructurales dHash y comparando similitudes..."
+msgstr "Structurele dHash-hashes berekenen en overeenkomsten vergelijken..."
+
+msgid "¡No hay duplicados!"
+msgstr "Geen duplicaten gevonden!"
+
+msgid "Todas las imágenes de tus colecciones son únicas. No se detectaron fondos repetidos ni versiones comprimidas."
+msgstr "Alle afbeeldingen in uw collecties zijn uniek. Geen dubbele achtergronden of gecomprimeerde kopieën gedetecteerd."
+
+msgid "Iniciando escaneo..."
+msgstr "Scan starten..."
+
+msgid "Se encontraron"
+msgstr "Gevonden:"
+
+msgid "coincidencias de fondos repetidos o casi idénticos:"
+msgstr "overeenkomsten van dubbele of bijna identieke achtergronden:"
+
+msgid "DUPLICADO EXACTO (100% idéntico)"
+msgstr "EXACT DUPLICAAT (100% identiek)"
+
+msgid "CASI IDÉNTICO"
+msgstr "BIJNA IDENTIEK"
+
+msgid "similitud"
+msgstr "overeenkomst"
+
+msgid "Mover esta versión a la subcarpeta exclude/"
+msgstr "Deze versie verplaatsen naar submap exclude/"
+
+msgid "Ubicar en Archivos"
+msgstr "Lokaliseren in Bestanden"
+
+msgid "Excluida ✓"
+msgstr "Uitgesloten ✓"
+
+msgid "movida a exclude/"
+msgstr "verplaatst naar exclude/"
+
+msgid "Aviso:"
+msgstr "Opmerking:"
+
+msgid "El análisis perceptual examina la luminosidad píxel a píxel de cada imagen. En colecciones con muchos fondos, el proceso puede tardar un poco según el rendimiento de tu equipo."
+msgstr "Perceptuele analyse controleert de helderheid pixel voor pixel. Bij grote collecties kan dit proces even duren afhankelijk van uw hardware."
+
+msgid "Parámetros de Clasificación por Luminosidad"
+msgstr "Parameters voor helderheidsclassificatie"
+
+msgid "Organiza automáticamente tus fondos en las carpetas Claro y Oscuro según el modelo perceptivo humano (CIELAB L* + Percentil 65)."
+msgstr "Deelt uw achtergronden automatisch in lichte en donkere mappen in volgens het menselijke waarnemingsmodel (CIELAB L* + 65e percentiel)."
+
+msgid "Muy permisivo"
+msgstr "Zeer tolerant"
+
+msgid "Permisivo"
+msgstr "Tolerant"
+
+msgid "Equilibrado"
+msgstr "Gebalanceerd"
+
+msgid "Exigente"
+msgstr "Strikt"
+
+msgid "Muy estricto"
+msgstr "Zeer strikt"
+
+msgid "Más Claros"
+msgstr "Meer Licht"
+
+msgid "Más Oscuros"
+msgstr "Meer Donker"
+
+msgid "Muy permisivo para Claro · Máximo favorecedor para fondos claros"
+msgstr "Zeer tolerant voor Licht · Maximale voorkeur voor lichte achtergronden"
+
+msgid "Permisivo para Claro · Favorece fondos claros"
+msgstr "Tolerant voor Licht · Bevoordeelt lichte achtergronden"
+
+msgid "Equilibrada / Estándar · Recomendado · Balance perceptivo óptimo"
+msgstr "Gebalanceerd / Standaard · Aanbevolen · Optimale perceptuele balans"
+
+msgid "Exigente para Claro · Más fondos a Oscuro"
+msgstr "Strikt voor Licht · Meer achtergronden verplaatst naar Donker"
+
+msgid "Muy estricto para Claro · Mínimo favorecedor para Claro"
+msgstr "Zeer strikt voor Licht · Minimale voorkeur voor Licht"
+
+msgid "Sensibilidad de brillo (Umbral CIELAB L*)"
+msgstr "Helderheidsgevoeligheid (CIELAB L*-drempelwaarde)"
+
+msgid "Colecciones a analizar"
+msgstr "Te analyseren collecties"
+
+msgid "Las subcarpetas pinned/ y exclude/ siempre están protegidas."
+msgstr "De submappen pinned/ en exclude/ zijn altijd beschermd."
+
+msgid "Ambos conjuntos (Claro y Oscuro - Recomendado)"
+msgstr "Beide collecties (Licht en Donker - Aanbevolen)"
+
+msgid "Solo conjunto Claro (Reevaluar y mover fondos oscuros)"
+msgstr "Alleen lichte collectie (Donkere achtergronden herbeoordelen en verplaatsen)"
+
+msgid "Solo conjunto Oscuro (Reevaluar y mover fondos claros)"
+msgstr "Alleen donkere collectie (Lichte achtergronden herbeoordelen en verplaatsen)"
+
+msgid "Carpeta personalizada (Analizar y clasificar imágenes hacia Claro/Oscuro)"
+msgstr "Aangepaste map (Afbeeldingen analyseren en indelen in Licht/Donker)"
+
+msgid "Carpeta a clasificar"
+msgstr "Te classificeren map"
+
+msgid "Ninguna carpeta seleccionada"
+msgstr "Geen map geselecteerd"
+
+msgid "Seleccionar carpeta..."
+msgstr "Map selecteren..."
+
+msgid "Seleccionar carpeta personalizada"
+msgstr "Aangepaste map selecteren"
+
+msgid "Iniciar clasificación"
+msgstr "Classificatie starten"
+
+msgid "Clasificando fondos mediante CIELAB L*..."
+msgstr "Achtergronden classificeren via CIELAB L*..."
+
+msgid "Evaluando brillo perceptual y percentil 65 en cada imagen..."
+msgstr "Perceptuele helderheid en 65e percentiel voor elke afbeelding evalueren..."
+
+msgid "Movidos a Claro"
+msgstr "Verplaatst naar Licht"
+
+msgid "Movidos a Oscuro"
+msgstr "Verplaatst naar Donker"
+
+msgid "Iniciando análisis..."
+msgstr "Analyse starten..."
+
+msgid "Las subcarpetas"
+msgstr "De submappen"
+
+msgid "fondos fijados"
+msgstr "vastgemaakte achtergronden"
+
+msgid "y"
+msgstr "en"
+
+msgid "fondos excluidos"
+msgstr "uitgesloten achtergronden"
+
+msgid "están protegidas y no se moverán."
+msgstr "zijn beschermd en worden niet verplaatst."
+
+msgid "Escaneando y clasificando fondos..."
+msgstr "Achtergronden scannen en classificeren..."
+
+msgid "Analizando brillo perceptual (CIELAB L*) y percentil 65 en cada imagen"
+msgstr "Perceptuele helderheid (CIELAB L*) en 65e percentiel op elke afbeelding analyseren"
+
+msgid "Detener"
+msgstr "Stoppen"
+
+msgid "Cerrar"
+msgstr "Sluiten"
+
+msgid "Proceso detenido por el usuario"
+msgstr "Proces gestopt door gebruiker"
+
+msgid "Clasificación completada"
+msgstr "Classificatie voltooid"
+
+msgid "¡Colecciones ya equilibradas!"
+msgstr "Collecties zijn al in evenwicht!"
+
+msgid "Todos los fondos ya se encuentran en su carpeta adecuada según el umbral seleccionado."
+msgstr "Alle achtergronden bevinden zich al in de juiste map volgens de gekozen drempelwaarde."
+
+msgid "Colecciones equilibradas"
+msgstr "Evenwichtige collecties"
+
+msgid "No se requirió mover ningún fondo. Ambas carpetas coinciden con sus perfiles de luminosidad."
+msgstr "Er hoefden geen achtergronden verplaatst te worden. Beide mappen komen overeen met hun helderheidsprofielen."
+
+msgid "Clasificación finalizada con éxito"
+msgstr "Classificatie succesvol voltooid"
+
+msgid "mostrando los últimos"
+msgstr "laatste tonen"
+
+msgid "en vivo"
+msgstr "live"
+
+msgid "Se movieron"
+msgstr "Er zijn in totaal"
+
+msgid "a claro y"
+msgstr "naar licht verplaatst en"
+
+msgid "a oscuro en total"
+msgstr "naar donker"
+
+msgid "Clasificación de fondos finalizada"
+msgstr "Achtergrondclassificatie voltooid"
+
+msgid "Evaluando:"
+msgstr "Beoordelen:"
+
+msgid "Brillo L*"
+msgstr "Helderheid L*"
+
+msgid "Reescalado Inteligente (Real-CUGAN)"
+msgstr "Slimme opschaling (Real-CUGAN)"
+
+msgid "El proceso de reescalado utiliza aceleración neuronal por GPU (Vulkan). Puede tardar en completarse y ocasionar pérdida temporal de rendimiento mientras se ejecuta."
+msgstr "Het opschalingsproces maakt gebruik van GPU-neurale versnelling (Vulkan). Dit kan even duren en tijdelijk invloed hebben op de prestaties tijdens de uitvoering."
+
+msgid "Parámetros del Reescalado IA"
+msgstr "AI-opschalingsparameters"
+
+msgid "Acelera la nitidez y resolución usando Real-CUGAN."
+msgstr "Verhoog scherpte en resolutie met Real-CUGAN."
+
+msgid "GPU detectada:"
+msgstr "Gedetecteerde GPU:"
+
+msgid "Carpeta a reescalar"
+msgstr "Map om op te schalen"
+
+msgid "☀️ Conjunto claro"
+msgstr "☀️ Lichte collectie"
+
+msgid "🌙 Conjunto oscuro"
+msgstr "🌙 Donkere collectie"
+
+msgid "🌓 Ambos conjuntos (claro y oscuro)"
+msgstr "🌓 Beide collecties (licht en donker)"
+
+msgid "Factor de escala"
+msgstr "Schaalfactor"
+
+msgid "Multiplicador de resolución"
+msgstr "Resolutievermenigvuldiger"
+
+msgid "2x (Recomendado para 1080p -> 4K)"
+msgstr "2x (Aanbevolen voor 1080p -> 4K)"
+
+msgid "Reducción de ruido (Denoise)"
+msgstr "Ruisreductie (Denoise)"
+
+msgid "Nivel de limpieza de artefactos y compresión"
+msgstr "Zuiveringsniveau voor artefacten en compressie"
+
+msgid "Nivel 0 - Predeterminado (Nitidez óptima)"
+msgstr "Niveau 0 - Standaard (Optimale scherpte)"
+
+msgid "Nivel 1 - Suave"
+msgstr "Niveau 1 - Zacht"
+
+msgid "Nivel 2 - Medio"
+msgstr "Niveau 2 - Gemiddeld"
+
+msgid "Nivel 3 - Intenso"
+msgstr "Niveau 3 - Sterk"
+
+msgid "Nivel -1 - Sin denoise (Preserva grano)"
+msgstr "Niveau -1 - Geen ruisonderdrukking (Behoudt korrel)"
+
+msgid "Límite de resolución"
+msgstr "Resolutielimiet"
+
+msgid "Omitir imágenes que ya alcancen o superen este tamaño"
+msgstr "Afbeeldingen overslaan die deze afmetingen al bereiken of overschrijden"
+
+msgid "2560x1440 (2K QHD - Recomendado)"
+msgstr "2560x1440 (2K QHD - Aanbevolen)"
+
+msgid "1920x1080 (Full HD)"
+msgstr "1920x1080 (Full HD)"
+
+msgid "3840x2160 (4K UHD)"
+msgstr "3840x2160 (4K UHD)"
+
+msgid "Sin límite (procesar todas las imágenes)"
+msgstr "Geen limiet (alle afbeeldingen verwerken)"
+
+msgid "Copia de seguridad"
+msgstr "Reservekopie"
+
+msgid "Guardar copia de las imágenes originales en exclude/backup_upscale_original/"
+msgstr "Kopie van originele afbeeldingen opslaan in exclude/backup_upscale_original/"
+
+msgid "Ignorar etiqueta de reescalado previo"
+msgstr "Eerdere opschalingsmarkering negeren"
+
+msgid "Permite reescalar imágenes que ya fueron procesadas anteriormente con IA"
+msgstr "Maakt het mogelijk om afbeeldingen die al met AI zijn bewerkt opnieuw op te schalen"
+
+msgid "¿Ignorar etiqueta de reescalado previo?"
+msgstr "Eerdere opschalingsmarkering negeren?"
+
+msgid "Advertencia: Reescalar sucesivamente una imagen ya procesada con IA puede introducir artefactos no deseados o degradar la calidad original."
+msgstr "Waarschuwing: Herhaaldelijk opschalen van een al met AI verwerkte afbeelding kan ongewenste artefacten introduceren of de oorspronkelijke kwaliteit verminderen."
+
+msgid "¿Estás seguro de que deseas forzar el reescalado sobre imágenes previamente tratadas?"
+msgstr "Weet u zeker dat u het opschalen van reeds behandelde afbeeldingen wilt forceren?"
+
+msgid "Activar de todos modos"
+msgstr "Toch inschakelen"
+
+msgid "Iniciar reescalado"
+msgstr "Opschalen starten"
+
+msgid "Reescalando fondos con Real-CUGAN..."
+msgstr "Achtergronden opschalen met Real-CUGAN..."
+
+msgid "Iniciando..."
+msgstr "Starten..."
+
+msgid "Reescalado con IA finalizado"
+msgstr "AI-opschaling voltooid"
+
+msgid "Analizando candidatos:"
+msgstr "Kandidaten analyseren:"
+
+msgid "de"
+msgstr "van"
+
+msgid "Comprobando resolución y firmas de reescalado previo..."
+msgstr "Resolutie en eerdere opschalingshandtekeningen controleren..."
+
+msgid "procesadas"
+msgstr "verwerkt"
+
+msgid "Reescalando"
+msgstr "Opschalen van"
+
+msgid "Completada"
+msgstr "Voltooid"
+
+msgid "guardada exitosamente"
+msgstr "succesvol opgeslagen"
+
+msgid "Reescalado completado"
+msgstr "Opschaling voltooid"
+
+msgid "Procesamiento de carpeta finalizado"
+msgstr "Mapverwerking voltooid"
+
+msgid "Sin imágenes pendientes por procesar"
+msgstr "Geen afbeeldingen in de wachtrij om te verwerken"
+
