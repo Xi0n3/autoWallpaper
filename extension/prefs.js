@@ -10,7 +10,7 @@ import { initI18n, _ } from './i18n.js';
 export default class AutoWallpaperPreferences extends ExtensionPreferences {
     fillPreferencesWindow(window) {
         window.set_default_size(720, 680);
-        window.set_title(_('Auto Wallpaper'));
+        window.set_title(_("Auto Wallpaper"));
 
         const localeDir = GLib.build_filenamev([this.path, 'locale']);
         try {
@@ -32,7 +32,7 @@ export default class AutoWallpaperPreferences extends ExtensionPreferences {
 
         // Página principal
         const page = new Adw.PreferencesPage({
-            title: _('Apariencia'),
+            title: _("Appearance"),
             icon_name: 'preferences-desktop-wallpaper-symbolic',
         });
         window.add(page);
@@ -41,8 +41,8 @@ export default class AutoWallpaperPreferences extends ExtensionPreferences {
         // SECCIÓN 1: ESTILO (Previsualización fija 16:9 con recorte Cover)
         // =====================================================================
         const styleGroup = new Adw.PreferencesGroup({
-            title: _('Estilo'),
-            description: _('Haz clic en una miniatura para cambiar el fondo de pantalla del tema correspondiente.'),
+            title: _("Style"),
+            description: _("Click on a thumbnail to change the wallpaper for the corresponding theme."),
         });
         page.add(styleGroup);
 
@@ -75,7 +75,7 @@ export default class AutoWallpaperPreferences extends ExtensionPreferences {
 
         const btnLight = new Gtk.Button({
             css_classes: ['flat', 'wallpaper-thumbnail-btn'],
-            tooltip_text: _('Haz clic para cambiar el fondo claro (Predeterminado)'),
+            tooltip_text: _("Click to change light wallpaper (Default)"),
             width_request: PREVIEW_WIDTH,
             height_request: PREVIEW_HEIGHT,
         });
@@ -91,7 +91,7 @@ export default class AutoWallpaperPreferences extends ExtensionPreferences {
         colLight.append(btnLight);
 
         const lblLight = new Gtk.Label({
-            label: _('Predeterminado'),
+            label: _("Default"),
             css_classes: ['wallpaper-title-label', 'title-4'],
         });
         colLight.append(lblLight);
@@ -106,7 +106,7 @@ export default class AutoWallpaperPreferences extends ExtensionPreferences {
 
         const btnDark = new Gtk.Button({
             css_classes: ['flat', 'wallpaper-thumbnail-btn'],
-            tooltip_text: _('Haz clic para cambiar el fondo oscuro (Dark)'),
+            tooltip_text: _("Click to change dark wallpaper (Dark)"),
             width_request: PREVIEW_WIDTH,
             height_request: PREVIEW_HEIGHT,
         });
@@ -122,7 +122,7 @@ export default class AutoWallpaperPreferences extends ExtensionPreferences {
         colDark.append(btnDark);
 
         const lblDark = new Gtk.Label({
-            label: _('Oscuro'),
+            label: _("Dark"),
             css_classes: ['wallpaper-title-label', 'title-4'],
         });
         colDark.append(lblDark);
@@ -148,7 +148,7 @@ export default class AutoWallpaperPreferences extends ExtensionPreferences {
             css_classes: ['subtle-notice-text'],
         });
         const btnNoticeAction = new Gtk.Button({
-            label: _('cambiando el tema'),
+            label: _("changing theme"),
             css_classes: ['flat', 'subtle-notice-link'],
         });
         noticeBox.append(lblNoticePrefix);
@@ -158,7 +158,7 @@ export default class AutoWallpaperPreferences extends ExtensionPreferences {
 
         const showThemeNotice = (themeName, targetScheme) => {
             pendingTargetScheme = targetScheme;
-            lblNoticePrefix.set_label(`${_('Se ha cambiado el fondo del tema')} ${themeName}, ${_('puede verlo')} `);
+            lblNoticePrefix.set_label(`${_("Wallpaper changed for theme")} ${themeName}, ${_("view it by")} `);
             noticeRevealer.set_reveal_child(true);
         };
 
@@ -203,14 +203,14 @@ export default class AutoWallpaperPreferences extends ExtensionPreferences {
 
         // Eventos de selección manual de fondo
         btnLight.connect('clicked', () => {
-            this._openImageChooser(window, _('Seleccionar fondo de pantalla claro'), (filePath, fileUri) => {
+            this._openImageChooser(window, _("Select light wallpaper"), (filePath, fileUri) => {
                 bgSettings.set_string('picture-uri', fileUri);
                 this._syncConfigFile({ saved_light: fileUri });
                 this._updatePicture(picLight, fileUri, PREVIEW_WIDTH, PREVIEW_HEIGHT);
 
                 const currentScheme = interfaceSettings.get_string('color-scheme');
                 if (currentScheme === 'prefer-dark') {
-                    showThemeNotice(_('Predeterminado').toLowerCase(), 'default');
+                    showThemeNotice(_("Default").toLowerCase(), 'default');
                 } else {
                     hideThemeNotice();
                 }
@@ -218,14 +218,14 @@ export default class AutoWallpaperPreferences extends ExtensionPreferences {
         });
 
         btnDark.connect('clicked', () => {
-            this._openImageChooser(window, _('Seleccionar fondo de pantalla oscuro'), (filePath, fileUri) => {
+            this._openImageChooser(window, _("Select dark wallpaper"), (filePath, fileUri) => {
                 bgSettings.set_string('picture-uri-dark', fileUri);
                 this._syncConfigFile({ saved_dark: fileUri });
                 this._updatePicture(picDark, fileUri, PREVIEW_WIDTH, PREVIEW_HEIGHT);
 
                 const currentScheme = interfaceSettings.get_string('color-scheme');
                 if (currentScheme !== 'prefer-dark') {
-                    showThemeNotice(_('Oscuro').toLowerCase(), 'prefer-dark');
+                    showThemeNotice(_("Dark").toLowerCase(), 'prefer-dark');
                 } else {
                     hideThemeNotice();
                 }
@@ -236,8 +236,8 @@ export default class AutoWallpaperPreferences extends ExtensionPreferences {
         // SUBSECCIÓN 1: CONJUNTOS DE FONDOS (Carpetas hasta arriba)
         // =====================================================================
         const foldersGroup = new Adw.PreferencesGroup({
-            title: _('Carpetas de Fondos'),
-            description: _('Selecciona las carpetas de imágenes asignadas a cada tema.'),
+            title: _("Wallpaper Folders"),
+            description: _("Select the image folders assigned to each theme."),
         });
         page.add(foldersGroup);
 
@@ -250,8 +250,8 @@ export default class AutoWallpaperPreferences extends ExtensionPreferences {
         foldersGroup.add(emptyNoticeRevealer);
 
         const emptyNoticeRow = new Adw.ActionRow({
-            title: _('No se detectaron imágenes compatibles en las colecciones'),
-            subtitle: _('Añade fondos a las carpetas o selecciona una que contenga imágenes para habilitar la rotación y herramientas.'),
+            title: _("No compatible images detected in collections"),
+            subtitle: _("Add wallpapers to folders or select one containing images to enable rotation and tools."),
             icon_name: 'dialog-information-symbolic',
             css_classes: ['subtle-theme-notice'],
         });
@@ -259,18 +259,18 @@ export default class AutoWallpaperPreferences extends ExtensionPreferences {
 
         // --- Carpeta de fondos claros ---
         const rowLight = new Adw.ActionRow({
-            title: _('Colección Claro'),
+            title: _("Light Collection"),
             subtitle: cfg.dir_light || GLib.build_filenamev([this._getPicturesDir(), 'wallpapers', 'light']),
         });
         const btnLightNautilus = new Gtk.Button({
             icon_name: 'folder-symbolic',
             css_classes: ['flat'],
-            tooltip_text: _('Abrir carpeta en Archivos'),
+            tooltip_text: _("Open folder in Files"),
         });
         const btnLightFolder = new Gtk.Button({
             icon_name: 'document-edit-symbolic',
             css_classes: ['flat'],
-            tooltip_text: _('Cambiar carpeta seleccionada'),
+            tooltip_text: _("Change selected folder"),
         });
         rowLight.add_suffix(btnLightNautilus);
         rowLight.add_suffix(btnLightFolder);
@@ -278,18 +278,18 @@ export default class AutoWallpaperPreferences extends ExtensionPreferences {
 
         // --- Carpeta de fondos oscuros ---
         const rowDark = new Adw.ActionRow({
-            title: _('Colección Oscuro'),
+            title: _("Dark Collection"),
             subtitle: cfg.dir_dark || GLib.build_filenamev([this._getPicturesDir(), 'wallpapers', 'dark']),
         });
         const btnDarkNautilus = new Gtk.Button({
             icon_name: 'folder-symbolic',
             css_classes: ['flat'],
-            tooltip_text: _('Abrir carpeta en Archivos'),
+            tooltip_text: _("Open folder in Files"),
         });
         const btnDarkFolder = new Gtk.Button({
             icon_name: 'document-edit-symbolic',
             css_classes: ['flat'],
-            tooltip_text: _('Cambiar carpeta seleccionada'),
+            tooltip_text: _("Change selected folder"),
         });
         rowDark.add_suffix(btnDarkNautilus);
         rowDark.add_suffix(btnDarkFolder);
@@ -300,8 +300,8 @@ export default class AutoWallpaperPreferences extends ExtensionPreferences {
         // Contiene en la misma sección: 1. Estado del servicio (y sus 3 botones) y 2. Secuencia de rotación
         // =====================================================================
         const rotGroup = new Adw.PreferencesGroup({
-            title: _('Rotación de fondos del conjunto'),
-            description: _('Configura el orden en que se van a proyectar las imágenes.'),
+            title: _("Collection Wallpaper Rotation"),
+            description: _("Configure the order in which images are cycled."),
         });
         page.add(rotGroup);
 
@@ -325,22 +325,22 @@ export default class AutoWallpaperPreferences extends ExtensionPreferences {
         reloadNoticeRevealer.set_child(reloadNoticeBox);
 
         const lblReloadPrefix = new Gtk.Label({
-            label: _('Se han detectado cambios en los fondos almacenados. '),
+            label: _("Changes detected in stored wallpapers. "),
             css_classes: ['subtle-notice-text'],
         });
         const btnReloadLink = new Gtk.Button({
-            label: _('Recarga'),
+            label: _("Reload"),
             css_classes: ['flat', 'subtle-notice-link'],
-            tooltip_text: _('Recargar fondos ahora'),
+            tooltip_text: _("Reload wallpapers now"),
         });
         const lblReloadSuffix = new Gtk.Label({
-            label: _(' para actualizar los fondos'),
+            label: _(" to update wallpapers"),
             css_classes: ['subtle-notice-text'],
         });
         const btnCloseReloadNotice = new Gtk.Button({
             icon_name: 'window-close-symbolic',
             css_classes: ['flat', 'subtle-notice-close'],
-            tooltip_text: _('Descartar aviso'),
+            tooltip_text: _("Dismiss notice"),
         });
 
         reloadNoticeBox.append(lblReloadPrefix);
@@ -373,8 +373,8 @@ export default class AutoWallpaperPreferences extends ExtensionPreferences {
 
         // Fila 1: Información de Estado (ancho completo, sin salto de línea)
         const statusInfoRow = new Adw.ActionRow({
-            title: _('Servicio en segundo plano'),
-            subtitle: _('Comprobando estado...'),
+            title: _("Background Service"),
+            subtitle: _("Checking status..."),
         });
         statusCard.append(statusInfoRow);
 
@@ -399,30 +399,30 @@ export default class AutoWallpaperPreferences extends ExtensionPreferences {
         const btnNext = new Gtk.Button({
             child: new Adw.ButtonContent({
                 icon_name: 'media-skip-forward-symbolic',
-                label: _('Siguiente'),
+                label: _("Next"),
             }),
             css_classes: ['flat'],
-            tooltip_text: _('Pasar al siguiente fondo de la secuencia actual'),
+            tooltip_text: _("Skip to next wallpaper in current sequence"),
         });
 
         // 2. Barajar
         const btnShuffle = new Gtk.Button({
             child: new Adw.ButtonContent({
                 icon_name: 'media-playlist-shuffle-symbolic',
-                label: _('Barajar'),
+                label: _("Shuffle"),
             }),
             css_classes: ['flat'],
-            tooltip_text: _('Revolver la lista de fondos pendientes sin reiniciar el ciclo'),
+            tooltip_text: _("Shuffle pending wallpapers without restarting the cycle"),
         });
 
         // 3. Recargar
         const btnReload = new Gtk.Button({
             child: new Adw.ButtonContent({
                 icon_name: 'view-refresh-symbolic',
-                label: _('Recargar'),
+                label: _("Reload"),
             }),
             css_classes: ['flat'],
-            tooltip_text: _('Re-escanear carpetas, reiniciar la baraja completa y aplicar nuevos fondos'),
+            tooltip_text: _("Rescan folders, reset the entire deck, and apply new wallpapers"),
         });
 
         buttonsBox.append(btnNext);
@@ -440,11 +440,11 @@ export default class AutoWallpaperPreferences extends ExtensionPreferences {
 
         const currentSeqIndex = (cfg.sequence_mode === 'random-sequential') ? 1 : 0;
         const seqCombo = new Adw.ComboRow({
-            title: _('Secuencia de rotación'),
+            title: _("Rotation sequence"),
             model: new Gtk.StringList({
                 strings: [
-                    _('Al azar'),
-                    _('Al azar sin repeticiones (baraja completa)'),
+                    _("Random"),
+                    _("Random without repeats (full deck)"),
                 ],
             }),
             selected: currentSeqIndex,
@@ -455,15 +455,15 @@ export default class AutoWallpaperPreferences extends ExtensionPreferences {
         // SUBSECCIÓN 4: ROTACIÓN AUTOMÁTICA (Activar, Frecuencia, Parámetros)
         // =====================================================================
         const autoGroup = new Adw.PreferencesGroup({
-            title: _('Rotación automática'),
-            description: _('Temporizador y automatización del cambio en segundo plano.'),
+            title: _("Automatic rotation"),
+            description: _("Timer and background change automation."),
         });
         page.add(autoGroup);
 
         // 1. Activar rotación automática
         const switchAuto = new Adw.SwitchRow({
-            title: _('Activar rotación automática'),
-            subtitle: _('Habilitar el servicio para cambiar las imágenes según la frecuencia programada'),
+            title: _("Enable automatic rotation"),
+            subtitle: _("Enable service to switch wallpapers based on scheduled frequency"),
         });
         autoGroup.add(switchAuto);
 
@@ -486,11 +486,11 @@ export default class AutoWallpaperPreferences extends ExtensionPreferences {
         let currentModeIndex = (cfg.mode === 'day') ? 1 : 0;
 
         const modeCombo = new Adw.ComboRow({
-            title: _('Frecuencia de cambio'),
+            title: _("Switch frequency"),
             model: new Gtk.StringList({
                 strings: [
-                    _('Intervalo de tiempo (minutos)'),
-                    _('Hora fija diaria'),
+                    _("Time interval (minutes)"),
+                    _("Fixed daily time"),
                 ],
             }),
             selected: currentModeIndex,
@@ -498,16 +498,37 @@ export default class AutoWallpaperPreferences extends ExtensionPreferences {
         autoParamsBoxList.append(modeCombo);
 
         // 3. Parámetros de la frecuencia
-        // Fila para intervalo en minutos
-        const spinMinutes = new Adw.SpinRow({
-            title: _('Minutos entre cambios'),
-            subtitle: _('Tiempo que permanece cada fondo de pantalla'),
+        // Filas para intervalo en horas y minutos
+        const initTotalMinutes = (cfg.mode === 'time' && cfg.interval) ? cfg.interval : 30;
+        let initHours = Math.floor(initTotalMinutes / 60);
+        let initMinutes = initTotalMinutes % 60;
+        if (initHours === 0 && initMinutes === 0) {
+            initMinutes = 1;
+        }
+
+        const spinHours = new Adw.SpinRow({
+            title: _("Hours between switches"),
+            subtitle: _("Hours each wallpaper remains active"),
             adjustment: new Gtk.Adjustment({
-                lower: 1,
-                upper: 1440,
-                step_increment: 5,
-                page_increment: 15,
-                value: (cfg.mode === 'time' && cfg.interval) ? cfg.interval : 30,
+                lower: 0,
+                upper: 72,
+                step_increment: 1,
+                page_increment: 1,
+                value: initHours,
+            }),
+            visible: (cfg.mode !== 'day'),
+        });
+        autoParamsBoxList.append(spinHours);
+
+        const spinMinutes = new Adw.SpinRow({
+            title: _("Minutes between switches"),
+            subtitle: _("Additional minutes (0 to 59)"),
+            adjustment: new Gtk.Adjustment({
+                lower: 0,
+                upper: 59,
+                step_increment: 1,
+                page_increment: 5,
+                value: initMinutes,
             }),
             visible: (cfg.mode !== 'day'),
         });
@@ -515,8 +536,8 @@ export default class AutoWallpaperPreferences extends ExtensionPreferences {
 
         // Fila para hora exacta diaria con selector de tiempo específico (HH : MM)
         const rowDayTime = new Adw.ActionRow({
-            title: _('Hora de cambio diario'),
-            subtitle: _('Hora programada para rotar el fondo cada día (formato 24h)'),
+            title: _("Daily switch time"),
+            subtitle: _("Scheduled time to rotate wallpaper each day (24h format)"),
             visible: (cfg.mode === 'day'),
         });
 
@@ -540,7 +561,7 @@ export default class AutoWallpaperPreferences extends ExtensionPreferences {
             wrap: true,
             numeric: true,
             valign: Gtk.Align.CENTER,
-            tooltip_text: _('Hora (00 a 23)'),
+            tooltip_text: _("Hour (00 to 23)"),
         });
         spinHour.connect('output', () => {
             const v = Math.floor(spinHour.get_value());
@@ -559,7 +580,7 @@ export default class AutoWallpaperPreferences extends ExtensionPreferences {
             wrap: true,
             numeric: true,
             valign: Gtk.Align.CENTER,
-            tooltip_text: _('Minutos (00 a 59)'),
+            tooltip_text: _("Minutes (00 to 59)"),
         });
         spinMinute.connect('output', () => {
             const v = Math.floor(spinMinute.get_value());
@@ -574,8 +595,8 @@ export default class AutoWallpaperPreferences extends ExtensionPreferences {
         autoParamsBoxList.append(rowDayTime);
 
         const spinDayDays = new Adw.SpinRow({
-            title: _('Días entre cambios'),
-            subtitle: _('Frecuencia en días de la rotación diaria'),
+            title: _("Days between switches"),
+            subtitle: _("Frequency in days for daily rotation"),
             adjustment: new Gtk.Adjustment({
                 lower: 1,
                 upper: 30,
@@ -589,8 +610,8 @@ export default class AutoWallpaperPreferences extends ExtensionPreferences {
 
         // 4. Contar cambio de estilo no visto en la rotación
         const switchResetOnStyleChange = new Adw.SwitchRow({
-            title: _('Contar cambio de estilo no visto en la rotación'),
-            subtitle: _('Al alternar entre claro y oscuro, si el fondo aún no se había visto, reinicia el temporizador (solo en intervalo de tiempo)'),
+            title: _("Count unseen style change as rotation"),
+            subtitle: _("When switching between light and dark, if the wallpaper was not yet seen, restart the timer (interval mode only)"),
             active: (cfg.reset_on_style_change !== false),
             sensitive: (cfg.mode !== 'day'),
         });
@@ -600,15 +621,15 @@ export default class AutoWallpaperPreferences extends ExtensionPreferences {
         // SECCIÓN 3: HERRAMIENTAS Y MANTENIMIENTO
         // =====================================================================
         const toolsGroup = new Adw.PreferencesGroup({
-            title: _('Herramientas y Mantenimiento'),
-            description: _('Mantenimiento, gestión del fondo en pantalla, organización inteligente y optimización.'),
+            title: _("Tools and Maintenance"),
+            description: _("Maintenance, active wallpaper management, smart organization, and optimization."),
         });
         page.add(toolsGroup);
 
         // --- Fila 1: Gestión rápida del fondo actual ---
         const currentWpRow = new Adw.ActionRow({
-            title: _('Fondo actual en pantalla'),
-            subtitle: _('Detectando fondo visible...'),
+            title: _("Current wallpaper on screen"),
+            subtitle: _("Detecting active wallpaper..."),
         });
         const iconCurrentWp = new Gtk.Image({
             icon_name: 'camera-photo-symbolic',
@@ -625,17 +646,17 @@ export default class AutoWallpaperPreferences extends ExtensionPreferences {
         const btnLocateWp = new Gtk.Button({
             icon_name: 'folder-symbolic',
             css_classes: ['flat'],
-            tooltip_text: _('Ubicar y mostrar archivo en Archivos (Nautilus)'),
+            tooltip_text: _("Locate and show file in Files (Nautilus)"),
         });
         const btnPinWp = new Gtk.Button({
             icon_name: 'view-pin-symbolic',
             css_classes: ['flat'],
-            tooltip_text: _('Fijar fondo en pinned/ (proteger en este tema)'),
+            tooltip_text: _("Pin wallpaper in pinned/ (protect in this theme)"),
         });
         const btnExcludeWp = new Gtk.Button({
             icon_name: 'eye-not-looking-symbolic',
             css_classes: ['flat'],
-            tooltip_text: _('Excluir fondo de la rotación (mover a exclude/)'),
+            tooltip_text: _("Exclude wallpaper from rotation (move to exclude/)"),
         });
         currentActionsBox.append(btnLocateWp);
         currentActionsBox.append(btnPinWp);
@@ -650,7 +671,7 @@ export default class AutoWallpaperPreferences extends ExtensionPreferences {
             const localPath = this._getLocalPath(uri);
 
             if (!localPath || !GLib.file_test(localPath, GLib.FileTest.EXISTS)) {
-                currentWpRow.set_subtitle(_('No hay ningún fondo configurado o el archivo no existe'));
+                currentWpRow.set_subtitle(_("No wallpaper configured or file does not exist"));
                 btnLocateWp.set_sensitive(false);
                 btnPinWp.set_sensitive(false);
                 btnExcludeWp.set_sensitive(false);
@@ -664,15 +685,15 @@ export default class AutoWallpaperPreferences extends ExtensionPreferences {
             const filename = GLib.path_get_basename(localPath);
             const parentDir = GLib.path_get_dirname(localPath);
             const isPinned = (GLib.path_get_basename(parentDir) === 'pinned');
-            const themeLabel = isDark ? `🌙 ${_('Oscuro')}` : `☀️ ${_('Predeterminado')}`;
+            const themeLabel = isDark ? `🌙 ${_("Dark")}` : `☀️ ${_("Default")}`;
 
             if (isPinned) {
-                currentWpRow.set_subtitle(`${filename}   ·   ${themeLabel}   ·   <span foreground="#3584e4">📌 ${_('Fijado (pinned)')}</span>`);
-                btnPinWp.set_tooltip_text(_('Desfijar fondo (regresar a la carpeta principal)'));
+                currentWpRow.set_subtitle(`${filename}   ·   ${themeLabel}   ·   <span foreground="#3584e4">📌 ${_("Pinned")}</span>`);
+                btnPinWp.set_tooltip_text(_("Unpin wallpaper (return to main folder)"));
                 btnPinWp.add_css_class('accent');
             } else {
                 currentWpRow.set_subtitle(`${filename}   ·   ${themeLabel}`);
-                btnPinWp.set_tooltip_text(_('Fijar fondo en pinned/ (no mover de este tema)'));
+                btnPinWp.set_tooltip_text(_("Pin wallpaper in pinned/ (do not rotate away)"));
                 btnPinWp.remove_css_class('accent');
             }
         };
@@ -723,7 +744,7 @@ export default class AutoWallpaperPreferences extends ExtensionPreferences {
                     if (isDark) currentCfg.saved_dark = newUri;
                     else currentCfg.saved_light = newUri;
                     this._saveConfigFile(currentCfg);
-                    window.add_toast(new Adw.Toast({ title: _('Fondo desfijado y devuelto a la carpeta principal') }));
+                    window.add_toast(new Adw.Toast({ title: _("Wallpaper unpinned and returned to main folder") }));
                     refreshPreviews();
                     updateCurrentWallpaperRow();
                 } catch (e) {
@@ -744,7 +765,7 @@ export default class AutoWallpaperPreferences extends ExtensionPreferences {
                     if (isDark) currentCfg.saved_dark = newUri;
                     else currentCfg.saved_light = newUri;
                     this._saveConfigFile(currentCfg);
-                    window.add_toast(new Adw.Toast({ title: _('Fondo fijado en pinned/') }));
+                    window.add_toast(new Adw.Toast({ title: _("Wallpaper pinned in pinned/") }));
                     refreshPreviews();
                     updateCurrentWallpaperRow();
                 } catch (e) {
@@ -766,11 +787,11 @@ export default class AutoWallpaperPreferences extends ExtensionPreferences {
             const dialog = new Adw.MessageDialog({
                 transient_for: window,
                 modal: true,
-                heading: _('¿Excluir este fondo de pantalla?'),
-                body: `"${filename}" ${_('se moverá a la carpeta \'exclude/\' y se cambiará al siguiente fondo disponible de la rotación.')}`,
+                heading: _("Exclude this wallpaper?"),
+                body: `"${filename}" ${_("will be moved to 'exclude/' and wallpaper will switch to next in rotation.")}`,
             });
-            dialog.add_response('cancel', _('Cancelar'));
-            dialog.add_response('exclude', _('Excluir'));
+            dialog.add_response('cancel', _("Cancel"));
+            dialog.add_response('exclude', _("Exclude"));
             dialog.set_response_appearance('exclude', Adw.ResponseAppearance.DESTRUCTIVE);
             dialog.set_default_response('exclude');
             dialog.set_close_response('cancel');
@@ -799,7 +820,7 @@ export default class AutoWallpaperPreferences extends ExtensionPreferences {
                         currentCfg.force_reload = true;
                         this._saveConfigFile(currentCfg);
 
-                        window.add_toast(new Adw.Toast({ title: _('Fondo excluido y rotado') }));
+                        window.add_toast(new Adw.Toast({ title: _("Wallpaper excluded and rotated") }));
 
                         GLib.timeout_add(GLib.PRIORITY_DEFAULT, 200, () => {
                             this._ensureWallpaperRolledFallback(bgSettings, interfaceSettings, false);
@@ -819,8 +840,8 @@ export default class AutoWallpaperPreferences extends ExtensionPreferences {
 
         // --- Fila 2: Buscador de duplicados (dHash) ---
         const rowDupes = new Adw.ActionRow({
-            title: _('Detector de Fondos Duplicados'),
-            subtitle: _('Detecta imágenes repetidas o casi idénticas con firmas estructurales (dHash)'),
+            title: _("Duplicate Wallpaper Detector"),
+            subtitle: _("Detects repeated or near-identical images using structural perceptual hashes (dHash)"),
         });
         const iconDupes = new Gtk.Image({
             icon_name: 'edit-find-symbolic',
@@ -828,7 +849,7 @@ export default class AutoWallpaperPreferences extends ExtensionPreferences {
         rowDupes.add_prefix(iconDupes);
 
         const btnDupes = new Gtk.Button({
-            label: _('Buscar duplicados'),
+            label: _("Scan duplicates"),
             css_classes: ['flat'],
             valign: Gtk.Align.CENTER,
         });
@@ -841,8 +862,8 @@ export default class AutoWallpaperPreferences extends ExtensionPreferences {
 
         // --- Fila 3: Clasificar por luminosidad (CIELAB L* + P65) ---
         const rowSort = new Adw.ActionRow({
-            title: _('Clasificar Fondos por Luminosidad'),
-            subtitle: _('Evalúa el brillo perceptual (CIELAB L*) y clasifica automáticamente entre claro y oscuro'),
+            title: _("Classify Wallpapers by Luminosity"),
+            subtitle: _("Evaluates perceptual lightness (CIELAB L*) and classifies automatically into light and dark"),
         });
         const iconSort = new Gtk.Image({
             icon_name: 'display-brightness-symbolic',
@@ -850,7 +871,7 @@ export default class AutoWallpaperPreferences extends ExtensionPreferences {
         rowSort.add_prefix(iconSort);
 
         const btnSort = new Gtk.Button({
-            label: _('Clasificar'),
+            label: _("Classify"),
             css_classes: ['flat'],
             valign: Gtk.Align.CENTER,
         });
@@ -867,8 +888,8 @@ export default class AutoWallpaperPreferences extends ExtensionPreferences {
 
         // --- Fila 4: Reescalado con IA (Smart Upscale - Real-CUGAN) ---
         const rowUpscale = new Adw.ActionRow({
-            title: _('Reescalado con IA (Smart Upscale)'),
-            subtitle: _('Comprobando compatibilidad de aceleración Vulkan y motor Real-CUGAN...'),
+            title: _("AI Upscaling (Smart Upscale)"),
+            subtitle: _("Checking Vulkan acceleration compatibility and Real-CUGAN engine..."),
         });
         const iconUpscale = new Gtk.Image({
             icon_name: 'applications-graphics-symbolic',
@@ -876,7 +897,7 @@ export default class AutoWallpaperPreferences extends ExtensionPreferences {
         rowUpscale.add_prefix(iconUpscale);
 
         const btnUpscale = new Gtk.Button({
-            label: _('Reescalar...'),
+            label: _("Upscale..."),
             css_classes: ['flat'],
             valign: Gtk.Align.CENTER,
             sensitive: true,
@@ -897,11 +918,11 @@ export default class AutoWallpaperPreferences extends ExtensionPreferences {
                     has_numpy: false,
                     engine_installed: false,
                     missing_pkgs: ['python3', 'Pillow', 'OpenCV', 'NumPy'],
-                    reason: _('Dependencias opcionales faltantes'),
+                    reason: _("Missing optional dependencies"),
                 };
-                rowUpscale.set_subtitle(_('Requiere aceleración Vulkan y motor Real-CUGAN instalado'));
+                rowUpscale.set_subtitle(_("Requires Vulkan acceleration and Real-CUGAN engine installed"));
                 btnUpscale.set_sensitive(true);
-                btnUpscale.set_label(_('Configurar motor...'));
+                btnUpscale.set_label(_("Setup engine..."));
                 return;
             }
 
@@ -923,31 +944,31 @@ export default class AutoWallpaperPreferences extends ExtensionPreferences {
                                 if (data.available) {
                                     rowUpscale.set_subtitle(`Real-CUGAN activo   ·   GPU: ${data.gpu_name}`);
                                     btnUpscale.set_sensitive(true);
-                                    btnUpscale.set_label(_('Reescalar...'));
+                                    btnUpscale.set_label(_("Upscale..."));
                                     return;
                                 }
-                                rowUpscale.set_subtitle(data.reason || _('Requiere aceleración Vulkan y motor Real-CUGAN instalado'));
+                                rowUpscale.set_subtitle(data.reason || _("Requires Vulkan acceleration and Real-CUGAN engine installed"));
                                 btnUpscale.set_sensitive(true);
-                                btnUpscale.set_label(_('Configurar motor...'));
+                                btnUpscale.set_label(_("Setup engine..."));
                                 return;
                             }
                         }
                         upscaleEngineInfo = { available: false, engine_installed: false };
-                        rowUpscale.set_subtitle(_('Requiere aceleración Vulkan y motor Real-CUGAN instalado'));
+                        rowUpscale.set_subtitle(_("Requires Vulkan acceleration and Real-CUGAN engine installed"));
                         btnUpscale.set_sensitive(true);
-                        btnUpscale.set_label(_('Configurar motor...'));
+                        btnUpscale.set_label(_("Setup engine..."));
                     } catch (err) {
                         upscaleEngineInfo = { available: false, engine_installed: false };
-                        rowUpscale.set_subtitle(_('Requiere aceleración Vulkan y motor Real-CUGAN instalado'));
+                        rowUpscale.set_subtitle(_("Requires Vulkan acceleration and Real-CUGAN engine installed"));
                         btnUpscale.set_sensitive(true);
-                        btnUpscale.set_label(_('Configurar motor...'));
+                        btnUpscale.set_label(_("Setup engine..."));
                     }
                 });
             } catch (e) {
                 upscaleEngineInfo = { available: false, engine_installed: false };
-                rowUpscale.set_subtitle(_('Requiere aceleración Vulkan y motor Real-CUGAN instalado'));
+                rowUpscale.set_subtitle(_("Requires Vulkan acceleration and Real-CUGAN engine installed"));
                 btnUpscale.set_sensitive(true);
-                btnUpscale.set_label(_('Configurar motor...'));
+                btnUpscale.set_label(_("Setup engine..."));
             }
         };
         checkUpscaleAvailability();
@@ -964,60 +985,119 @@ export default class AutoWallpaperPreferences extends ExtensionPreferences {
         // SECCIÓN 5: ATAJOS DE TECLADO (Atajos Nativos en GNOME Shell)
         // =====================================================================
         const shortcutsGroup = new Adw.PreferencesGroup({
-            title: _('Atajos de teclado'),
-            description: _('Atajos nativos de GNOME para cambiar y recargar fondos rápidamente.'),
+            title: _("Keyboard Shortcuts"),
+            description: _("Native GNOME shortcuts to quickly switch and reload wallpapers."),
         });
         page.add(shortcutsGroup);
 
         const switchShortcuts = new Adw.SwitchRow({
-            title: _('Habilitar atajos de teclado'),
-            subtitle: _('Activa los atajos globales en el entorno de escritorio'),
+            title: _("Enable keyboard shortcuts"),
+            subtitle: _("Enables global shortcuts in the desktop environment"),
             active: Boolean(cfg.shortcuts_enabled),
         });
         shortcutsGroup.add(switchShortcuts);
 
-        const rowNextShortcut = new Adw.ActionRow({
-            title: _('Siguiente wallpaper'),
-            subtitle: _('Atajo nativo de GNOME Shell: Siguiente fondo'),
-            activatable: false,
-            sensitive: switchShortcuts.active,
-        });
-        const shortcutLabelNext = new Gtk.ShortcutLabel({
-            accelerator: '<Super>w',
-            valign: Gtk.Align.CENTER,
-        });
-        rowNextShortcut.add_suffix(shortcutLabelNext);
-        shortcutsGroup.add(rowNextShortcut);
+        const nextShortcuts = [
+            { label: 'Super + W', accel: '<Super>w' },
+            { label: 'Super + Espacio', accel: '<Super>space' },
+            { label: 'Super + Flecha Derecha', accel: '<Super>Right' },
+            { label: 'Super + N', accel: '<Super>n' },
+            { label: 'Alt + W', accel: '<Alt>w' },
+            { label: 'Ctrl + Alt + W', accel: '<Primary><Alt>w' },
+        ];
 
-        const rowReloadShortcut = new Adw.ActionRow({
-            title: _('Recargar conjuntos'),
-            subtitle: _('Atajo nativo de GNOME Shell: Barajar y recargar'),
-            activatable: false,
-            sensitive: switchShortcuts.active,
-        });
-        const shortcutLabelReload = new Gtk.ShortcutLabel({
-            accelerator: '<Super><Alt>w',
-            valign: Gtk.Align.CENTER,
-        });
-        rowReloadShortcut.add_suffix(shortcutLabelReload);
-        shortcutsGroup.add(rowReloadShortcut);
+        const reloadShortcuts = [
+            { label: 'Super + Alt + W', accel: '<Super><Alt>w' },
+            { label: 'Super + Alt + Espacio', accel: '<Super><Alt>space' },
+            { label: 'Super + Alt + Flecha Derecha', accel: '<Super><Alt>Right' },
+            { label: 'Super + Shift + W', accel: '<Super><Shift>w' },
+            { label: 'Ctrl + Alt + R', accel: '<Primary><Alt>r' },
+        ];
 
+        let selectedNextIdx = nextShortcuts.findIndex(s => s.accel === cfg.shortcut_next);
+        if (selectedNextIdx < 0) selectedNextIdx = 0;
+
+        let selectedReloadIdx = reloadShortcuts.findIndex(s => s.accel === cfg.shortcut_reload);
+        if (selectedReloadIdx < 0) selectedReloadIdx = 0;
+
+        const comboNextShortcut = new Adw.ComboRow({
+            title: _("Next wallpaper"),
+            subtitle: _("GNOME Shell native shortcut: Next wallpaper"),
+            model: new Gtk.StringList({
+                strings: nextShortcuts.map(s => s.label),
+            }),
+            selected: selectedNextIdx,
+            sensitive: Boolean(cfg.shortcuts_enabled),
+        });
+        shortcutsGroup.add(comboNextShortcut);
+
+        const comboReloadShortcut = new Adw.ComboRow({
+            title: _("Reload collections"),
+            subtitle: _("GNOME Shell native shortcut: Shuffle and reload"),
+            model: new Gtk.StringList({
+                strings: reloadShortcuts.map(s => s.label),
+            }),
+            selected: selectedReloadIdx,
+            sensitive: Boolean(cfg.shortcuts_enabled),
+        });
+        shortcutsGroup.add(comboReloadShortcut);
+
+        let updatingShortcutsInternally = false;
         const applyShortcuts = () => {
+            if (updatingShortcutsInternally) return;
             const isEnabled = switchShortcuts.active;
-            rowNextShortcut.set_sensitive(isEnabled);
-            rowReloadShortcut.set_sensitive(isEnabled);
+            comboNextShortcut.set_sensitive(isEnabled);
+            comboReloadShortcut.set_sensitive(isEnabled);
 
-            this._syncNativeExtensionShortcuts(isEnabled, '<Super>w', '<Super><Alt>w');
+            const nextObj = nextShortcuts[comboNextShortcut.selected] || nextShortcuts[0];
+            const reloadObj = reloadShortcuts[comboReloadShortcut.selected] || reloadShortcuts[0];
+
+            this._syncNativeExtensionShortcuts(isEnabled, nextObj.accel, reloadObj.accel);
 
             const c = this._loadConfigFile();
             c.shortcuts_enabled = isEnabled;
-            c.shortcut_next = '<Super>w';
-            c.shortcut_reload = '<Super><Alt>w';
+            c.shortcut_next = nextObj.accel;
+            c.shortcut_reload = reloadObj.accel;
             this._saveConfigFile(c);
         };
 
         switchShortcuts.connect('notify::active', applyShortcuts);
+        comboNextShortcut.connect('notify::selected', applyShortcuts);
+        comboReloadShortcut.connect('notify::selected', applyShortcuts);
         applyShortcuts();
+
+        // =====================================================================
+        // SECCIÓN 6: ICONO EN LA BANDEJA DEL SISTEMA (Por defecto desactivado)
+        // =====================================================================
+        const trayGroup = new Adw.PreferencesGroup({
+            title: _("System Tray Icon"),
+            description: _("Show or hide the quick-access indicator on the GNOME top bar."),
+        });
+        page.add(trayGroup);
+
+        const switchTrayIcon = new Adw.SwitchRow({
+            title: _("Show tray icon"),
+            subtitle: _("Shows an icon in the top bar with a quick menu (Next, Shuffle, Settings, etc.)"),
+            active: Boolean(cfg.show_panel_icon),
+        });
+        trayGroup.add(switchTrayIcon);
+
+        let updatingTraySwitchInternally = false;
+        switchTrayIcon.connect('notify::active', () => {
+            if (updatingTraySwitchInternally) return;
+            const showIcon = switchTrayIcon.active;
+            try {
+                const extSettings = this.getSettings();
+                if (extSettings) {
+                    extSettings.set_boolean('show-panel-icon', showIcon);
+                    Gio.Settings.sync();
+                }
+            } catch (e) {}
+
+            const c = this._loadConfigFile();
+            c.show_panel_icon = showIcon;
+            this._saveConfigFile(c);
+        });
 
         // =====================================================================
         // PIE DE PÁGINA DISCRETO PARA DESARROLLO (Versión y Motor)
@@ -1041,22 +1121,22 @@ export default class AutoWallpaperPreferences extends ExtensionPreferences {
             btnReload.set_sensitive(true);
 
             if (!isActive) {
-                statusInfoRow.set_title(_('Rotación automática pausada'));
-                statusInfoRow.set_subtitle(`<span foreground="#9a9996">●</span> ${_('El temporizador automático está detenido')}`);
+                statusInfoRow.set_title(_("Automatic rotation paused"));
+                statusInfoRow.set_subtitle(`<span foreground="#9a9996">●</span> ${_("Automatic timer is stopped")}`);
                 return;
             }
 
-            statusInfoRow.set_title(_('Rotación automática activada'));
+            statusInfoRow.set_title(_("Automatic rotation active"));
 
             const timeLeftStr = this._formatTimeLeft(currentCfg);
-            let detailParts = [`<span foreground="#33d17a">●</span> ${_('Próximo cambio en:')} <b>${timeLeftStr}</b>`];
+            let detailParts = [`<span foreground="#33d17a">●</span> ${_("Next switch in:")} <b>${timeLeftStr}</b>`];
 
             if (currentCfg.sequence_mode === 'random-sequential') {
                 const remLight = (currentCfg.unshown_light || []).length;
                 const remDark = (currentCfg.unshown_dark || []).length;
-                detailParts.push(`${_('Restantes:')} ☀️ <b>${remLight}</b>  ·  🌙 <b>${remDark}</b>`);
+                detailParts.push(`${_("Remaining:")} ☀️ <b>${remLight}</b>  ·  🌙 <b>${remDark}</b>`);
             } else {
-                detailParts.push(`${_('Modo:')} <b>${_('Al azar')}</b>`);
+                detailParts.push(`${_("Mode:")} <b>${_("Random")}</b>`);
             }
 
             statusInfoRow.set_subtitle(detailParts.join('   ·   '));
@@ -1080,14 +1160,14 @@ export default class AutoWallpaperPreferences extends ExtensionPreferences {
 
             if (currentCfg.dir_light) {
                 const sLight = countLight > 0
-                    ? `${currentCfg.dir_light}  ·  ${countLight} ${countLight === 1 ? _('imagen') : _('imágenes')}`
-                    : `${currentCfg.dir_light}  ·  ${_('Sin imágenes')}`;
+                    ? `${currentCfg.dir_light}  ·  ${countLight} ${countLight === 1 ? _("image") : _("images")}`
+                    : `${currentCfg.dir_light}  ·  ${_("No images")}`;
                 rowLight.set_subtitle(sLight);
             }
             if (currentCfg.dir_dark) {
                 const sDark = countDark > 0
-                    ? `${currentCfg.dir_dark}  ·  ${countDark} ${countDark === 1 ? _('imagen') : _('imágenes')}`
-                    : `${currentCfg.dir_dark}  ·  ${_('Sin imágenes')}`;
+                    ? `${currentCfg.dir_dark}  ·  ${countDark} ${countDark === 1 ? _("image") : _("images")}`
+                    : `${currentCfg.dir_dark}  ·  ${_("No images")}`;
                 rowDark.set_subtitle(sDark);
             }
 
@@ -1112,7 +1192,7 @@ export default class AutoWallpaperPreferences extends ExtensionPreferences {
         };
 
         btnLightFolder.connect('clicked', () => {
-            this._openFolderChooser(window, _('Seleccionar carpeta de fondos claros'), (chosenPath) => {
+            this._openFolderChooser(window, _("Select light wallpaper folder"), (chosenPath) => {
                 const currentCfg = this._loadConfigFile();
                 currentCfg.dir_light = chosenPath;
                 currentCfg.known_count_light = this._countWallpaperImages(chosenPath);
@@ -1128,7 +1208,7 @@ export default class AutoWallpaperPreferences extends ExtensionPreferences {
         });
 
         btnDarkFolder.connect('clicked', () => {
-            this._openFolderChooser(window, _('Seleccionar carpeta de fondos oscuros'), (chosenPath) => {
+            this._openFolderChooser(window, _("Select dark wallpaper folder"), (chosenPath) => {
                 const currentCfg = this._loadConfigFile();
                 currentCfg.dir_dark = chosenPath;
                 currentCfg.known_count_dark = this._countWallpaperImages(chosenPath);
@@ -1162,7 +1242,10 @@ export default class AutoWallpaperPreferences extends ExtensionPreferences {
 
             if (!isDay) {
                 currentCfg.mode = 'time';
-                currentCfg.interval = spinMinutes.get_value();
+                const h = Math.floor(spinHours.get_value());
+                const m = Math.floor(spinMinutes.get_value());
+                currentCfg.interval = Math.max(1, (h * 60) + m);
+                spinHours.set_visible(true);
                 spinMinutes.set_visible(true);
                 rowDayTime.set_visible(false);
                 spinDayDays.set_visible(false);
@@ -1173,6 +1256,7 @@ export default class AutoWallpaperPreferences extends ExtensionPreferences {
                 const h = Math.floor(spinHour.get_value()).toString().padStart(2, '0');
                 const m = Math.floor(spinMinute.get_value()).toString().padStart(2, '0');
                 currentCfg.day_time = `${h}:${m}`;
+                spinHours.set_visible(false);
                 spinMinutes.set_visible(false);
                 rowDayTime.set_visible(true);
                 spinDayDays.set_visible(true);
@@ -1191,16 +1275,26 @@ export default class AutoWallpaperPreferences extends ExtensionPreferences {
             this._saveConfigFile(currentCfg);
         });
 
-        // Cambio de intervalo en minutos: actualiza la cuenta regresiva al instante y el demonio lo detecta por inotify
-        spinMinutes.connect('notify::value', () => {
+        // Cambio de intervalo en horas y minutos: actualiza la cuenta regresiva al instante
+        const onIntervalChanged = () => {
             if (modeCombo.selected === 0) {
+                let h = Math.floor(spinHours.get_value());
+                let m = Math.floor(spinMinutes.get_value());
+                let total = (h * 60) + m;
+                if (total < 1) {
+                    total = 1;
+                    spinMinutes.set_value(1);
+                }
                 const currentCfg = this._loadConfigFile();
-                currentCfg.interval = spinMinutes.get_value();
+                currentCfg.interval = total;
                 currentCfg.next_run = this._calculateNextRun(currentCfg);
                 this._saveConfigFile(currentCfg);
                 this._checkServiceActive((active) => updateStatusText(active));
             }
-        });
+        };
+
+        spinHours.connect('notify::value', onIntervalChanged);
+        spinMinutes.connect('notify::value', onIntervalChanged);
 
         // Cambio de hora o minuto en selector específico de tiempo (sin margen de error para el usuario)
         const onTimeInputChanged = () => {
@@ -1298,11 +1392,11 @@ export default class AutoWallpaperPreferences extends ExtensionPreferences {
             const dialog = new Adw.MessageDialog({
                 transient_for: window,
                 modal: true,
-                heading: _('¿Recargar todos los fondos?'),
-                body: _('Esto re-escaneará las carpetas y recargará toda la lista de fondos, incluyendo el fondo actual.'),
+                heading: _("Reload all wallpapers?"),
+                body: _("This will rescan folders and reload all wallpapers, including current wallpaper."),
             });
-            dialog.add_response('cancel', _('Cancelar'));
-            dialog.add_response('reload', _('Recargar'));
+            dialog.add_response('cancel', _("Cancel"));
+            dialog.add_response('reload', _("Reload"));
             dialog.set_response_appearance('reload', Adw.ResponseAppearance.SUGGESTED);
             dialog.set_default_response('reload');
             dialog.set_close_response('cancel');
@@ -1351,6 +1445,12 @@ export default class AutoWallpaperPreferences extends ExtensionPreferences {
             this._checkServiceActive((isActive) => {
                 updateStatusText(isActive);
             });
+            const latestCfg = this._loadConfigFile();
+            if (Boolean(latestCfg.show_panel_icon) !== switchTrayIcon.active) {
+                updatingTraySwitchInternally = true;
+                switchTrayIcon.set_active(Boolean(latestCfg.show_panel_icon));
+                updatingTraySwitchInternally = false;
+            }
             const currentValid = updateVisibilityByFolders();
             if (!lastKnownValid && currentValid) {
                 lastKnownValid = true;
@@ -1710,6 +1810,8 @@ export default class AutoWallpaperPreferences extends ExtensionPreferences {
             shortcuts_enabled: false,
             shortcut_next: '<Super>w',
             shortcut_reload: '<Super><Alt>w',
+            show_panel_icon: false,
+            ignored_duplicates: [],
         };
 
         try {
@@ -1801,11 +1903,11 @@ export default class AutoWallpaperPreferences extends ExtensionPreferences {
 
     _formatTimeLeft(cfg) {
         if (cfg.auto_rotation_enabled === false || cfg.mode === 'manual') {
-            return _('Desactivado (Manual)');
+            return _("Disabled (Manual)");
         }
         const diff = (cfg.next_run || 0) - (Date.now() / 1000);
         if (diff <= 0) {
-            return _('Calculando / Inminente...');
+            return _("Calculating / Imminent...");
         }
         const totalSec = Math.floor(diff);
         const s = totalSec % 60;
@@ -1958,7 +2060,7 @@ export default class AutoWallpaperPreferences extends ExtensionPreferences {
         });
 
         const imageFilter = new Gtk.FileFilter();
-        imageFilter.set_name(_('Imágenes (*.png, *.jpg, *.jpeg, *.webp)'));
+        imageFilter.set_name(_("Images (*.png, *.jpg, *.jpeg, *.webp)"));
         imageFilter.add_mime_type('image/png');
         imageFilter.add_mime_type('image/jpeg');
         imageFilter.add_mime_type('image/webp');
@@ -2060,8 +2162,8 @@ print(json.dumps({"ok": len(missing) == 0, "missing": missing, "distro": distro}
     _createMissingDepsStatusPage(onRetry) {
         const statusPage = new Adw.StatusPage({
             icon_name: 'dialog-warning-symbolic',
-            title: _('Dependencias opcionales faltantes'),
-            description: _('Esta herramienta auxiliar requiere Python 3 y las siguientes librerías instaladas en tu sistema:'),
+            title: _("Missing optional dependencies"),
+            description: _("This auxiliary tool requires Python 3 and the following libraries installed on your system:"),
         });
 
         const contentBox = new Gtk.Box({
@@ -2080,7 +2182,7 @@ print(json.dumps({"ok": len(missing) == 0, "missing": missing, "distro": distro}
         });
 
         const lblCmdHint = new Gtk.Label({
-            label: _('Instálalas desde tu terminal con:'),
+            label: _("Install them from your terminal with:"),
             css_classes: ['dim-label', 'caption'],
             halign: Gtk.Align.CENTER,
         });
@@ -2098,14 +2200,14 @@ print(json.dumps({"ok": len(missing) == 0, "missing": missing, "distro": distro}
         const btnCopyCmd = new Gtk.Button({
             child: new Adw.ButtonContent({
                 icon_name: 'edit-copy-symbolic',
-                label: _('Copiar comando'),
+                label: _("Copy command"),
             }),
             css_classes: ['suggested-action', 'pill'],
             halign: Gtk.Align.CENTER,
         });
 
         const btnRetry = new Gtk.Button({
-            label: _('Verificar nuevamente'),
+            label: _("Check again"),
             css_classes: ['pill'],
             halign: Gtk.Align.CENTER,
         });
@@ -2129,7 +2231,7 @@ print(json.dumps({"ok": len(missing) == 0, "missing": missing, "distro": distro}
                     Gdk.Display.get_default().get_clipboard().set(textToCopy);
                     btnCopyCmd.set_child(new Adw.ButtonContent({
                         icon_name: 'emblem-default-symbolic',
-                        label: _('¡Copiado! ✓'),
+                        label: _("Copied! ✓"),
                     }));
                 } catch (e) {}
             }
@@ -2160,7 +2262,7 @@ print(json.dumps({"ok": len(missing) == 0, "missing": missing, "distro": distro}
         const dialog = new Adw.Window({
             transient_for: parentWindow,
             modal: true,
-            title: _('Fondos Duplicados o Repetidos'),
+            title: _("Duplicate or Repeated Wallpapers"),
             default_width: 760,
             default_height: 580,
         });
@@ -2173,9 +2275,16 @@ print(json.dumps({"ok": len(missing) == 0, "missing": missing, "distro": distro}
 
         const btnRefresh = new Gtk.Button({
             icon_name: 'view-refresh-symbolic',
-            tooltip_text: _('Volver a escanear'),
+            tooltip_text: _("Rescan"),
+        });
+
+        const btnIgnoredList = new Gtk.Button({
+            label: _("Ignored"),
+            icon_name: 'view-list-bullet-symbolic',
+            tooltip_text: _("View ignored combinations"),
         });
         headerBar.pack_end(btnRefresh);
+        headerBar.pack_end(btnIgnoredList);
 
         const stack = new Gtk.Stack({
             transition_type: Gtk.StackTransitionType.CROSSFADE,
@@ -2197,12 +2306,12 @@ print(json.dumps({"ok": len(missing) == 0, "missing": missing, "distro": distro}
             halign: Gtk.Align.CENTER,
         });
         const lblLoadingTitle = new Gtk.Label({
-            label: `<b>${_('Escaneando colecciones de fondos...')}</b>`,
+            label: `<b>${_("Scanning wallpaper collections...")}</b>`,
             use_markup: true,
             css_classes: ['title-3'],
         });
         const lblLoadingDesc = new Gtk.Label({
-            label: _('Calculando firmas estructurales dHash y comparando similitudes...'),
+            label: _("Calculating dHash structural hashes and comparing similarities..."),
             css_classes: ['dim-label'],
         });
         const progressBar = new Gtk.ProgressBar({
@@ -2220,8 +2329,8 @@ print(json.dumps({"ok": len(missing) == 0, "missing": missing, "distro": distro}
         // Página 2: Sin duplicados
         const statusEmpty = new Adw.StatusPage({
             icon_name: 'emblem-default-symbolic',
-            title: _('¡No hay duplicados!'),
-            description: _('Todas las imágenes de tus colecciones son únicas. No se detectaron fondos repetidos ni versiones comprimidas.'),
+            title: _("No duplicates found!"),
+            description: _("All images in your collections are unique. No repeated wallpapers or compressed copies detected."),
         });
         stack.add_named(statusEmpty, 'empty');
 
@@ -2241,14 +2350,162 @@ print(json.dumps({"ok": len(missing) == 0, "missing": missing, "distro": distro}
         scrolled.set_child(resultsBox);
         stack.add_named(scrolled, 'results');
 
+        // Página 4: Lista de duplicados ignorados
+        const scrolledIgnored = new Gtk.ScrolledWindow({
+            hscrollbar_policy: Gtk.PolicyType.NEVER,
+            vscrollbar_policy: Gtk.PolicyType.AUTOMATIC,
+        });
+        const ignoredBox = new Gtk.Box({
+            orientation: Gtk.Orientation.VERTICAL,
+            spacing: 12,
+            margin_start: 24,
+            margin_end: 24,
+            margin_top: 16,
+            margin_bottom: 24,
+        });
+        scrolledIgnored.set_child(ignoredBox);
+        stack.add_named(scrolledIgnored, 'ignored');
+
+        const makePairKey = (p1, p2) => (p1 < p2 ? `${p1}|||${p2}` : `${p2}|||${p1}`);
+
+        const cleanStaleIgnored = () => {
+            const c = this._loadConfigFile();
+            if (!Array.isArray(c.ignored_duplicates)) c.ignored_duplicates = [];
+            const originalLen = c.ignored_duplicates.length;
+            c.ignored_duplicates = c.ignored_duplicates.filter(item => {
+                return item &&
+                    item.path_a && GLib.file_test(item.path_a, GLib.FileTest.EXISTS) &&
+                    item.path_b && GLib.file_test(item.path_b, GLib.FileTest.EXISTS);
+            });
+            if (c.ignored_duplicates.length !== originalLen) {
+                this._saveConfigFile(c);
+            }
+            return c;
+        };
+
+        const renderIgnoredView = () => {
+            const c = cleanStaleIgnored();
+            let ch = ignoredBox.get_first_child();
+            while (ch) {
+                const next = ch.get_next_sibling();
+                ignoredBox.remove(ch);
+                ch = next;
+            }
+
+            const headerRow = new Gtk.Box({
+                orientation: Gtk.Orientation.HORIZONTAL,
+                spacing: 12,
+                margin_bottom: 8,
+            });
+
+            const btnBack = new Gtk.Button({
+                label: _("Back to results"),
+                icon_name: 'go-previous-symbolic',
+                css_classes: ['flat', 'pill'],
+            });
+            btnBack.connect('clicked', () => {
+                const hasCards = resultsBox.get_first_child() !== null;
+                stack.set_visible_child_name(hasCards ? 'results' : 'empty');
+            });
+            headerRow.append(btnBack);
+
+            const lblTitleIgnored = new Gtk.Label({
+                label: `<b>${_("Ignored Combinations")}</b> (${c.ignored_duplicates.length})`,
+                use_markup: true,
+                hexpand: true,
+                halign: Gtk.Align.START,
+                css_classes: ['title-4'],
+            });
+            headerRow.append(lblTitleIgnored);
+            ignoredBox.append(headerRow);
+
+            if (c.ignored_duplicates.length === 0) {
+                const emptyStatus = new Adw.StatusPage({
+                    icon_name: 'emblem-default-symbolic',
+                    title: _("No ignored duplicates"),
+                    description: _("Combinations you choose to ignore will appear here so you can restore them."),
+                });
+                ignoredBox.append(emptyStatus);
+            } else {
+                c.ignored_duplicates.forEach((item) => {
+                    const rowCard = new Gtk.Box({
+                        orientation: Gtk.Orientation.HORIZONTAL,
+                        spacing: 12,
+                        css_classes: ['card'],
+                        margin_top: 4,
+                        margin_bottom: 4,
+                    });
+
+                    const infoBox = new Gtk.Box({
+                        orientation: Gtk.Orientation.VERTICAL,
+                        spacing: 4,
+                        hexpand: true,
+                        margin_start: 12,
+                        margin_top: 10,
+                        margin_bottom: 10,
+                    });
+                    const lblPairNames = new Gtk.Label({
+                        label: `<b>${item.name_a}</b>   <i>vs</i>   <b>${item.name_b}</b>`,
+                        use_markup: true,
+                        halign: Gtk.Align.START,
+                    });
+                    const lblPairPaths = new Gtk.Label({
+                        label: `${GLib.path_get_dirname(item.path_a)}   ·   ${GLib.path_get_dirname(item.path_b)}`,
+                        halign: Gtk.Align.START,
+                        ellipsize: 3,
+                        css_classes: ['caption', 'dim-label'],
+                    });
+                    infoBox.append(lblPairNames);
+                    infoBox.append(lblPairPaths);
+                    rowCard.append(infoBox);
+
+                    const btnRestore = new Gtk.Button({
+                        label: _("Restore"),
+                        icon_name: 'edit-undo-symbolic',
+                        css_classes: ['flat', 'suggested-action'],
+                        valign: Gtk.Align.CENTER,
+                        margin_end: 12,
+                        tooltip_text: _("Stop ignoring"),
+                    });
+                    btnRestore.connect('clicked', () => {
+                        const cur = this._loadConfigFile();
+                        if (Array.isArray(cur.ignored_duplicates)) {
+                            const k = makePairKey(item.path_a, item.path_b);
+                            cur.ignored_duplicates = cur.ignored_duplicates.filter(it => makePairKey(it.path_a, it.path_b) !== k);
+                            this._saveConfigFile(cur);
+                        }
+                        ignoredBox.remove(rowCard);
+                        lblTitleIgnored.set_label(`<b>${_("Ignored Combinations")}</b> (${cur.ignored_duplicates.length})`);
+                        parentWindow.add_toast(new Adw.Toast({ title: _("Combination restored") }));
+                        if (cur.ignored_duplicates.length === 0) {
+                            renderIgnoredView();
+                        }
+                    });
+                    rowCard.append(btnRestore);
+                    ignoredBox.append(rowCard);
+                });
+            }
+
+            stack.set_visible_child_name('ignored');
+        };
+
+        btnIgnoredList.connect('clicked', () => {
+            if (stack.get_visible_child_name() === 'ignored') {
+                const hasCards = resultsBox.get_first_child() !== null;
+                stack.set_visible_child_name(hasCards ? 'results' : 'empty');
+            } else {
+                renderIgnoredView();
+            }
+        });
+
         let runScan = null;
 
         runScan = () => {
             stack.set_visible_child_name('loading');
             btnRefresh.set_sensitive(false);
             progressBar.set_fraction(0.0);
-            progressBar.set_text(_('Iniciando escaneo...'));
-            lblLoadingDesc.set_text(_('Calculando firmas estructurales dHash y comparando similitudes...'));
+            progressBar.set_text(_("Starting scan..."));
+            lblLoadingDesc.set_text(_("Calculating dHash structural hashes and comparing similarities..."));
 
             let child = resultsBox.get_first_child();
             while (child) {
@@ -2259,13 +2516,17 @@ print(json.dumps({"ok": len(missing) == 0, "missing": missing, "distro": distro}
 
             const renderResults = (matchesList) => {
                 btnRefresh.set_sensitive(true);
-                if (!Array.isArray(matchesList) || matchesList.length === 0) {
+                const c = cleanStaleIgnored();
+                const ignoredKeys = new Set((c.ignored_duplicates || []).map(it => makePairKey(it.path_a, it.path_b)));
+                const visibleMatches = (matchesList || []).filter(m => !ignoredKeys.has(makePairKey(m.path_a, m.path_b)));
+
+                if (!Array.isArray(visibleMatches) || visibleMatches.length === 0) {
                     stack.set_visible_child_name('empty');
                     return;
                 }
 
                 const headerLabel = new Gtk.Label({
-                    label: `${_('Se encontraron')} <b>${matchesList.length}</b> ${_('coincidencias de fondos repetidos o casi idénticos:')}`,
+                    label: `${_("Found")} <b>${visibleMatches.length}</b> ${_("matches of duplicate or near-identical wallpapers:")}`,
                     use_markup: true,
                     halign: Gtk.Align.START,
                     margin_bottom: 8,
@@ -2273,7 +2534,7 @@ print(json.dumps({"ok": len(missing) == 0, "missing": missing, "distro": distro}
                 });
                 resultsBox.append(headerLabel);
 
-                matchesList.forEach((m) => {
+                visibleMatches.forEach((m) => {
                     const card = new Gtk.Box({
                         orientation: Gtk.Orientation.VERTICAL,
                         spacing: 10,
@@ -2285,10 +2546,50 @@ print(json.dumps({"ok": len(missing) == 0, "missing": missing, "distro": distro}
                         spacing: 8,
                     });
                     const lblBadge = new Gtk.Label({
-                        label: m.is_exact ? _('DUPLICADO EXACTO (100% idéntico)') : `${_('CASI IDÉNTICO')} (~${m.similarity}% ${_('similitud')})`,
+                        label: m.is_exact ? _("EXACT DUPLICATE (100% identical)") : `${_("NEAR IDENTICAL")} (~${m.similarity}% ${_("similarity")})`,
                         css_classes: [m.is_exact ? 'dupe-badge-exact' : 'dupe-badge-similar'],
+                        hexpand: true,
+                        halign: Gtk.Align.START,
                     });
                     badgeBox.append(lblBadge);
+
+                    const btnIgnore = new Gtk.Button({
+                        label: _("Ignore"),
+                        icon_name: 'action-unavailable-symbolic',
+                        css_classes: ['flat'],
+                        tooltip_text: _("Ignore this combination and do not show it again as duplicate"),
+                    });
+                    btnIgnore.connect('clicked', () => {
+                        const cur = this._loadConfigFile();
+                        if (!Array.isArray(cur.ignored_duplicates)) cur.ignored_duplicates = [];
+                        const pairK = makePairKey(m.path_a, m.path_b);
+                        if (!cur.ignored_duplicates.some(it => makePairKey(it.path_a, it.path_b) === pairK)) {
+                            cur.ignored_duplicates.push({
+                                path_a: m.path_a,
+                                path_b: m.path_b,
+                                name_a: m.name_a,
+                                name_b: m.name_b,
+                                date: Date.now(),
+                            });
+                            this._saveConfigFile(cur);
+                        }
+                        resultsBox.remove(card);
+                        parentWindow.add_toast(new Adw.Toast({ title: _("Combination ignored") }));
+
+                        let hasRemaining = false;
+                        let ch = resultsBox.get_first_child();
+                        while (ch) {
+                            if (ch.has_css_class && ch.has_css_class('dupe-card')) {
+                                hasRemaining = true;
+                                break;
+                            }
+                            ch = ch.get_next_sibling();
+                        }
+                        if (!hasRemaining) {
+                            stack.set_visible_child_name('empty');
+                        }
+                    });
+                    badgeBox.append(btnIgnore);
                     card.append(badgeBox);
 
                     const compareBox = new Gtk.Box({
@@ -2312,7 +2613,10 @@ print(json.dumps({"ok": len(missing) == 0, "missing": missing, "distro": distro}
                             height_request: 135,
                             css_classes: ['dupe-preview-img'],
                         });
-                        this._updatePicture(pic, filePath, 240, 135);
+                        const localP = this._getLocalPath(filePath);
+                        if (localP) {
+                            pic.set_filename(localP);
+                        }
                         col.append(pic);
 
                         const lblName = new Gtk.Label({
@@ -2337,16 +2641,16 @@ print(json.dumps({"ok": len(missing) == 0, "missing": missing, "distro": distro}
                         });
 
                         const btnExclude = new Gtk.Button({
-                            label: _('Excluir'),
+                            label: _("Exclude"),
                             icon_name: 'user-trash-symbolic',
                             css_classes: ['flat', 'destructive-action'],
-                            tooltip_text: _('Mover esta versión a la subcarpeta exclude/'),
+                            tooltip_text: _("Move this version to exclude/ subfolder"),
                         });
 
                         const btnLocate = new Gtk.Button({
                             icon_name: 'folder-symbolic',
                             css_classes: ['flat'],
-                            tooltip_text: _('Ubicar en Archivos'),
+                            tooltip_text: _("Locate in Files"),
                         });
 
                         btnLocate.connect('clicked', () => {
@@ -2374,9 +2678,9 @@ print(json.dumps({"ok": len(missing) == 0, "missing": missing, "distro": distro}
                             try {
                                 srcFile.move(destFile, Gio.FileCopyFlags.OVERWRITE, null, null);
                                 btnExclude.set_sensitive(false);
-                                btnExclude.set_label(_('Excluida ✓'));
+                                btnExclude.set_label(_("Excluded ✓"));
                                 btnExclude.remove_css_class('destructive-action');
-                                parentWindow.add_toast(new Adw.Toast({ title: `"${fileName}" ${_('movida a exclude/')}` }));
+                                parentWindow.add_toast(new Adw.Toast({ title: `"${fileName}" ${_("moved to exclude/")}` }));
                             } catch (e) {
                                 console.error('[AutoWallpaper] Error al mover a exclude:', e.message);
                             }
@@ -2481,7 +2785,7 @@ print(json.dumps({"ok": len(missing) == 0, "missing": missing, "distro": distro}
         const dialog = new Adw.Window({
             transient_for: parentWindow,
             modal: true,
-            title: _('Clasificar Fondos por Luminosidad'),
+            title: _("Classify Wallpapers by Luminosity"),
             default_width: 760,
             default_height: 600,
         });
@@ -2517,7 +2821,7 @@ print(json.dumps({"ok": len(missing) == 0, "missing": missing, "distro": distro}
             pixel_size: 16,
         });
         const lblWarn = new Gtk.Label({
-            label: `<b>${_('Aviso:')}</b> ${_('El análisis perceptual examina la luminosidad píxel a píxel de cada imagen. En colecciones con muchos fondos, el proceso puede tardar un poco según el rendimiento de tu equipo.')}`,
+            label: `<b>${_("Notice:")}</b> ${_("Perceptual analysis evaluates pixel lightness for each image. For large collections, this process may take a while depending on hardware.")}`,
             use_markup: true,
             wrap: true,
             hexpand: true,
@@ -2530,41 +2834,41 @@ print(json.dumps({"ok": len(missing) == 0, "missing": missing, "distro": distro}
         pageConfig.add(groupNotice);
 
         const groupParams = new Adw.PreferencesGroup({
-            title: _('Parámetros de Clasificación por Luminosidad'),
-            description: _('Organiza automáticamente tus fondos en las carpetas Claro y Oscuro según el modelo perceptivo humano (CIELAB L* + Percentil 65).'),
+            title: _("Luminosity Classification Parameters"),
+            description: _("Automatically organize wallpapers into Light and Dark folders using human perceptual model (CIELAB L* + 65th percentile)."),
         });
         pageConfig.add(groupParams);
 
         const thresholdOptions = [
             {
                 threshold: 30.0,
-                badge: _('Muy permisivo'),
+                badge: _("Very Permissive"),
                 pillClass: 'sort-stat-pill-light',
-                subtitle: _('Muy permisivo para Claro · Máximo favorecedor para fondos claros'),
+                subtitle: _("Very permissive for Light · Maximum favor towards light wallpapers"),
             },
             {
                 threshold: 36.0,
-                badge: _('Permisivo'),
+                badge: _("Permissive"),
                 pillClass: 'sort-stat-pill-light',
-                subtitle: _('Permisivo para Claro · Favorece fondos claros'),
+                subtitle: _("Permissive for Light · Favors light wallpapers"),
             },
             {
                 threshold: 42.0,
-                badge: _('Equilibrado'),
+                badge: _("Balanced"),
                 pillClass: 'sort-stat-pill-neutral',
-                subtitle: _('Equilibrada / Estándar · Recomendado · Balance perceptivo óptimo'),
+                subtitle: _("Balanced / Standard · Recommended · Optimal perceptual balance"),
             },
             {
                 threshold: 48.0,
-                badge: _('Exigente'),
+                badge: _("Demanding"),
                 pillClass: 'sort-stat-pill-dark',
-                subtitle: _('Exigente para Claro · Más fondos a Oscuro'),
+                subtitle: _("Demanding for Light · More wallpapers moved to Dark"),
             },
             {
                 threshold: 54.0,
-                badge: _('Muy estricto'),
+                badge: _("Very Strict"),
                 pillClass: 'sort-stat-pill-dark',
-                subtitle: _('Muy estricto para Claro · Mínimo favorecedor para Claro'),
+                subtitle: _("Very strict for Light · Minimum favor towards Light wallpapers"),
             },
         ];
 
@@ -2595,7 +2899,7 @@ print(json.dumps({"ok": len(missing) == 0, "missing": missing, "distro": distro}
         });
 
         const lblThresholdTitle = new Gtk.Label({
-            label: _('Sensibilidad de brillo (Umbral CIELAB L*)'),
+            label: _("Brightness Sensitivity (CIELAB L* Threshold)"),
             halign: Gtk.Align.START,
             css_classes: ['title'],
         });
@@ -2625,11 +2929,11 @@ print(json.dumps({"ok": len(missing) == 0, "missing": missing, "distro": distro}
         scaleThreshold.set_hexpand(true);
         scaleThreshold.set_value(2); // Por defecto: Equilibrado (Umbral 42.0)
 
-        scaleThreshold.add_mark(0, Gtk.PositionType.BOTTOM, `<small>${_('Más Claros')}</small>`);
-        scaleThreshold.add_mark(1, Gtk.PositionType.BOTTOM, `<small>${_('Permisivo')}</small>`);
-        scaleThreshold.add_mark(2, Gtk.PositionType.BOTTOM, `<small>${_('Equilibrado')}</small>`);
-        scaleThreshold.add_mark(3, Gtk.PositionType.BOTTOM, `<small>${_('Exigente')}</small>`);
-        scaleThreshold.add_mark(4, Gtk.PositionType.BOTTOM, `<small>${_('Más Oscuros')}</small>`);
+        scaleThreshold.add_mark(0, Gtk.PositionType.BOTTOM, `<small>${_("More Light")}</small>`);
+        scaleThreshold.add_mark(1, Gtk.PositionType.BOTTOM, `<small>${_("Permissive")}</small>`);
+        scaleThreshold.add_mark(2, Gtk.PositionType.BOTTOM, `<small>${_("Balanced")}</small>`);
+        scaleThreshold.add_mark(3, Gtk.PositionType.BOTTOM, `<small>${_("Demanding")}</small>`);
+        scaleThreshold.add_mark(4, Gtk.PositionType.BOTTOM, `<small>${_("More Dark")}</small>`);
 
         const updateThresholdUI = (idx) => {
             const opt = thresholdOptions[idx] ?? thresholdOptions[2];
@@ -2657,14 +2961,14 @@ print(json.dumps({"ok": len(missing) == 0, "missing": missing, "distro": distro}
         groupParams.add(rowThreshold);
 
         const comboScope = new Adw.ComboRow({
-            title: _('Colecciones a analizar'),
-            subtitle: _('Las subcarpetas pinned/ y exclude/ siempre están protegidas.'),
+            title: _("Collections to analyze"),
+            subtitle: _("Subfolders pinned/ and exclude/ are always protected."),
             model: new Gtk.StringList({
                 strings: [
-                    _('Ambos conjuntos (Claro y Oscuro - Recomendado)'),
-                    _('Solo conjunto Claro (Reevaluar y mover fondos oscuros)'),
-                    _('Solo conjunto Oscuro (Reevaluar y mover fondos claros)'),
-                    _('Carpeta personalizada (Analizar y clasificar imágenes hacia Claro/Oscuro)'),
+                    _("Both collections (Light and Dark - Recommended)"),
+                    _("Light collection only (Reevaluate and move dark wallpapers)"),
+                    _("Dark collection only (Reevaluate and move light wallpapers)"),
+                    _("Custom folder (Analyze and classify images into Light/Dark)"),
                 ],
             }),
             selected: 0,
@@ -2674,13 +2978,13 @@ print(json.dumps({"ok": len(missing) == 0, "missing": missing, "distro": distro}
         let chosenCustomDir = null;
 
         const rowCustomDir = new Adw.ActionRow({
-            title: _('Carpeta a clasificar'),
-            subtitle: _('Ninguna carpeta seleccionada'),
+            title: _("Folder to classify"),
+            subtitle: _("No folder selected"),
             visible: false,
         });
 
         const btnChooseCustom = new Gtk.Button({
-            label: _('Seleccionar carpeta...'),
+            label: _("Select folder..."),
             icon_name: 'folder-open-symbolic',
             valign: Gtk.Align.CENTER,
             css_classes: ['pill'],
@@ -2688,7 +2992,7 @@ print(json.dumps({"ok": len(missing) == 0, "missing": missing, "distro": distro}
 
         const openCustomFolderPicker = () => {
             const fileDialog = new Gtk.FileDialog({
-                title: _('Seleccionar carpeta personalizada'),
+                title: _("Select custom folder"),
                 modal: true,
             });
             fileDialog.select_folder(dialog, null, (d, res) => {
@@ -2725,13 +3029,13 @@ print(json.dumps({"ok": len(missing) == 0, "missing": missing, "distro": distro}
         groupParams.add(btnBox);
 
         const btnCancel = new Gtk.Button({
-            label: _('Cancelar'),
+            label: _("Cancel"),
             css_classes: ['flat'],
         });
         btnCancel.connect('clicked', () => dialog.close());
 
         const btnStart = new Gtk.Button({
-            label: _('Iniciar clasificación'),
+            label: _("Start classification"),
             css_classes: ['suggested-action', 'pill'],
         });
         btnBox.append(btnCancel);
@@ -2754,13 +3058,13 @@ print(json.dumps({"ok": len(missing) == 0, "missing": missing, "distro": distro}
             spacing: 4,
         });
         const lblTitle = new Gtk.Label({
-            label: `<b>${_('Clasificando fondos mediante CIELAB L*...')}</b>`,
+            label: `<b>${_("Classifying wallpapers via CIELAB L*...")}</b>`,
             use_markup: true,
             css_classes: ['title-3'],
             halign: Gtk.Align.START,
         });
         const lblDesc = new Gtk.Label({
-            label: _('Evaluando brillo perceptual y percentil 65 en cada imagen...'),
+            label: _("Evaluating perceptual lightness and 65th percentile for each image..."),
             css_classes: ['dim-label'],
             halign: Gtk.Align.START,
         });
@@ -2788,7 +3092,7 @@ print(json.dumps({"ok": len(missing) == 0, "missing": missing, "distro": distro}
             pixel_size: 15,
         });
         const lblLightPill = new Gtk.Label({
-            label: `${_('Movidos a Claro')}: <b>0</b>`,
+            label: `${_("Moved to Light")}: <b>0</b>`,
             use_markup: true,
         });
         pillLightBox.append(iconLightPill);
@@ -2806,7 +3110,7 @@ print(json.dumps({"ok": len(missing) == 0, "missing": missing, "distro": distro}
             pixel_size: 15,
         });
         const lblDarkPill = new Gtk.Label({
-            label: `${_('Movidos a Oscuro')}: <b>0</b>`,
+            label: `${_("Moved to Dark")}: <b>0</b>`,
             use_markup: true,
         });
         pillDarkBox.append(iconDarkPill);
@@ -2821,7 +3125,7 @@ print(json.dumps({"ok": len(missing) == 0, "missing": missing, "distro": distro}
             margin_top: 2,
             margin_bottom: 2,
         });
-        progressBar.set_text(_('Iniciando análisis...'));
+        progressBar.set_text(_("Starting analysis..."));
         runningBox.append(progressBar);
 
         // 3. TIP ELEGANTE Y DISCRETO DE CARPETAS PROTEGIDAS DEBAJO DE LA BARRA DE CARGA
@@ -2839,7 +3143,7 @@ print(json.dumps({"ok": len(missing) == 0, "missing": missing, "distro": distro}
             css_classes: ['dim-label'],
         });
         const lblTip = new Gtk.Label({
-            label: `${_('Las subcarpetas')} <b>pinned/</b> (${_('fondos fijados')}) ${_('y')} <b>exclude/</b> (${_('fondos excluidos')}) ${_('están protegidas y no se moverán.')}`,
+            label: `${_("Subfolders")} <b>pinned/</b> (${_("pinned wallpapers")}) ${_("and")} <b>exclude/</b> (${_("excluded wallpapers")}) ${_("are protected and will not be moved.")}`,
             use_markup: true,
             hexpand: true,
             halign: Gtk.Align.START,
@@ -2881,12 +3185,12 @@ print(json.dumps({"ok": len(missing) == 0, "missing": missing, "distro": distro}
             halign: Gtk.Align.CENTER,
         });
         const lblScanningTitle = new Gtk.Label({
-            label: `<b>${_('Escaneando y clasificando fondos...')}</b>`,
+            label: `<b>${_("Scanning and classifying wallpapers...")}</b>`,
             use_markup: true,
             css_classes: ['title-3'],
         });
         const lblScanningDesc = new Gtk.Label({
-            label: _('Analizando brillo perceptual (CIELAB L*) y percentil 65 en cada imagen'),
+            label: _("Analyzing perceptual lightness (CIELAB L*) and 65th percentile on each image"),
             css_classes: ['dim-label'],
         });
         const lblCurrentEval = new Gtk.Label({
@@ -2908,11 +3212,11 @@ print(json.dumps({"ok": len(missing) == 0, "missing": missing, "distro": distro}
             halign: Gtk.Align.END,
         });
         const btnStop = new Gtk.Button({
-            label: _('Detener'),
+            label: _("Stop"),
             css_classes: ['destructive-action'],
         });
         const btnClose = new Gtk.Button({
-            label: _('Cerrar'),
+            label: _("Close"),
             css_classes: ['suggested-action'],
             visible: false,
         });
@@ -2924,8 +3228,8 @@ print(json.dumps({"ok": len(missing) == 0, "missing": missing, "distro": distro}
         let movedLightCount = 0;
         let movedDarkCount = 0;
 
-        // Búfer FIFO de tarjetas en vivo (Máx 35) para garantizar fluidez y escalabilidad absoluta con 500+ imágenes
-        const MAX_CARDS = 35;
+        // Búfer FIFO de tarjetas en vivo (Máx 20) para garantizar fluidez y escalabilidad absoluta con 500+ imágenes
+        const MAX_CARDS = 20;
         const cardQueue = [];
 
         btnClose.connect('clicked', () => dialog.close());
@@ -2939,7 +3243,7 @@ print(json.dumps({"ok": len(missing) == 0, "missing": missing, "distro": distro}
             if (scanningPlaceholder.get_parent() === resultsBox) {
                 resultsBox.remove(scanningPlaceholder);
             }
-            lblTitle.set_label(`<b>${_('Proceso detenido por el usuario')}</b>`);
+            lblTitle.set_label(`<b>${_("Process stopped by user")}</b>`);
             btnStop.set_visible(false);
             btnClose.set_visible(true);
         });
@@ -2954,7 +3258,7 @@ print(json.dumps({"ok": len(missing) == 0, "missing": missing, "distro": distro}
             const chosenScope = scopeVals[comboScope.selected] ?? 'both';
 
             if (chosenScope === 'custom' && !chosenCustomDir) {
-                parentWindow.add_toast(new Adw.Toast({ title: _('Seleccionar carpeta...') }));
+                parentWindow.add_toast(new Adw.Toast({ title: _("Select folder...") }));
                 openCustomFolderPicker();
                 return;
             }
@@ -2986,7 +3290,7 @@ print(json.dumps({"ok": len(missing) == 0, "missing": missing, "distro": distro}
 
                 const onProcessFinished = () => {
                     progressBar.set_fraction(1.0);
-                    progressBar.set_text(`${_('Clasificación completada')} (100%)`);
+                    progressBar.set_text(`${_("Classification completed")} (100%)`);
                     btnStop.set_visible(false);
                     btnClose.set_visible(true);
 
@@ -2995,20 +3299,20 @@ print(json.dumps({"ok": len(missing) == 0, "missing": missing, "distro": distro}
                     }
 
                     if (movedLightCount === 0 && movedDarkCount === 0) {
-                        lblTitle.set_label(`<b>${_('¡Colecciones ya equilibradas!')}</b>`);
-                        lblDesc.set_label(_('Todos los fondos ya se encuentran en su carpeta adecuada según el umbral seleccionado.'));
+                        lblTitle.set_label(`<b>${_("Collections already balanced!")}</b>`);
+                        lblDesc.set_label(_("All wallpapers are already in their appropriate folder according to the selected threshold."));
                         const emptyCard = new Adw.StatusPage({
                             icon_name: 'emblem-default-symbolic',
-                            title: _('Colecciones equilibradas'),
-                            description: _('No se requirió mover ningún fondo. Ambas carpetas coinciden con sus perfiles de luminosidad.'),
+                            title: _("Balanced collections"),
+                            description: _("No wallpapers needed to be moved. Both folders match their lightness profiles."),
                         });
                         resultsBox.append(emptyCard);
                     } else {
-                        lblTitle.set_label(`<b>✓ ${_('Clasificación finalizada con éxito')}</b>`);
+                        lblTitle.set_label(`<b>✓ ${_("Classification completed successfully")}</b>`);
                         const totalMoved = movedLightCount + movedDarkCount;
-                        const extraNote = totalMoved > MAX_CARDS ? ` (${_('mostrando los últimos')} ${MAX_CARDS} ${_('en vivo')})` : '';
-                        lblDesc.set_label(`${_('Se movieron')} ${movedLightCount} ${_('a claro y')} ${movedDarkCount} ${_('a oscuro en total')}${extraNote}.`);
-                        parentWindow.add_toast(new Adw.Toast({ title: _('Clasificación de fondos finalizada') }));
+                        const extraNote = totalMoved > MAX_CARDS ? ` (${_("showing last")} ${MAX_CARDS} ${_("live")})` : '';
+                        lblDesc.set_label(`${_("Moved")} ${movedLightCount} ${_("to light and")} ${movedDarkCount} ${_("to dark in total")}${extraNote}.`);
+                        parentWindow.add_toast(new Adw.Toast({ title: _("Wallpaper classification completed") }));
                     }
 
                     if (callbacks.refreshPreviews) callbacks.refreshPreviews();
@@ -3022,6 +3326,8 @@ print(json.dumps({"ok": len(missing) == 0, "missing": missing, "distro": distro}
                     }
                 };
 
+                let lastOrganizeUiUpdate = 0;
+
                 const readNext = () => {
                     stdoutStream.read_line_async(GLib.PRIORITY_DEFAULT, null, (stream, res) => {
                         try {
@@ -3034,11 +3340,15 @@ print(json.dumps({"ok": len(missing) == 0, "missing": missing, "distro": distro}
                                             progressBar.set_fraction(0.0);
                                             progressBar.set_text(`0 de ${data.total} (0%)`);
                                         } else if (data.phase === 'evaluating') {
-                                            const frac = data.total > 0 ? (data.current / data.total) : 0;
-                                            progressBar.set_fraction(frac);
-                                            progressBar.set_text(`${data.current} de ${data.total} (${Math.round(frac * 100)}%)`);
-                                            lblDesc.set_text(`${_('Evaluando:')} ${data.name} (L*: ${data.score})`);
-                                            lblCurrentEval.set_label(`${_('Evaluando:')} ${data.name} (L*: ${data.score})`);
+                                            const nowMs = GLib.get_monotonic_time() / 1000;
+                                            if (nowMs - lastOrganizeUiUpdate > 65 || data.current === data.total) {
+                                                lastOrganizeUiUpdate = nowMs;
+                                                const frac = data.total > 0 ? (data.current / data.total) : 0;
+                                                progressBar.set_fraction(frac);
+                                                progressBar.set_text(`${data.current} de ${data.total} (${Math.round(frac * 100)}%)`);
+                                                lblDesc.set_text(`${_("Evaluating:")} ${data.name} (L*: ${data.score})`);
+                                                lblCurrentEval.set_label(`${_("Evaluating:")} ${data.name} (L*: ${data.score})`);
+                                            }
                                         } else if (data.phase === 'moved') {
                                             const frac = data.total > 0 ? (data.current / data.total) : 0;
                                             progressBar.set_fraction(frac);
@@ -3050,10 +3360,10 @@ print(json.dumps({"ok": len(missing) == 0, "missing": missing, "distro": distro}
 
                                             if (data.to === 'light') {
                                                 movedLightCount++;
-                                                lblLightPill.set_label(`${_('Movidos a Claro')}: <b>${movedLightCount}</b>`);
+                                                lblLightPill.set_label(`${_("Moved to Light")}: <b>${movedLightCount}</b>`);
                                             } else {
                                                 movedDarkCount++;
-                                                lblDarkPill.set_label(`${_('Movidos a Oscuro')}: <b>${movedDarkCount}</b>`);
+                                                lblDarkPill.set_label(`${_("Moved to Dark")}: <b>${movedDarkCount}</b>`);
                                             }
 
                                             // Creación de tarjeta visual
@@ -3077,7 +3387,10 @@ print(json.dumps({"ok": len(missing) == 0, "missing": missing, "distro": distro}
                                                 height_request: 112,
                                                 css_classes: ['organize-thumb'],
                                             });
-                                            this._updatePicture(wpPic, data.path, 200, 112);
+                                            const localP = this._getLocalPath(data.path);
+                                            if (localP) {
+                                                wpPic.set_filename(localP);
+                                            }
                                             wpBox.append(wpPic);
 
                                             const wpName = new Gtk.Label({
@@ -3089,7 +3402,7 @@ print(json.dumps({"ok": len(missing) == 0, "missing": missing, "distro": distro}
                                             wpBox.append(wpName);
 
                                             const wpScore = new Gtk.Label({
-                                                label: `${_('Brillo L*')}: ${data.score}/100 · Sat: ${data.sat}`,
+                                                label: `${_("Lightness L*")}: ${data.score}/100 · Sat: ${data.sat}`,
                                                 css_classes: ['dim-label', 'caption'],
                                             });
                                             wpBox.append(wpScore);
@@ -3105,7 +3418,7 @@ print(json.dumps({"ok": len(missing) == 0, "missing": missing, "distro": distro}
                                             });
                                             const isMovingDark = (data.to === 'dark');
                                             const folderIconName = isMovingDark ? 'weather-clear-night-symbolic' : 'weather-clear-symbolic';
-                                            const folderTitle = isMovingDark ? _('Colección Oscuro') : _('Colección Claro');
+                                            const folderTitle = isMovingDark ? _("Dark Collection") : _("Light Collection");
                                             const folderPathName = isMovingDark ? darkFolderName : lightFolderName;
 
                                             const fIcon = new Gtk.Image({
@@ -3194,7 +3507,7 @@ print(json.dumps({"ok": len(missing) == 0, "missing": missing, "distro": distro}
         const dialog = new Adw.Window({
             transient_for: parentWindow,
             modal: true,
-            title: _('Reescalado Inteligente (Real-CUGAN)'),
+            title: _("Smart Upscale (Real-CUGAN)"),
             default_width: 660,
             default_height: 540,
         });
@@ -3211,6 +3524,23 @@ print(json.dumps({"ok": len(missing) == 0, "missing": missing, "distro": distro}
         });
         toolbarView.set_content(stack);
 
+        // --- Página 0: Comprobando componentes con animación suave ---
+        const checkingPage = new Adw.StatusPage({
+            icon_name: 'preferences-system-search-symbolic',
+            title: _("Checking components..."),
+            description: _("Checking Python dependencies and Real-CUGAN engine availability..."),
+        });
+        const checkingSpinner = new Gtk.Spinner({
+            spinning: true,
+            width_request: 44,
+            height_request: 44,
+            halign: Gtk.Align.CENTER,
+            margin_top: 12,
+        });
+        checkingPage.set_child(checkingSpinner);
+        stack.add_named(checkingPage, 'checking');
+        stack.set_visible_child_name('checking');
+
         // --- Página 0A: Dependencias de Python faltantes ---
         let verifyUpscaleEnv = null;
         const upscaleMissingDepsView = this._createMissingDepsStatusPage(() => {
@@ -3224,8 +3554,8 @@ print(json.dumps({"ok": len(missing) == 0, "missing": missing, "distro": distro}
 
         const downloadEnginePage = new Adw.StatusPage({
             icon_name: 'folder-download-symbolic',
-            title: _('Motor Real-CUGAN no instalado'),
-            description: _('Para mantener la extensión ligera y cumplir las políticas de GNOME Extensions, instala el motor Real-CUGAN (~45 MB) con un clic copiando el siguiente comando en tu terminal:'),
+            title: _("Real-CUGAN engine not installed"),
+            description: _("To keep the extension lightweight and comply with GNOME Extensions policies, install the Real-CUGAN engine (~45 MB) by copying and running the following command in your terminal:"),
         });
         const downloadBox = new Gtk.Box({
             orientation: Gtk.Orientation.VERTICAL,
@@ -3252,13 +3582,13 @@ print(json.dumps({"ok": len(missing) == 0, "missing": missing, "distro": distro}
         const btnCopyEngineCmd = new Gtk.Button({
             child: new Adw.ButtonContent({
                 icon_name: 'edit-copy-symbolic',
-                label: _('Copiar comando de instalación'),
+                label: _("Copy installation command"),
             }),
             css_classes: ['suggested-action', 'pill'],
             halign: Gtk.Align.CENTER,
         });
         const btnVerifyEngine = new Gtk.Button({
-            label: _('Verificar nuevamente'),
+            label: _("Check again"),
             css_classes: ['pill'],
             halign: Gtk.Align.CENTER,
         });
@@ -3288,7 +3618,7 @@ print(json.dumps({"ok": len(missing) == 0, "missing": missing, "distro": distro}
             pixel_size: 16,
         });
         const lblWarn = new Gtk.Label({
-            label: `<b>${_('Aviso:')}</b> ${_('El proceso de reescalado utiliza aceleración neuronal por GPU (Vulkan). Puede tardar en completarse y ocasionar pérdida temporal de rendimiento mientras se ejecuta.')}`,
+            label: `<b>${_("Notice:")}</b> ${_("The upscaling process uses Vulkan GPU neural acceleration. It may take some time and temporarily affect performance while running.")}`,
             use_markup: true,
             wrap: true,
             hexpand: true,
@@ -3301,43 +3631,50 @@ print(json.dumps({"ok": len(missing) == 0, "missing": missing, "distro": distro}
         pageConfig.add(groupNotice);
 
         const groupParams = new Adw.PreferencesGroup({
-            title: _('Parámetros del Reescalado IA'),
-            description: `${_('Acelera la nitidez y resolución usando Real-CUGAN.')}\n${_('GPU detectada:')} ${engineInfo?.gpu_name || 'Vulkan GPU'}`,
+            title: _("AI Upscale Parameters"),
+            description: `${_("Enhance sharpness and resolution using Real-CUGAN.")}\n${_("Detected GPU:")} ${engineInfo?.gpu_name || 'Vulkan GPU'}`,
         });
         pageConfig.add(groupParams);
 
         verifyUpscaleEnv = () => {
-            this._checkPythonEnvAsync(['PIL', 'cv2', 'numpy'], (envInfo) => {
-                if (!envInfo.ok) {
-                    upscaleMissingDepsView.updateInfo(envInfo);
-                    stack.set_visible_child_name('missing_deps');
-                    return;
-                }
+            stack.set_visible_child_name('checking');
+            checkingSpinner.start();
 
-                const upscaleScript = this._getScriptPath('smart_upscale.py');
-                try {
-                    const proc = Gio.Subprocess.new(
-                        ['python3', upscaleScript, '--check-env'],
-                        Gio.SubprocessFlags.STDOUT_PIPE | Gio.SubprocessFlags.STDERR_PIPE
-                    );
-                    proc.communicate_utf8_async(null, null, (source, res) => {
-                        try {
-                            const [, stdout] = source.communicate_utf8_finish(res);
-                            const data = JSON.parse((stdout || '{}').trim());
-                            if (!data.engine_installed) {
+            this._checkPythonEnvAsync(['PIL', 'cv2', 'numpy'], (envInfo) => {
+                // Buffer de tiempo de maniobra y sincronización para evitar parpadeos confusos
+                GLib.timeout_add(GLib.PRIORITY_DEFAULT, 400, () => {
+                    if (!envInfo.ok && Array.isArray(envInfo.missing) && envInfo.missing.length > 0) {
+                        upscaleMissingDepsView.updateInfo(envInfo);
+                        stack.set_visible_child_name('missing_deps');
+                        return GLib.SOURCE_REMOVE;
+                    }
+
+                    const upscaleScript = this._getScriptPath('smart_upscale.py');
+                    try {
+                        const proc = Gio.Subprocess.new(
+                            ['python3', upscaleScript, '--check-env'],
+                            Gio.SubprocessFlags.STDOUT_PIPE | Gio.SubprocessFlags.STDERR_PIPE
+                        );
+                        proc.communicate_utf8_async(null, null, (source, res) => {
+                            try {
+                                const [, stdout] = source.communicate_utf8_finish(res);
+                                const data = JSON.parse((stdout || '{}').trim());
+                                if (!data.engine_installed) {
+                                    stack.set_visible_child_name('download_engine');
+                                    return;
+                                }
+                                groupParams.set_description(`${_("Enhance sharpness and resolution using Real-CUGAN.")}\n${_("Detected GPU:")} ${data.gpu_name || 'Vulkan GPU'}`);
+                                if (onEngineUpdated) onEngineUpdated();
+                                stack.set_visible_child_name('config');
+                            } catch (e) {
                                 stack.set_visible_child_name('download_engine');
-                                return;
                             }
-                            groupParams.set_description(`${_('Acelera la nitidez y resolución usando Real-CUGAN.')}\n${_('GPU detectada:')} ${data.gpu_name || 'Vulkan GPU'}`);
-                            if (onEngineUpdated) onEngineUpdated();
-                            stack.set_visible_child_name('config');
-                        } catch (e) {
-                            stack.set_visible_child_name('download_engine');
-                        }
-                    });
-                } catch (e) {
-                    stack.set_visible_child_name('download_engine');
-                }
+                        });
+                    } catch (e) {
+                        stack.set_visible_child_name('download_engine');
+                    }
+                    return GLib.SOURCE_REMOVE;
+                });
             });
         };
 
@@ -3346,9 +3683,9 @@ print(json.dumps({"ok": len(missing) == 0, "missing": missing, "distro": distro}
                 Gdk.Display.get_default().get_clipboard().set(installEngineCmd);
                 btnCopyEngineCmd.set_child(new Adw.ButtonContent({
                     icon_name: 'emblem-default-symbolic',
-                    label: _('¡Copiado! ✓'),
+                    label: _("Copied! ✓"),
                 }));
-                parentWindow.add_toast(new Adw.Toast({ title: _('Comando copiado al portapapeles') }));
+                parentWindow.add_toast(new Adw.Toast({ title: _("Command copied to clipboard") }));
             } catch (e) {}
         });
 
@@ -3363,12 +3700,12 @@ print(json.dumps({"ok": len(missing) == 0, "missing": missing, "distro": distro}
         }
 
         const comboTarget = new Adw.ComboRow({
-            title: _('Carpeta a reescalar'),
+            title: _("Folder to upscale"),
             model: new Gtk.StringList({
                 strings: [
-                    _('☀️ Conjunto claro'),
-                    _('🌙 Conjunto oscuro'),
-                    _('🌓 Ambos conjuntos (claro y oscuro)'),
+                    _("☀️ Light collection"),
+                    _("🌙 Dark collection"),
+                    _("🌓 Both collections (light and dark)"),
                 ],
             }),
             selected: 0,
@@ -3376,11 +3713,11 @@ print(json.dumps({"ok": len(missing) == 0, "missing": missing, "distro": distro}
         groupParams.add(comboTarget);
 
         const comboScale = new Adw.ComboRow({
-            title: _('Factor de escala'),
-            subtitle: _('Multiplicador de resolución'),
+            title: _("Scale factor"),
+            subtitle: _("Resolution multiplier"),
             model: new Gtk.StringList({
                 strings: [
-                    _('2x (Recomendado para 1080p -> 4K)'),
+                    _("2x (Recommended for 1080p -> 4K)"),
                     '3x',
                     '4x',
                 ],
@@ -3390,15 +3727,15 @@ print(json.dumps({"ok": len(missing) == 0, "missing": missing, "distro": distro}
         groupParams.add(comboScale);
 
         const comboDenoise = new Adw.ComboRow({
-            title: _('Reducción de ruido (Denoise)'),
-            subtitle: _('Nivel de limpieza de artefactos y compresión'),
+            title: _("Noise Reduction (Denoise)"),
+            subtitle: _("Artifact and compression cleanup level"),
             model: new Gtk.StringList({
                 strings: [
-                    _('Nivel 0 - Predeterminado (Nitidez óptima)'),
-                    _('Nivel 1 - Suave'),
-                    _('Nivel 2 - Medio'),
-                    _('Nivel 3 - Intenso'),
-                    _('Nivel -1 - Sin denoise (Preserva grano)'),
+                    _("Level 0 - Default (Optimal sharpness)"),
+                    _("Level 1 - Soft"),
+                    _("Level 2 - Medium"),
+                    _("Level 3 - Strong"),
+                    _("Level -1 - No denoise (Preserves grain)"),
                 ],
             }),
             selected: 0,
@@ -3406,14 +3743,14 @@ print(json.dumps({"ok": len(missing) == 0, "missing": missing, "distro": distro}
         groupParams.add(comboDenoise);
 
         const comboMaxRes = new Adw.ComboRow({
-            title: _('Límite de resolución'),
-            subtitle: _('Omitir imágenes que ya alcancen o superen este tamaño'),
+            title: _("Resolution limit"),
+            subtitle: _("Skip images that already reach or exceed this size"),
             model: new Gtk.StringList({
                 strings: [
-                    _('2560x1440 (2K QHD - Recomendado)'),
-                    _('1920x1080 (Full HD)'),
-                    _('3840x2160 (4K UHD)'),
-                    _('Sin límite (procesar todas las imágenes)'),
+                    _("2560x1440 (2K QHD - Recommended)"),
+                    _("1920x1080 (Full HD)"),
+                    _("3840x2160 (4K UHD)"),
+                    _("No limit (process all images)"),
                 ],
             }),
             selected: 0,
@@ -3421,15 +3758,15 @@ print(json.dumps({"ok": len(missing) == 0, "missing": missing, "distro": distro}
         groupParams.add(comboMaxRes);
 
         const switchBackup = new Adw.SwitchRow({
-            title: _('Copia de seguridad'),
-            subtitle: _('Guardar copia de las imágenes originales en exclude/backup_upscale_original/'),
+            title: _("Backup copy"),
+            subtitle: _("Save copy of original images in exclude/backup_upscale_original/"),
             active: true,
         });
         groupParams.add(switchBackup);
 
         const switchIgnoreTag = new Adw.SwitchRow({
-            title: _('Ignorar etiqueta de reescalado previo'),
-            subtitle: _('Permite reescalar imágenes que ya fueron procesadas anteriormente con IA'),
+            title: _("Ignore previous upscale tag"),
+            subtitle: _("Allows re-upscaling images previously processed with AI"),
             active: false,
         });
         let ignoreTagConfirmed = false;
@@ -3438,11 +3775,11 @@ print(json.dumps({"ok": len(missing) == 0, "missing": missing, "distro": distro}
                 const warnDialog = new Adw.MessageDialog({
                     transient_for: dialog,
                     modal: true,
-                    heading: _('¿Ignorar etiqueta de reescalado previo?'),
-                    body: `${_('Advertencia: Reescalar sucesivamente una imagen ya procesada con IA puede introducir artefactos no deseados o degradar la calidad original.')}\n\n${_('¿Estás seguro de que deseas forzar el reescalado sobre imágenes previamente tratadas?')}`,
+                    heading: _("Ignore previous upscale tag?"),
+                    body: `${_("Warning: Repeatedly upscaling an AI-processed image may introduce unwanted artifacts or degrade quality.")}\n\n${_("Are you sure you want to force upscaling on previously treated images?")}`,
                 });
-                warnDialog.add_response('cancel', _('Cancelar'));
-                warnDialog.add_response('confirm', _('Activar de todos modos'));
+                warnDialog.add_response('cancel', _("Cancel"));
+                warnDialog.add_response('confirm', _("Enable anyway"));
                 warnDialog.set_response_appearance('confirm', Adw.ResponseAppearance.DESTRUCTIVE);
                 warnDialog.set_default_response('cancel');
                 warnDialog.set_close_response('cancel');
@@ -3472,13 +3809,13 @@ print(json.dumps({"ok": len(missing) == 0, "missing": missing, "distro": distro}
         groupParams.add(btnBox);
 
         const btnCancel = new Gtk.Button({
-            label: _('Cancelar'),
+            label: _("Cancel"),
             css_classes: ['flat'],
         });
         btnCancel.connect('clicked', () => dialog.close());
 
         const btnStart = new Gtk.Button({
-            label: _('Iniciar reescalado'),
+            label: _("Start upscaling"),
             css_classes: ['suggested-action', 'pill'],
         });
         btnBox.append(btnCancel);
@@ -3506,7 +3843,7 @@ print(json.dumps({"ok": len(missing) == 0, "missing": missing, "distro": distro}
             height_request: 24,
         });
         const lblRunTitle = new Gtk.Label({
-            label: `<b>${_('Reescalando fondos con Real-CUGAN...')}</b>`,
+            label: `<b>${_("Upscaling wallpapers with Real-CUGAN...")}</b>`,
             use_markup: true,
             css_classes: ['title-4'],
         });
@@ -3520,7 +3857,7 @@ print(json.dumps({"ok": len(missing) == 0, "missing": missing, "distro": distro}
             margin_top: 2,
             margin_bottom: 2,
         });
-        runningProgressBar.set_text(_('Iniciando...'));
+        runningProgressBar.set_text(_("Starting..."));
         runningBox.append(runningProgressBar);
 
         // Tarjeta visual del fondo actualmente en procesamiento
@@ -3579,11 +3916,11 @@ print(json.dumps({"ok": len(missing) == 0, "missing": missing, "distro": distro}
             halign: Gtk.Align.END,
         });
         const btnStop = new Gtk.Button({
-            label: _('Detener'),
+            label: _("Stop"),
             css_classes: ['destructive-action'],
         });
         const btnClose = new Gtk.Button({
-            label: _('Cerrar'),
+            label: _("Close"),
             css_classes: ['suggested-action'],
             visible: false,
         });
@@ -3601,7 +3938,7 @@ print(json.dumps({"ok": len(missing) == 0, "missing": missing, "distro": distro}
                     activeProc.force_exit();
                 } catch (e) {}
             }
-            lblRunTitle.set_label(`<b>${_('Proceso detenido por el usuario')}</b>`);
+            lblRunTitle.set_label(`<b>${_("Process stopped by user")}</b>`);
             runSpinner.set_spinning(false);
             btnStop.set_visible(false);
             btnClose.set_visible(true);
@@ -3649,11 +3986,11 @@ print(json.dumps({"ok": len(missing) == 0, "missing": missing, "distro": distro}
             const runNextDir = () => {
                 if (dirQueue.length === 0) {
                     appendLog('\n:: ¡Todos los directorios han sido procesados con éxito!\n');
-                    lblRunTitle.set_label(`<b>✓ ${_('Reescalado con IA finalizado')}</b>`);
+                    lblRunTitle.set_label(`<b>✓ ${_("AI Upscaling completed")}</b>`);
                     runSpinner.set_spinning(false);
                     btnStop.set_visible(false);
                     btnClose.set_visible(true);
-                    parentWindow.add_toast(new Adw.Toast({ title: _('Reescalado con IA finalizado') }));
+                    parentWindow.add_toast(new Adw.Toast({ title: _("AI Upscaling completed") }));
                     return;
                 }
 
@@ -3698,33 +4035,33 @@ print(json.dumps({"ok": len(missing) == 0, "missing": missing, "distro": distro}
                                             if (pData.event === 'scanning') {
                                                 const frac = pData.total > 0 ? (pData.current / pData.total) : 0;
                                                 runningProgressBar.set_fraction(frac);
-                                                runningProgressBar.set_text(`${_("Analizando candidatos:")} ${pData.current} ${_("de")} ${pData.total} (${Math.round(frac * 100)}%)`);
+                                                runningProgressBar.set_text(`${_("Analyzing candidates:")} ${pData.current} ${_("of")} ${pData.total} (${Math.round(frac * 100)}%)`);
                                                 lblCurrentName.set_label(pData.name || '');
-                                                lblCurrentDetails.set_label(_("Comprobando resolución y firmas de reescalado previo..."));
+                                                lblCurrentDetails.set_label(_("Checking resolution and previous upscale signatures..."));
                                             } else if (pData.event === 'start') {
                                                 runningProgressBar.set_fraction(0.0);
-                                                runningProgressBar.set_text(`0 ${_("de")} ${pData.total} ${_("procesadas")} (0%)`);
+                                                runningProgressBar.set_text(`0 ${_("of")} ${pData.total} ${_("processed")} (0%)`);
                                                 appendLog(`\n:: Se encontraron ${pData.total} imágenes listas para reescalar.\n\n`);
                                             } else if (pData.event === 'processing') {
                                                 const frac = pData.total > 0 ? ((pData.current - 1) / pData.total) : 0;
                                                 runningProgressBar.set_fraction(frac);
-                                                runningProgressBar.set_text(`${_("Reescalando")} ${pData.current} ${_("de")} ${pData.total} (${Math.round(frac * 100)}%)`);
+                                                runningProgressBar.set_text(`${_("Upscaling")} ${pData.current} ${_("of")} ${pData.total} (${Math.round(frac * 100)}%)`);
                                                 lblCurrentName.set_label(pData.name || '');
-                                                lblCurrentDetails.set_label(`${pData.orig_dims}  ➔  ${pData.target_dims}  ·  ${_("Factor de escala")} ${pData.scale}x`);
+                                                lblCurrentDetails.set_label(`${pData.orig_dims}  ➔  ${pData.target_dims}  ·  ${_("Scale factor")} ${pData.scale}x`);
                                                 this._updatePicture(currentPic, pData.path, 120, 68);
                                                 currentItemCard.set_visible(true);
                                             } else if (pData.event === 'image_done') {
                                                 const frac = pData.total > 0 ? (pData.current / pData.total) : 0;
                                                 runningProgressBar.set_fraction(frac);
-                                                runningProgressBar.set_text(`${_("Completada")} ${pData.current} ${_("de")} ${pData.total} (${Math.round(frac * 100)}%)`);
-                                                lblCurrentDetails.set_label(`✓ ${pData.name} ${_("guardada exitosamente")}`);
+                                                runningProgressBar.set_text(`${_("Completed")} ${pData.current} ${_("of")} ${pData.total} (${Math.round(frac * 100)}%)`);
+                                                lblCurrentDetails.set_label(`✓ ${pData.name} ${_("saved successfully")}`);
                                             } else if (pData.event === 'done') {
                                                 runningProgressBar.set_fraction(1.0);
-                                                runningProgressBar.set_text(`${_("Reescalado completado")} (100%)`);
-                                                lblCurrentDetails.set_label(`✓ ${_("Procesamiento de carpeta finalizado")}`);
+                                                runningProgressBar.set_text(`${_("Upscaling completed")} (100%)`);
+                                                lblCurrentDetails.set_label(`✓ ${_("Folder processing finished")}`);
                                             } else if (pData.event === 'empty') {
                                                 runningProgressBar.set_fraction(1.0);
-                                                runningProgressBar.set_text(_("Sin imágenes pendientes por procesar"));
+                                                runningProgressBar.set_text(_("No pending images to process"));
                                                 currentItemCard.set_visible(false);
                                                 appendLog(':: No se encontraron imágenes que requieran reescalado.\n');
                                             }

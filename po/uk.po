@@ -14,634 +14,631 @@ msgstr ""
 msgid "Auto Wallpaper"
 msgstr "Auto Wallpaper"
 
-msgid "Apariencia"
+msgid "Appearance"
 msgstr "Зовнішній вигляд"
 
-msgid "Estilo"
+msgid "Style"
 msgstr "Стиль"
 
-msgid "Haz clic en una miniatura para cambiar el fondo de pantalla del tema correspondiente."
+msgid "Click on a thumbnail to change the wallpaper for the corresponding theme."
 msgstr "Натисніть на мініатюру, щоб змінити шпалери для відповідної теми."
 
-msgid "Haz clic para cambiar el fondo claro (Predeterminado)"
+msgid "Click to change light wallpaper (Default)"
 msgstr "Натисніть, щоб змінити світлі шпалери (Типовий)"
 
-msgid "Haz clic para cambiar el fondo oscuro (Dark)"
+msgid "Click to change dark wallpaper (Dark)"
 msgstr "Натисніть, щоб змінити темні шпалери (Темний)"
 
-msgid "Predeterminado"
+msgid "Default"
 msgstr "Типовий"
 
-msgid "Oscuro"
+msgid "Dark"
 msgstr "Темний"
 
-msgid "cambiando el tema"
+msgid "changing theme"
 msgstr "змінюючи тему"
 
-msgid "Se ha cambiado el fondo del tema"
+msgid "Wallpaper changed for theme"
 msgstr "Шпалери для теми змінено"
 
-msgid "puede verlo"
+msgid "view it by"
 msgstr "можна побачити"
 
-msgid "Seleccionar fondo de pantalla claro"
+msgid "Select light wallpaper"
 msgstr "Вибрати світлі шпалери"
 
-msgid "Seleccionar fondo de pantalla oscuro"
+msgid "Select dark wallpaper"
 msgstr "Вибрати темні шпалери"
 
-msgid "Carpetas de Fondos"
+msgid "Wallpaper Folders"
 msgstr "Теки шпалер"
 
-msgid "Selecciona las carpetas de imágenes asignadas a cada tema."
+msgid "Select the image folders assigned to each theme."
 msgstr "Виберіть теки зображень, призначені для кожної теми."
 
-msgid "Colección Claro"
+msgid "Light Collection"
 msgstr "Світла колекція"
 
-msgid "Colección Oscuro"
+msgid "Dark Collection"
 msgstr "Темна колекція"
 
-msgid "Cambiar carpeta seleccionada"
+msgid "Change selected folder"
 msgstr "Змінити вибрану теку"
 
-msgid "Abrir carpeta en Archivos"
+msgid "Open folder in Files"
 msgstr "Відкрити теку у Файлах"
 
-msgid "Rotación de fondos del conjunto"
+msgid "Collection Wallpaper Rotation"
 msgstr "Зміна шпалер колекції"
 
-msgid "Configura el orden en que se van a proyectar las imágenes."
+msgid "Configure the order in which images are cycled."
 msgstr "Налаштуйте порядок показу зображень."
 
-msgid "Se han detectado cambios en los fondos almacenados. "
+msgid "Changes detected in stored wallpapers. "
 msgstr "Виявлено зміни у збережених шпалерах. "
 
-msgid "Recarga"
+msgid "Reload"
 msgstr "Перезавантажте"
 
-msgid "Recargar fondos ahora"
+msgid "Reload wallpapers now"
 msgstr "Перезавантажити шпалери зараз"
 
-msgid " para actualizar los fondos"
+msgid " to update wallpapers"
 msgstr " для оновлення шпалер"
 
-msgid "Descartar aviso"
+msgid "Dismiss notice"
 msgstr "Закрити сповіщення"
 
-msgid "Servicio en segundo plano"
+msgid "Background Service"
 msgstr "Фонова служба"
 
-msgid "Comprobando estado..."
+msgid "Checking status..."
 msgstr "Перевірка стану..."
 
-msgid "Siguiente"
+msgid "Next"
 msgstr "Наступні"
 
-msgid "Pasar al siguiente fondo de la secuencia actual"
+msgid "Skip to next wallpaper in current sequence"
 msgstr "Перейти до наступних шпалер у поточній послідовності"
 
-msgid "Barajar"
+msgid "Shuffle"
 msgstr "Перемішати"
 
-msgid "Revolver la lista de fondos pendientes sin reiniciar el ciclo"
+msgid "Shuffle pending wallpapers without restarting the cycle"
 msgstr "Перемішати список очікуваних шпалер без перезапуску циклу"
 
-msgid "Recargar"
-msgstr "Перезавантажити"
-
-msgid "Re-escanear carpetas, reiniciar la baraja completa y aplicar nuevos fondos"
+msgid "Rescan folders, reset the entire deck, and apply new wallpapers"
 msgstr "Повторно просканувати теки, скинути всю колоду та застосувати нові шпалери"
 
-msgid "Secuencia de rotación"
+msgid "Rotation sequence"
 msgstr "Послідовність зміни"
 
-msgid "Al azar"
+msgid "Random"
 msgstr "Випадково"
 
-msgid "Al azar sin repeticiones (baraja completa)"
+msgid "Random without repeats (full deck)"
 msgstr "Випадково без повторень (повна колода)"
 
-msgid "Rotación automática"
+msgid "Automatic rotation"
 msgstr "Автоматична зміна"
 
-msgid "Temporizador y automatización del cambio en segundo plano."
+msgid "Timer and background change automation."
 msgstr "Таймер та автоматична зміна у фоновому режимі."
 
-msgid "Activar rotación automática"
+msgid "Enable automatic rotation"
 msgstr "Увімкнути автоматичну зміну"
 
-msgid "Habilitar el servicio para cambiar las imágenes según la frecuencia programada"
+msgid "Enable service to switch wallpapers based on scheduled frequency"
 msgstr "Увімкнути службу для зміни зображень за запланованим розкладом"
 
-msgid "Frecuencia de cambio"
+msgid "Switch frequency"
 msgstr "Частота зміни"
 
-msgid "Intervalo de tiempo (minutos)"
+msgid "Time interval (minutes)"
 msgstr "Інтервал часу (хвилини)"
 
-msgid "Hora fija diaria"
+msgid "Fixed daily time"
 msgstr "Фіксований щоденний час"
 
-msgid "Minutos entre cambios"
+msgid "Minutes between switches"
 msgstr "Хвилини між змінами"
 
-msgid "Tiempo que permanece cada fondo de pantalla"
+msgid "Time each wallpaper remains active"
 msgstr "Час показу кожних шпалер"
 
-msgid "Hora de cambio diario"
+msgid "Daily switch time"
 msgstr "Час щоденної зміни"
 
-msgid "Hora programada para rotar el fondo cada día (formato 24h)"
+msgid "Scheduled time to rotate wallpaper each day (24h format)"
 msgstr "Запланований час щоденної зміни шпалер (формат 24г)"
 
-msgid "Hora (00 a 23)"
+msgid "Hour (00 to 23)"
 msgstr "Година (від 00 до 23)"
 
-msgid "Minutos (00 a 59)"
+msgid "Minutes (00 to 59)"
 msgstr "Хвилини (від 00 до 59)"
 
-msgid "Días entre cambios"
+msgid "Days between switches"
 msgstr "Дні між змінами"
 
-msgid "Frecuencia en días de la rotación diaria"
+msgid "Frequency in days for daily rotation"
 msgstr "Частота в днях для щоденної зміни"
 
-msgid "Contar cambio de estilo no visto en la rotación"
+msgid "Count unseen style change as rotation"
 msgstr "Враховувати зміну стилю як зміну шпалер, якщо фон ще не переглядався"
 
-msgid "Al alternar entre claro y oscuro, si el fondo aún no se había visto, reinicia el temporizador (solo en intervalo de tiempo)"
+msgid "When switching between light and dark, if the wallpaper was not yet seen, restart the timer (interval mode only)"
 msgstr "При перемиканні між світлою та темною темою, якщо шпалери ще не переглядалися, перезапускає таймер (лише в режимі інтервалу)"
 
-msgid "Herramientas y Mantenimiento"
+msgid "Tools and Maintenance"
 msgstr "Інструменти та обслуговування"
 
-msgid "Mantenimiento, gestión del fondo en pantalla, organización inteligente y optimización."
+msgid "Maintenance, active wallpaper management, smart organization, and optimization."
 msgstr "Обслуговування, керування активними шпалерами, розумна організація та оптимізація."
 
-msgid "Fondo actual en pantalla"
+msgid "Current wallpaper on screen"
 msgstr "Поточні шпалери на екрані"
 
-msgid "Detectando fondo visible..."
+msgid "Detecting active wallpaper..."
 msgstr "Визначення видимих шпалер..."
 
-msgid "Ubicar y mostrar archivo en Archivos (Nautilus)"
+msgid "Locate and show file in Files (Nautilus)"
 msgstr "Знайти та показати файл у Файлах (Nautilus)"
 
-msgid "Fijar fondo en pinned/ (proteger en este tema)"
+msgid "Pin wallpaper in pinned/ (protect in this theme)"
 msgstr "Закріпити у pinned/ (захистити в цій темі)"
 
-msgid "Excluir fondo de la rotación (mover a exclude/)"
+msgid "Exclude wallpaper from rotation (move to exclude/)"
 msgstr "Виключити зі зміни (перемістити до exclude/)"
 
-msgid "No hay ningún fondo configurado o el archivo no existe"
+msgid "No wallpaper configured or file does not exist"
 msgstr "Шпалери не налаштовано або файл не існує"
 
-msgid "Fijado (pinned)"
+msgid "Pinned"
 msgstr "Закріплено (pinned)"
 
-msgid "Desfijar fondo (regresar a la carpeta principal)"
+msgid "Unpin wallpaper (return to main folder)"
 msgstr "Відкріпити шпалери (повернути до головної теки)"
 
-msgid "Fijar fondo en pinned/ (no mover de este tema)"
+msgid "Pin wallpaper in pinned/ (do not rotate away)"
 msgstr "Закріпити у pinned/ (не переміщувати з цієї теми)"
 
-msgid "Fondo desfijado y devuelto a la carpeta principal"
+msgid "Wallpaper unpinned and returned to main folder"
 msgstr "Шпалери відкріплено та повернуто до головної теки"
 
-msgid "Fondo fijado en pinned/"
+msgid "Wallpaper pinned in pinned/"
 msgstr "Шпалери закріплено у pinned/"
 
-msgid "¿Excluir este fondo de pantalla?"
+msgid "Exclude this wallpaper?"
 msgstr "Виключити ці шпалери?"
 
-msgid "se moverá a la carpeta 'exclude/' y se cambiará al siguiente fondo disponible de la rotación."
+msgid "will be moved to 'exclude/' and wallpaper will switch to next in rotation."
 msgstr "буде переміщено до теки 'exclude/' і відбудеться перехід до наступних доступних шпалер."
 
-msgid "Cancelar"
+msgid "Cancel"
 msgstr "Скасувати"
 
-msgid "Excluir"
+msgid "Exclude"
 msgstr "Виключити"
 
-msgid "Fondo excluido y rotado"
+msgid "Wallpaper excluded and rotated"
 msgstr "Шпалери виключено та змінено"
 
-msgid "Detector de Fondos Duplicados"
+msgid "Duplicate Wallpaper Detector"
 msgstr "Детектор дублікатів шпалер"
 
-msgid "Detecta imágenes repetidas o casi idénticas con firmas estructurales (dHash)"
+msgid "Detects repeated or near-identical images using structural perceptual hashes (dHash)"
 msgstr "Виявляє повторювані або майже однакові зображення за перцептивними хешами (dHash)"
 
-msgid "Buscar duplicados"
+msgid "Scan duplicates"
 msgstr "Знайти дублікати"
 
-msgid "Clasificar Fondos por Luminosidad"
+msgid "Classify Wallpapers by Luminosity"
 msgstr "Класифікація шпалер за яскравістю"
 
-msgid "Evalúa el brillo perceptual (CIELAB L*) y clasifica automáticamente entre claro y oscuro"
+msgid "Evaluates perceptual lightness (CIELAB L*) and classifies automatically into light and dark"
 msgstr "Оцінює перцептивну яскравість (CIELAB L*) та автоматично класифікує на світлі та темні"
 
-msgid "Clasificar"
+msgid "Classify"
 msgstr "Класифікувати"
 
-msgid "Reescalado con IA (Smart Upscale)"
+msgid "AI Upscaling (Smart Upscale)"
 msgstr "Масштабування за допомогою ШІ (Smart Upscale)"
 
-msgid "Comprobando compatibilidad de aceleración Vulkan y motor Real-CUGAN..."
+msgid "Checking Vulkan acceleration compatibility and Real-CUGAN engine..."
 msgstr "Перевірка сумісності прискорення Vulkan та рушія Real-CUGAN..."
 
-msgid "Reescalar..."
+msgid "Upscale..."
 msgstr "Масштабувати..."
 
-msgid "Requiere aceleración Vulkan y motor Real-CUGAN instalado"
+msgid "Requires Vulkan acceleration and Real-CUGAN engine installed"
 msgstr "Потрібне прискорення Vulkan та встановлений рушій Real-CUGAN"
 
-msgid "No compatible"
+msgid "Not supported"
 msgstr "Несумісно"
 
-msgid "¿Verificar compatibilidad nuevamente?"
+msgid "Check compatibility again?"
 msgstr "Перевірити сумісність ще раз?"
 
-msgid "El motor Real-CUGAN con aceleración Vulkan reportó incompatibilidad o no respondió en la última comprobación."
+msgid "The Real-CUGAN engine with Vulkan acceleration reported incompatibility or did not respond."
 msgstr "Рушій Real-CUGAN з прискоренням Vulkan повідомив про несумісність або не відповів під час останньої перевірки."
 
-msgid "¿Deseas volver a escanear los controladores de GPU Vulkan y el motor ahora?"
+msgid "Do you want to rescan Vulkan GPU drivers and the engine now?"
 msgstr "Повторно просканувати драйвери GPU Vulkan та рушій зараз?"
 
-msgid "Verificar nuevamente"
+msgid "Check again"
 msgstr "Перевірити знову"
 
-msgid "Verificando..."
+msgid "Checking..."
 msgstr "Перевірка..."
 
-msgid "Atajos"
+msgid "Shortcuts"
 msgstr "Комбінації клавіш"
 
-msgid "Atajos de teclado"
+msgid "Keyboard Shortcuts"
 msgstr "Комбінації клавіш"
 
-msgid "Atajos nativos de GNOME para cambiar y recargar fondos rápidamente."
+msgid "Native GNOME shortcuts to quickly switch and reload wallpapers."
 msgstr "Вбудовані комбінації клавіш GNOME для швидкої зміни та перезавантаження шпалер."
 
-msgid "Habilitar atajos de teclado"
+msgid "Enable keyboard shortcuts"
 msgstr "Увімкнути комбінації клавіш"
 
-msgid "Activa los atajos globales en el entorno de escritorio"
+msgid "Enables global shortcuts in the desktop environment"
 msgstr "Вмикає глобальні комбінації клавіш у стільничному середовищі"
 
-msgid "Siguiente wallpaper"
+msgid "Next wallpaper"
 msgstr "Наступні шпалери"
 
-msgid "Recargar conjuntos"
+msgid "Reload collections"
 msgstr "Перезавантажити колекції"
 
-msgid "Ejecuta: auto-wallpaper next"
+msgid "Runs: auto-wallpaper next"
 msgstr "Виконує: auto-wallpaper next"
 
-msgid "Ejecuta: auto-wallpaper reload"
+msgid "Runs: auto-wallpaper reload"
 msgstr "Виконує: auto-wallpaper reload"
 
-msgid "Super + W (Predeterminado)"
+msgid "Super + W (Default)"
 msgstr "Super + W (Типовий)"
 
-msgid "Super + Alt + W (Predeterminado)"
+msgid "Super + Alt + W (Default)"
 msgstr "Super + Alt + W (Типовий)"
 
-msgid "Super + Espacio"
+msgid "Super + Space"
 msgstr "Super + Пробіл"
 
-msgid "Super + Flecha Derecha"
+msgid "Super + Right Arrow"
 msgstr "Super + Стрілка вправо"
 
-msgid "Personalizado"
+msgid "Custom"
 msgstr "Власний"
 
-msgid "Desactivado"
+msgid "Disabled"
 msgstr "Вимкнено"
 
-msgid "Servicio detenido"
+msgid "Service stopped"
 msgstr "Службу зупинено"
 
-msgid "El temporizador automático está detenido"
+msgid "Automatic timer is stopped"
 msgstr "Автоматичний таймер зупинено"
 
-msgid "Servicio activo"
+msgid "Service active"
 msgstr "Служба активна"
 
-msgid "Próximo cambio en:"
+msgid "Next switch in:"
 msgstr "Наступна зміна через:"
 
-msgid "Restantes:"
+msgid "Remaining:"
 msgstr "Залишилося:"
 
-msgid "Modo:"
+msgid "Mode:"
 msgstr "Режим:"
 
-msgid "Seleccionar carpeta de fondos claros"
+msgid "Select light wallpaper folder"
 msgstr "Вибрати теку світлих шпалер"
 
-msgid "Seleccionar carpeta de fondos oscuros"
+msgid "Select dark wallpaper folder"
 msgstr "Вибрати теку темних шпалер"
 
-msgid "¿Recargar todos los fondos?"
+msgid "Reload all wallpapers?"
 msgstr "Перезавантажити всі шпалери?"
 
-msgid "Esto re-escaneará las carpetas y recargará toda la lista de fondos, incluyendo el fondo actual."
+msgid "This will rescan folders and reload all wallpapers, including current wallpaper."
 msgstr "Це повторно просканує теки та перезавантажить весь список шпалер, включаючи поточні."
 
-msgid "Desactivado (Manual)"
+msgid "Disabled (Manual)"
 msgstr "Вимкнено (Вручну)"
 
-msgid "Calculando / Inminente..."
+msgid "Calculating / Imminent..."
 msgstr "Обчислення / Незабаром..."
 
-msgid "Imágenes (*.png, *.jpg, *.jpeg, *.webp)"
+msgid "Images (*.png, *.jpg, *.jpeg, *.webp)"
 msgstr "Зображення (*.png, *.jpg, *.jpeg, *.webp)"
 
-msgid "Fondos Duplicados o Repetidos"
+msgid "Duplicate or Repeated Wallpapers"
 msgstr "Повторювані шпалери або дублікати"
 
-msgid "Volver a escanear"
+msgid "Rescan"
 msgstr "Сканувати знову"
 
-msgid "Escaneando colecciones de fondos..."
+msgid "Scanning wallpaper collections..."
 msgstr "Сканування колекцій шпалер..."
 
-msgid "Calculando firmas estructurales dHash y comparando similitudes..."
+msgid "Calculating dHash structural hashes and comparing similarities..."
 msgstr "Обчислення структурних хешів dHash та порівняння схожості..."
 
-msgid "¡No hay duplicados!"
+msgid "No duplicates found!"
 msgstr "Дублікатів не знайдено!"
 
-msgid "Todas las imágenes de tus colecciones son únicas. No se detectaron fondos repetidos ni versiones comprimidas."
+msgid "All images in your collections are unique. No repeated wallpapers or compressed copies detected."
 msgstr "Усі зображення у ваших колекціях унікальні. Повторюваних шпалер або стиснених копій не виявлено."
 
-msgid "Iniciando escaneo..."
+msgid "Starting scan..."
 msgstr "Початок сканування..."
 
-msgid "Se encontraron"
+msgid "Found"
 msgstr "Знайдено:"
 
-msgid "coincidencias de fondos repetidos o casi idénticos:"
+msgid "matches of duplicate or near-identical wallpapers:"
 msgstr "збігів повторюваних або майже однакових шпалер:"
 
-msgid "DUPLICADO EXACTO (100% idéntico)"
+msgid "EXACT DUPLICATE (100% identical)"
 msgstr "ТОЧНИЙ ДУБЛІКАТ (100% однаковий)"
 
-msgid "CASI IDÉNTICO"
+msgid "NEAR IDENTICAL"
 msgstr "МАЙЖЕ ОДНАКОВИЙ"
 
-msgid "similitud"
+msgid "similarity"
 msgstr "схожість"
 
-msgid "Mover esta versión a la subcarpeta exclude/"
+msgid "Move this version to exclude/ subfolder"
 msgstr "Перемістити цю версію до підтеки exclude/"
 
-msgid "Ubicar en Archivos"
+msgid "Locate in Files"
 msgstr "Показати у Файлах"
 
-msgid "Excluida ✓"
+msgid "Excluded ✓"
 msgstr "Виключено ✓"
 
-msgid "movida a exclude/"
+msgid "moved to exclude/"
 msgstr "переміщено до exclude/"
 
-msgid "Aviso:"
+msgid "Notice:"
 msgstr "Попередження:"
 
-msgid "El análisis perceptual examina la luminosidad píxel a píxel de cada imagen. En colecciones con muchos fondos, el proceso puede tardar un poco según el rendimiento de tu equipo."
+msgid "Perceptual analysis evaluates pixel lightness for each image. For large collections, this process may take a while depending on hardware."
 msgstr "Перцептивний аналіз оцінює яскравість кожного пікселя. Для великих колекцій процес може зайняти деякий час залежно від апаратного забезпечення."
 
-msgid "Parámetros de Clasificación por Luminosidad"
+msgid "Luminosity Classification Parameters"
 msgstr "Параметри класифікації за яскравістю"
 
-msgid "Organiza automáticamente tus fondos en las carpetas Claro y Oscuro según el modelo perceptivo humano (CIELAB L* + Percentil 65)."
+msgid "Automatically organize wallpapers into Light and Dark folders using human perceptual model (CIELAB L* + 65th percentile)."
 msgstr "Автоматично впорядковує шпалери у світлі та темні теки за моделлю людського зорового сприйняття (CIELAB L* + 65-й процентиль)."
 
-msgid "Muy permisivo"
+msgid "Very Permissive"
 msgstr "Дуже м'який"
 
-msgid "Permisivo"
+msgid "Permissive"
 msgstr "М'який"
 
-msgid "Equilibrado"
+msgid "Balanced"
 msgstr "Збалансований"
 
-msgid "Exigente"
+msgid "Demanding"
 msgstr "Суворий"
 
-msgid "Muy estricto"
+msgid "Very Strict"
 msgstr "Дуже суворий"
 
-msgid "Más Claros"
+msgid "More Light"
 msgstr "Більше світлих"
 
-msgid "Más Oscuros"
+msgid "More Dark"
 msgstr "Більше темних"
 
-msgid "Muy permisivo para Claro · Máximo favorecedor para fondos claros"
+msgid "Very permissive for Light · Maximum favor towards light wallpapers"
 msgstr "Дуже м'який для Світлих · Максимальна перевага світлим шпалерам"
 
-msgid "Permisivo para Claro · Favorece fondos claros"
+msgid "Permissive for Light · Favors light wallpapers"
 msgstr "М'який для Світлих · Перевага світлим шпалерам"
 
-msgid "Equilibrada / Estándar · Recomendado · Balance perceptivo óptimo"
+msgid "Balanced / Standard · Recommended · Optimal perceptual balance"
 msgstr "Збалансований / Стандарт · Рекомендовано · Оптимальний баланс"
 
-msgid "Exigente para Claro · Más fondos a Oscuro"
+msgid "Demanding for Light · More wallpapers moved to Dark"
 msgstr "Суворий для Світлих · Більше шпалер переміщуються у Темні"
 
-msgid "Muy estricto para Claro · Mínimo favorecedor para Claro"
+msgid "Very strict for Light · Minimum favor towards Light wallpapers"
 msgstr "Дуже суворий для Світлих · Мінімальна перевага світлим шпалерам"
 
-msgid "Sensibilidad de brillo (Umbral CIELAB L*)"
+msgid "Brightness Sensitivity (CIELAB L* Threshold)"
 msgstr "Чутливість до яскравості (Поріг CIELAB L*)"
 
-msgid "Colecciones a analizar"
+msgid "Collections to analyze"
 msgstr "Колекції для аналізу"
 
-msgid "Las subcarpetas pinned/ y exclude/ siempre están protegidas."
+msgid "Subfolders pinned/ and exclude/ are always protected."
 msgstr "Підтеки pinned/ та exclude/ завжди захищені."
 
-msgid "Ambos conjuntos (Claro y Oscuro - Recomendado)"
+msgid "Both collections (Light and Dark - Recommended)"
 msgstr "Обидві колекції (Світла та Темна - Рекомендовано)"
 
-msgid "Solo conjunto Claro (Reevaluar y mover fondos oscuros)"
+msgid "Light collection only (Reevaluate and move dark wallpapers)"
 msgstr "Тільки світла колекція (Переоцінити та перемістити темні шпалери)"
 
-msgid "Solo conjunto Oscuro (Reevaluar y mover fondos claros)"
+msgid "Dark collection only (Reevaluate and move light wallpapers)"
 msgstr "Тільки темна колекція (Переоцінити та перемістити світлі шпалери)"
 
-msgid "Carpeta personalizada (Analizar y clasificar imágenes hacia Claro/Oscuro)"
+msgid "Custom folder (Analyze and classify images into Light/Dark)"
 msgstr "Користувацька тека (Аналіз та класифікація зображень у Світлі/Темні)"
 
-msgid "Carpeta a clasificar"
+msgid "Folder to classify"
 msgstr "Тека для класифікації"
 
-msgid "Ninguna carpeta seleccionada"
+msgid "No folder selected"
 msgstr "Теку не вибрано"
 
-msgid "Seleccionar carpeta..."
+msgid "Select folder..."
 msgstr "Вибрати теку..."
 
-msgid "Seleccionar carpeta personalizada"
+msgid "Select custom folder"
 msgstr "Вибрати власну теку"
 
-msgid "Iniciar clasificación"
+msgid "Start classification"
 msgstr "Почати класифікацію"
 
-msgid "Clasificando fondos mediante CIELAB L*..."
+msgid "Classifying wallpapers via CIELAB L*..."
 msgstr "Класифікація шпалер за CIELAB L*..."
 
-msgid "Evaluando brillo perceptual y percentil 65 en cada imagen..."
+msgid "Evaluating perceptual lightness and 65th percentile for each image..."
 msgstr "Оцінка перцептивної яскравості та 65-го процентиля для кожного зображення..."
 
-msgid "Movidos a Claro"
+msgid "Moved to Light"
 msgstr "Переміщено у Світлі"
 
-msgid "Movidos a Oscuro"
+msgid "Moved to Dark"
 msgstr "Переміщено у Темні"
 
-msgid "Iniciando análisis..."
+msgid "Starting analysis..."
 msgstr "Початок аналізу..."
 
-msgid "Las subcarpetas"
+msgid "Subfolders"
 msgstr "Підтеки"
 
-msgid "fondos fijados"
+msgid "pinned wallpapers"
 msgstr "закріплені шпалери"
 
-msgid "y"
+msgid "and"
 msgstr "та"
 
-msgid "fondos excluidos"
+msgid "excluded wallpapers"
 msgstr "виключені шпалери"
 
-msgid "están protegidas y no se moverán."
+msgid "are protected and will not be moved."
 msgstr "захищені й не переміщуватимуться."
 
-msgid "Escaneando y clasificando fondos..."
+msgid "Scanning and classifying wallpapers..."
 msgstr "Сканування та класифікація шпалер..."
 
-msgid "Analizando brillo perceptual (CIELAB L*) y percentil 65 en cada imagen"
+msgid "Analyzing perceptual lightness (CIELAB L*) and 65th percentile on each image"
 msgstr "Аналіз перцептивної яскравості (CIELAB L*) та 65-го процентиля для кожного зображення"
 
-msgid "Detener"
+msgid "Stop"
 msgstr "Зупинити"
 
-msgid "Cerrar"
+msgid "Close"
 msgstr "Закрити"
 
-msgid "Proceso detenido por el usuario"
+msgid "Process stopped by user"
 msgstr "Процес зупинено користувачем"
 
-msgid "Clasificación completada"
+msgid "Classification completed"
 msgstr "Класифікацію завершено"
 
-msgid "¡Colecciones ya equilibradas!"
+msgid "Collections already balanced!"
 msgstr "Колекції вже збалансовані!"
 
-msgid "Todos los fondos ya se encuentran en su carpeta adecuada según el umbral seleccionado."
+msgid "All wallpapers are already in their appropriate folder according to the selected threshold."
 msgstr "Усі шпалери вже перебувають у відповідних теках згідно з вибраним порогом."
 
-msgid "Colecciones equilibradas"
+msgid "Balanced collections"
 msgstr "Збалансовані колекції"
 
-msgid "No se requirió mover ningún fondo. Ambas carpetas coinciden con sus perfiles de luminosidad."
+msgid "No wallpapers needed to be moved. Both folders match their lightness profiles."
 msgstr "Не потрібно було переміщувати жодних шпалер. Обидві теки відповідають заданим профілям яскравості."
 
-msgid "Clasificación finalizada con éxito"
+msgid "Classification completed successfully"
 msgstr "Класифікацію успішно завершено"
 
-msgid "mostrando los últimos"
+msgid "showing last"
 msgstr "показано останні"
 
-msgid "en vivo"
+msgid "live"
 msgstr "у реальному часі"
 
-msgid "Se movieron"
+msgid "Moved"
 msgstr "Переміщено:"
 
-msgid "a claro y"
+msgid "to light and"
 msgstr "у світлі та"
 
-msgid "a oscuro en total"
+msgid "to dark in total"
 msgstr "у темні всього"
 
-msgid "Clasificación de fondos finalizada"
+msgid "Wallpaper classification completed"
 msgstr "Класифікацію шпалер завершено"
 
-msgid "Evaluando:"
+msgid "Evaluating:"
 msgstr "Оцінювання:"
 
-msgid "Brillo L*"
+msgid "Lightness L*"
 msgstr "Яскравість L*"
 
-msgid "Reescalado Inteligente (Real-CUGAN)"
+msgid "Smart Upscale (Real-CUGAN)"
 msgstr "Розумне масштабування (Real-CUGAN)"
 
-msgid "El proceso de reescalado utiliza aceleración neuronal por GPU (Vulkan). Puede tardar en completarse y ocasionar pérdida temporal de rendimiento mientras se ejecuta."
+msgid "The upscaling process uses Vulkan GPU neural acceleration. It may take some time and temporarily affect performance while running."
 msgstr "Процес масштабування використовує нейромережеве прискорення GPU (Vulkan). Це може зайняти деякий час і тимчасово вплинути на продуктивність комп'ютера."
 
-msgid "Parámetros del Reescalado IA"
+msgid "AI Upscale Parameters"
 msgstr "Параметри масштабування з ШІ"
 
-msgid "Acelera la nitidez y resolución usando Real-CUGAN."
+msgid "Enhance sharpness and resolution using Real-CUGAN."
 msgstr "Покращуйте чіткість і роздільну здатність за допомогою Real-CUGAN."
 
-msgid "GPU detectada:"
+msgid "Detected GPU:"
 msgstr "Виявлений GPU:"
 
-msgid "Carpeta a reescalar"
+msgid "Folder to upscale"
 msgstr "Тека для масштабування"
 
-msgid "☀️ Conjunto claro"
+msgid "☀️ Light collection"
 msgstr "☀️ Світла колекція"
 
-msgid "🌙 Conjunto oscuro"
+msgid "🌙 Dark collection"
 msgstr "🌙 Темна колекція"
 
-msgid "🌓 Ambos conjuntos (claro y oscuro)"
+msgid "🌓 Both collections (light and dark)"
 msgstr "🌓 Обидва набори (світлий і темний)"
 
-msgid "Factor de escala"
+msgid "Scale factor"
 msgstr "Коефіцієнт масштабування"
 
-msgid "Multiplicador de resolución"
+msgid "Resolution multiplier"
 msgstr "Множник роздільної здатності"
 
-msgid "2x (Recomendado para 1080p -> 4K)"
+msgid "2x (Recommended for 1080p -> 4K)"
 msgstr "2x (Рекомендовано для 1080p -> 4K)"
 
-msgid "Reducción de ruido (Denoise)"
+msgid "Noise Reduction (Denoise)"
 msgstr "Зниження шуму (Denoise)"
 
-msgid "Nivel de limpieza de artefactos y compresión"
+msgid "Artifact and compression cleanup level"
 msgstr "Рівень очищення артефактів і стиснення"
 
-msgid "Nivel 0 - Predeterminado (Nitidez óptima)"
+msgid "Level 0 - Default (Optimal sharpness)"
 msgstr "Рівень 0 - Типовий (Оптимальна чіткість)"
 
-msgid "Nivel 1 - Suave"
+msgid "Level 1 - Soft"
 msgstr "Рівень 1 - М'який"
 
-msgid "Nivel 2 - Medio"
+msgid "Level 2 - Medium"
 msgstr "Рівень 2 - Середній"
 
-msgid "Nivel 3 - Intenso"
+msgid "Level 3 - Strong"
 msgstr "Рівень 3 - Сильний"
 
-msgid "Nivel -1 - Sin denoise (Preserva grano)"
+msgid "Level -1 - No denoise (Preserves grain)"
 msgstr "Рівень -1 - Без шумозаглушення (Зберігати зернистість)"
 
-msgid "Límite de resolución"
+msgid "Resolution limit"
 msgstr "Обмеження роздільної здатності"
 
-msgid "Omitir imágenes que ya alcancen o superen este tamaño"
+msgid "Skip images that already reach or exceed this size"
 msgstr "Пропускати зображення, які вже досягли або перевищують цей розмір"
 
-msgid "2560x1440 (2K QHD - Recomendado)"
+msgid "2560x1440 (2K QHD - Recommended)"
 msgstr "2560x1440 (2K QHD - Рекомендовано)"
 
 msgid "1920x1080 (Full HD)"
@@ -650,72 +647,104 @@ msgstr "1920x1080 (Full HD)"
 msgid "3840x2160 (4K UHD)"
 msgstr "3840x2160 (4K UHD)"
 
-msgid "Sin límite (procesar todas las imágenes)"
+msgid "No limit (process all images)"
 msgstr "Без обмежень (обробляти всі зображення)"
 
-msgid "Copia de seguridad"
+msgid "Backup copy"
 msgstr "Резервна копія"
 
-msgid "Guardar copia de las imágenes originales en exclude/backup_upscale_original/"
+msgid "Save copy of original images in exclude/backup_upscale_original/"
 msgstr "Зберігати копію оригінальних зображень у exclude/backup_upscale_original/"
 
-msgid "Ignorar etiqueta de reescalado previo"
+msgid "Ignore previous upscale tag"
 msgstr "Ігнорувати мітку попереднього масштабування"
 
-msgid "Permite reescalar imágenes que ya fueron procesadas anteriormente con IA"
+msgid "Allows re-upscaling images previously processed with AI"
 msgstr "Дозволяє повторно масштабувати зображення, вже оброблені за допомогою ШІ"
 
-msgid "¿Ignorar etiqueta de reescalado previo?"
+msgid "Ignore previous upscale tag?"
 msgstr "Ігнорувати мітку попереднього масштабування?"
 
-msgid "Advertencia: Reescalar sucesivamente una imagen ya procesada con IA puede introducir artefactos no deseados o degradar la calidad original."
+msgid "Warning: Repeatedly upscaling an AI-processed image may introduce unwanted artifacts or degrade quality."
 msgstr "Попередження: Повторне масштабування вже обробленого ШІ зображення може внести небажані артефакти або погіршити якість оригіналу."
 
-msgid "¿Estás seguro de que deseas forzar el reescalado sobre imágenes previamente tratadas?"
+msgid "Are you sure you want to force upscaling on previously treated images?"
 msgstr "Ви впевнені, що бажаєте примусово масштабувати раніше оброблені зображення?"
 
-msgid "Activar de todos modos"
+msgid "Enable anyway"
 msgstr "Усе одно ввімкнути"
 
-msgid "Iniciar reescalado"
+msgid "Start upscaling"
 msgstr "Почати масштабування"
 
-msgid "Reescalando fondos con Real-CUGAN..."
+msgid "Upscaling wallpapers with Real-CUGAN..."
 msgstr "Масштабування шпалер за допомогою Real-CUGAN..."
 
-msgid "Iniciando..."
+msgid "Starting..."
 msgstr "Запуск..."
 
-msgid "Reescalado con IA finalizado"
+msgid "AI Upscaling completed"
 msgstr "Масштабування з ШІ завершено"
 
-msgid "Analizando candidatos:"
+msgid "Analyzing candidates:"
 msgstr "Аналіз кандидатів:"
 
-msgid "de"
+msgid "of"
 msgstr "з"
 
-msgid "Comprobando resolución y firmas de reescalado previo..."
+msgid "Checking resolution and previous upscale signatures..."
 msgstr "Перевірка роздільної здатності та підписів попереднього масштабування..."
 
-msgid "procesadas"
+msgid "processed"
 msgstr "оброблено"
 
-msgid "Reescalando"
+msgid "Upscaling"
 msgstr "Масштабування"
 
-msgid "Completada"
+msgid "Completed"
 msgstr "Завершено"
 
-msgid "guardada exitosamente"
+msgid "saved successfully"
 msgstr "успішно збережено"
 
-msgid "Reescalado completado"
+msgid "Upscaling completed"
 msgstr "Масштабування завершено"
 
-msgid "Procesamiento de carpeta finalizado"
+msgid "Folder processing finished"
 msgstr "Обробку теки завершено"
 
-msgid "Sin imágenes pendientes por procesar"
+msgid "No pending images to process"
 msgstr "Немає зображень для обробки"
 
+msgid "View ignored combinations"
+msgstr ""
+
+msgid "Combinations you choose to ignore will appear here so you can restore them."
+msgstr ""
+
+msgid "image"
+msgstr ""
+
+msgid "images"
+msgstr ""
+
+msgid "No images"
+msgstr ""
+
+msgid "Add wallpapers to folders or select one containing images to enable rotation and tools."
+msgstr ""
+
+msgid "Checking Python dependencies and Real-CUGAN engine availability..."
+msgstr ""
+
+msgid "Hide from panel"
+msgstr ""
+
+msgid "Ignored"
+msgstr ""
+
+msgid "No compatible images detected in collections"
+msgstr ""
+
+msgid "Additional minutes (0 to 59)"
+msgstr ""

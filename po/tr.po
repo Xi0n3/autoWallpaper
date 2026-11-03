@@ -14,634 +14,631 @@ msgstr ""
 msgid "Auto Wallpaper"
 msgstr "Auto Wallpaper"
 
-msgid "Apariencia"
+msgid "Appearance"
 msgstr "Görünüm"
 
-msgid "Estilo"
+msgid "Style"
 msgstr "Biçem"
 
-msgid "Haz clic en una miniatura para cambiar el fondo de pantalla del tema correspondiente."
+msgid "Click on a thumbnail to change the wallpaper for the corresponding theme."
 msgstr "İlgili temanın duvar kâğıdını değiştirmek için bir küçük resme tıklayın."
 
-msgid "Haz clic para cambiar el fondo claro (Predeterminado)"
+msgid "Click to change light wallpaper (Default)"
 msgstr "Açık tema duvar kâğıdını değiştirmek için tıklayın (Öntanımlı)"
 
-msgid "Haz clic para cambiar el fondo oscuro (Dark)"
+msgid "Click to change dark wallpaper (Dark)"
 msgstr "Koyu tema duvar kâğıdını değiştirmek için tıklayın (Koyu)"
 
-msgid "Predeterminado"
+msgid "Default"
 msgstr "Öntanımlı"
 
-msgid "Oscuro"
+msgid "Dark"
 msgstr "Koyu"
 
-msgid "cambiando el tema"
+msgid "changing theme"
 msgstr "tema değiştirilerek"
 
-msgid "Se ha cambiado el fondo del tema"
+msgid "Wallpaper changed for theme"
 msgstr "Tema için duvar kâğıdı değiştirildi"
 
-msgid "puede verlo"
+msgid "view it by"
 msgstr "bunu görebilirsiniz"
 
-msgid "Seleccionar fondo de pantalla claro"
+msgid "Select light wallpaper"
 msgstr "Açık renkli duvar kâğıdı seç"
 
-msgid "Seleccionar fondo de pantalla oscuro"
+msgid "Select dark wallpaper"
 msgstr "Koyu renkli duvar kâğıdı seç"
 
-msgid "Carpetas de Fondos"
+msgid "Wallpaper Folders"
 msgstr "Duvar Kâğıdı Klasörleri"
 
-msgid "Selecciona las carpetas de imágenes asignadas a cada tema."
+msgid "Select the image folders assigned to each theme."
 msgstr "Her temaya atanan resim klasörlerini seçin."
 
-msgid "Colección Claro"
+msgid "Light Collection"
 msgstr "Açık Tema Koleksiyonu"
 
-msgid "Colección Oscuro"
+msgid "Dark Collection"
 msgstr "Koyu Tema Koleksiyonu"
 
-msgid "Cambiar carpeta seleccionada"
+msgid "Change selected folder"
 msgstr "Seçilen klasörü değiştir"
 
-msgid "Abrir carpeta en Archivos"
+msgid "Open folder in Files"
 msgstr "Klasörü Dosyalar'da aç"
 
-msgid "Rotación de fondos del conjunto"
+msgid "Collection Wallpaper Rotation"
 msgstr "Koleksiyon Duvar Kâğıdı Döngüsü"
 
-msgid "Configura el orden en que se van a proyectar las imágenes."
+msgid "Configure the order in which images are cycled."
 msgstr "Resimlerin döngüsel geçiş sırasını yapılandırın."
 
-msgid "Se han detectado cambios en los fondos almacenados. "
+msgid "Changes detected in stored wallpapers. "
 msgstr "Kayıtlı duvar kâğıtlarında değişiklikler algılandı. "
 
-msgid "Recarga"
+msgid "Reload"
 msgstr "Yeniden yükle"
 
-msgid "Recargar fondos ahora"
+msgid "Reload wallpapers now"
 msgstr "Duvar kâğıtlarını şimdi yeniden yükle"
 
-msgid " para actualizar los fondos"
+msgid " to update wallpapers"
 msgstr " duvar kâğıtlarını güncellemek için"
 
-msgid "Descartar aviso"
+msgid "Dismiss notice"
 msgstr "Bildirimi kapat"
 
-msgid "Servicio en segundo plano"
+msgid "Background Service"
 msgstr "Arka Plan Hizmeti"
 
-msgid "Comprobando estado..."
+msgid "Checking status..."
 msgstr "Durum denetleniyor..."
 
-msgid "Siguiente"
+msgid "Next"
 msgstr "Sonraki"
 
-msgid "Pasar al siguiente fondo de la secuencia actual"
+msgid "Skip to next wallpaper in current sequence"
 msgstr "Geçerli dizideki bir sonraki duvar kâğıdına geç"
 
-msgid "Barajar"
+msgid "Shuffle"
 msgstr "Karıştır"
 
-msgid "Revolver la lista de fondos pendientes sin reiniciar el ciclo"
+msgid "Shuffle pending wallpapers without restarting the cycle"
 msgstr "Döngüyü baştan başlatmadan bekleyen duvar kâğıtları listesini karıştır"
 
-msgid "Recargar"
-msgstr "Yeniden Yükle"
-
-msgid "Re-escanear carpetas, reiniciar la baraja completa y aplicar nuevos fondos"
+msgid "Rescan folders, reset the entire deck, and apply new wallpapers"
 msgstr "Klasörleri yeniden tara, tüm desteyi sıfırla ve yeni duvar kâğıtlarını uygula"
 
-msgid "Secuencia de rotación"
+msgid "Rotation sequence"
 msgstr "Geçiş sırası"
 
-msgid "Al azar"
+msgid "Random"
 msgstr "Rastgele"
 
-msgid "Al azar sin repeticiones (baraja completa)"
+msgid "Random without repeats (full deck)"
 msgstr "Tekrarsız rastgele (tüm desteyi karıştır)"
 
-msgid "Rotación automática"
+msgid "Automatic rotation"
 msgstr "Otomatik döngü"
 
-msgid "Temporizador y automatización del cambio en segundo plano."
+msgid "Timer and background change automation."
 msgstr "Zamanlayıcı ve arka planda otomatikleştirilmiş geçiş."
 
-msgid "Activar rotación automática"
+msgid "Enable automatic rotation"
 msgstr "Otomatik döngüyü etkinleştir"
 
-msgid "Habilitar el servicio para cambiar las imágenes según la frecuencia programada"
+msgid "Enable service to switch wallpapers based on scheduled frequency"
 msgstr "Resimleri zamanlanan sıklığa göre değiştirmek için hizmeti etkinleştir"
 
-msgid "Frecuencia de cambio"
+msgid "Switch frequency"
 msgstr "Değiştirme sıklığı"
 
-msgid "Intervalo de tiempo (minutos)"
+msgid "Time interval (minutes)"
 msgstr "Zaman aralığı (dakika)"
 
-msgid "Hora fija diaria"
+msgid "Fixed daily time"
 msgstr "Günlük sabit saat"
 
-msgid "Minutos entre cambios"
+msgid "Minutes between switches"
 msgstr "Geçişler arası dakika"
 
-msgid "Tiempo que permanece cada fondo de pantalla"
+msgid "Time each wallpaper remains active"
 msgstr "Her duvar kâğıdının ekranda kalma süresi"
 
-msgid "Hora de cambio diario"
+msgid "Daily switch time"
 msgstr "Günlük geçiş saati"
 
-msgid "Hora programada para rotar el fondo cada día (formato 24h)"
+msgid "Scheduled time to rotate wallpaper each day (24h format)"
 msgstr "Her gün duvar kâğıdının değişeceği planlanan saat (24 saat biçimi)"
 
-msgid "Hora (00 a 23)"
+msgid "Hour (00 to 23)"
 msgstr "Saat (00 - 23)"
 
-msgid "Minutos (00 a 59)"
+msgid "Minutes (00 to 59)"
 msgstr "Dakika (00 - 59)"
 
-msgid "Días entre cambios"
+msgid "Days between switches"
 msgstr "Geçişler arası gün"
 
-msgid "Frecuencia en días de la rotación diaria"
+msgid "Frequency in days for daily rotation"
 msgstr "Günlük döngü için gün sıklığı"
 
-msgid "Contar cambio de estilo no visto en la rotación"
+msgid "Count unseen style change as rotation"
 msgstr "Görülmemiş stil değişikliğini rotasyon olarak say"
 
-msgid "Al alternar entre claro y oscuro, si el fondo aún no se había visto, reinicia el temporizador (solo en intervalo de tiempo)"
+msgid "When switching between light and dark, if the wallpaper was not yet seen, restart the timer (interval mode only)"
 msgstr "Açık ve koyu tema arasında geçiş yapıldığında, duvar kâğıdı henüz görülmediyse zamanlayıcıyı sıfırlar (yalnızca aralık modunda)"
 
-msgid "Herramientas y Mantenimiento"
+msgid "Tools and Maintenance"
 msgstr "Araçlar ve Bakım"
 
-msgid "Mantenimiento, gestión del fondo en pantalla, organización inteligente y optimización."
+msgid "Maintenance, active wallpaper management, smart organization, and optimization."
 msgstr "Bakım, etkin duvar kâğıdı yönetimi, akıllı düzenleme ve eniyileme."
 
-msgid "Fondo actual en pantalla"
+msgid "Current wallpaper on screen"
 msgstr "Ekrandaki geçerli duvar kâğıdı"
 
-msgid "Detectando fondo visible..."
+msgid "Detecting active wallpaper..."
 msgstr "Görünür duvar kâğıdı algılanıyor..."
 
-msgid "Ubicar y mostrar archivo en Archivos (Nautilus)"
+msgid "Locate and show file in Files (Nautilus)"
 msgstr "Dosyayı Dosyalar'da (Nautilus) göster"
 
-msgid "Fijar fondo en pinned/ (proteger en este tema)"
+msgid "Pin wallpaper in pinned/ (protect in this theme)"
 msgstr "pinned/ içine sabitle (bu temada koru)"
 
-msgid "Excluir fondo de la rotación (mover a exclude/)"
+msgid "Exclude wallpaper from rotation (move to exclude/)"
 msgstr "Döngüden hariç tut (exclude/ klasörüne taşı)"
 
-msgid "No hay ningún fondo configurado o el archivo no existe"
+msgid "No wallpaper configured or file does not exist"
 msgstr "Yapılandırılmış duvar kâğıdı yok veya dosya mevcut değil"
 
-msgid "Fijado (pinned)"
+msgid "Pinned"
 msgstr "Sabitlendi (pinned)"
 
-msgid "Desfijar fondo (regresar a la carpeta principal)"
+msgid "Unpin wallpaper (return to main folder)"
 msgstr "Duvar kâğıdı sabitlemesini kaldır (ana klasöre döndür)"
 
-msgid "Fijar fondo en pinned/ (no mover de este tema)"
+msgid "Pin wallpaper in pinned/ (do not rotate away)"
 msgstr "pinned/ içine sabitle (bu temadan taşıma)"
 
-msgid "Fondo desfijado y devuelto a la carpeta principal"
+msgid "Wallpaper unpinned and returned to main folder"
 msgstr "Duvar kâğıdı sabitlemesi kaldırıldı ve ana klasöre döndürüldü"
 
-msgid "Fondo fijado en pinned/"
+msgid "Wallpaper pinned in pinned/"
 msgstr "Duvar kâğıdı pinned/ klasörüne sabitlendi"
 
-msgid "¿Excluir este fondo de pantalla?"
+msgid "Exclude this wallpaper?"
 msgstr "Bu duvar kâğıdı hariç tutulsun mu?"
 
-msgid "se moverá a la carpeta 'exclude/' y se cambiará al siguiente fondo disponible de la rotación."
+msgid "will be moved to 'exclude/' and wallpaper will switch to next in rotation."
 msgstr "'exclude/' klasörüne taşınacak ve döngüdeki bir sonraki uygun duvar kâğıdına geçilecektir."
 
-msgid "Cancelar"
+msgid "Cancel"
 msgstr "İptal"
 
-msgid "Excluir"
+msgid "Exclude"
 msgstr "Hariç Tut"
 
-msgid "Fondo excluido y rotado"
+msgid "Wallpaper excluded and rotated"
 msgstr "Duvar kâğıdı hariç tutuldu ve değiştirildi"
 
-msgid "Detector de Fondos Duplicados"
+msgid "Duplicate Wallpaper Detector"
 msgstr "Yinelenen Duvar Kâğıdı Bulucu"
 
-msgid "Detecta imágenes repetidas o casi idénticas con firmas estructurales (dHash)"
+msgid "Detects repeated or near-identical images using structural perceptual hashes (dHash)"
 msgstr "Algısal özetler (dHash) kullanarak yinelenen veya neredeyse aynı resimleri algılar"
 
-msgid "Buscar duplicados"
+msgid "Scan duplicates"
 msgstr "Yinelenenleri tara"
 
-msgid "Clasificar Fondos por Luminosidad"
+msgid "Classify Wallpapers by Luminosity"
 msgstr "Duvar Kâğıtlarını Parlaklığa Göre Sınıflandır"
 
-msgid "Evalúa el brillo perceptual (CIELAB L*) y clasifica automáticamente entre claro y oscuro"
+msgid "Evaluates perceptual lightness (CIELAB L*) and classifies automatically into light and dark"
 msgstr "Algısal parlaklığı (CIELAB L*) değerlendirir ve açık ile koyu olarak otomatik sınıflandırır"
 
-msgid "Clasificar"
+msgid "Classify"
 msgstr "Sınıflandır"
 
-msgid "Reescalado con IA (Smart Upscale)"
+msgid "AI Upscaling (Smart Upscale)"
 msgstr "Yapay Zekâ ile Büyütme (Smart Upscale)"
 
-msgid "Comprobando compatibilidad de aceleración Vulkan y motor Real-CUGAN..."
+msgid "Checking Vulkan acceleration compatibility and Real-CUGAN engine..."
 msgstr "Vulkan hızlandırma uyumluluğu ve Real-CUGAN motoru denetleniyor..."
 
-msgid "Reescalar..."
+msgid "Upscale..."
 msgstr "Ölçekle..."
 
-msgid "Requiere aceleración Vulkan y motor Real-CUGAN instalado"
+msgid "Requires Vulkan acceleration and Real-CUGAN engine installed"
 msgstr "Vulkan donanım hızlandırması ve Real-CUGAN motorunun kurulu olmasını gerektirir"
 
-msgid "No compatible"
+msgid "Not supported"
 msgstr "Desteklenmiyor"
 
-msgid "¿Verificar compatibilidad nuevamente?"
+msgid "Check compatibility again?"
 msgstr "Uyumluluk yeniden denetlensin mi?"
 
-msgid "El motor Real-CUGAN con aceleración Vulkan reportó incompatibilidad o no respondió en la última comprobación."
+msgid "The Real-CUGAN engine with Vulkan acceleration reported incompatibility or did not respond."
 msgstr "Vulkan hızlandırmalı Real-CUGAN motoru son denetimde uyumsuzluk bildirdi veya yanıt vermedi."
 
-msgid "¿Deseas volver a escanear los controladores de GPU Vulkan y el motor ahora?"
+msgid "Do you want to rescan Vulkan GPU drivers and the engine now?"
 msgstr "Vulkan GPU sürücülerini ve motoru şimdi yeniden taramak ister misiniz?"
 
-msgid "Verificar nuevamente"
+msgid "Check again"
 msgstr "Yeniden denetle"
 
-msgid "Verificando..."
+msgid "Checking..."
 msgstr "Denetleniyor..."
 
-msgid "Atajos"
+msgid "Shortcuts"
 msgstr "Kısayollar"
 
-msgid "Atajos de teclado"
+msgid "Keyboard Shortcuts"
 msgstr "Klavye Kısayolları"
 
-msgid "Atajos nativos de GNOME para cambiar y recargar fondos rápidamente."
+msgid "Native GNOME shortcuts to quickly switch and reload wallpapers."
 msgstr "Duvar kâğıtlarını hızla değiştirmek ve yeniden yüklemek için yerel GNOME kısayolları."
 
-msgid "Habilitar atajos de teclado"
+msgid "Enable keyboard shortcuts"
 msgstr "Klavye kısayollarını etkinleştir"
 
-msgid "Activa los atajos globales en el entorno de escritorio"
+msgid "Enables global shortcuts in the desktop environment"
 msgstr "Masaüstü ortamında genel kısayolları etkinleştirir"
 
-msgid "Siguiente wallpaper"
+msgid "Next wallpaper"
 msgstr "Sonraki duvar kâğıdı"
 
-msgid "Recargar conjuntos"
+msgid "Reload collections"
 msgstr "Koleksiyonları yeniden yükle"
 
-msgid "Ejecuta: auto-wallpaper next"
+msgid "Runs: auto-wallpaper next"
 msgstr "Çalıştırır: auto-wallpaper next"
 
-msgid "Ejecuta: auto-wallpaper reload"
+msgid "Runs: auto-wallpaper reload"
 msgstr "Çalıştırır: auto-wallpaper reload"
 
-msgid "Super + W (Predeterminado)"
+msgid "Super + W (Default)"
 msgstr "Super + W (Öntanımlı)"
 
-msgid "Super + Alt + W (Predeterminado)"
+msgid "Super + Alt + W (Default)"
 msgstr "Super + Alt + W (Öntanımlı)"
 
-msgid "Super + Espacio"
+msgid "Super + Space"
 msgstr "Super + Boşluk"
 
-msgid "Super + Flecha Derecha"
+msgid "Super + Right Arrow"
 msgstr "Super + Sağ Ok"
 
-msgid "Personalizado"
+msgid "Custom"
 msgstr "Özel"
 
-msgid "Desactivado"
+msgid "Disabled"
 msgstr "Devre Dışı"
 
-msgid "Servicio detenido"
+msgid "Service stopped"
 msgstr "Hizmet durduruldu"
 
-msgid "El temporizador automático está detenido"
+msgid "Automatic timer is stopped"
 msgstr "Otomatik zamanlayıcı durduruldu"
 
-msgid "Servicio activo"
+msgid "Service active"
 msgstr "Hizmet etkin"
 
-msgid "Próximo cambio en:"
+msgid "Next switch in:"
 msgstr "Sonraki geçiş süresi:"
 
-msgid "Restantes:"
+msgid "Remaining:"
 msgstr "Kalan:"
 
-msgid "Modo:"
+msgid "Mode:"
 msgstr "Kip:"
 
-msgid "Seleccionar carpeta de fondos claros"
+msgid "Select light wallpaper folder"
 msgstr "Açık tema duvar kâğıdı klasörü seç"
 
-msgid "Seleccionar carpeta de fondos oscuros"
+msgid "Select dark wallpaper folder"
 msgstr "Koyu tema duvar kâğıdı klasörü seç"
 
-msgid "¿Recargar todos los fondos?"
+msgid "Reload all wallpapers?"
 msgstr "Tüm duvar kâğıtları yeniden yüklensin mi?"
 
-msgid "Esto re-escaneará las carpetas y recargará toda la lista de fondos, incluyendo el fondo actual."
+msgid "This will rescan folders and reload all wallpapers, including current wallpaper."
 msgstr "Bu işlem klasörleri yeniden tarayacak ve geçerli duvar kâğıdı dâhil tüm listeyi yeniden yükleyecektir."
 
-msgid "Desactivado (Manual)"
+msgid "Disabled (Manual)"
 msgstr "Devre Dışı (Elle)"
 
-msgid "Calculando / Inminente..."
+msgid "Calculating / Imminent..."
 msgstr "Hesaplanıyor / Çok Yakında..."
 
-msgid "Imágenes (*.png, *.jpg, *.jpeg, *.webp)"
+msgid "Images (*.png, *.jpg, *.jpeg, *.webp)"
 msgstr "Resimler (*.png, *.jpg, *.jpeg, *.webp)"
 
-msgid "Fondos Duplicados o Repetidos"
+msgid "Duplicate or Repeated Wallpapers"
 msgstr "Yinelenen veya Benzer Duvar Kâğıtları"
 
-msgid "Volver a escanear"
+msgid "Rescan"
 msgstr "Yeniden tara"
 
-msgid "Escaneando colecciones de fondos..."
+msgid "Scanning wallpaper collections..."
 msgstr "Duvar kâğıdı koleksiyonları taranıyor..."
 
-msgid "Calculando firmas estructurales dHash y comparando similitudes..."
+msgid "Calculating dHash structural hashes and comparing similarities..."
 msgstr "dHash yapısal özetleri hesaplanıyor ve benzerlikler karşılaştırılıyor..."
 
-msgid "¡No hay duplicados!"
+msgid "No duplicates found!"
 msgstr "Yinelenen bulunamadı!"
 
-msgid "Todas las imágenes de tus colecciones son únicas. No se detectaron fondos repetidos ni versiones comprimidas."
+msgid "All images in your collections are unique. No repeated wallpapers or compressed copies detected."
 msgstr "Koleksiyonlarınızdaki tüm resimler benzersizdir. Yinelenen veya sıkıştırılmış kopya algılanmadı."
 
-msgid "Iniciando escaneo..."
+msgid "Starting scan..."
 msgstr "Tarama başlatılıyor..."
 
-msgid "Se encontraron"
+msgid "Found"
 msgstr "Bulunan:"
 
-msgid "coincidencias de fondos repetidos o casi idénticos:"
+msgid "matches of duplicate or near-identical wallpapers:"
 msgstr "yinelenen veya neredeyse aynı duvar kâğıdı eşleşmesi:"
 
-msgid "DUPLICADO EXACTO (100% idéntico)"
+msgid "EXACT DUPLICATE (100% identical)"
 msgstr "BİREBİR YİNELENEN (%100 aynı)"
 
-msgid "CASI IDÉNTICO"
+msgid "NEAR IDENTICAL"
 msgstr "NEREDEYSE AYNI"
 
-msgid "similitud"
+msgid "similarity"
 msgstr "benzerlik"
 
-msgid "Mover esta versión a la subcarpeta exclude/"
+msgid "Move this version to exclude/ subfolder"
 msgstr "Bu sürümü exclude/ alt klasörüne taşı"
 
-msgid "Ubicar en Archivos"
+msgid "Locate in Files"
 msgstr "Dosyalar'da Konumlandır"
 
-msgid "Excluida ✓"
+msgid "Excluded ✓"
 msgstr "Hariç tutuldu ✓"
 
-msgid "movida a exclude/"
+msgid "moved to exclude/"
 msgstr "exclude/ içine taşındı"
 
-msgid "Aviso:"
+msgid "Notice:"
 msgstr "Uyarı:"
 
-msgid "El análisis perceptual examina la luminosidad píxel a píxel de cada imagen. En colecciones con muchos fondos, el proceso puede tardar un poco según el rendimiento de tu equipo."
+msgid "Perceptual analysis evaluates pixel lightness for each image. For large collections, this process may take a while depending on hardware."
 msgstr "Algısal analiz, her resmin piksel piksel parlaklığını inceler. Büyük koleksiyonlarda donanımınıza bağlı olarak işlem biraz zaman alabilir."
 
-msgid "Parámetros de Clasificación por Luminosidad"
+msgid "Luminosity Classification Parameters"
 msgstr "Parlaklık Sınıflandırma Değişkenleri"
 
-msgid "Organiza automáticamente tus fondos en las carpetas Claro y Oscuro según el modelo perceptivo humano (CIELAB L* + Percentil 65)."
+msgid "Automatically organize wallpapers into Light and Dark folders using human perceptual model (CIELAB L* + 65th percentile)."
 msgstr "İnsan algısal modeline (CIELAB L* + 65. yüzdelik dilim) göre duvar kâğıtlarınızı otomatik olarak Açık ve Koyu klasörlerine düzenler."
 
-msgid "Muy permisivo"
+msgid "Very Permissive"
 msgstr "Çok Esnek"
 
-msgid "Permisivo"
+msgid "Permissive"
 msgstr "Esnek"
 
-msgid "Equilibrado"
+msgid "Balanced"
 msgstr "Dengeli"
 
-msgid "Exigente"
+msgid "Demanding"
 msgstr "Titiz"
 
-msgid "Muy estricto"
+msgid "Very Strict"
 msgstr "Çok Katı"
 
-msgid "Más Claros"
+msgid "More Light"
 msgstr "Daha Açık"
 
-msgid "Más Oscuros"
+msgid "More Dark"
 msgstr "Daha Koyu"
 
-msgid "Muy permisivo para Claro · Máximo favorecedor para fondos claros"
+msgid "Very permissive for Light · Maximum favor towards light wallpapers"
 msgstr "Açık tema için çok esnek · Açık duvar kâğıtlarını azami destekler"
 
-msgid "Permisivo para Claro · Favorece fondos claros"
+msgid "Permissive for Light · Favors light wallpapers"
 msgstr "Açık tema için esnek · Açık duvar kâğıtlarını destekler"
 
-msgid "Equilibrada / Estándar · Recomendado · Balance perceptivo óptimo"
+msgid "Balanced / Standard · Recommended · Optimal perceptual balance"
 msgstr "Dengeli / Standart · Önerilen · En uygun algısal denge"
 
-msgid "Exigente para Claro · Más fondos a Oscuro"
+msgid "Demanding for Light · More wallpapers moved to Dark"
 msgstr "Açık tema için titiz · Daha fazla resmi Koyu temaya aktarır"
 
-msgid "Muy estricto para Claro · Mínimo favorecedor para Claro"
+msgid "Very strict for Light · Minimum favor towards Light wallpapers"
 msgstr "Açık tema için çok katı · Açık temaya en az öncelik"
 
-msgid "Sensibilidad de brillo (Umbral CIELAB L*)"
+msgid "Brightness Sensitivity (CIELAB L* Threshold)"
 msgstr "Parlaklık Duyarlılığı (CIELAB L* Eşiği)"
 
-msgid "Colecciones a analizar"
+msgid "Collections to analyze"
 msgstr "Çözümlenecek koleksiyonlar"
 
-msgid "Las subcarpetas pinned/ y exclude/ siempre están protegidas."
+msgid "Subfolders pinned/ and exclude/ are always protected."
 msgstr "pinned/ ve exclude/ alt klasörleri her zaman korunur."
 
-msgid "Ambos conjuntos (Claro y Oscuro - Recomendado)"
+msgid "Both collections (Light and Dark - Recommended)"
 msgstr "Her iki koleksiyon (Açık ve Koyu - Önerilen)"
 
-msgid "Solo conjunto Claro (Reevaluar y mover fondos oscuros)"
+msgid "Light collection only (Reevaluate and move dark wallpapers)"
 msgstr "Yalnızca Açık koleksiyon (Koyu duvar kâğıtlarını yeniden değerlendir ve taşı)"
 
-msgid "Solo conjunto Oscuro (Reevaluar y mover fondos claros)"
+msgid "Dark collection only (Reevaluate and move light wallpapers)"
 msgstr "Yalnızca Koyu koleksiyon (Açık duvar kâğıtlarını yeniden değerlendir ve taşı)"
 
-msgid "Carpeta personalizada (Analizar y clasificar imágenes hacia Claro/Oscuro)"
+msgid "Custom folder (Analyze and classify images into Light/Dark)"
 msgstr "Özel klasör (Resimleri çözümle ve Açık/Koyu olarak sınıflandır)"
 
-msgid "Carpeta a clasificar"
+msgid "Folder to classify"
 msgstr "Sınıflandırılacak klasör"
 
-msgid "Ninguna carpeta seleccionada"
+msgid "No folder selected"
 msgstr "Hiçbir klasör seçilmedi"
 
-msgid "Seleccionar carpeta..."
+msgid "Select folder..."
 msgstr "Klasör seç..."
 
-msgid "Seleccionar carpeta personalizada"
+msgid "Select custom folder"
 msgstr "Özel klasör seç"
 
-msgid "Iniciar clasificación"
+msgid "Start classification"
 msgstr "Sınıflandırmayı başlat"
 
-msgid "Clasificando fondos mediante CIELAB L*..."
+msgid "Classifying wallpapers via CIELAB L*..."
 msgstr "Duvar kâğıtları CIELAB L* ile sınıflandırılıyor..."
 
-msgid "Evaluando brillo perceptual y percentil 65 en cada imagen..."
+msgid "Evaluating perceptual lightness and 65th percentile for each image..."
 msgstr "Her resim için algısal parlaklık ve 65. yüzdelik dilim değerlendiriliyor..."
 
-msgid "Movidos a Claro"
+msgid "Moved to Light"
 msgstr "Açık temaya taşındı"
 
-msgid "Movidos a Oscuro"
+msgid "Moved to Dark"
 msgstr "Koyu temaya taşındı"
 
-msgid "Iniciando análisis..."
+msgid "Starting analysis..."
 msgstr "Çözümleme başlatılıyor..."
 
-msgid "Las subcarpetas"
+msgid "Subfolders"
 msgstr "Alt klasörler"
 
-msgid "fondos fijados"
+msgid "pinned wallpapers"
 msgstr "sabitlenmiş duvar kâğıtları"
 
-msgid "y"
+msgid "and"
 msgstr "ve"
 
-msgid "fondos excluidos"
+msgid "excluded wallpapers"
 msgstr "hariç tutulan duvar kâğıtları"
 
-msgid "están protegidas y no se moverán."
+msgid "are protected and will not be moved."
 msgstr "korunmaktadır ve taşınmayacaktır."
 
-msgid "Escaneando y clasificando fondos..."
+msgid "Scanning and classifying wallpapers..."
 msgstr "Duvar kâğıtları taranıyor ve sınıflandırılıyor..."
 
-msgid "Analizando brillo perceptual (CIELAB L*) y percentil 65 en cada imagen"
+msgid "Analyzing perceptual lightness (CIELAB L*) and 65th percentile on each image"
 msgstr "Her resimde algısal parlaklık (CIELAB L*) ve 65. yüzdelik dilim çözümleniyor"
 
-msgid "Detener"
+msgid "Stop"
 msgstr "Durdur"
 
-msgid "Cerrar"
+msgid "Close"
 msgstr "Kapat"
 
-msgid "Proceso detenido por el usuario"
+msgid "Process stopped by user"
 msgstr "İşlem kullanıcı tarafından durduruldu"
 
-msgid "Clasificación completada"
+msgid "Classification completed"
 msgstr "Sınıflandırma tamamlandı"
 
-msgid "¡Colecciones ya equilibradas!"
+msgid "Collections already balanced!"
 msgstr "Koleksiyonlar zaten dengeli!"
 
-msgid "Todos los fondos ya se encuentran en su carpeta adecuada según el umbral seleccionado."
+msgid "All wallpapers are already in their appropriate folder according to the selected threshold."
 msgstr "Seçilen eşiğe göre tüm duvar kâğıtları zaten uygun klasörlerinde bulunmaktadır."
 
-msgid "Colecciones equilibradas"
+msgid "Balanced collections"
 msgstr "Dengeli koleksiyonlar"
 
-msgid "No se requirió mover ningún fondo. Ambas carpetas coinciden con sus perfiles de luminosidad."
+msgid "No wallpapers needed to be moved. Both folders match their lightness profiles."
 msgstr "Hiçbir duvar kâğıdını taşımak gerekmedi. Her iki klasör de parlaklık profilleriyle eşleşiyor."
 
-msgid "Clasificación finalizada con éxito"
+msgid "Classification completed successfully"
 msgstr "Sınıflandırma başarıyla tamamlandı"
 
-msgid "mostrando los últimos"
+msgid "showing last"
 msgstr "sonuncuları gösteriyor"
 
-msgid "en vivo"
+msgid "live"
 msgstr "canlı"
 
-msgid "Se movieron"
+msgid "Moved"
 msgstr "Toplamda"
 
-msgid "a claro y"
+msgid "to light and"
 msgstr "açık temaya,"
 
-msgid "a oscuro en total"
+msgid "to dark in total"
 msgstr "koyu temaya taşındı"
 
-msgid "Clasificación de fondos finalizada"
+msgid "Wallpaper classification completed"
 msgstr "Duvar kâğıdı sınıflandırması tamamlandı"
 
-msgid "Evaluando:"
+msgid "Evaluating:"
 msgstr "Değerlendiriliyor:"
 
-msgid "Brillo L*"
+msgid "Lightness L*"
 msgstr "Parlaklık L*"
 
-msgid "Reescalado Inteligente (Real-CUGAN)"
+msgid "Smart Upscale (Real-CUGAN)"
 msgstr "Akıllı Büyütme (Real-CUGAN)"
 
-msgid "El proceso de reescalado utiliza aceleración neuronal por GPU (Vulkan). Puede tardar en completarse y ocasionar pérdida temporal de rendimiento mientras se ejecuta."
+msgid "The upscaling process uses Vulkan GPU neural acceleration. It may take some time and temporarily affect performance while running."
 msgstr "Ölçekleme işlemi GPU sinirsel hızlandırmasını (Vulkan) kullanır. Tamamlanması zaman alabilir ve çalışırken geçici performans düşüşüne neden olabilir."
 
-msgid "Parámetros del Reescalado IA"
+msgid "AI Upscale Parameters"
 msgstr "Yapay Zekâ Ölçekleme Değişkenleri"
 
-msgid "Acelera la nitidez y resolución usando Real-CUGAN."
+msgid "Enhance sharpness and resolution using Real-CUGAN."
 msgstr "Real-CUGAN ile netliği ve çözünürlüğü artırın."
 
-msgid "GPU detectada:"
+msgid "Detected GPU:"
 msgstr "Algılanan GPU:"
 
-msgid "Carpeta a reescalar"
+msgid "Folder to upscale"
 msgstr "Ölçeklenecek klasör"
 
-msgid "☀️ Conjunto claro"
+msgid "☀️ Light collection"
 msgstr "☀️ Açık tema koleksiyonu"
 
-msgid "🌙 Conjunto oscuro"
+msgid "🌙 Dark collection"
 msgstr "🌙 Koyu tema koleksiyonu"
 
-msgid "🌓 Ambos conjuntos (claro y oscuro)"
+msgid "🌓 Both collections (light and dark)"
 msgstr "🌓 Her iki koleksiyon (açık ve koyu)"
 
-msgid "Factor de escala"
+msgid "Scale factor"
 msgstr "Ölçek katsayısı"
 
-msgid "Multiplicador de resolución"
+msgid "Resolution multiplier"
 msgstr "Çözünürlük çarpanı"
 
-msgid "2x (Recomendado para 1080p -> 4K)"
+msgid "2x (Recommended for 1080p -> 4K)"
 msgstr "2x (1080p -> 4K için önerilir)"
 
-msgid "Reducción de ruido (Denoise)"
+msgid "Noise Reduction (Denoise)"
 msgstr "Gürültü Azaltma (Denoise)"
 
-msgid "Nivel de limpieza de artefactos y compresión"
+msgid "Artifact and compression cleanup level"
 msgstr "Yapaylık ve sıkıştırma temizleme düzeyi"
 
-msgid "Nivel 0 - Predeterminado (Nitidez óptima)"
+msgid "Level 0 - Default (Optimal sharpness)"
 msgstr "Düzey 0 - Öntanımlı (En uygun netlik)"
 
-msgid "Nivel 1 - Suave"
+msgid "Level 1 - Soft"
 msgstr "Düzey 1 - Yumuşak"
 
-msgid "Nivel 2 - Medio"
+msgid "Level 2 - Medium"
 msgstr "Düzey 2 - Orta"
 
-msgid "Nivel 3 - Intenso"
+msgid "Level 3 - Strong"
 msgstr "Düzey 3 - Güçlü"
 
-msgid "Nivel -1 - Sin denoise (Preserva grano)"
+msgid "Level -1 - No denoise (Preserves grain)"
 msgstr "Düzey -1 - Gürültü giderme yok (Grenleri korur)"
 
-msgid "Límite de resolución"
+msgid "Resolution limit"
 msgstr "Çözünürlük sınırı"
 
-msgid "Omitir imágenes que ya alcancen o superen este tamaño"
+msgid "Skip images that already reach or exceed this size"
 msgstr "Zaten bu boyuta ulaşmış veya aşmış resimleri atla"
 
-msgid "2560x1440 (2K QHD - Recomendado)"
+msgid "2560x1440 (2K QHD - Recommended)"
 msgstr "2560x1440 (2K QHD - Önerilen)"
 
 msgid "1920x1080 (Full HD)"
@@ -650,72 +647,104 @@ msgstr "1920x1080 (Full HD)"
 msgid "3840x2160 (4K UHD)"
 msgstr "3840x2160 (4K UHD)"
 
-msgid "Sin límite (procesar todas las imágenes)"
+msgid "No limit (process all images)"
 msgstr "Sınırsız (tüm resimleri işle)"
 
-msgid "Copia de seguridad"
+msgid "Backup copy"
 msgstr "Yedek kopyası"
 
-msgid "Guardar copia de las imágenes originales en exclude/backup_upscale_original/"
+msgid "Save copy of original images in exclude/backup_upscale_original/"
 msgstr "Özgün resimlerin kopyasını exclude/backup_upscale_original/ içine kaydet"
 
-msgid "Ignorar etiqueta de reescalado previo"
+msgid "Ignore previous upscale tag"
 msgstr "Önceki ölçekleme etiketini yok say"
 
-msgid "Permite reescalar imágenes que ya fueron procesadas anteriormente con IA"
+msgid "Allows re-upscaling images previously processed with AI"
 msgstr "Daha önce yapay zekâ ile işlenmiş resimlerin yeniden büyütülmesine izin verir"
 
-msgid "¿Ignorar etiqueta de reescalado previo?"
+msgid "Ignore previous upscale tag?"
 msgstr "Önceki ölçekleme etiketi yok sayılsın mı?"
 
-msgid "Advertencia: Reescalar sucesivamente una imagen ya procesada con IA puede introducir artefactos no deseados o degradar la calidad original."
+msgid "Warning: Repeatedly upscaling an AI-processed image may introduce unwanted artifacts or degrade quality."
 msgstr "Uyarı: Yapay zekâ ile işlenmiş bir resmi art arda büyütmek istenmeyen yapaylıklara yol açabilir veya özgün kaliteyi bozabilir."
 
-msgid "¿Estás seguro de que deseas forzar el reescalado sobre imágenes previamente tratadas?"
+msgid "Are you sure you want to force upscaling on previously treated images?"
 msgstr "Daha önce işlenmiş resimleri zorla yeniden ölçeklemek istediğinizden emin misiniz?"
 
-msgid "Activar de todos modos"
+msgid "Enable anyway"
 msgstr "Yine de etkinleştir"
 
-msgid "Iniciar reescalado"
+msgid "Start upscaling"
 msgstr "Ölçeklemeyi başlat"
 
-msgid "Reescalando fondos con Real-CUGAN..."
+msgid "Upscaling wallpapers with Real-CUGAN..."
 msgstr "Duvar kâğıtları Real-CUGAN ile büyütülüyor..."
 
-msgid "Iniciando..."
+msgid "Starting..."
 msgstr "Başlatılıyor..."
 
-msgid "Reescalado con IA finalizado"
+msgid "AI Upscaling completed"
 msgstr "Yapay zekâ ile büyütme tamamlandı"
 
-msgid "Analizando candidatos:"
+msgid "Analyzing candidates:"
 msgstr "Adaylar çözümleniyor:"
 
-msgid "de"
+msgid "of"
 msgstr "/"
 
-msgid "Comprobando resolución y firmas de reescalado previo..."
+msgid "Checking resolution and previous upscale signatures..."
 msgstr "Çözünürlük ve önceki ölçekleme imzaları denetleniyor..."
 
-msgid "procesadas"
+msgid "processed"
 msgstr "işlendi"
 
-msgid "Reescalando"
+msgid "Upscaling"
 msgstr "Büyütülüyor"
 
-msgid "Completada"
+msgid "Completed"
 msgstr "Tamamlandı"
 
-msgid "guardada exitosamente"
+msgid "saved successfully"
 msgstr "başarıyla kaydedildi"
 
-msgid "Reescalado completado"
+msgid "Upscaling completed"
 msgstr "Büyütme tamamlandı"
 
-msgid "Procesamiento de carpeta finalizado"
+msgid "Folder processing finished"
 msgstr "Klasör işleme tamamlandı"
 
-msgid "Sin imágenes pendientes por procesar"
+msgid "No pending images to process"
 msgstr "İşlenecek bekleyen resim yok"
 
+msgid "View ignored combinations"
+msgstr ""
+
+msgid "Combinations you choose to ignore will appear here so you can restore them."
+msgstr ""
+
+msgid "image"
+msgstr ""
+
+msgid "images"
+msgstr ""
+
+msgid "No images"
+msgstr ""
+
+msgid "Add wallpapers to folders or select one containing images to enable rotation and tools."
+msgstr ""
+
+msgid "Checking Python dependencies and Real-CUGAN engine availability..."
+msgstr ""
+
+msgid "Hide from panel"
+msgstr ""
+
+msgid "Ignored"
+msgstr ""
+
+msgid "No compatible images detected in collections"
+msgstr ""
+
+msgid "Additional minutes (0 to 59)"
+msgstr ""

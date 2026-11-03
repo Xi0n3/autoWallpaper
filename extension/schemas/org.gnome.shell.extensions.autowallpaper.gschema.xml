@@ -3,18 +3,23 @@
   <schema id="org.gnome.shell.extensions.autowallpaper" path="/org/gnome/shell/extensions/autowallpaper/">
     <key name="shortcuts-enabled" type="b">
       <default>false</default>
-      <summary>Habilitar atajos de teclado</summary>
-      <description>Activa los atajos globales nativos en GNOME Shell.</description>
+      <summary>Enable keyboard shortcuts</summary>
+      <description>Activate native GNOME Shell global shortcuts.</description>
     </key>
     <key name="shortcut-next" type="as">
       <default>['&lt;Super&gt;w']</default>
-      <summary>Siguiente wallpaper</summary>
-      <description>Atajo para pasar al siguiente fondo de pantalla en la secuencia actual.</description>
+      <summary>Next wallpaper</summary>
+      <description>Shortcut to switch to next wallpaper in current sequence.</description>
     </key>
     <key name="shortcut-reload" type="as">
       <default>['&lt;Super&gt;&lt;Alt&gt;w']</default>
-      <summary>Recargar y barajar conjuntos</summary>
-      <description>Atajo para re-escanear carpetas, barajar de nuevo y aplicar nuevos fondos.</description>
+      <summary>Reload and shuffle collections</summary>
+      <description>Shortcut to rescan folders, reshuffle and apply new wallpapers.</description>
+    </key>
+    <key name="show-panel-icon" type="b">
+      <default>false</default>
+      <summary>Show system tray icon</summary>
+      <description>Show an icon on the top panel for quick actions and settings.</description>
     </key>
   </schema>
 </schemalist>

@@ -14,634 +14,631 @@ msgstr ""
 msgid "Auto Wallpaper"
 msgstr "Auto Wallpaper"
 
-msgid "Apariencia"
+msgid "Appearance"
 msgstr "Apparence"
 
-msgid "Estilo"
+msgid "Style"
 msgstr "Style"
 
-msgid "Haz clic en una miniatura para cambiar el fondo de pantalla del tema correspondiente."
+msgid "Click on a thumbnail to change the wallpaper for the corresponding theme."
 msgstr "Cliquez sur une miniature pour changer le fond d'écran du thème correspondant."
 
-msgid "Haz clic para cambiar el fondo claro (Predeterminado)"
+msgid "Click to change light wallpaper (Default)"
 msgstr "Cliquez pour changer le fond d'écran clair (Par défaut)"
 
-msgid "Haz clic para cambiar el fondo oscuro (Dark)"
+msgid "Click to change dark wallpaper (Dark)"
 msgstr "Cliquez pour changer le fond d'écran sombre (Sombre)"
 
-msgid "Predeterminado"
+msgid "Default"
 msgstr "Par défaut"
 
-msgid "Oscuro"
+msgid "Dark"
 msgstr "Sombre"
 
-msgid "cambiando el tema"
+msgid "changing theme"
 msgstr "en changeant de thème"
 
-msgid "Se ha cambiado el fondo del tema"
+msgid "Wallpaper changed for theme"
 msgstr "Le fond d'écran a été changé pour le thème"
 
-msgid "puede verlo"
+msgid "view it by"
 msgstr "vous pouvez le voir"
 
-msgid "Seleccionar fondo de pantalla claro"
+msgid "Select light wallpaper"
 msgstr "Sélectionner le fond d'écran clair"
 
-msgid "Seleccionar fondo de pantalla oscuro"
+msgid "Select dark wallpaper"
 msgstr "Sélectionner le fond d'écran sombre"
 
-msgid "Carpetas de Fondos"
+msgid "Wallpaper Folders"
 msgstr "Dossiers des fonds d'écran"
 
-msgid "Selecciona las carpetas de imágenes asignadas a cada tema."
+msgid "Select the image folders assigned to each theme."
 msgstr "Sélectionnez les dossiers d'images attribués à chaque thème."
 
-msgid "Colección Claro"
+msgid "Light Collection"
 msgstr "Collection Claire"
 
-msgid "Colección Oscuro"
+msgid "Dark Collection"
 msgstr "Collection Sombre"
 
-msgid "Cambiar carpeta seleccionada"
+msgid "Change selected folder"
 msgstr "Changer le dossier sélectionné"
 
-msgid "Abrir carpeta en Archivos"
+msgid "Open folder in Files"
 msgstr "Ouvrir le dossier dans Fichiers"
 
-msgid "Rotación de fondos del conjunto"
+msgid "Collection Wallpaper Rotation"
 msgstr "Rotation des fonds d'écran de la collection"
 
-msgid "Configura el orden en que se van a proyectar las imágenes."
+msgid "Configure the order in which images are cycled."
 msgstr "Configurez l'ordre de défilement des images."
 
-msgid "Se han detectado cambios en los fondos almacenados. "
+msgid "Changes detected in stored wallpapers. "
 msgstr "Des modifications ont été détectées dans les fonds d'écran stockés. "
 
-msgid "Recarga"
+msgid "Reload"
 msgstr "Rechargez"
 
-msgid "Recargar fondos ahora"
+msgid "Reload wallpapers now"
 msgstr "Recharger les fonds d'écran maintenant"
 
-msgid " para actualizar los fondos"
+msgid " to update wallpapers"
 msgstr " pour actualiser les fonds d'écran"
 
-msgid "Descartar aviso"
+msgid "Dismiss notice"
 msgstr "Ignorer l'avertissement"
 
-msgid "Servicio en segundo plano"
+msgid "Background Service"
 msgstr "Service en arrière-plan"
 
-msgid "Comprobando estado..."
+msgid "Checking status..."
 msgstr "Vérification de l'état..."
 
-msgid "Siguiente"
+msgid "Next"
 msgstr "Suivant"
 
-msgid "Pasar al siguiente fondo de la secuencia actual"
+msgid "Skip to next wallpaper in current sequence"
 msgstr "Passer au fond d'écran suivant dans la séquence actuelle"
 
-msgid "Barajar"
+msgid "Shuffle"
 msgstr "Mélanger"
 
-msgid "Revolver la lista de fondos pendientes sin reiniciar el ciclo"
+msgid "Shuffle pending wallpapers without restarting the cycle"
 msgstr "Mélanger la liste des fonds d'écran en attente sans redémarrer le cycle"
 
-msgid "Recargar"
-msgstr "Recharger"
-
-msgid "Re-escanear carpetas, reiniciar la baraja completa y aplicar nuevos fondos"
+msgid "Rescan folders, reset the entire deck, and apply new wallpapers"
 msgstr "Renumériser les dossiers, réinitialiser la pile complète et appliquer de nouveaux fonds d'écran"
 
-msgid "Secuencia de rotación"
+msgid "Rotation sequence"
 msgstr "Séquence de rotation"
 
-msgid "Al azar"
+msgid "Random"
 msgstr "Aléatoire"
 
-msgid "Al azar sin repeticiones (baraja completa)"
+msgid "Random without repeats (full deck)"
 msgstr "Aléatoire sans répétition (pile complète)"
 
-msgid "Rotación automática"
+msgid "Automatic rotation"
 msgstr "Rotation automatique"
 
-msgid "Temporizador y automatización del cambio en segundo plano."
+msgid "Timer and background change automation."
 msgstr "Minuteur et automatisation du changement en arrière-plan."
 
-msgid "Activar rotación automática"
+msgid "Enable automatic rotation"
 msgstr "Activer la rotation automatique"
 
-msgid "Habilitar el servicio para cambiar las imágenes según la frecuencia programada"
+msgid "Enable service to switch wallpapers based on scheduled frequency"
 msgstr "Activer le service pour changer les images selon la fréquence programmée"
 
-msgid "Frecuencia de cambio"
+msgid "Switch frequency"
 msgstr "Fréquence de changement"
 
-msgid "Intervalo de tiempo (minutos)"
+msgid "Time interval (minutes)"
 msgstr "Intervalle de temps (minutes)"
 
-msgid "Hora fija diaria"
+msgid "Fixed daily time"
 msgstr "Heure fixe quotidienne"
 
-msgid "Minutos entre cambios"
+msgid "Minutes between switches"
 msgstr "Minutes entre les changements"
 
-msgid "Tiempo que permanece cada fondo de pantalla"
+msgid "Time each wallpaper remains active"
 msgstr "Durée d'affichage de chaque fond d'écran"
 
-msgid "Hora de cambio diario"
+msgid "Daily switch time"
 msgstr "Heure du changement quotidien"
 
-msgid "Hora programada para rotar el fondo cada día (formato 24h)"
+msgid "Scheduled time to rotate wallpaper each day (24h format)"
 msgstr "Heure programmée pour changer le fond d'écran chaque jour (format 24h)"
 
-msgid "Hora (00 a 23)"
+msgid "Hour (00 to 23)"
 msgstr "Heure (00 à 23)"
 
-msgid "Minutos (00 a 59)"
+msgid "Minutes (00 to 59)"
 msgstr "Minutes (00 à 59)"
 
-msgid "Días entre cambios"
+msgid "Days between switches"
 msgstr "Jours entre les changements"
 
-msgid "Frecuencia en días de la rotación diaria"
+msgid "Frequency in days for daily rotation"
 msgstr "Fréquence en jours pour la rotation quotidienne"
 
-msgid "Contar cambio de estilo no visto en la rotación"
+msgid "Count unseen style change as rotation"
 msgstr "Compter le changement de style non vu comme une rotation"
 
-msgid "Al alternar entre claro y oscuro, si el fondo aún no se había visto, reinicia el temporizador (solo en intervalo de tiempo)"
+msgid "When switching between light and dark, if the wallpaper was not yet seen, restart the timer (interval mode only)"
 msgstr "En basculant entre clair et sombre, si le fond n'avait pas encore été vu, réinitialise le minuteur (mode intervalle uniquement)"
 
-msgid "Herramientas y Mantenimiento"
+msgid "Tools and Maintenance"
 msgstr "Outils et maintenance"
 
-msgid "Mantenimiento, gestión del fondo en pantalla, organización inteligente y optimización."
+msgid "Maintenance, active wallpaper management, smart organization, and optimization."
 msgstr "Maintenance, gestion du fond d'écran actif, organisation intelligente et optimisation."
 
-msgid "Fondo actual en pantalla"
+msgid "Current wallpaper on screen"
 msgstr "Fond d'écran actuel à l'écran"
 
-msgid "Detectando fondo visible..."
+msgid "Detecting active wallpaper..."
 msgstr "Détection du fond d'écran actif..."
 
-msgid "Ubicar y mostrar archivo en Archivos (Nautilus)"
+msgid "Locate and show file in Files (Nautilus)"
 msgstr "Localiser et afficher le fichier dans Fichiers (Nautilus)"
 
-msgid "Fijar fondo en pinned/ (proteger en este tema)"
+msgid "Pin wallpaper in pinned/ (protect in this theme)"
 msgstr "Épingler dans pinned/ (protéger dans ce thème)"
 
-msgid "Excluir fondo de la rotación (mover a exclude/)"
+msgid "Exclude wallpaper from rotation (move to exclude/)"
 msgstr "Exclure de la rotation (déplacer vers exclude/)"
 
-msgid "No hay ningún fondo configurado o el archivo no existe"
+msgid "No wallpaper configured or file does not exist"
 msgstr "Aucun fond d'écran configuré ou le fichier n'existe pas"
 
-msgid "Fijado (pinned)"
+msgid "Pinned"
 msgstr "Épinglé (pinned)"
 
-msgid "Desfijar fondo (regresar a la carpeta principal)"
+msgid "Unpin wallpaper (return to main folder)"
 msgstr "Désépingler le fond (retourner au dossier principal)"
 
-msgid "Fijar fondo en pinned/ (no mover de este tema)"
+msgid "Pin wallpaper in pinned/ (do not rotate away)"
 msgstr "Épingler dans pinned/ (ne pas changer de thème)"
 
-msgid "Fondo desfijado y devuelto a la carpeta principal"
+msgid "Wallpaper unpinned and returned to main folder"
 msgstr "Fond désépinglé et replacé dans le dossier principal"
 
-msgid "Fondo fijado en pinned/"
+msgid "Wallpaper pinned in pinned/"
 msgstr "Fond d'écran épinglé dans pinned/"
 
-msgid "¿Excluir este fondo de pantalla?"
+msgid "Exclude this wallpaper?"
 msgstr "Exclure ce fond d'écran ?"
 
-msgid "se moverá a la carpeta 'exclude/' y se cambiará al siguiente fondo disponible de la rotación."
+msgid "will be moved to 'exclude/' and wallpaper will switch to next in rotation."
 msgstr "sera déplacé vers le dossier 'exclude/' et passera au fond d'écran suivant disponible."
 
-msgid "Cancelar"
+msgid "Cancel"
 msgstr "Annuler"
 
-msgid "Excluir"
+msgid "Exclude"
 msgstr "Exclure"
 
-msgid "Fondo excluido y rotado"
+msgid "Wallpaper excluded and rotated"
 msgstr "Fond d'écran exclu et remplacé"
 
-msgid "Detector de Fondos Duplicados"
+msgid "Duplicate Wallpaper Detector"
 msgstr "Détecteur de fonds d'écran en double"
 
-msgid "Detecta imágenes repetidas o casi idénticas con firmas estructurales (dHash)"
+msgid "Detects repeated or near-identical images using structural perceptual hashes (dHash)"
 msgstr "Détecte les images répétées ou quasi-identiques avec des empreintes perceptuelles (dHash)"
 
-msgid "Buscar duplicados"
+msgid "Scan duplicates"
 msgstr "Rechercher les doublons"
 
-msgid "Clasificar Fondos por Luminosidad"
+msgid "Classify Wallpapers by Luminosity"
 msgstr "Classer les fonds d'écran par luminosité"
 
-msgid "Evalúa el brillo perceptual (CIELAB L*) y clasifica automáticamente entre claro y oscuro"
+msgid "Evaluates perceptual lightness (CIELAB L*) and classifies automatically into light and dark"
 msgstr "Évalue la luminosité perceptive (CIELAB L*) et classe automatiquement entre clair et sombre"
 
-msgid "Clasificar"
+msgid "Classify"
 msgstr "Classer"
 
-msgid "Reescalado con IA (Smart Upscale)"
+msgid "AI Upscaling (Smart Upscale)"
 msgstr "Mise à l'échelle par IA (Smart Upscale)"
 
-msgid "Comprobando compatibilidad de aceleración Vulkan y motor Real-CUGAN..."
+msgid "Checking Vulkan acceleration compatibility and Real-CUGAN engine..."
 msgstr "Vérification de la compatibilité de l'accélération Vulkan et du moteur Real-CUGAN..."
 
-msgid "Reescalar..."
+msgid "Upscale..."
 msgstr "Mettre à l'échelle..."
 
-msgid "Requiere aceleración Vulkan y motor Real-CUGAN instalado"
+msgid "Requires Vulkan acceleration and Real-CUGAN engine installed"
 msgstr "Nécessite l'accélération Vulkan et le moteur Real-CUGAN installé"
 
-msgid "No compatible"
+msgid "Not supported"
 msgstr "Incompatible"
 
-msgid "¿Verificar compatibilidad nuevamente?"
+msgid "Check compatibility again?"
 msgstr "Vérifier à nouveau la compatibilité ?"
 
-msgid "El motor Real-CUGAN con aceleración Vulkan reportó incompatibilidad o no respondió en la última comprobación."
+msgid "The Real-CUGAN engine with Vulkan acceleration reported incompatibility or did not respond."
 msgstr "Le moteur Real-CUGAN avec accélération Vulkan a signalé une incompatibilité ou n'a pas répondu lors de la dernière vérification."
 
-msgid "¿Deseas volver a escanear los controladores de GPU Vulkan y el motor ahora?"
+msgid "Do you want to rescan Vulkan GPU drivers and the engine now?"
 msgstr "Voulez-vous réanalyser les pilotes de GPU Vulkan et le moteur maintenant ?"
 
-msgid "Verificar nuevamente"
+msgid "Check again"
 msgstr "Vérifier à nouveau"
 
-msgid "Verificando..."
+msgid "Checking..."
 msgstr "Vérification..."
 
-msgid "Atajos"
+msgid "Shortcuts"
 msgstr "Raccourcis"
 
-msgid "Atajos de teclado"
+msgid "Keyboard Shortcuts"
 msgstr "Raccourcis clavier"
 
-msgid "Atajos nativos de GNOME para cambiar y recargar fondos rápidamente."
+msgid "Native GNOME shortcuts to quickly switch and reload wallpapers."
 msgstr "Raccourcis natifs de GNOME pour changer et recharger rapidement les fonds d'écran."
 
-msgid "Habilitar atajos de teclado"
+msgid "Enable keyboard shortcuts"
 msgstr "Activer les raccourcis clavier"
 
-msgid "Activa los atajos globales en el entorno de escritorio"
+msgid "Enables global shortcuts in the desktop environment"
 msgstr "Active les raccourcis globaux dans l'environnement de bureau"
 
-msgid "Siguiente wallpaper"
+msgid "Next wallpaper"
 msgstr "Fond d'écran suivant"
 
-msgid "Recargar conjuntos"
+msgid "Reload collections"
 msgstr "Recharger les collections"
 
-msgid "Ejecuta: auto-wallpaper next"
+msgid "Runs: auto-wallpaper next"
 msgstr "Exécute : auto-wallpaper next"
 
-msgid "Ejecuta: auto-wallpaper reload"
+msgid "Runs: auto-wallpaper reload"
 msgstr "Exécute : auto-wallpaper reload"
 
-msgid "Super + W (Predeterminado)"
+msgid "Super + W (Default)"
 msgstr "Super + W (Par défaut)"
 
-msgid "Super + Alt + W (Predeterminado)"
+msgid "Super + Alt + W (Default)"
 msgstr "Super + Alt + W (Par défaut)"
 
-msgid "Super + Espacio"
+msgid "Super + Space"
 msgstr "Super + Espace"
 
-msgid "Super + Flecha Derecha"
+msgid "Super + Right Arrow"
 msgstr "Super + Flèche Droite"
 
-msgid "Personalizado"
+msgid "Custom"
 msgstr "Personnalisé"
 
-msgid "Desactivado"
+msgid "Disabled"
 msgstr "Désactivé"
 
-msgid "Servicio detenido"
+msgid "Service stopped"
 msgstr "Service arrêté"
 
-msgid "El temporizador automático está detenido"
+msgid "Automatic timer is stopped"
 msgstr "Le minuteur automatique est arrêté"
 
-msgid "Servicio activo"
+msgid "Service active"
 msgstr "Service actif"
 
-msgid "Próximo cambio en:"
+msgid "Next switch in:"
 msgstr "Prochain changement dans :"
 
-msgid "Restantes:"
+msgid "Remaining:"
 msgstr "Restants :"
 
-msgid "Modo:"
+msgid "Mode:"
 msgstr "Mode :"
 
-msgid "Seleccionar carpeta de fondos claros"
+msgid "Select light wallpaper folder"
 msgstr "Sélectionner le dossier des fonds d'écran clairs"
 
-msgid "Seleccionar carpeta de fondos oscuros"
+msgid "Select dark wallpaper folder"
 msgstr "Sélectionner le dossier des fonds d'écran sombres"
 
-msgid "¿Recargar todos los fondos?"
+msgid "Reload all wallpapers?"
 msgstr "Recharger tous les fonds d'écran ?"
 
-msgid "Esto re-escaneará las carpetas y recargará toda la lista de fondos, incluyendo el fondo actual."
+msgid "This will rescan folders and reload all wallpapers, including current wallpaper."
 msgstr "Cela va réanalyser les dossiers et recharger toute la liste des fonds d'écran, y compris le fond actuel."
 
-msgid "Desactivado (Manual)"
+msgid "Disabled (Manual)"
 msgstr "Désactivé (Manuel)"
 
-msgid "Calculando / Inminente..."
+msgid "Calculating / Imminent..."
 msgstr "Calcul en cours / Imminent..."
 
-msgid "Imágenes (*.png, *.jpg, *.jpeg, *.webp)"
+msgid "Images (*.png, *.jpg, *.jpeg, *.webp)"
 msgstr "Images (*.png, *.jpg, *.jpeg, *.webp)"
 
-msgid "Fondos Duplicados o Repetidos"
+msgid "Duplicate or Repeated Wallpapers"
 msgstr "Fonds d'écran en double ou répétés"
 
-msgid "Volver a escanear"
+msgid "Rescan"
 msgstr "Réanalyser"
 
-msgid "Escaneando colecciones de fondos..."
+msgid "Scanning wallpaper collections..."
 msgstr "Analyse des collections de fonds d'écran..."
 
-msgid "Calculando firmas estructurales dHash y comparando similitudes..."
+msgid "Calculating dHash structural hashes and comparing similarities..."
 msgstr "Calcul des empreintes structurelles dHash et comparaison des similarités..."
 
-msgid "¡No hay duplicados!"
+msgid "No duplicates found!"
 msgstr "Aucun doublon trouvé !"
 
-msgid "Todas las imágenes de tus colecciones son únicas. No se detectaron fondos repetidos ni versiones comprimidas."
+msgid "All images in your collections are unique. No repeated wallpapers or compressed copies detected."
 msgstr "Toutes les images de vos collections sont uniques. Aucun fond d'écran répété ni version compressée détecté."
 
-msgid "Iniciando escaneo..."
+msgid "Starting scan..."
 msgstr "Démarrage de l'analyse..."
 
-msgid "Se encontraron"
+msgid "Found"
 msgstr "Trouvé"
 
-msgid "coincidencias de fondos repetidos o casi idénticos:"
+msgid "matches of duplicate or near-identical wallpapers:"
 msgstr "correspondances de fonds d'écran répétés ou quasi-identiques :"
 
-msgid "DUPLICADO EXACTO (100% idéntico)"
+msgid "EXACT DUPLICATE (100% identical)"
 msgstr "DOUBLON EXACT (100% identique)"
 
-msgid "CASI IDÉNTICO"
+msgid "NEAR IDENTICAL"
 msgstr "QUASI IDENTIQUE"
 
-msgid "similitud"
+msgid "similarity"
 msgstr "similarité"
 
-msgid "Mover esta versión a la subcarpeta exclude/"
+msgid "Move this version to exclude/ subfolder"
 msgstr "Déplacer cette version vers le sous-dossier exclude/"
 
-msgid "Ubicar en Archivos"
+msgid "Locate in Files"
 msgstr "Localiser dans Fichiers"
 
-msgid "Excluida ✓"
+msgid "Excluded ✓"
 msgstr "Exclue ✓"
 
-msgid "movida a exclude/"
+msgid "moved to exclude/"
 msgstr "déplacée vers exclude/"
 
-msgid "Aviso:"
+msgid "Notice:"
 msgstr "Avertissement :"
 
-msgid "El análisis perceptual examina la luminosidad píxel a píxel de cada imagen. En colecciones con muchos fondos, el proceso puede tardar un poco según el rendimiento de tu equipo."
+msgid "Perceptual analysis evaluates pixel lightness for each image. For large collections, this process may take a while depending on hardware."
 msgstr "L'analyse perceptive examine la luminosité pixel par pixel de chaque image. Pour les grandes collections, ce processus peut prendre un moment selon votre matériel."
 
-msgid "Parámetros de Clasificación por Luminosidad"
+msgid "Luminosity Classification Parameters"
 msgstr "Paramètres de classification par luminosité"
 
-msgid "Organiza automáticamente tus fondos en las carpetas Claro y Oscuro según el modelo perceptivo humano (CIELAB L* + Percentil 65)."
+msgid "Automatically organize wallpapers into Light and Dark folders using human perceptual model (CIELAB L* + 65th percentile)."
 msgstr "Organise automatiquement vos fonds dans les dossiers Clair et Sombre selon le modèle perceptif humain (CIELAB L* + 65e percentile)."
 
-msgid "Muy permisivo"
+msgid "Very Permissive"
 msgstr "Très permissif"
 
-msgid "Permisivo"
+msgid "Permissive"
 msgstr "Permissif"
 
-msgid "Equilibrado"
+msgid "Balanced"
 msgstr "Équilibré"
 
-msgid "Exigente"
+msgid "Demanding"
 msgstr "Exigeant"
 
-msgid "Muy estricto"
+msgid "Very Strict"
 msgstr "Très strict"
 
-msgid "Más Claros"
+msgid "More Light"
 msgstr "Plus Clair"
 
-msgid "Más Oscuros"
+msgid "More Dark"
 msgstr "Plus Sombre"
 
-msgid "Muy permisivo para Claro · Máximo favorecedor para fondos claros"
+msgid "Very permissive for Light · Maximum favor towards light wallpapers"
 msgstr "Très permissif pour Clair · Faveur maximale pour les fonds clairs"
 
-msgid "Permisivo para Claro · Favorece fondos claros"
+msgid "Permissive for Light · Favors light wallpapers"
 msgstr "Permissif pour Clair · Favorise les fonds clairs"
 
-msgid "Equilibrada / Estándar · Recomendado · Balance perceptivo óptimo"
+msgid "Balanced / Standard · Recommended · Optimal perceptual balance"
 msgstr "Équilibré / Standard · Recommandé · Équilibre perceptif optimal"
 
-msgid "Exigente para Claro · Más fondos a Oscuro"
+msgid "Demanding for Light · More wallpapers moved to Dark"
 msgstr "Exigeant pour Clair · Plus de fonds déplacés vers Sombre"
 
-msgid "Muy estricto para Claro · Mínimo favorecedor para Claro"
+msgid "Very strict for Light · Minimum favor towards Light wallpapers"
 msgstr "Très strict pour Clair · Faveur minimale pour Clair"
 
-msgid "Sensibilidad de brillo (Umbral CIELAB L*)"
+msgid "Brightness Sensitivity (CIELAB L* Threshold)"
 msgstr "Sensibilité de la luminosité (Seuil CIELAB L*)"
 
-msgid "Colecciones a analizar"
+msgid "Collections to analyze"
 msgstr "Collections à analyser"
 
-msgid "Las subcarpetas pinned/ y exclude/ siempre están protegidas."
+msgid "Subfolders pinned/ and exclude/ are always protected."
 msgstr "Les sous-dossiers pinned/ et exclude/ sont toujours protégés."
 
-msgid "Ambos conjuntos (Claro y Oscuro - Recomendado)"
+msgid "Both collections (Light and Dark - Recommended)"
 msgstr "Les deux collections (Clair et Sombre - Recommandé)"
 
-msgid "Solo conjunto Claro (Reevaluar y mover fondos oscuros)"
+msgid "Light collection only (Reevaluate and move dark wallpapers)"
 msgstr "Collection Claire uniquement (Réévaluer et déplacer les fonds sombres)"
 
-msgid "Solo conjunto Oscuro (Reevaluar y mover fondos claros)"
+msgid "Dark collection only (Reevaluate and move light wallpapers)"
 msgstr "Collection Sombre uniquement (Réévaluer et déplacer les fonds clairs)"
 
-msgid "Carpeta personalizada (Analizar y clasificar imágenes hacia Claro/Oscuro)"
+msgid "Custom folder (Analyze and classify images into Light/Dark)"
 msgstr "Dossier personnalisé (Analyser et classer les images vers Clair/Sombre)"
 
-msgid "Carpeta a clasificar"
+msgid "Folder to classify"
 msgstr "Dossier à classer"
 
-msgid "Ninguna carpeta seleccionada"
+msgid "No folder selected"
 msgstr "Aucun dossier sélectionné"
 
-msgid "Seleccionar carpeta..."
+msgid "Select folder..."
 msgstr "Sélectionner un dossier..."
 
-msgid "Seleccionar carpeta personalizada"
+msgid "Select custom folder"
 msgstr "Sélectionner un dossier personnalisé"
 
-msgid "Iniciar clasificación"
+msgid "Start classification"
 msgstr "Démarrer la classification"
 
-msgid "Clasificando fondos mediante CIELAB L*..."
+msgid "Classifying wallpapers via CIELAB L*..."
 msgstr "Classification des fonds d'écran via CIELAB L*..."
 
-msgid "Evaluando brillo perceptual y percentil 65 en cada imagen..."
+msgid "Evaluating perceptual lightness and 65th percentile for each image..."
 msgstr "Évaluation de la luminosité perceptive et du 65e percentile sur chaque image..."
 
-msgid "Movidos a Claro"
+msgid "Moved to Light"
 msgstr "Déplacés vers Clair"
 
-msgid "Movidos a Oscuro"
+msgid "Moved to Dark"
 msgstr "Déplacés vers Sombre"
 
-msgid "Iniciando análisis..."
+msgid "Starting analysis..."
 msgstr "Démarrage de l'analyse..."
 
-msgid "Las subcarpetas"
+msgid "Subfolders"
 msgstr "Les sous-dossiers"
 
-msgid "fondos fijados"
+msgid "pinned wallpapers"
 msgstr "fonds d'écran épinglés"
 
-msgid "y"
+msgid "and"
 msgstr "et"
 
-msgid "fondos excluidos"
+msgid "excluded wallpapers"
 msgstr "fonds d'écran exclus"
 
-msgid "están protegidas y no se moverán."
+msgid "are protected and will not be moved."
 msgstr "sont protégés et ne seront pas déplacés."
 
-msgid "Escaneando y clasificando fondos..."
+msgid "Scanning and classifying wallpapers..."
 msgstr "Analyse et classification des fonds d'écran..."
 
-msgid "Analizando brillo perceptual (CIELAB L*) y percentil 65 en cada imagen"
+msgid "Analyzing perceptual lightness (CIELAB L*) and 65th percentile on each image"
 msgstr "Analyse de la luminosité perceptive (CIELAB L*) et du 65e percentile sur chaque image"
 
-msgid "Detener"
+msgid "Stop"
 msgstr "Arrêter"
 
-msgid "Cerrar"
+msgid "Close"
 msgstr "Fermer"
 
-msgid "Proceso detenido por el usuario"
+msgid "Process stopped by user"
 msgstr "Processus arrêté par l'utilisateur"
 
-msgid "Clasificación completada"
+msgid "Classification completed"
 msgstr "Classification terminée"
 
-msgid "¡Colecciones ya equilibradas!"
+msgid "Collections already balanced!"
 msgstr "Collections déjà équilibrées !"
 
-msgid "Todos los fondos ya se encuentran en su carpeta adecuada según el umbral seleccionado."
+msgid "All wallpapers are already in their appropriate folder according to the selected threshold."
 msgstr "Tous les fonds d'écran sont déjà dans leur dossier approprié selon le seuil sélectionné."
 
-msgid "Colecciones equilibradas"
+msgid "Balanced collections"
 msgstr "Collections équilibrées"
 
-msgid "No se requirió mover ningún fondo. Ambas carpetas coinciden con sus perfiles de luminosidad."
+msgid "No wallpapers needed to be moved. Both folders match their lightness profiles."
 msgstr "Aucun fond d'écran n'a dû être déplacé. Les deux dossiers correspondent à leurs profils de luminosité."
 
-msgid "Clasificación finalizada con éxito"
+msgid "Classification completed successfully"
 msgstr "Classification terminée avec succès"
 
-msgid "mostrando los últimos"
+msgid "showing last"
 msgstr "affichage des derniers"
 
-msgid "en vivo"
+msgid "live"
 msgstr "en direct"
 
-msgid "Se movieron"
+msgid "Moved"
 msgstr "Déplacés"
 
-msgid "a claro y"
+msgid "to light and"
 msgstr "vers clair et"
 
-msgid "a oscuro en total"
+msgid "to dark in total"
 msgstr "vers sombre au total"
 
-msgid "Clasificación de fondos finalizada"
+msgid "Wallpaper classification completed"
 msgstr "Classification des fonds d'écran terminée"
 
-msgid "Evaluando:"
+msgid "Evaluating:"
 msgstr "Évaluation :"
 
-msgid "Brillo L*"
+msgid "Lightness L*"
 msgstr "Luminosité L*"
 
-msgid "Reescalado Inteligente (Real-CUGAN)"
+msgid "Smart Upscale (Real-CUGAN)"
 msgstr "Mise à l'échelle intelligente (Real-CUGAN)"
 
-msgid "El proceso de reescalado utiliza aceleración neuronal por GPU (Vulkan). Puede tardar en completarse y ocasionar pérdida temporal de rendimiento mientras se ejecuta."
+msgid "The upscaling process uses Vulkan GPU neural acceleration. It may take some time and temporarily affect performance while running."
 msgstr "Le processus de mise à l'échelle utilise l'accélération neuronale par GPU (Vulkan). Il peut prendre du temps et réduire temporairement les performances pendant son exécution."
 
-msgid "Parámetros del Reescalado IA"
+msgid "AI Upscale Parameters"
 msgstr "Paramètres de mise à l'échelle IA"
 
-msgid "Acelera la nitidez y resolución usando Real-CUGAN."
+msgid "Enhance sharpness and resolution using Real-CUGAN."
 msgstr "Améliorez la netteté et la résolution avec Real-CUGAN."
 
-msgid "GPU detectada:"
+msgid "Detected GPU:"
 msgstr "GPU détecté :"
 
-msgid "Carpeta a reescalar"
+msgid "Folder to upscale"
 msgstr "Dossier à mettre à l'échelle"
 
-msgid "☀️ Conjunto claro"
+msgid "☀️ Light collection"
 msgstr "☀️ Collection claire"
 
-msgid "🌙 Conjunto oscuro"
+msgid "🌙 Dark collection"
 msgstr "🌙 Collection sombre"
 
-msgid "🌓 Ambos conjuntos (claro y oscuro)"
+msgid "🌓 Both collections (light and dark)"
 msgstr "🌓 Les deux collections (claire et sombre)"
 
-msgid "Factor de escala"
+msgid "Scale factor"
 msgstr "Facteur d'échelle"
 
-msgid "Multiplicador de resolución"
+msgid "Resolution multiplier"
 msgstr "Multiplicateur de résolution"
 
-msgid "2x (Recomendado para 1080p -> 4K)"
+msgid "2x (Recommended for 1080p -> 4K)"
 msgstr "2x (Recommandé pour 1080p -> 4K)"
 
-msgid "Reducción de ruido (Denoise)"
+msgid "Noise Reduction (Denoise)"
 msgstr "Réduction du bruit (Denoise)"
 
-msgid "Nivel de limpieza de artefactos y compresión"
+msgid "Artifact and compression cleanup level"
 msgstr "Niveau de nettoyage des artefacts et de la compression"
 
-msgid "Nivel 0 - Predeterminado (Nitidez óptima)"
+msgid "Level 0 - Default (Optimal sharpness)"
 msgstr "Niveau 0 - Par défaut (Netteté optimale)"
 
-msgid "Nivel 1 - Suave"
+msgid "Level 1 - Soft"
 msgstr "Niveau 1 - Léger"
 
-msgid "Nivel 2 - Medio"
+msgid "Level 2 - Medium"
 msgstr "Niveau 2 - Moyen"
 
-msgid "Nivel 3 - Intenso"
+msgid "Level 3 - Strong"
 msgstr "Niveau 3 - Fort"
 
-msgid "Nivel -1 - Sin denoise (Preserva grano)"
+msgid "Level -1 - No denoise (Preserves grain)"
 msgstr "Niveau -1 - Sans débruitage (Préserve le grain)"
 
-msgid "Límite de resolución"
+msgid "Resolution limit"
 msgstr "Limite de résolution"
 
-msgid "Omitir imágenes que ya alcancen o superen este tamaño"
+msgid "Skip images that already reach or exceed this size"
 msgstr "Ignorer les images qui atteignent ou dépassent déjà cette taille"
 
-msgid "2560x1440 (2K QHD - Recomendado)"
+msgid "2560x1440 (2K QHD - Recommended)"
 msgstr "2560x1440 (2K QHD - Recommandé)"
 
 msgid "1920x1080 (Full HD)"
@@ -650,72 +647,104 @@ msgstr "1920x1080 (Full HD)"
 msgid "3840x2160 (4K UHD)"
 msgstr "3840x2160 (4K UHD)"
 
-msgid "Sin límite (procesar todas las imágenes)"
+msgid "No limit (process all images)"
 msgstr "Sans limite (traiter toutes les images)"
 
-msgid "Copia de seguridad"
+msgid "Backup copy"
 msgstr "Copie de sauvegarde"
 
-msgid "Guardar copia de las imágenes originales en exclude/backup_upscale_original/"
+msgid "Save copy of original images in exclude/backup_upscale_original/"
 msgstr "Enregistrer une copie des originaux dans exclude/backup_upscale_original/"
 
-msgid "Ignorar etiqueta de reescalado previo"
+msgid "Ignore previous upscale tag"
 msgstr "Ignorer l'étiquette de mise à l'échelle antérieure"
 
-msgid "Permite reescalar imágenes que ya fueron procesadas anteriormente con IA"
+msgid "Allows re-upscaling images previously processed with AI"
 msgstr "Permet de remettre à l'échelle des images déjà traitées avec l'IA"
 
-msgid "¿Ignorar etiqueta de reescalado previo?"
+msgid "Ignore previous upscale tag?"
 msgstr "Ignorer l'étiquette de mise à l'échelle antérieure ?"
 
-msgid "Advertencia: Reescalar sucesivamente una imagen ya procesada con IA puede introducir artefactos no deseados o degradar la calidad original."
+msgid "Warning: Repeatedly upscaling an AI-processed image may introduce unwanted artifacts or degrade quality."
 msgstr "Avertissement : Remettre à l'échelle de façon répétée une image déjà traitée avec l'IA peut introduire des artéfacts indésirables ou dégrader la qualité d'origine."
 
-msgid "¿Estás seguro de que deseas forzar el reescalado sobre imágenes previamente tratadas?"
+msgid "Are you sure you want to force upscaling on previously treated images?"
 msgstr "Êtes-vous sûr de vouloir forcer la mise à l'échelle sur des images déjà traitées ?"
 
-msgid "Activar de todos modos"
+msgid "Enable anyway"
 msgstr "Activer quand même"
 
-msgid "Iniciar reescalado"
+msgid "Start upscaling"
 msgstr "Démarrer la mise à l'échelle"
 
-msgid "Reescalando fondos con Real-CUGAN..."
+msgid "Upscaling wallpapers with Real-CUGAN..."
 msgstr "Mise à l'échelle des fonds d'écran avec Real-CUGAN..."
 
-msgid "Iniciando..."
+msgid "Starting..."
 msgstr "Démarrage..."
 
-msgid "Reescalado con IA finalizado"
+msgid "AI Upscaling completed"
 msgstr "Mise à l'échelle par IA terminée"
 
-msgid "Analizando candidatos:"
+msgid "Analyzing candidates:"
 msgstr "Analyse des candidats :"
 
-msgid "de"
+msgid "of"
 msgstr "sur"
 
-msgid "Comprobando resolución y firmas de reescalado previo..."
+msgid "Checking resolution and previous upscale signatures..."
 msgstr "Vérification de la résolution et des signatures antérieures..."
 
-msgid "procesadas"
+msgid "processed"
 msgstr "traitées"
 
-msgid "Reescalando"
+msgid "Upscaling"
 msgstr "Mise à l'échelle de"
 
-msgid "Completada"
+msgid "Completed"
 msgstr "Terminée"
 
-msgid "guardada exitosamente"
+msgid "saved successfully"
 msgstr "enregistrée avec succès"
 
-msgid "Reescalado completado"
+msgid "Upscaling completed"
 msgstr "Mise à l'échelle terminée"
 
-msgid "Procesamiento de carpeta finalizado"
+msgid "Folder processing finished"
 msgstr "Traitement du dossier terminé"
 
-msgid "Sin imágenes pendientes por procesar"
+msgid "No pending images to process"
 msgstr "Aucune image en attente de traitement"
 
+msgid "View ignored combinations"
+msgstr ""
+
+msgid "Combinations you choose to ignore will appear here so you can restore them."
+msgstr ""
+
+msgid "image"
+msgstr ""
+
+msgid "images"
+msgstr ""
+
+msgid "No images"
+msgstr ""
+
+msgid "Add wallpapers to folders or select one containing images to enable rotation and tools."
+msgstr ""
+
+msgid "Checking Python dependencies and Real-CUGAN engine availability..."
+msgstr ""
+
+msgid "Hide from panel"
+msgstr ""
+
+msgid "Ignored"
+msgstr ""
+
+msgid "No compatible images detected in collections"
+msgstr ""
+
+msgid "Additional minutes (0 to 59)"
+msgstr ""

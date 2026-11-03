@@ -1,6 +1,6 @@
 {
   "name": "Auto Wallpaper",
-  "description": "Gestor y apariencia de fondos de pantalla claros y oscuros integrado con GNOME.",
+  "description": "Light and dark wallpaper cycler and manager seamlessly integrated with GNOME.",
   "uuid": "autowallpaper@lumory",
   "gettext-domain": "autowallpaper@lumory",
   "settings-schema": "org.gnome.shell.extensions.autowallpaper",

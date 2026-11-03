@@ -14,634 +14,631 @@ msgstr ""
 msgid "Auto Wallpaper"
 msgstr "Auto Wallpaper"
 
-msgid "Apariencia"
+msgid "Appearance"
 msgstr "外观"
 
-msgid "Estilo"
+msgid "Style"
 msgstr "样式"
 
-msgid "Haz clic en una miniatura para cambiar el fondo de pantalla del tema correspondiente."
+msgid "Click on a thumbnail to change the wallpaper for the corresponding theme."
 msgstr "点击缩略图以更改对应主题的壁纸。"
 
-msgid "Haz clic para cambiar el fondo claro (Predeterminado)"
+msgid "Click to change light wallpaper (Default)"
 msgstr "点击更改浅色壁纸（默认）"
 
-msgid "Haz clic para cambiar el fondo oscuro (Dark)"
+msgid "Click to change dark wallpaper (Dark)"
 msgstr "点击更改深色壁纸（深色）"
 
-msgid "Predeterminado"
+msgid "Default"
 msgstr "默认"
 
-msgid "Oscuro"
+msgid "Dark"
 msgstr "深色"
 
-msgid "cambiando el tema"
+msgid "changing theme"
 msgstr "切换主题"
 
-msgid "Se ha cambiado el fondo del tema"
+msgid "Wallpaper changed for theme"
 msgstr "已更改主题壁纸"
 
-msgid "puede verlo"
+msgid "view it by"
 msgstr "可以查看"
 
-msgid "Seleccionar fondo de pantalla claro"
+msgid "Select light wallpaper"
 msgstr "选择浅色壁纸"
 
-msgid "Seleccionar fondo de pantalla oscuro"
+msgid "Select dark wallpaper"
 msgstr "选择深色壁纸"
 
-msgid "Carpetas de Fondos"
+msgid "Wallpaper Folders"
 msgstr "壁纸文件夹"
 
-msgid "Selecciona las carpetas de imágenes asignadas a cada tema."
+msgid "Select the image folders assigned to each theme."
 msgstr "选择分配给各个主题的图片文件夹。"
 
-msgid "Colección Claro"
+msgid "Light Collection"
 msgstr "浅色收藏"
 
-msgid "Colección Oscuro"
+msgid "Dark Collection"
 msgstr "深色收藏"
 
-msgid "Cambiar carpeta seleccionada"
+msgid "Change selected folder"
 msgstr "更改所选文件夹"
 
-msgid "Abrir carpeta en Archivos"
+msgid "Open folder in Files"
 msgstr "在文件管理器中打开文件夹"
 
-msgid "Rotación de fondos del conjunto"
+msgid "Collection Wallpaper Rotation"
 msgstr "合集壁纸轮换"
 
-msgid "Configura el orden en que se van a proyectar las imágenes."
+msgid "Configure the order in which images are cycled."
 msgstr "配置壁纸循环切换的顺序。"
 
-msgid "Se han detectado cambios en los fondos almacenados. "
+msgid "Changes detected in stored wallpapers. "
 msgstr "检测到存储的壁纸有更改。 "
 
-msgid "Recarga"
+msgid "Reload"
 msgstr "重新加载"
 
-msgid "Recargar fondos ahora"
+msgid "Reload wallpapers now"
 msgstr "立即重新加载壁纸"
 
-msgid " para actualizar los fondos"
+msgid " to update wallpapers"
 msgstr " 以更新壁纸"
 
-msgid "Descartar aviso"
+msgid "Dismiss notice"
 msgstr "忽略通知"
 
-msgid "Servicio en segundo plano"
+msgid "Background Service"
 msgstr "后台服务"
 
-msgid "Comprobando estado..."
+msgid "Checking status..."
 msgstr "正在检查状态..."
 
-msgid "Siguiente"
+msgid "Next"
 msgstr "下一张"
 
-msgid "Pasar al siguiente fondo de la secuencia actual"
+msgid "Skip to next wallpaper in current sequence"
 msgstr "切换到当前序列中的下一张壁纸"
 
-msgid "Barajar"
+msgid "Shuffle"
 msgstr "随机重排"
 
-msgid "Revolver la lista de fondos pendientes sin reiniciar el ciclo"
+msgid "Shuffle pending wallpapers without restarting the cycle"
 msgstr "在不重置循环的情况下重排待显示壁纸列表"
 
-msgid "Recargar"
-msgstr "重新加载"
-
-msgid "Re-escanear carpetas, reiniciar la baraja completa y aplicar nuevos fondos"
+msgid "Rescan folders, reset the entire deck, and apply new wallpapers"
 msgstr "重新扫描文件夹，重置整组壁纸并应用新壁纸"
 
-msgid "Secuencia de rotación"
+msgid "Rotation sequence"
 msgstr "轮换顺序"
 
-msgid "Al azar"
+msgid "Random"
 msgstr "随机"
 
-msgid "Al azar sin repeticiones (baraja completa)"
+msgid "Random without repeats (full deck)"
 msgstr "无重复随机（整组洗牌）"
 
-msgid "Rotación automática"
+msgid "Automatic rotation"
 msgstr "自动轮换"
 
-msgid "Temporizador y automatización del cambio en segundo plano."
+msgid "Timer and background change automation."
 msgstr "定时器与后台自动化切换。"
 
-msgid "Activar rotación automática"
+msgid "Enable automatic rotation"
 msgstr "启用自动轮换"
 
-msgid "Habilitar el servicio para cambiar las imágenes según la frecuencia programada"
+msgid "Enable service to switch wallpapers based on scheduled frequency"
 msgstr "启用服务以按计划频率自动更换壁纸"
 
-msgid "Frecuencia de cambio"
+msgid "Switch frequency"
 msgstr "更换频率"
 
-msgid "Intervalo de tiempo (minutos)"
+msgid "Time interval (minutes)"
 msgstr "时间间隔（分钟）"
 
-msgid "Hora fija diaria"
+msgid "Fixed daily time"
 msgstr "每日固定时间"
 
-msgid "Minutos entre cambios"
+msgid "Minutes between switches"
 msgstr "切换间隔分钟数"
 
-msgid "Tiempo que permanece cada fondo de pantalla"
+msgid "Time each wallpaper remains active"
 msgstr "每张壁纸保留时间"
 
-msgid "Hora de cambio diario"
+msgid "Daily switch time"
 msgstr "每日更换时间"
 
-msgid "Hora programada para rotar el fondo cada día (formato 24h)"
+msgid "Scheduled time to rotate wallpaper each day (24h format)"
 msgstr "每天轮换壁纸的计划时间（24小时制）"
 
-msgid "Hora (00 a 23)"
+msgid "Hour (00 to 23)"
 msgstr "小时（00 至 23）"
 
-msgid "Minutos (00 a 59)"
+msgid "Minutes (00 to 59)"
 msgstr "分钟（00 至 59）"
 
-msgid "Días entre cambios"
+msgid "Days between switches"
 msgstr "切换间隔天数"
 
-msgid "Frecuencia en días de la rotación diaria"
+msgid "Frequency in days for daily rotation"
 msgstr "每日轮换的天数频率"
 
-msgid "Contar cambio de estilo no visto en la rotación"
+msgid "Count unseen style change as rotation"
 msgstr "切换风格且未曾查看壁纸时计入轮换"
 
-msgid "Al alternar entre claro y oscuro, si el fondo aún no se había visto, reinicia el temporizador (solo en intervalo de tiempo)"
+msgid "When switching between light and dark, if the wallpaper was not yet seen, restart the timer (interval mode only)"
 msgstr "在浅色与深色之间切换时，若当前壁纸尚未被查看，则重置计时器（仅适用于时间间隔模式）"
 
-msgid "Herramientas y Mantenimiento"
+msgid "Tools and Maintenance"
 msgstr "工具与维护"
 
-msgid "Mantenimiento, gestión del fondo en pantalla, organización inteligente y optimización."
+msgid "Maintenance, active wallpaper management, smart organization, and optimization."
 msgstr "维护、当前壁纸管理、智能分类与优化。"
 
-msgid "Fondo actual en pantalla"
+msgid "Current wallpaper on screen"
 msgstr "当前屏幕壁纸"
 
-msgid "Detectando fondo visible..."
+msgid "Detecting active wallpaper..."
 msgstr "正在检测活动壁纸..."
 
-msgid "Ubicar y mostrar archivo en Archivos (Nautilus)"
+msgid "Locate and show file in Files (Nautilus)"
 msgstr "在文件管理器（Nautilus）中定位并显示"
 
-msgid "Fijar fondo en pinned/ (proteger en este tema)"
+msgid "Pin wallpaper in pinned/ (protect in this theme)"
 msgstr "固定到 pinned/（在此主题中保留）"
 
-msgid "Excluir fondo de la rotación (mover a exclude/)"
+msgid "Exclude wallpaper from rotation (move to exclude/)"
 msgstr "从轮换中排除（移至 exclude/）"
 
-msgid "No hay ningún fondo configurado o el archivo no existe"
+msgid "No wallpaper configured or file does not exist"
 msgstr "未配置壁纸或文件不存在"
 
-msgid "Fijado (pinned)"
+msgid "Pinned"
 msgstr "已固定（pinned）"
 
-msgid "Desfijar fondo (regresar a la carpeta principal)"
+msgid "Unpin wallpaper (return to main folder)"
 msgstr "取消固定壁纸（返回主文件夹）"
 
-msgid "Fijar fondo en pinned/ (no mover de este tema)"
+msgid "Pin wallpaper in pinned/ (do not rotate away)"
 msgstr "固定到 pinned/（不移出此主题）"
 
-msgid "Fondo desfijado y devuelto a la carpeta principal"
+msgid "Wallpaper unpinned and returned to main folder"
 msgstr "壁纸已取消固定并放回主文件夹"
 
-msgid "Fondo fijado en pinned/"
+msgid "Wallpaper pinned in pinned/"
 msgstr "壁纸已固定到 pinned/"
 
-msgid "¿Excluir este fondo de pantalla?"
+msgid "Exclude this wallpaper?"
 msgstr "是否排除此壁纸？"
 
-msgid "se moverá a la carpeta 'exclude/' y se cambiará al siguiente fondo disponible de la rotación."
+msgid "will be moved to 'exclude/' and wallpaper will switch to next in rotation."
 msgstr "将移动至“exclude/”文件夹，并切换到轮换中的下一张可用壁纸。"
 
-msgid "Cancelar"
+msgid "Cancel"
 msgstr "取消"
 
-msgid "Excluir"
+msgid "Exclude"
 msgstr "排除"
 
-msgid "Fondo excluido y rotado"
+msgid "Wallpaper excluded and rotated"
 msgstr "壁纸已排除并切换"
 
-msgid "Detector de Fondos Duplicados"
+msgid "Duplicate Wallpaper Detector"
 msgstr "重复壁纸检测器"
 
-msgid "Detecta imágenes repetidas o casi idénticas con firmas estructurales (dHash)"
+msgid "Detects repeated or near-identical images using structural perceptual hashes (dHash)"
 msgstr "使用感知哈希（dHash）检测重复或极其相似的图片"
 
-msgid "Buscar duplicados"
+msgid "Scan duplicates"
 msgstr "扫描重复项"
 
-msgid "Clasificar Fondos por Luminosidad"
+msgid "Classify Wallpapers by Luminosity"
 msgstr "按亮度对壁纸分类"
 
-msgid "Evalúa el brillo perceptual (CIELAB L*) y clasifica automáticamente entre claro y oscuro"
+msgid "Evaluates perceptual lightness (CIELAB L*) and classifies automatically into light and dark"
 msgstr "基于感知亮度（CIELAB L*）自动分类为浅色与深色"
 
-msgid "Clasificar"
+msgid "Classify"
 msgstr "分类"
 
-msgid "Reescalado con IA (Smart Upscale)"
+msgid "AI Upscaling (Smart Upscale)"
 msgstr "AI 智能超分辨率放大 (Smart Upscale)"
 
-msgid "Comprobando compatibilidad de aceleración Vulkan y motor Real-CUGAN..."
+msgid "Checking Vulkan acceleration compatibility and Real-CUGAN engine..."
 msgstr "正在检查 Vulkan 加速兼容性及 Real-CUGAN 引擎..."
 
-msgid "Reescalar..."
+msgid "Upscale..."
 msgstr "超分辨率放大..."
 
-msgid "Requiere aceleración Vulkan y motor Real-CUGAN instalado"
+msgid "Requires Vulkan acceleration and Real-CUGAN engine installed"
 msgstr "需要 Vulkan 硬件加速并安装 Real-CUGAN 引擎"
 
-msgid "No compatible"
+msgid "Not supported"
 msgstr "不兼容"
 
-msgid "¿Verificar compatibilidad nuevamente?"
+msgid "Check compatibility again?"
 msgstr "重新检查兼容性？"
 
-msgid "El motor Real-CUGAN con aceleración Vulkan reportó incompatibilidad o no respondió en la última comprobación."
+msgid "The Real-CUGAN engine with Vulkan acceleration reported incompatibility or did not respond."
 msgstr "Real-CUGAN 引擎与 Vulkan 加速在上次检查中报告不兼容或未响应。"
 
-msgid "¿Deseas volver a escanear los controladores de GPU Vulkan y el motor ahora?"
+msgid "Do you want to rescan Vulkan GPU drivers and the engine now?"
 msgstr "是否立即重新扫描 Vulkan GPU 驱动程序和引擎？"
 
-msgid "Verificar nuevamente"
+msgid "Check again"
 msgstr "再次检查"
 
-msgid "Verificando..."
+msgid "Checking..."
 msgstr "正在检查..."
 
-msgid "Atajos"
+msgid "Shortcuts"
 msgstr "快捷键"
 
-msgid "Atajos de teclado"
+msgid "Keyboard Shortcuts"
 msgstr "键盘快捷键"
 
-msgid "Atajos nativos de GNOME para cambiar y recargar fondos rápidamente."
+msgid "Native GNOME shortcuts to quickly switch and reload wallpapers."
 msgstr "用于快速切换和重载壁纸的原生 GNOME 快捷键。"
 
-msgid "Habilitar atajos de teclado"
+msgid "Enable keyboard shortcuts"
 msgstr "启用键盘快捷键"
 
-msgid "Activa los atajos globales en el entorno de escritorio"
+msgid "Enables global shortcuts in the desktop environment"
 msgstr "在桌面环境中启用全局快捷键"
 
-msgid "Siguiente wallpaper"
+msgid "Next wallpaper"
 msgstr "下一张壁纸"
 
-msgid "Recargar conjuntos"
+msgid "Reload collections"
 msgstr "重新加载合集"
 
-msgid "Ejecuta: auto-wallpaper next"
+msgid "Runs: auto-wallpaper next"
 msgstr "运行：auto-wallpaper next"
 
-msgid "Ejecuta: auto-wallpaper reload"
+msgid "Runs: auto-wallpaper reload"
 msgstr "运行：auto-wallpaper reload"
 
-msgid "Super + W (Predeterminado)"
+msgid "Super + W (Default)"
 msgstr "Super + W（默认）"
 
-msgid "Super + Alt + W (Predeterminado)"
+msgid "Super + Alt + W (Default)"
 msgstr "Super + Alt + W（默认）"
 
-msgid "Super + Espacio"
+msgid "Super + Space"
 msgstr "Super + 空格"
 
-msgid "Super + Flecha Derecha"
+msgid "Super + Right Arrow"
 msgstr "Super + 右箭头"
 
-msgid "Personalizado"
+msgid "Custom"
 msgstr "自定义"
 
-msgid "Desactivado"
+msgid "Disabled"
 msgstr "已禁用"
 
-msgid "Servicio detenido"
+msgid "Service stopped"
 msgstr "服务已停止"
 
-msgid "El temporizador automático está detenido"
+msgid "Automatic timer is stopped"
 msgstr "自动定时器已停止"
 
-msgid "Servicio activo"
+msgid "Service active"
 msgstr "服务运行中"
 
-msgid "Próximo cambio en:"
+msgid "Next switch in:"
 msgstr "下次更换时间："
 
-msgid "Restantes:"
+msgid "Remaining:"
 msgstr "剩余："
 
-msgid "Modo:"
+msgid "Mode:"
 msgstr "模式："
 
-msgid "Seleccionar carpeta de fondos claros"
+msgid "Select light wallpaper folder"
 msgstr "选择浅色壁纸文件夹"
 
-msgid "Seleccionar carpeta de fondos oscuros"
+msgid "Select dark wallpaper folder"
 msgstr "选择深色壁纸文件夹"
 
-msgid "¿Recargar todos los fondos?"
+msgid "Reload all wallpapers?"
 msgstr "重新加载所有壁纸？"
 
-msgid "Esto re-escaneará las carpetas y recargará toda la lista de fondos, incluyendo el fondo actual."
+msgid "This will rescan folders and reload all wallpapers, including current wallpaper."
 msgstr "这将重新扫描文件夹并重载所有壁纸列表，包括当前壁纸。"
 
-msgid "Desactivado (Manual)"
+msgid "Disabled (Manual)"
 msgstr "已禁用（手动）"
 
-msgid "Calculando / Inminente..."
+msgid "Calculating / Imminent..."
 msgstr "正在计算 / 即将切换..."
 
-msgid "Imágenes (*.png, *.jpg, *.jpeg, *.webp)"
+msgid "Images (*.png, *.jpg, *.jpeg, *.webp)"
 msgstr "图片文件 (*.png, *.jpg, *.jpeg, *.webp)"
 
-msgid "Fondos Duplicados o Repetidos"
+msgid "Duplicate or Repeated Wallpapers"
 msgstr "重复或相似的壁纸"
 
-msgid "Volver a escanear"
+msgid "Rescan"
 msgstr "重新扫描"
 
-msgid "Escaneando colecciones de fondos..."
+msgid "Scanning wallpaper collections..."
 msgstr "正在扫描壁纸合集..."
 
-msgid "Calculando firmas estructurales dHash y comparando similitudes..."
+msgid "Calculating dHash structural hashes and comparing similarities..."
 msgstr "计算 dHash 结构哈希并比对相似度..."
 
-msgid "¡No hay duplicados!"
+msgid "No duplicates found!"
 msgstr "未发现重复项！"
 
-msgid "Todas las imágenes de tus colecciones son únicas. No se detectaron fondos repetidos ni versiones comprimidas."
+msgid "All images in your collections are unique. No repeated wallpapers or compressed copies detected."
 msgstr "您的合集中的所有图片都是独一无二的。未检测到重复壁纸或压缩副本。"
 
-msgid "Iniciando escaneo..."
+msgid "Starting scan..."
 msgstr "正在开始扫描..."
 
-msgid "Se encontraron"
+msgid "Found"
 msgstr "已找到："
 
-msgid "coincidencias de fondos repetidos o casi idénticos:"
+msgid "matches of duplicate or near-identical wallpapers:"
 msgstr "处重复或近乎相同的壁纸匹配项："
 
-msgid "DUPLICADO EXACTO (100% idéntico)"
+msgid "EXACT DUPLICATE (100% identical)"
 msgstr "完全重复（100% 相同）"
 
-msgid "CASI IDÉNTICO"
+msgid "NEAR IDENTICAL"
 msgstr "近乎相同"
 
-msgid "similitud"
+msgid "similarity"
 msgstr "相似度"
 
-msgid "Mover esta versión a la subcarpeta exclude/"
+msgid "Move this version to exclude/ subfolder"
 msgstr "将此版本移至 exclude/ 子文件夹"
 
-msgid "Ubicar en Archivos"
+msgid "Locate in Files"
 msgstr "在文件管理器中定位"
 
-msgid "Excluida ✓"
+msgid "Excluded ✓"
 msgstr "已排除 ✓"
 
-msgid "movida a exclude/"
+msgid "moved to exclude/"
 msgstr "已移至 exclude/"
 
-msgid "Aviso:"
+msgid "Notice:"
 msgstr "注意："
 
-msgid "El análisis perceptual examina la luminosidad píxel a píxel de cada imagen. En colecciones con muchos fondos, el proceso puede tardar un poco según el rendimiento de tu equipo."
+msgid "Perceptual analysis evaluates pixel lightness for each image. For large collections, this process may take a while depending on hardware."
 msgstr "感知分析会对每张图片的像素亮度进行逐一计算。对于大型合集，耗时取决于您的设备硬件性能。"
 
-msgid "Parámetros de Clasificación por Luminosidad"
+msgid "Luminosity Classification Parameters"
 msgstr "亮度分类参数"
 
-msgid "Organiza automáticamente tus fondos en las carpetas Claro y Oscuro según el modelo perceptivo humano (CIELAB L* + Percentil 65)."
+msgid "Automatically organize wallpapers into Light and Dark folders using human perceptual model (CIELAB L* + 65th percentile)."
 msgstr "根据人类感知色彩模型（CIELAB L* + 65百分位数）自动将壁纸归类至浅色和深色文件夹。"
 
-msgid "Muy permisivo"
+msgid "Very Permissive"
 msgstr "非常宽松"
 
-msgid "Permisivo"
+msgid "Permissive"
 msgstr "宽松"
 
-msgid "Equilibrado"
+msgid "Balanced"
 msgstr "均衡"
 
-msgid "Exigente"
+msgid "Demanding"
 msgstr "严格"
 
-msgid "Muy estricto"
+msgid "Very Strict"
 msgstr "非常严格"
 
-msgid "Más Claros"
+msgid "More Light"
 msgstr "偏向浅色"
 
-msgid "Más Oscuros"
+msgid "More Dark"
 msgstr "偏向深色"
 
-msgid "Muy permisivo para Claro · Máximo favorecedor para fondos claros"
+msgid "Very permissive for Light · Maximum favor towards light wallpapers"
 msgstr "对浅色非常宽松 · 最大限度保留在浅色合集"
 
-msgid "Permisivo para Claro · Favorece fondos claros"
+msgid "Permissive for Light · Favors light wallpapers"
 msgstr "对浅色宽松 · 偏向浅色壁纸"
 
-msgid "Equilibrada / Estándar · Recomendado · Balance perceptivo óptimo"
+msgid "Balanced / Standard · Recommended · Optimal perceptual balance"
 msgstr "均衡 / 标准 · 推荐 · 最佳感知平衡"
 
-msgid "Exigente para Claro · Más fondos a Oscuro"
+msgid "Demanding for Light · More wallpapers moved to Dark"
 msgstr "对浅色严格 · 更多壁纸划入深色"
 
-msgid "Muy estricto para Claro · Mínimo favorecedor para Claro"
+msgid "Very strict for Light · Minimum favor towards Light wallpapers"
 msgstr "对浅色非常严格 · 极少判定为浅色"
 
-msgid "Sensibilidad de brillo (Umbral CIELAB L*)"
+msgid "Brightness Sensitivity (CIELAB L* Threshold)"
 msgstr "亮度敏感度（CIELAB L* 阈值）"
 
-msgid "Colecciones a analizar"
+msgid "Collections to analyze"
 msgstr "要分析的合集"
 
-msgid "Las subcarpetas pinned/ y exclude/ siempre están protegidas."
+msgid "Subfolders pinned/ and exclude/ are always protected."
 msgstr "pinned/ 和 exclude/ 子文件夹始终受到保护。"
 
-msgid "Ambos conjuntos (Claro y Oscuro - Recomendado)"
+msgid "Both collections (Light and Dark - Recommended)"
 msgstr "两个合集（浅色和深色 - 推荐）"
 
-msgid "Solo conjunto Claro (Reevaluar y mover fondos oscuros)"
+msgid "Light collection only (Reevaluate and move dark wallpapers)"
 msgstr "仅浅色合集（重新评估并将深色壁纸移出）"
 
-msgid "Solo conjunto Oscuro (Reevaluar y mover fondos claros)"
+msgid "Dark collection only (Reevaluate and move light wallpapers)"
 msgstr "仅深色合集（重新评估并将浅色壁纸移出）"
 
-msgid "Carpeta personalizada (Analizar y clasificar imágenes hacia Claro/Oscuro)"
+msgid "Custom folder (Analyze and classify images into Light/Dark)"
 msgstr "自定义文件夹（分析图片并归类至浅色/深色）"
 
-msgid "Carpeta a clasificar"
+msgid "Folder to classify"
 msgstr "要分类的文件夹"
 
-msgid "Ninguna carpeta seleccionada"
+msgid "No folder selected"
 msgstr "未选择文件夹"
 
-msgid "Seleccionar carpeta..."
+msgid "Select folder..."
 msgstr "选择文件夹..."
 
-msgid "Seleccionar carpeta personalizada"
+msgid "Select custom folder"
 msgstr "选择自定义文件夹"
 
-msgid "Iniciar clasificación"
+msgid "Start classification"
 msgstr "开始分类"
 
-msgid "Clasificando fondos mediante CIELAB L*..."
+msgid "Classifying wallpapers via CIELAB L*..."
 msgstr "正在通过 CIELAB L* 分类壁纸..."
 
-msgid "Evaluando brillo perceptual y percentil 65 en cada imagen..."
+msgid "Evaluating perceptual lightness and 65th percentile for each image..."
 msgstr "正在评估每张图片的感知亮度和 65 百分位数..."
 
-msgid "Movidos a Claro"
+msgid "Moved to Light"
 msgstr "已移至浅色"
 
-msgid "Movidos a Oscuro"
+msgid "Moved to Dark"
 msgstr "已移至深色"
 
-msgid "Iniciando análisis..."
+msgid "Starting analysis..."
 msgstr "正在启动分析..."
 
-msgid "Las subcarpetas"
+msgid "Subfolders"
 msgstr "子文件夹"
 
-msgid "fondos fijados"
+msgid "pinned wallpapers"
 msgstr "已固定壁纸"
 
-msgid "y"
+msgid "and"
 msgstr "以及"
 
-msgid "fondos excluidos"
+msgid "excluded wallpapers"
 msgstr "已排除壁纸"
 
-msgid "están protegidas y no se moverán."
+msgid "are protected and will not be moved."
 msgstr "均受保护且不会被移动。"
 
-msgid "Escaneando y clasificando fondos..."
+msgid "Scanning and classifying wallpapers..."
 msgstr "正在扫描并分类壁纸..."
 
-msgid "Analizando brillo perceptual (CIELAB L*) y percentil 65 en cada imagen"
+msgid "Analyzing perceptual lightness (CIELAB L*) and 65th percentile on each image"
 msgstr "分析每张图片的感知亮度 (CIELAB L*) 与 65 百分位数"
 
-msgid "Detener"
+msgid "Stop"
 msgstr "停止"
 
-msgid "Cerrar"
+msgid "Close"
 msgstr "关闭"
 
-msgid "Proceso detenido por el usuario"
+msgid "Process stopped by user"
 msgstr "用户已停止处理"
 
-msgid "Clasificación completada"
+msgid "Classification completed"
 msgstr "分类完成"
 
-msgid "¡Colecciones ya equilibradas!"
+msgid "Collections already balanced!"
 msgstr "合集已处于平衡状态！"
 
-msgid "Todos los fondos ya se encuentran en su carpeta adecuada según el umbral seleccionado."
+msgid "All wallpapers are already in their appropriate folder according to the selected threshold."
 msgstr "根据当前选择的阈值，所有壁纸均已位于合适文件夹中。"
 
-msgid "Colecciones equilibradas"
+msgid "Balanced collections"
 msgstr "合集已均衡"
 
-msgid "No se requirió mover ningún fondo. Ambas carpetas coinciden con sus perfiles de luminosidad."
+msgid "No wallpapers needed to be moved. Both folders match their lightness profiles."
 msgstr "无需移动任何壁纸。两个文件夹均符合设定的亮度特征。"
 
-msgid "Clasificación finalizada con éxito"
+msgid "Classification completed successfully"
 msgstr "分类圆满完成"
 
-msgid "mostrando los últimos"
+msgid "showing last"
 msgstr "显示最后"
 
-msgid "en vivo"
+msgid "live"
 msgstr "实时"
 
-msgid "Se movieron"
+msgid "Moved"
 msgstr "共移动了"
 
-msgid "a claro y"
+msgid "to light and"
 msgstr "张到浅色，"
 
-msgid "a oscuro en total"
+msgid "to dark in total"
 msgstr "张到深色"
 
-msgid "Clasificación de fondos finalizada"
+msgid "Wallpaper classification completed"
 msgstr "壁纸分类完成"
 
-msgid "Evaluando:"
+msgid "Evaluating:"
 msgstr "正在评估："
 
-msgid "Brillo L*"
+msgid "Lightness L*"
 msgstr "亮度 L*"
 
-msgid "Reescalado Inteligente (Real-CUGAN)"
+msgid "Smart Upscale (Real-CUGAN)"
 msgstr "智能超分辨率放大 (Real-CUGAN)"
 
-msgid "El proceso de reescalado utiliza aceleración neuronal por GPU (Vulkan). Puede tardar en completarse y ocasionar pérdida temporal de rendimiento mientras se ejecuta."
+msgid "The upscaling process uses Vulkan GPU neural acceleration. It may take some time and temporarily affect performance while running."
 msgstr "超分辨率处理利用 GPU 神经网络加速（Vulkan）。可能需要较长时间，并在运行时临时影响系统性能。"
 
-msgid "Parámetros del Reescalado IA"
+msgid "AI Upscale Parameters"
 msgstr "AI 超分辨率参数"
 
-msgid "Acelera la nitidez y resolución usando Real-CUGAN."
+msgid "Enhance sharpness and resolution using Real-CUGAN."
 msgstr "使用 Real-CUGAN 增强图像清晰度与分辨率。"
 
-msgid "GPU detectada:"
+msgid "Detected GPU:"
 msgstr "检测到的 GPU："
 
-msgid "Carpeta a reescalar"
+msgid "Folder to upscale"
 msgstr "要超分辨率放大的文件夹"
 
-msgid "☀️ Conjunto claro"
+msgid "☀️ Light collection"
 msgstr "☀️ 浅色合集"
 
-msgid "🌙 Conjunto oscuro"
+msgid "🌙 Dark collection"
 msgstr "🌙 深色合集"
 
-msgid "🌓 Ambos conjuntos (claro y oscuro)"
+msgid "🌓 Both collections (light and dark)"
 msgstr "🌓 两个合集（浅色和深色）"
 
-msgid "Factor de escala"
+msgid "Scale factor"
 msgstr "缩放倍率"
 
-msgid "Multiplicador de resolución"
+msgid "Resolution multiplier"
 msgstr "分辨率放大倍数"
 
-msgid "2x (Recomendado para 1080p -> 4K)"
+msgid "2x (Recommended for 1080p -> 4K)"
 msgstr "2x（推荐：1080p -> 4K）"
 
-msgid "Reducción de ruido (Denoise)"
+msgid "Noise Reduction (Denoise)"
 msgstr "降噪等级 (Denoise)"
 
-msgid "Nivel de limpieza de artefactos y compresión"
+msgid "Artifact and compression cleanup level"
 msgstr "压缩噪点与伪影清理等级"
 
-msgid "Nivel 0 - Predeterminado (Nitidez óptima)"
+msgid "Level 0 - Default (Optimal sharpness)"
 msgstr "级别 0 - 默认（最佳清晰度）"
 
-msgid "Nivel 1 - Suave"
+msgid "Level 1 - Soft"
 msgstr "级别 1 - 轻柔"
 
-msgid "Nivel 2 - Medio"
+msgid "Level 2 - Medium"
 msgstr "级别 2 - 中度"
 
-msgid "Nivel 3 - Intenso"
+msgid "Level 3 - Strong"
 msgstr "级别 3 - 强力"
 
-msgid "Nivel -1 - Sin denoise (Preserva grano)"
+msgid "Level -1 - No denoise (Preserves grain)"
 msgstr "级别 -1 - 不降噪（保留胶片颗粒）"
 
-msgid "Límite de resolución"
+msgid "Resolution limit"
 msgstr "分辨率限制"
 
-msgid "Omitir imágenes que ya alcancen o superen este tamaño"
+msgid "Skip images that already reach or exceed this size"
 msgstr "跳过已达到或超过此尺寸的图片"
 
-msgid "2560x1440 (2K QHD - Recomendado)"
+msgid "2560x1440 (2K QHD - Recommended)"
 msgstr "2560x1440 (2K QHD - 推荐)"
 
 msgid "1920x1080 (Full HD)"
@@ -650,72 +647,104 @@ msgstr "1920x1080 (Full HD)"
 msgid "3840x2160 (4K UHD)"
 msgstr "3840x2160 (4K UHD)"
 
-msgid "Sin límite (procesar todas las imágenes)"
+msgid "No limit (process all images)"
 msgstr "无限制（处理所有图片）"
 
-msgid "Copia de seguridad"
+msgid "Backup copy"
 msgstr "备份原图"
 
-msgid "Guardar copia de las imágenes originales en exclude/backup_upscale_original/"
+msgid "Save copy of original images in exclude/backup_upscale_original/"
 msgstr "将原始图片备份至 exclude/backup_upscale_original/"
 
-msgid "Ignorar etiqueta de reescalado previo"
+msgid "Ignore previous upscale tag"
 msgstr "忽略历史放大标记"
 
-msgid "Permite reescalar imágenes que ya fueron procesadas anteriormente con IA"
+msgid "Allows re-upscaling images previously processed with AI"
 msgstr "允许重新对之前已用 AI 处理过的图片进行放大"
 
-msgid "¿Ignorar etiqueta de reescalado previo?"
+msgid "Ignore previous upscale tag?"
 msgstr "是否忽略历史放大标记？"
 
-msgid "Advertencia: Reescalar sucesivamente una imagen ya procesada con IA puede introducir artefactos no deseados o degradar la calidad original."
+msgid "Warning: Repeatedly upscaling an AI-processed image may introduce unwanted artifacts or degrade quality."
 msgstr "警告：重复对已处理过的图像进行 AI 超分可能会引入伪影或损失原始画质。"
 
-msgid "¿Estás seguro de que deseas forzar el reescalado sobre imágenes previamente tratadas?"
+msgid "Are you sure you want to force upscaling on previously treated images?"
 msgstr "确定要强制重新放大已处理过的图像吗？"
 
-msgid "Activar de todos modos"
+msgid "Enable anyway"
 msgstr "仍然启用"
 
-msgid "Iniciar reescalado"
+msgid "Start upscaling"
 msgstr "开始放大"
 
-msgid "Reescalando fondos con Real-CUGAN..."
+msgid "Upscaling wallpapers with Real-CUGAN..."
 msgstr "正在使用 Real-CUGAN 放大壁纸..."
 
-msgid "Iniciando..."
+msgid "Starting..."
 msgstr "正在启动..."
 
-msgid "Reescalado con IA finalizado"
+msgid "AI Upscaling completed"
 msgstr "AI 超分辨率放大完成"
 
-msgid "Analizando candidatos:"
+msgid "Analyzing candidates:"
 msgstr "正在分析候选图片："
 
-msgid "de"
+msgid "of"
 msgstr "/"
 
-msgid "Comprobando resolución y firmas de reescalado previo..."
+msgid "Checking resolution and previous upscale signatures..."
 msgstr "正在检查分辨率及之前的放大标记..."
 
-msgid "procesadas"
+msgid "processed"
 msgstr "已处理"
 
-msgid "Reescalando"
+msgid "Upscaling"
 msgstr "正在放大"
 
-msgid "Completada"
+msgid "Completed"
 msgstr "已完成"
 
-msgid "guardada exitosamente"
+msgid "saved successfully"
 msgstr "保存成功"
 
-msgid "Reescalado completado"
+msgid "Upscaling completed"
 msgstr "放大完成"
 
-msgid "Procesamiento de carpeta finalizado"
+msgid "Folder processing finished"
 msgstr "文件夹处理完毕"
 
-msgid "Sin imágenes pendientes por procesar"
+msgid "No pending images to process"
 msgstr "没有待处理的图片"
 
+msgid "View ignored combinations"
+msgstr ""
+
+msgid "Combinations you choose to ignore will appear here so you can restore them."
+msgstr ""
+
+msgid "image"
+msgstr ""
+
+msgid "images"
+msgstr ""
+
+msgid "No images"
+msgstr ""
+
+msgid "Add wallpapers to folders or select one containing images to enable rotation and tools."
+msgstr ""
+
+msgid "Checking Python dependencies and Real-CUGAN engine availability..."
+msgstr ""
+
+msgid "Hide from panel"
+msgstr ""
+
+msgid "Ignored"
+msgstr ""
+
+msgid "No compatible images detected in collections"
+msgstr ""
+
+msgid "Additional minutes (0 to 59)"
+msgstr ""

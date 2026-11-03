@@ -335,7 +335,9 @@ function runDuplicatesScan(cfg) {
 
     for (let i = 0; i < total; i++) {
         const entry = filesToCheck[i];
-        print(`::PROGRESS:: ${JSON.stringify({ phase: 'hash', current: i + 1, total, name: entry.name })}`);
+        if (i === 0 || i === total - 1 || i % 2 === 0) {
+            print(`::PROGRESS:: ${JSON.stringify({ phase: 'hash', current: i + 1, total, name: entry.name })}`);
+        }
         const h = computeDhash(entry.path);
         if (h !== null) {
             hashes.push({ ...entry, hash: h });
@@ -480,14 +482,16 @@ function runSortProcess(cfg, threshold = 42.0, targetScope = 'both', customDir =
                 details.push(detailItem);
                 print(`::PROGRESS:: ${JSON.stringify({ phase: 'moved', current: idx, total, ...detailItem })}`);
             } else {
-                print(`::PROGRESS:: ${JSON.stringify({
-                    phase: 'evaluating',
-                    current: idx,
-                    total,
-                    name: entry.name,
-                    theme: entry.folderType,
-                    score: roundedScore,
-                })}`);
+                if (idx === 1 || idx === total || idx % 3 === 0) {
+                    print(`::PROGRESS:: ${JSON.stringify({
+                        phase: 'evaluating',
+                        current: idx,
+                        total,
+                        name: entry.name,
+                        theme: entry.folderType,
+                        score: roundedScore,
+                    })}`);
+                }
             }
         } catch (e) {
             errors++;

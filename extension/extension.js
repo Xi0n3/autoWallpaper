@@ -1,12 +1,13 @@
 import { Extension } from 'resource:///org/gnome/shell/extensions/extension.js';
 import * as Main from 'resource:///org/gnome/shell/ui/main.js';
 import * as PanelMenu from 'resource:///org/gnome/shell/ui/panelMenu.js';
+import * as PopupMenu from 'resource:///org/gnome/shell/ui/popupMenu.js';
 import St from 'gi://St';
-import Clutter from 'gi://Clutter';
 import Gio from 'gi://Gio';
 import GLib from 'gi://GLib';
 import Meta from 'gi://Meta';
 import Shell from 'gi://Shell';
+import { initI18n, _ } from './i18n.js';
 
 const VALID_EXTENSIONS = new Set([
     '.jpg', '.jpeg', '.png', '.webp', '.avif', '.bmp',
@@ -39,27 +40,28 @@ export default class AutoWallpaperExtension extends Extension {
         try {
             this._extSettings = this.getSettings();
         } catch (e) {
-            this._extSettings = null;
+            try {
+                const schemaDir = Gio.File.new_for_path(GLib.build_filenamev([this.path, 'schemas']));
+                const schemaSource = Gio.SettingsSchemaSource.new_from_directory(
+                    schemaDir.get_path(),
+                    Gio.SettingsSchemaSource.get_default(),
+                    false
+                );
+                const schema = schemaSource.lookup('org.gnome.shell.extensions.autowallpaper', false);
+                if (schema) {
+                    this._extSettings = new Gio.Settings({ settings_schema: schema });
+                }
+            } catch (err) {
+                this._extSettings = null;
+            }
         }
 
-        // Botón indicador discreto en la barra superior
-        this._indicator = new PanelMenu.Button(0.0, this.metadata.name, false);
+        const localeDir = GLib.build_filenamev([this.path, 'locale']);
+        initI18n(localeDir);
 
-        const icon = new St.Icon({
-            icon_name: 'preferences-desktop-wallpaper-symbolic',
-            style_class: 'system-status-icon',
-        });
-        this._indicator.add_child(icon);
-
-        this._indicator.connect('button-press-event', (actor, event) => {
-            if (event.get_button() === 1) {
-                this.openPreferences();
-                return Clutter.EVENT_STOP;
-            }
-            return Clutter.EVENT_PROPAGATE;
-        });
-
-        Main.panel.addToStatusArea(this.uuid, this._indicator);
+        this._indicator = null;
+        this._autoToggleMenuItem = null;
+        this._updatingMenuToggle = false;
 
         // Configuración por defecto en memoria antes de la carga asíncrona
         this._cfg = this._getDefaultConfig();
@@ -69,7 +71,7 @@ export default class AutoWallpaperExtension extends Extension {
             this._onThemeChanged();
         });
 
-        // Conectar cambios en GSettings de atajos nativos
+        // Conectar cambios en GSettings de atajos nativos e icono de bandeja
         if (this._extSettings) {
             for (const key of ['shortcuts-enabled', 'shortcut-next', 'shortcut-reload']) {
                 const sigId = this._extSettings.connect(`changed::${key}`, () => {
@@ -77,6 +79,16 @@ export default class AutoWallpaperExtension extends Extension {
                 });
                 this._extSettingsSignals.push(sigId);
             }
+            const iconSigId = this._extSettings.connect('changed::show-panel-icon', () => {
+                if (!this._cfg) return;
+                const show = this._extSettings.get_boolean('show-panel-icon');
+                if (Boolean(this._cfg.show_panel_icon) !== show) {
+                    this._cfg.show_panel_icon = show;
+                    this._updateIndicatorVisibility();
+                    this._saveConfigAsync();
+                }
+            });
+            this._extSettingsSignals.push(iconSigId);
         }
 
         // Inicializar configuración, caché de carpetas, monitores y temporizador de forma 100% asíncrona
@@ -142,9 +154,135 @@ export default class AutoWallpaperExtension extends Extension {
         this._imagesDark = [];
         this._cfg = null;
 
+        this._destroyIndicator();
+    }
+
+    // =========================================================================
+    // INDICADOR DE BANDEJA CON MENÚ RÁPIDO
+    // =========================================================================
+
+    _createIndicator() {
+        if (this._indicator) return;
+
+        this._indicator = new PanelMenu.Button(0.0, this.metadata.name, false);
+
+        const icon = new St.Icon({
+            icon_name: 'preferences-desktop-wallpaper-symbolic',
+            style_class: 'system-status-icon',
+        });
+        this._indicator.add_child(icon);
+
+        // 1. Siguiente fondo
+        const nextItem = new PopupMenu.PopupImageMenuItem(
+            _("Next Wallpaper"),
+            'media-skip-forward-symbolic'
+        );
+        nextItem.connect('activate', () => {
+            this._rollWallpapers(false);
+        });
+        this._indicator.menu.addMenuItem(nextItem);
+
+        // 2. Barajar secuencia
+        const shuffleItem = new PopupMenu.PopupImageMenuItem(
+            _("Shuffle Sequence"),
+            'media-playlist-shuffle-symbolic'
+        );
+        shuffleItem.connect('activate', () => {
+            if (!this._cfg) return;
+            if (Array.isArray(this._cfg.unshown_light) && this._cfg.unshown_light.length > 1) {
+                this._cfg.unshown_light.sort(() => Math.random() - 0.5);
+            }
+            if (Array.isArray(this._cfg.unshown_dark) && this._cfg.unshown_dark.length > 1) {
+                this._cfg.unshown_dark.sort(() => Math.random() - 0.5);
+            }
+            this._rollWallpapers(false);
+        });
+        this._indicator.menu.addMenuItem(shuffleItem);
+
+        // 3. Recargar colecciones
+        const reloadItem = new PopupMenu.PopupImageMenuItem(
+            _("Reload Collections"),
+            'view-refresh-symbolic'
+        );
+        reloadItem.connect('activate', () => {
+            this._handleReloadShortcutAsync();
+        });
+        this._indicator.menu.addMenuItem(reloadItem);
+
+        this._indicator.menu.addMenuItem(new PopupMenu.PopupSeparatorMenuItem());
+
+        // 4. Switch de Rotación automática
+        const isAutoActive = this._cfg ? (this._cfg.auto_rotation_enabled !== false && this._cfg.mode !== 'manual') : true;
+        this._autoToggleMenuItem = new PopupMenu.PopupSwitchMenuItem(
+            _("Automatic rotation"),
+            isAutoActive
+        );
+        this._autoToggleMenuItem.connect('toggled', (item, state) => {
+            if (this._updatingMenuToggle || !this._cfg) return;
+            this._cfg.auto_rotation_enabled = Boolean(state);
+            if (state) {
+                if (this._cfg.mode === 'manual') this._cfg.mode = 'time';
+                this._cfg.next_run = this._calculateNextRun(this._cfg);
+            }
+            this._saveConfigAsync();
+            this._scheduleNextRunTimer();
+        });
+        this._indicator.menu.addMenuItem(this._autoToggleMenuItem);
+
+        this._indicator.menu.addMenuItem(new PopupMenu.PopupSeparatorMenuItem());
+
+        // 5. Configuración
+        const prefsItem = new PopupMenu.PopupImageMenuItem(
+            _("Settings"),
+            'preferences-system-symbolic'
+        );
+        prefsItem.connect('activate', () => {
+            this.openPreferences();
+        });
+        this._indicator.menu.addMenuItem(prefsItem);
+
+        // 6. Ocultar / Desactivar icono de bandeja
+        const hideIconItem = new PopupMenu.PopupImageMenuItem(
+            _("Hide from panel"),
+            'window-close-symbolic'
+        );
+        hideIconItem.connect('activate', () => {
+            this.openPreferences();
+            if (!this._cfg) return;
+            this._cfg.show_panel_icon = false;
+            if (this._extSettings) {
+                try {
+                    this._extSettings.set_boolean('show-panel-icon', false);
+                } catch (e) {}
+            }
+            this._saveConfigAsync();
+            this._updateIndicatorVisibility();
+        });
+        this._indicator.menu.addMenuItem(hideIconItem);
+
+        Main.panel.addToStatusArea(this.uuid, this._indicator);
+    }
+
+    _destroyIndicator() {
+        this._autoToggleMenuItem = null;
         if (this._indicator) {
             this._indicator.destroy();
             this._indicator = null;
+        }
+    }
+
+    _updateIndicatorVisibility() {
+        const shouldShow = Boolean(this._cfg?.show_panel_icon);
+        if (shouldShow) {
+            this._createIndicator();
+            if (this._autoToggleMenuItem && this._cfg) {
+                const isAuto = (this._cfg.auto_rotation_enabled !== false && this._cfg.mode !== 'manual');
+                this._updatingMenuToggle = true;
+                this._autoToggleMenuItem.setToggleState(isAuto);
+                this._updatingMenuToggle = false;
+            }
+        } else {
+            this._destroyIndicator();
         }
     }
 
@@ -186,6 +324,8 @@ export default class AutoWallpaperExtension extends Extension {
             shortcuts_enabled: false,
             shortcut_next: '<Super>w',
             shortcut_reload: '<Super><Alt>w',
+            show_panel_icon: false,
+            ignored_duplicates: [],
         };
     }
 
@@ -305,9 +445,10 @@ export default class AutoWallpaperExtension extends Extension {
 
         this._cfg = loadedCfg;
 
-        // Sincronizar atajos de teclado nativos
+        // Sincronizar atajos de teclado nativos e icono de bandeja
         this._syncSettingsFromConfig();
         this._updateKeybindings();
+        this._updateIndicatorVisibility();
 
         // Configurar monitor de archivo de configuración (~/.config/auto-wallpaper.json)
         this._setupConfigMonitor();
@@ -415,6 +556,10 @@ export default class AutoWallpaperExtension extends Extension {
             this._syncSettingsFromConfig();
             this._updateKeybindings();
         }
+
+        // Sincronizar visibilidad y estado del menú del icono de bandeja
+        this._syncSettingsFromConfig();
+        this._updateIndicatorVisibility();
 
         // Si cambiaron las carpetas configuradas, actualizar caché y monitores
         const foldersChanged = (newCfg.dir_light !== prevLightDir || newCfg.dir_dark !== prevDarkDir);
@@ -904,6 +1049,11 @@ export default class AutoWallpaperExtension extends Extension {
             if (!curReload || curReload[0] !== reloadAccel) {
                 this._extSettings.set_strv('shortcut-reload', [reloadAccel]);
             }
+
+            const showIcon = Boolean(this._cfg.show_panel_icon);
+            if (this._extSettings.get_boolean('show-panel-icon') !== showIcon) {
+                this._extSettings.set_boolean('show-panel-icon', showIcon);
+            }
         } catch (e) {}
     }
 
@@ -928,31 +1078,46 @@ export default class AutoWallpaperExtension extends Extension {
             return;
         }
 
+        const flags = (Meta.KeyBindingFlags && typeof Meta.KeyBindingFlags.IGNORE_AUTOREPEAT !== 'undefined')
+            ? Meta.KeyBindingFlags.IGNORE_AUTOREPEAT
+            : (Meta.KeyBindingFlags?.NONE || 0);
+        const modes = (Shell.ActionMode && typeof Shell.ActionMode.POPUP !== 'undefined')
+            ? (Shell.ActionMode.NORMAL | Shell.ActionMode.OVERVIEW | Shell.ActionMode.POPUP)
+            : (Shell.ActionMode.NORMAL | Shell.ActionMode.OVERVIEW);
+
+        let registeredAny = false;
+
         try {
             Main.wm.addKeybinding(
                 'shortcut-next',
                 this._extSettings,
-                Meta.KeyBindingFlags.NONE,
-                Shell.ActionMode.NORMAL | Shell.ActionMode.OVERVIEW,
+                flags,
+                modes,
                 () => {
                     this._rollWallpapers(false);
                 }
             );
+            registeredAny = true;
+        } catch (e) {
+            console.warn(`[AutoWallpaper] Error registrando atajo shortcut-next: ${e.message}`);
+        }
 
+        try {
             Main.wm.addKeybinding(
                 'shortcut-reload',
                 this._extSettings,
-                Meta.KeyBindingFlags.NONE,
-                Shell.ActionMode.NORMAL | Shell.ActionMode.OVERVIEW,
+                flags,
+                modes,
                 () => {
                     this._handleReloadShortcutAsync();
                 }
             );
-
-            this._keybindingsRegistered = true;
+            registeredAny = true;
         } catch (e) {
-            console.warn(`[AutoWallpaper] Error registrando atajos nativos: ${e.message}`);
+            console.warn(`[AutoWallpaper] Error registrando atajo shortcut-reload: ${e.message}`);
         }
+
+        this._keybindingsRegistered = registeredAny;
     }
 
     async _handleReloadShortcutAsync() {

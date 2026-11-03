@@ -14,634 +14,631 @@ msgstr ""
 msgid "Auto Wallpaper"
 msgstr "Auto Wallpaper"
 
-msgid "Apariencia"
+msgid "Appearance"
 msgstr "外観"
 
-msgid "Estilo"
+msgid "Style"
 msgstr "スタイル"
 
-msgid "Haz clic en una miniatura para cambiar el fondo de pantalla del tema correspondiente."
+msgid "Click on a thumbnail to change the wallpaper for the corresponding theme."
 msgstr "サムネイルをクリックして、対応するテーマの壁紙を変更します。"
 
-msgid "Haz clic para cambiar el fondo claro (Predeterminado)"
+msgid "Click to change light wallpaper (Default)"
 msgstr "クリックしてライト壁紙（デフォルト）を変更"
 
-msgid "Haz clic para cambiar el fondo oscuro (Dark)"
+msgid "Click to change dark wallpaper (Dark)"
 msgstr "クリックしてダーク壁紙（ダーク）を変更"
 
-msgid "Predeterminado"
+msgid "Default"
 msgstr "デフォルト"
 
-msgid "Oscuro"
+msgid "Dark"
 msgstr "ダーク"
 
-msgid "cambiando el tema"
+msgid "changing theme"
 msgstr "テーマ切り替え"
 
-msgid "Se ha cambiado el fondo del tema"
+msgid "Wallpaper changed for theme"
 msgstr "テーマの壁紙が変更されました"
 
-msgid "puede verlo"
+msgid "view it by"
 msgstr "確認できます"
 
-msgid "Seleccionar fondo de pantalla claro"
+msgid "Select light wallpaper"
 msgstr "ライト壁紙を選択"
 
-msgid "Seleccionar fondo de pantalla oscuro"
+msgid "Select dark wallpaper"
 msgstr "ダーク壁紙を選択"
 
-msgid "Carpetas de Fondos"
+msgid "Wallpaper Folders"
 msgstr "壁紙フォルダー"
 
-msgid "Selecciona las carpetas de imágenes asignadas a cada tema."
+msgid "Select the image folders assigned to each theme."
 msgstr "各テーマに割り当てる画像フォルダーを選択します。"
 
-msgid "Colección Claro"
+msgid "Light Collection"
 msgstr "ライトコレクション"
 
-msgid "Colección Oscuro"
+msgid "Dark Collection"
 msgstr "ダークコレクション"
 
-msgid "Cambiar carpeta seleccionada"
+msgid "Change selected folder"
 msgstr "選択したフォルダーを変更"
 
-msgid "Abrir carpeta en Archivos"
+msgid "Open folder in Files"
 msgstr "ファイルでフォルダーを開く"
 
-msgid "Rotación de fondos del conjunto"
+msgid "Collection Wallpaper Rotation"
 msgstr "コレクション壁紙のローテーション"
 
-msgid "Configura el orden en que se van a proyectar las imágenes."
+msgid "Configure the order in which images are cycled."
 msgstr "画像を切り替える順序を設定します。"
 
-msgid "Se han detectado cambios en los fondos almacenados. "
+msgid "Changes detected in stored wallpapers. "
 msgstr "保存された壁紙の変更が検出されました。 "
 
-msgid "Recarga"
+msgid "Reload"
 msgstr "再読み込み"
 
-msgid "Recargar fondos ahora"
+msgid "Reload wallpapers now"
 msgstr "今すぐ壁紙を再読み込み"
 
-msgid " para actualizar los fondos"
+msgid " to update wallpapers"
 msgstr " 壁紙を更新するため"
 
-msgid "Descartar aviso"
+msgid "Dismiss notice"
 msgstr "通知を閉じる"
 
-msgid "Servicio en segundo plano"
+msgid "Background Service"
 msgstr "バックグラウンドサービス"
 
-msgid "Comprobando estado..."
+msgid "Checking status..."
 msgstr "状態を確認中..."
 
-msgid "Siguiente"
+msgid "Next"
 msgstr "次へ"
 
-msgid "Pasar al siguiente fondo de la secuencia actual"
+msgid "Skip to next wallpaper in current sequence"
 msgstr "現在のシーケンスの次の壁紙に切り替えます"
 
-msgid "Barajar"
+msgid "Shuffle"
 msgstr "シャッフル"
 
-msgid "Revolver la lista de fondos pendientes sin reiniciar el ciclo"
+msgid "Shuffle pending wallpapers without restarting the cycle"
 msgstr "サイクルを再開せずに保留中の壁紙リストをシャッフルします"
 
-msgid "Recargar"
-msgstr "再読み込み"
-
-msgid "Re-escanear carpetas, reiniciar la baraja completa y aplicar nuevos fondos"
+msgid "Rescan folders, reset the entire deck, and apply new wallpapers"
 msgstr "フォルダーを再スキャンし、全デッキをリセットして新しい壁紙を適用します"
 
-msgid "Secuencia de rotación"
+msgid "Rotation sequence"
 msgstr "ローテーション順序"
 
-msgid "Al azar"
+msgid "Random"
 msgstr "ランダム"
 
-msgid "Al azar sin repeticiones (baraja completa)"
+msgid "Random without repeats (full deck)"
 msgstr "重複なしランダム（全デッキシャッフル）"
 
-msgid "Rotación automática"
+msgid "Automatic rotation"
 msgstr "自動ローテーション"
 
-msgid "Temporizador y automatización del cambio en segundo plano."
+msgid "Timer and background change automation."
 msgstr "タイマーとバックグラウンドでの自動変更。"
 
-msgid "Activar rotación automática"
+msgid "Enable automatic rotation"
 msgstr "自動ローテーションを有効化"
 
-msgid "Habilitar el servicio para cambiar las imágenes según la frecuencia programada"
+msgid "Enable service to switch wallpapers based on scheduled frequency"
 msgstr "スケジュールされた頻度で画像を変更するサービスを有効にします"
 
-msgid "Frecuencia de cambio"
+msgid "Switch frequency"
 msgstr "変更頻度"
 
-msgid "Intervalo de tiempo (minutos)"
+msgid "Time interval (minutes)"
 msgstr "時間間隔（分）"
 
-msgid "Hora fija diaria"
+msgid "Fixed daily time"
 msgstr "毎日の指定時刻"
 
-msgid "Minutos entre cambios"
+msgid "Minutes between switches"
 msgstr "変更の間隔（分）"
 
-msgid "Tiempo que permanece cada fondo de pantalla"
+msgid "Time each wallpaper remains active"
 msgstr "各壁紙が表示される時間"
 
-msgid "Hora de cambio diario"
+msgid "Daily switch time"
 msgstr "毎日の変更時刻"
 
-msgid "Hora programada para rotar el fondo cada día (formato 24h)"
+msgid "Scheduled time to rotate wallpaper each day (24h format)"
 msgstr "毎日壁紙を変更する予定時刻（24時間形式）"
 
-msgid "Hora (00 a 23)"
+msgid "Hour (00 to 23)"
 msgstr "時間（00〜23）"
 
-msgid "Minutos (00 a 59)"
+msgid "Minutes (00 to 59)"
 msgstr "分（00〜59）"
 
-msgid "Días entre cambios"
+msgid "Days between switches"
 msgstr "変更の間隔（日数）"
 
-msgid "Frecuencia en días de la rotación diaria"
+msgid "Frequency in days for daily rotation"
 msgstr "毎日のローテーション頻度（日数）"
 
-msgid "Contar cambio de estilo no visto en la rotación"
+msgid "Count unseen style change as rotation"
 msgstr "未表示のスタイル変更をローテーションとしてカウント"
 
-msgid "Al alternar entre claro y oscuro, si el fondo aún no se había visto, reinicia el temporizador (solo en intervalo de tiempo)"
+msgid "When switching between light and dark, if the wallpaper was not yet seen, restart the timer (interval mode only)"
 msgstr "ライトとダークの切り替え時、壁紙が未表示だった場合にタイマーをリセットします（時間間隔モードのみ）"
 
-msgid "Herramientas y Mantenimiento"
+msgid "Tools and Maintenance"
 msgstr "ツールとメンテナンス"
 
-msgid "Mantenimiento, gestión del fondo en pantalla, organización inteligente y optimización."
+msgid "Maintenance, active wallpaper management, smart organization, and optimization."
 msgstr "メンテナンス、現在の壁紙の管理、スマートな整理と最適化。"
 
-msgid "Fondo actual en pantalla"
+msgid "Current wallpaper on screen"
 msgstr "現在の画面壁紙"
 
-msgid "Detectando fondo visible..."
+msgid "Detecting active wallpaper..."
 msgstr "アクティブな壁紙を検出中..."
 
-msgid "Ubicar y mostrar archivo en Archivos (Nautilus)"
+msgid "Locate and show file in Files (Nautilus)"
 msgstr "ファイル（Nautilus）で配置を表示"
 
-msgid "Fijar fondo en pinned/ (proteger en este tema)"
+msgid "Pin wallpaper in pinned/ (protect in this theme)"
 msgstr "pinned/ に固定（このテーマで保護）"
 
-msgid "Excluir fondo de la rotación (mover a exclude/)"
+msgid "Exclude wallpaper from rotation (move to exclude/)"
 msgstr "ローテーションから除外（exclude/ に移動）"
 
-msgid "No hay ningún fondo configurado o el archivo no existe"
+msgid "No wallpaper configured or file does not exist"
 msgstr "壁紙が設定されていないか、ファイルが存在しません"
 
-msgid "Fijado (pinned)"
+msgid "Pinned"
 msgstr "固定済み（pinned）"
 
-msgid "Desfijar fondo (regresar a la carpeta principal)"
+msgid "Unpin wallpaper (return to main folder)"
 msgstr "壁紙の固定を解除（メインフォルダーに戻す）"
 
-msgid "Fijar fondo en pinned/ (no mover de este tema)"
+msgid "Pin wallpaper in pinned/ (do not rotate away)"
 msgstr "pinned/ に固定（このテーマから移動しない）"
 
-msgid "Fondo desfijado y devuelto a la carpeta principal"
+msgid "Wallpaper unpinned and returned to main folder"
 msgstr "壁紙の固定が解除され、メインフォルダーに戻されました"
 
-msgid "Fondo fijado en pinned/"
+msgid "Wallpaper pinned in pinned/"
 msgstr "壁紙が pinned/ に固定されました"
 
-msgid "¿Excluir este fondo de pantalla?"
+msgid "Exclude this wallpaper?"
 msgstr "この壁紙を除外しますか？"
 
-msgid "se moverá a la carpeta 'exclude/' y se cambiará al siguiente fondo disponible de la rotación."
+msgid "will be moved to 'exclude/' and wallpaper will switch to next in rotation."
 msgstr "「exclude/」フォルダーに移動され、次の利用可能な壁紙に切り替わります。"
 
-msgid "Cancelar"
+msgid "Cancel"
 msgstr "キャンセル"
 
-msgid "Excluir"
+msgid "Exclude"
 msgstr "除外"
 
-msgid "Fondo excluido y rotado"
+msgid "Wallpaper excluded and rotated"
 msgstr "壁紙が除外され、切り替えられました"
 
-msgid "Detector de Fondos Duplicados"
+msgid "Duplicate Wallpaper Detector"
 msgstr "重複壁紙検出機能"
 
-msgid "Detecta imágenes repetidas o casi idénticas con firmas estructurales (dHash)"
+msgid "Detects repeated or near-identical images using structural perceptual hashes (dHash)"
 msgstr "知覚ハッシュ（dHash）を使用して重複または類似した画像を検出します"
 
-msgid "Buscar duplicados"
+msgid "Scan duplicates"
 msgstr "重複をスキャン"
 
-msgid "Clasificar Fondos por Luminosidad"
+msgid "Classify Wallpapers by Luminosity"
 msgstr "明度による壁紙の分類"
 
-msgid "Evalúa el brillo perceptual (CIELAB L*) y clasifica automáticamente entre claro y oscuro"
+msgid "Evaluates perceptual lightness (CIELAB L*) and classifies automatically into light and dark"
 msgstr "知覚明度（CIELAB L*）を評価し、ライトとダークに自動分類します"
 
-msgid "Clasificar"
+msgid "Classify"
 msgstr "分類"
 
-msgid "Reescalado con IA (Smart Upscale)"
+msgid "AI Upscaling (Smart Upscale)"
 msgstr "AI 超解像拡大 (Smart Upscale)"
 
-msgid "Comprobando compatibilidad de aceleración Vulkan y motor Real-CUGAN..."
+msgid "Checking Vulkan acceleration compatibility and Real-CUGAN engine..."
 msgstr "Vulkan 加速互換性と Real-CUGAN エンジンを確認中..."
 
-msgid "Reescalar..."
+msgid "Upscale..."
 msgstr "拡大..."
 
-msgid "Requiere aceleración Vulkan y motor Real-CUGAN instalado"
+msgid "Requires Vulkan acceleration and Real-CUGAN engine installed"
 msgstr "Vulkan 加速と Real-CUGAN エンジンのインストールが必要です"
 
-msgid "No compatible"
+msgid "Not supported"
 msgstr "非対応"
 
-msgid "¿Verificar compatibilidad nuevamente?"
+msgid "Check compatibility again?"
 msgstr "互換性を再確認しますか？"
 
-msgid "El motor Real-CUGAN con aceleración Vulkan reportó incompatibilidad o no respondió en la última comprobación."
+msgid "The Real-CUGAN engine with Vulkan acceleration reported incompatibility or did not respond."
 msgstr "Vulkan 加速対応の Real-CUGAN エンジンが互換性のなしと報告されたか、応答しませんでした。"
 
-msgid "¿Deseas volver a escanear los controladores de GPU Vulkan y el motor ahora?"
+msgid "Do you want to rescan Vulkan GPU drivers and the engine now?"
 msgstr "Vulkan GPU ドライバーとエンジンを今すぐ再スキャンしますか？"
 
-msgid "Verificar nuevamente"
+msgid "Check again"
 msgstr "再確認"
 
-msgid "Verificando..."
+msgid "Checking..."
 msgstr "確認中..."
 
-msgid "Atajos"
+msgid "Shortcuts"
 msgstr "ショートカット"
 
-msgid "Atajos de teclado"
+msgid "Keyboard Shortcuts"
 msgstr "キーボードショートカット"
 
-msgid "Atajos nativos de GNOME para cambiar y recargar fondos rápidamente."
+msgid "Native GNOME shortcuts to quickly switch and reload wallpapers."
 msgstr "壁紙をすばやく切り替え・再読み込みする GNOME ネイティブショートカット。"
 
-msgid "Habilitar atajos de teclado"
+msgid "Enable keyboard shortcuts"
 msgstr "キーボードショートカットを有効化"
 
-msgid "Activa los atajos globales en el entorno de escritorio"
+msgid "Enables global shortcuts in the desktop environment"
 msgstr "デスクトップ環境でグローバルショートカットを有効にします"
 
-msgid "Siguiente wallpaper"
+msgid "Next wallpaper"
 msgstr "次の壁紙"
 
-msgid "Recargar conjuntos"
+msgid "Reload collections"
 msgstr "コレクションの再読み込み"
 
-msgid "Ejecuta: auto-wallpaper next"
+msgid "Runs: auto-wallpaper next"
 msgstr "実行: auto-wallpaper next"
 
-msgid "Ejecuta: auto-wallpaper reload"
+msgid "Runs: auto-wallpaper reload"
 msgstr "実行: auto-wallpaper reload"
 
-msgid "Super + W (Predeterminado)"
+msgid "Super + W (Default)"
 msgstr "Super + W（デフォルト）"
 
-msgid "Super + Alt + W (Predeterminado)"
+msgid "Super + Alt + W (Default)"
 msgstr "Super + Alt + W（デフォルト）"
 
-msgid "Super + Espacio"
+msgid "Super + Space"
 msgstr "Super + Space"
 
-msgid "Super + Flecha Derecha"
+msgid "Super + Right Arrow"
 msgstr "Super + 右矢印"
 
-msgid "Personalizado"
+msgid "Custom"
 msgstr "カスタム"
 
-msgid "Desactivado"
+msgid "Disabled"
 msgstr "無効"
 
-msgid "Servicio detenido"
+msgid "Service stopped"
 msgstr "サービス停止中"
 
-msgid "El temporizador automático está detenido"
+msgid "Automatic timer is stopped"
 msgstr "自動タイマーは停止しています"
 
-msgid "Servicio activo"
+msgid "Service active"
 msgstr "サービス稼働中"
 
-msgid "Próximo cambio en:"
+msgid "Next switch in:"
 msgstr "次の変更まで:"
 
-msgid "Restantes:"
+msgid "Remaining:"
 msgstr "残り:"
 
-msgid "Modo:"
+msgid "Mode:"
 msgstr "モード:"
 
-msgid "Seleccionar carpeta de fondos claros"
+msgid "Select light wallpaper folder"
 msgstr "ライト壁紙フォルダーを選択"
 
-msgid "Seleccionar carpeta de fondos oscuros"
+msgid "Select dark wallpaper folder"
 msgstr "ダーク壁紙フォルダーを選択"
 
-msgid "¿Recargar todos los fondos?"
+msgid "Reload all wallpapers?"
 msgstr "すべての壁紙を再読み込みしますか？"
 
-msgid "Esto re-escaneará las carpetas y recargará toda la lista de fondos, incluyendo el fondo actual."
+msgid "This will rescan folders and reload all wallpapers, including current wallpaper."
 msgstr "フォルダーを再スキャンし、現在の壁紙を含む全リストを再読み込みします。"
 
-msgid "Desactivado (Manual)"
+msgid "Disabled (Manual)"
 msgstr "無効（手動）"
 
-msgid "Calculando / Inminente..."
+msgid "Calculating / Imminent..."
 msgstr "計算中 / まもなく変更..."
 
-msgid "Imágenes (*.png, *.jpg, *.jpeg, *.webp)"
+msgid "Images (*.png, *.jpg, *.jpeg, *.webp)"
 msgstr "画像 (*.png, *.jpg, *.jpeg, *.webp)"
 
-msgid "Fondos Duplicados o Repetidos"
+msgid "Duplicate or Repeated Wallpapers"
 msgstr "重複または類似した壁紙"
 
-msgid "Volver a escanear"
+msgid "Rescan"
 msgstr "再スキャン"
 
-msgid "Escaneando colecciones de fondos..."
+msgid "Scanning wallpaper collections..."
 msgstr "壁紙コレクションをスキャン中..."
 
-msgid "Calculando firmas estructurales dHash y comparando similitudes..."
+msgid "Calculating dHash structural hashes and comparing similarities..."
 msgstr "dHash 構造ハッシュを計算して類似度を比較中..."
 
-msgid "¡No hay duplicados!"
+msgid "No duplicates found!"
 msgstr "重複は見つかりませんでした！"
 
-msgid "Todas las imágenes de tus colecciones son únicas. No se detectaron fondos repetidos ni versiones comprimidas."
+msgid "All images in your collections are unique. No repeated wallpapers or compressed copies detected."
 msgstr "コレクション内のすべての画像は一意です。重複した壁紙や圧縮コピーは検出されませんでした。"
 
-msgid "Iniciando escaneo..."
+msgid "Starting scan..."
 msgstr "スキャンを開始中..."
 
-msgid "Se encontraron"
+msgid "Found"
 msgstr "検出:"
 
-msgid "coincidencias de fondos repetidos o casi idénticos:"
+msgid "matches of duplicate or near-identical wallpapers:"
 msgstr "件の重複または類似壁紙が見つかりました:"
 
-msgid "DUPLICADO EXACTO (100% idéntico)"
+msgid "EXACT DUPLICATE (100% identical)"
 msgstr "完全一致（100% 同一）"
 
-msgid "CASI IDÉNTICO"
+msgid "NEAR IDENTICAL"
 msgstr "ほぼ同一"
 
-msgid "similitud"
+msgid "similarity"
 msgstr "類似度"
 
-msgid "Mover esta versión a la subcarpeta exclude/"
+msgid "Move this version to exclude/ subfolder"
 msgstr "このバージョンを exclude/ サブフォルダーに移動"
 
-msgid "Ubicar en Archivos"
+msgid "Locate in Files"
 msgstr "ファイルで配置を表示"
 
-msgid "Excluida ✓"
+msgid "Excluded ✓"
 msgstr "除外済み ✓"
 
-msgid "movida a exclude/"
+msgid "moved to exclude/"
 msgstr "exclude/ に移動しました"
 
-msgid "Aviso:"
+msgid "Notice:"
 msgstr "注意:"
 
-msgid "El análisis perceptual examina la luminosidad píxel a píxel de cada imagen. En colecciones con muchos fondos, el proceso puede tardar un poco según el rendimiento de tu equipo."
+msgid "Perceptual analysis evaluates pixel lightness for each image. For large collections, this process may take a while depending on hardware."
 msgstr "知覚分析では各画像のピクセルごとの明度を検査します。大規模なコレクションでは処理に時間がかかる場合があります。"
 
-msgid "Parámetros de Clasificación por Luminosidad"
+msgid "Luminosity Classification Parameters"
 msgstr "明度分類パラメーター"
 
-msgid "Organiza automáticamente tus fondos en las carpetas Claro y Oscuro según el modelo perceptivo humano (CIELAB L* + Percentil 65)."
+msgid "Automatically organize wallpapers into Light and Dark folders using human perceptual model (CIELAB L* + 65th percentile)."
 msgstr "人間の知覚モデル（CIELAB L* + 65パーセンタイル）に従ってライトとダークのフォルダーに自動整理します。"
 
-msgid "Muy permisivo"
+msgid "Very Permissive"
 msgstr "非常に許容的"
 
-msgid "Permisivo"
+msgid "Permissive"
 msgstr "許容的"
 
-msgid "Equilibrado"
+msgid "Balanced"
 msgstr "バランス"
 
-msgid "Exigente"
+msgid "Demanding"
 msgstr "厳格"
 
-msgid "Muy estricto"
+msgid "Very Strict"
 msgstr "非常に厳格"
 
-msgid "Más Claros"
+msgid "More Light"
 msgstr "より明るく"
 
-msgid "Más Oscuros"
+msgid "More Dark"
 msgstr "より暗く"
 
-msgid "Muy permisivo para Claro · Máximo favorecedor para fondos claros"
+msgid "Very permissive for Light · Maximum favor towards light wallpapers"
 msgstr "ライトに非常に寛容 · ライト壁紙を最大優遇"
 
-msgid "Permisivo para Claro · Favorece fondos claros"
+msgid "Permissive for Light · Favors light wallpapers"
 msgstr "ライトに寛容 · ライト壁紙を優遇"
 
-msgid "Equilibrada / Estándar · Recomendado · Balance perceptivo óptimo"
+msgid "Balanced / Standard · Recommended · Optimal perceptual balance"
 msgstr "バランス / 標準 · 推奨 · 最適な知覚バランス"
 
-msgid "Exigente para Claro · Más fondos a Oscuro"
+msgid "Demanding for Light · More wallpapers moved to Dark"
 msgstr "ライトに厳格 · より多くの壁紙をダークへ"
 
-msgid "Muy estricto para Claro · Mínimo favorecedor para Claro"
+msgid "Very strict for Light · Minimum favor towards Light wallpapers"
 msgstr "ライトに非常に厳格 · ライト壁紙の最小優遇"
 
-msgid "Sensibilidad de brillo (Umbral CIELAB L*)"
+msgid "Brightness Sensitivity (CIELAB L* Threshold)"
 msgstr "明るさの感度（CIELAB L* しきい値）"
 
-msgid "Colecciones a analizar"
+msgid "Collections to analyze"
 msgstr "分析対象のコレクション"
 
-msgid "Las subcarpetas pinned/ y exclude/ siempre están protegidas."
+msgid "Subfolders pinned/ and exclude/ are always protected."
 msgstr "pinned/ および exclude/ サブフォルダーは常に保護されます。"
 
-msgid "Ambos conjuntos (Claro y Oscuro - Recomendado)"
+msgid "Both collections (Light and Dark - Recommended)"
 msgstr "両方のコレクション（ライトとダーク - 推奨）"
 
-msgid "Solo conjunto Claro (Reevaluar y mover fondos oscuros)"
+msgid "Light collection only (Reevaluate and move dark wallpapers)"
 msgstr "ライトコレクションのみ（暗い壁紙を再評価して移動）"
 
-msgid "Solo conjunto Oscuro (Reevaluar y mover fondos claros)"
+msgid "Dark collection only (Reevaluate and move light wallpapers)"
 msgstr "ダークコレクションのみ（明るい壁紙を再評価して移動）"
 
-msgid "Carpeta personalizada (Analizar y clasificar imágenes hacia Claro/Oscuro)"
+msgid "Custom folder (Analyze and classify images into Light/Dark)"
 msgstr "カスタムフォルダー（画像を分析してライト/ダークに分類）"
 
-msgid "Carpeta a clasificar"
+msgid "Folder to classify"
 msgstr "分類するフォルダー"
 
-msgid "Ninguna carpeta seleccionada"
+msgid "No folder selected"
 msgstr "フォルダーが選択されていません"
 
-msgid "Seleccionar carpeta..."
+msgid "Select folder..."
 msgstr "フォルダーを選択..."
 
-msgid "Seleccionar carpeta personalizada"
+msgid "Select custom folder"
 msgstr "カスタムフォルダーを選択"
 
-msgid "Iniciar clasificación"
+msgid "Start classification"
 msgstr "分類を開始"
 
-msgid "Clasificando fondos mediante CIELAB L*..."
+msgid "Classifying wallpapers via CIELAB L*..."
 msgstr "CIELAB L* で壁紙を分類中..."
 
-msgid "Evaluando brillo perceptual y percentil 65 en cada imagen..."
+msgid "Evaluating perceptual lightness and 65th percentile for each image..."
 msgstr "各画像の知覚明度と65パーセンタイルを評価中..."
 
-msgid "Movidos a Claro"
+msgid "Moved to Light"
 msgstr "ライトへ移動"
 
-msgid "Movidos a Oscuro"
+msgid "Moved to Dark"
 msgstr "ダークへ移動"
 
-msgid "Iniciando análisis..."
+msgid "Starting analysis..."
 msgstr "分析を開始中..."
 
-msgid "Las subcarpetas"
+msgid "Subfolders"
 msgstr "サブフォルダー"
 
-msgid "fondos fijados"
+msgid "pinned wallpapers"
 msgstr "固定壁紙"
 
-msgid "y"
+msgid "and"
 msgstr "および"
 
-msgid "fondos excluidos"
+msgid "excluded wallpapers"
 msgstr "除外壁紙"
 
-msgid "están protegidas y no se moverán."
+msgid "are protected and will not be moved."
 msgstr "は保護されており、移動されません。"
 
-msgid "Escaneando y clasificando fondos..."
+msgid "Scanning and classifying wallpapers..."
 msgstr "壁紙をスキャンして分類中..."
 
-msgid "Analizando brillo perceptual (CIELAB L*) y percentil 65 en cada imagen"
+msgid "Analyzing perceptual lightness (CIELAB L*) and 65th percentile on each image"
 msgstr "各画像の知覚明度 (CIELAB L*) と65パーセンタイルを分析中"
 
-msgid "Detener"
+msgid "Stop"
 msgstr "停止"
 
-msgid "Cerrar"
+msgid "Close"
 msgstr "閉じる"
 
-msgid "Proceso detenido por el usuario"
+msgid "Process stopped by user"
 msgstr "ユーザーによって処理が停止されました"
 
-msgid "Clasificación completada"
+msgid "Classification completed"
 msgstr "分類が完了しました"
 
-msgid "¡Colecciones ya equilibradas!"
+msgid "Collections already balanced!"
 msgstr "コレクションはすでに均衡しています！"
 
-msgid "Todos los fondos ya se encuentran en su carpeta adecuada según el umbral seleccionado."
+msgid "All wallpapers are already in their appropriate folder according to the selected threshold."
 msgstr "選択されたしきい値に従って、すべての壁紙が適切なフォルダーに配置されています。"
 
-msgid "Colecciones equilibradas"
+msgid "Balanced collections"
 msgstr "バランスの取れたコレクション"
 
-msgid "No se requirió mover ningún fondo. Ambas carpetas coinciden con sus perfiles de luminosidad."
+msgid "No wallpapers needed to be moved. Both folders match their lightness profiles."
 msgstr "壁紙を移動する必要はありませんでした。両方のフォルダーが明度プロファイルと一致しています。"
 
-msgid "Clasificación finalizada con éxito"
+msgid "Classification completed successfully"
 msgstr "分類が正常に完了しました"
 
-msgid "mostrando los últimos"
+msgid "showing last"
 msgstr "最新のものを表示"
 
-msgid "en vivo"
+msgid "live"
 msgstr "リアルタイム"
 
-msgid "Se movieron"
+msgid "Moved"
 msgstr "合計で"
 
-msgid "a claro y"
+msgid "to light and"
 msgstr "枚をライトへ、"
 
-msgid "a oscuro en total"
+msgid "to dark in total"
 msgstr "枚をダークへ移動しました"
 
-msgid "Clasificación de fondos finalizada"
+msgid "Wallpaper classification completed"
 msgstr "壁紙の分類が完了しました"
 
-msgid "Evaluando:"
+msgid "Evaluating:"
 msgstr "評価中:"
 
-msgid "Brillo L*"
+msgid "Lightness L*"
 msgstr "明度 L*"
 
-msgid "Reescalado Inteligente (Real-CUGAN)"
+msgid "Smart Upscale (Real-CUGAN)"
 msgstr "スマート高解像度化 (Real-CUGAN)"
 
-msgid "El proceso de reescalado utiliza aceleración neuronal por GPU (Vulkan). Puede tardar en completarse y ocasionar pérdida temporal de rendimiento mientras se ejecuta."
+msgid "The upscaling process uses Vulkan GPU neural acceleration. It may take some time and temporarily affect performance while running."
 msgstr "高解像度化処理は GPU ニューラルアクセラレーション（Vulkan）を使用します。完了まで時間がかかり、一時的に性能が低下する場合があります。"
 
-msgid "Parámetros del Reescalado IA"
+msgid "AI Upscale Parameters"
 msgstr "AI 超解像パラメーター"
 
-msgid "Acelera la nitidez y resolución usando Real-CUGAN."
+msgid "Enhance sharpness and resolution using Real-CUGAN."
 msgstr "Real-CUGAN で鮮明度と解像度を向上させます。"
 
-msgid "GPU detectada:"
+msgid "Detected GPU:"
 msgstr "検出された GPU:"
 
-msgid "Carpeta a reescalar"
+msgid "Folder to upscale"
 msgstr "拡大するフォルダー"
 
-msgid "☀️ Conjunto claro"
+msgid "☀️ Light collection"
 msgstr "☀️ ライトコレクション"
 
-msgid "🌙 Conjunto oscuro"
+msgid "🌙 Dark collection"
 msgstr "🌙 ダークコレクション"
 
-msgid "🌓 Ambos conjuntos (claro y oscuro)"
+msgid "🌓 Both collections (light and dark)"
 msgstr "🌓 両方のコレクション（ライトとダーク）"
 
-msgid "Factor de escala"
+msgid "Scale factor"
 msgstr "スケーリング倍率"
 
-msgid "Multiplicador de resolución"
+msgid "Resolution multiplier"
 msgstr "解像度の倍率"
 
-msgid "2x (Recomendado para 1080p -> 4K)"
+msgid "2x (Recommended for 1080p -> 4K)"
 msgstr "2x（1080p -> 4K 推奨）"
 
-msgid "Reducción de ruido (Denoise)"
+msgid "Noise Reduction (Denoise)"
 msgstr "ノイズ除去 (Denoise)"
 
-msgid "Nivel de limpieza de artefactos y compresión"
+msgid "Artifact and compression cleanup level"
 msgstr "圧縮アーティファクトの除去レベル"
 
-msgid "Nivel 0 - Predeterminado (Nitidez óptima)"
+msgid "Level 0 - Default (Optimal sharpness)"
 msgstr "レベル 0 - デフォルト（最適な鮮明度）"
 
-msgid "Nivel 1 - Suave"
+msgid "Level 1 - Soft"
 msgstr "レベル 1 - ソフト"
 
-msgid "Nivel 2 - Medio"
+msgid "Level 2 - Medium"
 msgstr "レベル 2 - 中程度"
 
-msgid "Nivel 3 - Intenso"
+msgid "Level 3 - Strong"
 msgstr "レベル 3 - 強力"
 
-msgid "Nivel -1 - Sin denoise (Preserva grano)"
+msgid "Level -1 - No denoise (Preserves grain)"
 msgstr "レベル -1 - ノイズ除去なし（粒状感を保持）"
 
-msgid "Límite de resolución"
+msgid "Resolution limit"
 msgstr "解像度制限"
 
-msgid "Omitir imágenes que ya alcancen o superen este tamaño"
+msgid "Skip images that already reach or exceed this size"
 msgstr "すでにこのサイズに達しているか超えている画像をスキップ"
 
-msgid "2560x1440 (2K QHD - Recomendado)"
+msgid "2560x1440 (2K QHD - Recommended)"
 msgstr "2560x1440 (2K QHD - 推奨)"
 
 msgid "1920x1080 (Full HD)"
@@ -650,72 +647,104 @@ msgstr "1920x1080 (Full HD)"
 msgid "3840x2160 (4K UHD)"
 msgstr "3840x2160 (4K UHD)"
 
-msgid "Sin límite (procesar todas las imágenes)"
+msgid "No limit (process all images)"
 msgstr "無制限（すべての画像を処理）"
 
-msgid "Copia de seguridad"
+msgid "Backup copy"
 msgstr "バックアップコピー"
 
-msgid "Guardar copia de las imágenes originales en exclude/backup_upscale_original/"
+msgid "Save copy of original images in exclude/backup_upscale_original/"
 msgstr "元画像のコピーを exclude/backup_upscale_original/ に保存"
 
-msgid "Ignorar etiqueta de reescalado previo"
+msgid "Ignore previous upscale tag"
 msgstr "以前の拡大タグを無視"
 
-msgid "Permite reescalar imágenes que ya fueron procesadas anteriormente con IA"
+msgid "Allows re-upscaling images previously processed with AI"
 msgstr "以前に AI で処理された画像を再度拡大できるようにします"
 
-msgid "¿Ignorar etiqueta de reescalado previo?"
+msgid "Ignore previous upscale tag?"
 msgstr "以前の拡大タグを無視しますか？"
 
-msgid "Advertencia: Reescalar sucesivamente una imagen ya procesada con IA puede introducir artefactos no deseados o degradar la calidad original."
+msgid "Warning: Repeatedly upscaling an AI-processed image may introduce unwanted artifacts or degrade quality."
 msgstr "警告: 既に AI で処理された画像を繰り返し拡大すると、不要なアーティファクトが発生したり画質が劣化する可能性があります。"
 
-msgid "¿Estás seguro de que deseas forzar el reescalado sobre imágenes previamente tratadas?"
+msgid "Are you sure you want to force upscaling on previously treated images?"
 msgstr "以前に処理された画像を強制的に再拡大してもよろしいですか？"
 
-msgid "Activar de todos modos"
+msgid "Enable anyway"
 msgstr "それでも有効にする"
 
-msgid "Iniciar reescalado"
+msgid "Start upscaling"
 msgstr "拡大を開始"
 
-msgid "Reescalando fondos con Real-CUGAN..."
+msgid "Upscaling wallpapers with Real-CUGAN..."
 msgstr "Real-CUGAN で壁紙を拡大中..."
 
-msgid "Iniciando..."
+msgid "Starting..."
 msgstr "開始中..."
 
-msgid "Reescalado con IA finalizado"
+msgid "AI Upscaling completed"
 msgstr "AI 超解像拡大が完了しました"
 
-msgid "Analizando candidatos:"
+msgid "Analyzing candidates:"
 msgstr "対象候補を分析中:"
 
-msgid "de"
+msgid "of"
 msgstr "/"
 
-msgid "Comprobando resolución y firmas de reescalado previo..."
+msgid "Checking resolution and previous upscale signatures..."
 msgstr "解像度と以前の拡大署名を確認中..."
 
-msgid "procesadas"
+msgid "processed"
 msgstr "処理済み"
 
-msgid "Reescalando"
+msgid "Upscaling"
 msgstr "拡大中"
 
-msgid "Completada"
+msgid "Completed"
 msgstr "完了"
 
-msgid "guardada exitosamente"
+msgid "saved successfully"
 msgstr "正常に保存されました"
 
-msgid "Reescalado completado"
+msgid "Upscaling completed"
 msgstr "拡大完了"
 
-msgid "Procesamiento de carpeta finalizado"
+msgid "Folder processing finished"
 msgstr "フォルダー処理が終了しました"
 
-msgid "Sin imágenes pendientes por procesar"
+msgid "No pending images to process"
 msgstr "処理待ちの画像はありません"
 
+msgid "View ignored combinations"
+msgstr ""
+
+msgid "Combinations you choose to ignore will appear here so you can restore them."
+msgstr ""
+
+msgid "image"
+msgstr ""
+
+msgid "images"
+msgstr ""
+
+msgid "No images"
+msgstr ""
+
+msgid "Add wallpapers to folders or select one containing images to enable rotation and tools."
+msgstr ""
+
+msgid "Checking Python dependencies and Real-CUGAN engine availability..."
+msgstr ""
+
+msgid "Hide from panel"
+msgstr ""
+
+msgid "Ignored"
+msgstr ""
+
+msgid "No compatible images detected in collections"
+msgstr ""
+
+msgid "Additional minutes (0 to 59)"
+msgstr ""

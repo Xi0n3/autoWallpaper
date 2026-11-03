@@ -14,634 +14,631 @@ msgstr ""
 msgid "Auto Wallpaper"
 msgstr "Auto Wallpaper"
 
-msgid "Apariencia"
+msgid "Appearance"
 msgstr "모양"
 
-msgid "Estilo"
+msgid "Style"
 msgstr "스타일"
 
-msgid "Haz clic en una miniatura para cambiar el fondo de pantalla del tema correspondiente."
+msgid "Click on a thumbnail to change the wallpaper for the corresponding theme."
 msgstr "미리보기 이미지를 클릭하여 해당 테마의 배경 화면을 변경합니다."
 
-msgid "Haz clic para cambiar el fondo claro (Predeterminado)"
+msgid "Click to change light wallpaper (Default)"
 msgstr "클릭하여 라이트 배경 화면(기본값) 변경"
 
-msgid "Haz clic para cambiar el fondo oscuro (Dark)"
+msgid "Click to change dark wallpaper (Dark)"
 msgstr "클릭하여 다크 배경 화면(다크) 변경"
 
-msgid "Predeterminado"
+msgid "Default"
 msgstr "기본값"
 
-msgid "Oscuro"
+msgid "Dark"
 msgstr "다크"
 
-msgid "cambiando el tema"
+msgid "changing theme"
 msgstr "테마 변경 중"
 
-msgid "Se ha cambiado el fondo del tema"
+msgid "Wallpaper changed for theme"
 msgstr "테마의 배경 화면이 변경되었습니다"
 
-msgid "puede verlo"
+msgid "view it by"
 msgstr "확인할 수 있습니다"
 
-msgid "Seleccionar fondo de pantalla claro"
+msgid "Select light wallpaper"
 msgstr "라이트 배경 화면 선택"
 
-msgid "Seleccionar fondo de pantalla oscuro"
+msgid "Select dark wallpaper"
 msgstr "다크 배경 화면 선택"
 
-msgid "Carpetas de Fondos"
+msgid "Wallpaper Folders"
 msgstr "배경 화면 폴더"
 
-msgid "Selecciona las carpetas de imágenes asignadas a cada tema."
+msgid "Select the image folders assigned to each theme."
 msgstr "각 테마에 할당할 이미지 폴더를 선택하십시오."
 
-msgid "Colección Claro"
+msgid "Light Collection"
 msgstr "라이트 컬렉션"
 
-msgid "Colección Oscuro"
+msgid "Dark Collection"
 msgstr "다크 컬렉션"
 
-msgid "Cambiar carpeta seleccionada"
+msgid "Change selected folder"
 msgstr "선택한 폴더 변경"
 
-msgid "Abrir carpeta en Archivos"
+msgid "Open folder in Files"
 msgstr "파일에서 폴더 열기"
 
-msgid "Rotación de fondos del conjunto"
+msgid "Collection Wallpaper Rotation"
 msgstr "컬렉션 배경 화면 순환"
 
-msgid "Configura el orden en que se van a proyectar las imágenes."
+msgid "Configure the order in which images are cycled."
 msgstr "이미지가 순환되는 순서를 구성합니다."
 
-msgid "Se han detectado cambios en los fondos almacenados. "
+msgid "Changes detected in stored wallpapers. "
 msgstr "저장된 배경 화면의 변경 사항이 감지되었습니다. "
 
-msgid "Recarga"
+msgid "Reload"
 msgstr "다시 로드"
 
-msgid "Recargar fondos ahora"
+msgid "Reload wallpapers now"
 msgstr "지금 배경 화면 다시 로드"
 
-msgid " para actualizar los fondos"
+msgid " to update wallpapers"
 msgstr " 배경 화면을 업데이트하려면"
 
-msgid "Descartar aviso"
+msgid "Dismiss notice"
 msgstr "알림 닫기"
 
-msgid "Servicio en segundo plano"
+msgid "Background Service"
 msgstr "백그라운드 서비스"
 
-msgid "Comprobando estado..."
+msgid "Checking status..."
 msgstr "상태 확인 중..."
 
-msgid "Siguiente"
+msgid "Next"
 msgstr "다음"
 
-msgid "Pasar al siguiente fondo de la secuencia actual"
+msgid "Skip to next wallpaper in current sequence"
 msgstr "현재 순서의 다음 배경 화면으로 건너뜁니다"
 
-msgid "Barajar"
+msgid "Shuffle"
 msgstr "셔플"
 
-msgid "Revolver la lista de fondos pendientes sin reiniciar el ciclo"
+msgid "Shuffle pending wallpapers without restarting the cycle"
 msgstr "주기를 다시 시작하지 않고 대기 중인 배경 화면 목록을 섞습니다"
 
-msgid "Recargar"
-msgstr "다시 로드"
-
-msgid "Re-escanear carpetas, reiniciar la baraja completa y aplicar nuevos fondos"
+msgid "Rescan folders, reset the entire deck, and apply new wallpapers"
 msgstr "폴더를 다시 스캔하고 전체 덱을 재설정한 후 새 배경 화면을 적용합니다"
 
-msgid "Secuencia de rotación"
+msgid "Rotation sequence"
 msgstr "순환 순서"
 
-msgid "Al azar"
+msgid "Random"
 msgstr "무작위"
 
-msgid "Al azar sin repeticiones (baraja completa)"
+msgid "Random without repeats (full deck)"
 msgstr "중복 없는 무작위(전체 덱 셔플)"
 
-msgid "Rotación automática"
+msgid "Automatic rotation"
 msgstr "자동 순환"
 
-msgid "Temporizador y automatización del cambio en segundo plano."
+msgid "Timer and background change automation."
 msgstr "타이머 및 백그라운드 자동 변경."
 
-msgid "Activar rotación automática"
+msgid "Enable automatic rotation"
 msgstr "자동 순환 활성화"
 
-msgid "Habilitar el servicio para cambiar las imágenes según la frecuencia programada"
+msgid "Enable service to switch wallpapers based on scheduled frequency"
 msgstr "예정된 주기에 따라 이미지를 변경하는 서비스를 활성화합니다"
 
-msgid "Frecuencia de cambio"
+msgid "Switch frequency"
 msgstr "변경 빈도"
 
-msgid "Intervalo de tiempo (minutos)"
+msgid "Time interval (minutes)"
 msgstr "시간 간격(분)"
 
-msgid "Hora fija diaria"
+msgid "Fixed daily time"
 msgstr "매일 지정된 시간"
 
-msgid "Minutos entre cambios"
+msgid "Minutes between switches"
 msgstr "변경 간격(분)"
 
-msgid "Tiempo que permanece cada fondo de pantalla"
+msgid "Time each wallpaper remains active"
 msgstr "각 배경 화면 유지 시간"
 
-msgid "Hora de cambio diario"
+msgid "Daily switch time"
 msgstr "매일 변경 시간"
 
-msgid "Hora programada para rotar el fondo cada día (formato 24h)"
+msgid "Scheduled time to rotate wallpaper each day (24h format)"
 msgstr "매일 배경 화면을 회전할 예정 시간(24시간 형식)"
 
-msgid "Hora (00 a 23)"
+msgid "Hour (00 to 23)"
 msgstr "시(00~23)"
 
-msgid "Minutos (00 a 59)"
+msgid "Minutes (00 to 59)"
 msgstr "분(00~59)"
 
-msgid "Días entre cambios"
+msgid "Days between switches"
 msgstr "변경 간격(일수)"
 
-msgid "Frecuencia en días de la rotación diaria"
+msgid "Frequency in days for daily rotation"
 msgstr "매일 순환 주기(일수)"
 
-msgid "Contar cambio de estilo no visto en la rotación"
+msgid "Count unseen style change as rotation"
 msgstr "미확인 스타일 변경을 회전으로 간주"
 
-msgid "Al alternar entre claro y oscuro, si el fondo aún no se había visto, reinicia el temporizador (solo en intervalo de tiempo)"
+msgid "When switching between light and dark, if the wallpaper was not yet seen, restart the timer (interval mode only)"
 msgstr "밝은 테마와 어두운 테마 전환 시 배경화면을 아직 보지 않은 경우 타이머를 재설정합니다(시간 간격 모드 전용)"
 
-msgid "Herramientas y Mantenimiento"
+msgid "Tools and Maintenance"
 msgstr "도구 및 유지 관리"
 
-msgid "Mantenimiento, gestión del fondo en pantalla, organización inteligente y optimización."
+msgid "Maintenance, active wallpaper management, smart organization, and optimization."
 msgstr "유지 관리, 현재 배경 화면 관리, 스마트 정리 및 최적화."
 
-msgid "Fondo actual en pantalla"
+msgid "Current wallpaper on screen"
 msgstr "현재 화면의 배경 화면"
 
-msgid "Detectando fondo visible..."
+msgid "Detecting active wallpaper..."
 msgstr "활성 배경 화면 감지 중..."
 
-msgid "Ubicar y mostrar archivo en Archivos (Nautilus)"
+msgid "Locate and show file in Files (Nautilus)"
 msgstr "파일(Nautilus)에서 위치 표시"
 
-msgid "Fijar fondo en pinned/ (proteger en este tema)"
+msgid "Pin wallpaper in pinned/ (protect in this theme)"
 msgstr "pinned/에 고정(이 테마에서 보호)"
 
-msgid "Excluir fondo de la rotación (mover a exclude/)"
+msgid "Exclude wallpaper from rotation (move to exclude/)"
 msgstr "순환에서 제외(exclude/로 이동)"
 
-msgid "No hay ningún fondo configurado o el archivo no existe"
+msgid "No wallpaper configured or file does not exist"
 msgstr "구성된 배경 화면이 없거나 파일이 없습니다"
 
-msgid "Fijado (pinned)"
+msgid "Pinned"
 msgstr "고정됨(pinned)"
 
-msgid "Desfijar fondo (regresar a la carpeta principal)"
+msgid "Unpin wallpaper (return to main folder)"
 msgstr "배경 화면 고정 해제(기본 폴더로 복원)"
 
-msgid "Fijar fondo en pinned/ (no mover de este tema)"
+msgid "Pin wallpaper in pinned/ (do not rotate away)"
 msgstr "pinned/에 고정(이 테마에서 제외하지 않음)"
 
-msgid "Fondo desfijado y devuelto a la carpeta principal"
+msgid "Wallpaper unpinned and returned to main folder"
 msgstr "배경 화면 고정이 해제되어 기본 폴더로 복원되었습니다"
 
-msgid "Fondo fijado en pinned/"
+msgid "Wallpaper pinned in pinned/"
 msgstr "배경 화면이 pinned/에 고정되었습니다"
 
-msgid "¿Excluir este fondo de pantalla?"
+msgid "Exclude this wallpaper?"
 msgstr "이 배경 화면을 제외하시겠습니까?"
 
-msgid "se moverá a la carpeta 'exclude/' y se cambiará al siguiente fondo disponible de la rotación."
+msgid "will be moved to 'exclude/' and wallpaper will switch to next in rotation."
 msgstr "'exclude/' 폴더로 이동되며 순환에서 다음으로 사용 가능한 배경 화면으로 변경됩니다."
 
-msgid "Cancelar"
+msgid "Cancel"
 msgstr "취소"
 
-msgid "Excluir"
+msgid "Exclude"
 msgstr "제외"
 
-msgid "Fondo excluido y rotado"
+msgid "Wallpaper excluded and rotated"
 msgstr "배경 화면이 제외되고 변경되었습니다"
 
-msgid "Detector de Fondos Duplicados"
+msgid "Duplicate Wallpaper Detector"
 msgstr "중복 배경 화면 감지기"
 
-msgid "Detecta imágenes repetidas o casi idénticas con firmas estructurales (dHash)"
+msgid "Detects repeated or near-identical images using structural perceptual hashes (dHash)"
 msgstr "지각 해시(dHash)를 사용하여 중복되거나 유사한 이미지를 감지합니다"
 
-msgid "Buscar duplicados"
+msgid "Scan duplicates"
 msgstr "중복 스캔"
 
-msgid "Clasificar Fondos por Luminosidad"
+msgid "Classify Wallpapers by Luminosity"
 msgstr "밝기별 배경 화면 분류"
 
-msgid "Evalúa el brillo perceptual (CIELAB L*) y clasifica automáticamente entre claro y oscuro"
+msgid "Evaluates perceptual lightness (CIELAB L*) and classifies automatically into light and dark"
 msgstr "지각 밝기(CIELAB L*)를 평가하여 밝음과 어두움으로 자동 분류합니다"
 
-msgid "Clasificar"
+msgid "Classify"
 msgstr "분류"
 
-msgid "Reescalado con IA (Smart Upscale)"
+msgid "AI Upscaling (Smart Upscale)"
 msgstr "AI 스마트 업스케일 (Smart Upscale)"
 
-msgid "Comprobando compatibilidad de aceleración Vulkan y motor Real-CUGAN..."
+msgid "Checking Vulkan acceleration compatibility and Real-CUGAN engine..."
 msgstr "Vulkan 가속 호환성 및 Real-CUGAN 엔진 확인 중..."
 
-msgid "Reescalar..."
+msgid "Upscale..."
 msgstr "업스케일..."
 
-msgid "Requiere aceleración Vulkan y motor Real-CUGAN instalado"
+msgid "Requires Vulkan acceleration and Real-CUGAN engine installed"
 msgstr "Vulkan 하드웨어 가속 및 Real-CUGAN 엔진 설치가 필요합니다"
 
-msgid "No compatible"
+msgid "Not supported"
 msgstr "지원되지 않음"
 
-msgid "¿Verificar compatibilidad nuevamente?"
+msgid "Check compatibility again?"
 msgstr "호환성을 다시 확인하시겠습니까?"
 
-msgid "El motor Real-CUGAN con aceleración Vulkan reportó incompatibilidad o no respondió en la última comprobación."
+msgid "The Real-CUGAN engine with Vulkan acceleration reported incompatibility or did not respond."
 msgstr "Vulkan 가속 Real-CUGAN 엔진이 호환되지 않는다고 보고했거나 응답하지 않았습니다."
 
-msgid "¿Deseas volver a escanear los controladores de GPU Vulkan y el motor ahora?"
+msgid "Do you want to rescan Vulkan GPU drivers and the engine now?"
 msgstr "지금 Vulkan GPU 드라이버와 엔진을 다시 검사하시겠습니까?"
 
-msgid "Verificar nuevamente"
+msgid "Check again"
 msgstr "다시 확인"
 
-msgid "Verificando..."
+msgid "Checking..."
 msgstr "확인 중..."
 
-msgid "Atajos"
+msgid "Shortcuts"
 msgstr "바로 가기"
 
-msgid "Atajos de teclado"
+msgid "Keyboard Shortcuts"
 msgstr "키보드 바로 가기"
 
-msgid "Atajos nativos de GNOME para cambiar y recargar fondos rápidamente."
+msgid "Native GNOME shortcuts to quickly switch and reload wallpapers."
 msgstr "배경 화면을 빠르게 전환하고 다시 로드하는 GNOME 기본 바로 가기 키입니다."
 
-msgid "Habilitar atajos de teclado"
+msgid "Enable keyboard shortcuts"
 msgstr "키보드 바로 가기 활성화"
 
-msgid "Activa los atajos globales en el entorno de escritorio"
+msgid "Enables global shortcuts in the desktop environment"
 msgstr "데스크톱 환경에서 전역 바로 가기 키를 활성화합니다"
 
-msgid "Siguiente wallpaper"
+msgid "Next wallpaper"
 msgstr "다음 배경 화면"
 
-msgid "Recargar conjuntos"
+msgid "Reload collections"
 msgstr "컬렉션 다시 로드"
 
-msgid "Ejecuta: auto-wallpaper next"
+msgid "Runs: auto-wallpaper next"
 msgstr "실행: auto-wallpaper next"
 
-msgid "Ejecuta: auto-wallpaper reload"
+msgid "Runs: auto-wallpaper reload"
 msgstr "실행: auto-wallpaper reload"
 
-msgid "Super + W (Predeterminado)"
+msgid "Super + W (Default)"
 msgstr "Super + W (기본값)"
 
-msgid "Super + Alt + W (Predeterminado)"
+msgid "Super + Alt + W (Default)"
 msgstr "Super + Alt + W (기본값)"
 
-msgid "Super + Espacio"
+msgid "Super + Space"
 msgstr "Super + Space"
 
-msgid "Super + Flecha Derecha"
+msgid "Super + Right Arrow"
 msgstr "Super + 오른쪽 화살표"
 
-msgid "Personalizado"
+msgid "Custom"
 msgstr "사용자 지정"
 
-msgid "Desactivado"
+msgid "Disabled"
 msgstr "비활성화됨"
 
-msgid "Servicio detenido"
+msgid "Service stopped"
 msgstr "서비스 중지됨"
 
-msgid "El temporizador automático está detenido"
+msgid "Automatic timer is stopped"
 msgstr "자동 타이머가 중지되었습니다"
 
-msgid "Servicio activo"
+msgid "Service active"
 msgstr "서비스 실행 중"
 
-msgid "Próximo cambio en:"
+msgid "Next switch in:"
 msgstr "다음 변경까지:"
 
-msgid "Restantes:"
+msgid "Remaining:"
 msgstr "남은 항목:"
 
-msgid "Modo:"
+msgid "Mode:"
 msgstr "모드:"
 
-msgid "Seleccionar carpeta de fondos claros"
+msgid "Select light wallpaper folder"
 msgstr "라이트 배경 화면 폴더 선택"
 
-msgid "Seleccionar carpeta de fondos oscuros"
+msgid "Select dark wallpaper folder"
 msgstr "다크 배경 화면 폴더 선택"
 
-msgid "¿Recargar todos los fondos?"
+msgid "Reload all wallpapers?"
 msgstr "모든 배경 화면을 다시 로드하시겠습니까?"
 
-msgid "Esto re-escaneará las carpetas y recargará toda la lista de fondos, incluyendo el fondo actual."
+msgid "This will rescan folders and reload all wallpapers, including current wallpaper."
 msgstr "폴더를 다시 스캔하고 현재 배경 화면을 포함한 전체 목록을 다시 로드합니다."
 
-msgid "Desactivado (Manual)"
+msgid "Disabled (Manual)"
 msgstr "비활성화됨(수동)"
 
-msgid "Calculando / Inminente..."
+msgid "Calculating / Imminent..."
 msgstr "계산 중 / 곧 변경..."
 
-msgid "Imágenes (*.png, *.jpg, *.jpeg, *.webp)"
+msgid "Images (*.png, *.jpg, *.jpeg, *.webp)"
 msgstr "이미지 (*.png, *.jpg, *.jpeg, *.webp)"
 
-msgid "Fondos Duplicados o Repetidos"
+msgid "Duplicate or Repeated Wallpapers"
 msgstr "중복되거나 반복된 배경 화면"
 
-msgid "Volver a escanear"
+msgid "Rescan"
 msgstr "다시 스캔"
 
-msgid "Escaneando colecciones de fondos..."
+msgid "Scanning wallpaper collections..."
 msgstr "배경 화면 컬렉션 스캔 중..."
 
-msgid "Calculando firmas estructurales dHash y comparando similitudes..."
+msgid "Calculating dHash structural hashes and comparing similarities..."
 msgstr "dHash 구조적 해시 계산 및 유사성 비교 중..."
 
-msgid "¡No hay duplicados!"
+msgid "No duplicates found!"
 msgstr "중복 항목이 없습니다!"
 
-msgid "Todas las imágenes de tus colecciones son únicas. No se detectaron fondos repetidos ni versiones comprimidas."
+msgid "All images in your collections are unique. No repeated wallpapers or compressed copies detected."
 msgstr "컬렉션의 모든 이미지가 고유합니다. 중복 배경 화면이나 압축 복사본이 감지되지 않았습니다."
 
-msgid "Iniciando escaneo..."
+msgid "Starting scan..."
 msgstr "스캔 시작 중..."
 
-msgid "Se encontraron"
+msgid "Found"
 msgstr "발견됨:"
 
-msgid "coincidencias de fondos repetidos o casi idénticos:"
+msgid "matches of duplicate or near-identical wallpapers:"
 msgstr "개의 중복되거나 거의 동일한 배경 화면 일치 항목:"
 
-msgid "DUPLICADO EXACTO (100% idéntico)"
+msgid "EXACT DUPLICATE (100% identical)"
 msgstr "완전 중복 (100% 동일)"
 
-msgid "CASI IDÉNTICO"
+msgid "NEAR IDENTICAL"
 msgstr "거의 동일"
 
-msgid "similitud"
+msgid "similarity"
 msgstr "유사도"
 
-msgid "Mover esta versión a la subcarpeta exclude/"
+msgid "Move this version to exclude/ subfolder"
 msgstr "이 버전을 exclude/ 하위 폴더로 이동"
 
-msgid "Ubicar en Archivos"
+msgid "Locate in Files"
 msgstr "파일에서 찾기"
 
-msgid "Excluida ✓"
+msgid "Excluded ✓"
 msgstr "제외됨 ✓"
 
-msgid "movida a exclude/"
+msgid "moved to exclude/"
 msgstr "exclude/로 이동됨"
 
-msgid "Aviso:"
+msgid "Notice:"
 msgstr "알림:"
 
-msgid "El análisis perceptual examina la luminosidad píxel a píxel de cada imagen. En colecciones con muchos fondos, el proceso puede tardar un poco según el rendimiento de tu equipo."
+msgid "Perceptual analysis evaluates pixel lightness for each image. For large collections, this process may take a while depending on hardware."
 msgstr "지각 분석은 각 이미지의 픽셀별 밝기를 검사합니다. 대규모 컬렉션의 경우 장치 사양에 따라 시간이 걸릴 수 있습니다."
 
-msgid "Parámetros de Clasificación por Luminosidad"
+msgid "Luminosity Classification Parameters"
 msgstr "밝기 분류 매개변수"
 
-msgid "Organiza automáticamente tus fondos en las carpetas Claro y Oscuro según el modelo perceptivo humano (CIELAB L* + Percentil 65)."
+msgid "Automatically organize wallpapers into Light and Dark folders using human perceptual model (CIELAB L* + 65th percentile)."
 msgstr "인간의 시각 인지 모델(CIELAB L* + 65 백분위수)에 따라 밝은 폴더와 어두운 폴더로 배경 화면을 자동 정리합니다."
 
-msgid "Muy permisivo"
+msgid "Very Permissive"
 msgstr "매우 관대함"
 
-msgid "Permisivo"
+msgid "Permissive"
 msgstr "관대함"
 
-msgid "Equilibrado"
+msgid "Balanced"
 msgstr "균형"
 
-msgid "Exigente"
+msgid "Demanding"
 msgstr "엄격함"
 
-msgid "Muy estricto"
+msgid "Very Strict"
 msgstr "매우 엄격함"
 
-msgid "Más Claros"
+msgid "More Light"
 msgstr "더 밝게"
 
-msgid "Más Oscuros"
+msgid "More Dark"
 msgstr "더 어둡게"
 
-msgid "Muy permisivo para Claro · Máximo favorecedor para fondos claros"
+msgid "Very permissive for Light · Maximum favor towards light wallpapers"
 msgstr "라이트에 매우 관대함 · 밝은 배경 화면 최대 선호"
 
-msgid "Permisivo para Claro · Favorece fondos claros"
+msgid "Permissive for Light · Favors light wallpapers"
 msgstr "라이트에 관대함 · 밝은 배경 화면 선호"
 
-msgid "Equilibrada / Estándar · Recomendado · Balance perceptivo óptimo"
+msgid "Balanced / Standard · Recommended · Optimal perceptual balance"
 msgstr "균형 / 표준 · 권장 · 최적의 인지 균형"
 
-msgid "Exigente para Claro · Más fondos a Oscuro"
+msgid "Demanding for Light · More wallpapers moved to Dark"
 msgstr "라이트에 엄격함 · 더 많은 배경 화면을 다크로 이동"
 
-msgid "Muy estricto para Claro · Mínimo favorecedor para Claro"
+msgid "Very strict for Light · Minimum favor towards Light wallpapers"
 msgstr "라이트에 매우 엄격함 · 밝은 배경 최소 선호"
 
-msgid "Sensibilidad de brillo (Umbral CIELAB L*)"
+msgid "Brightness Sensitivity (CIELAB L* Threshold)"
 msgstr "밝기 감도(CIELAB L* 임계값)"
 
-msgid "Colecciones a analizar"
+msgid "Collections to analyze"
 msgstr "분석할 컬렉션"
 
-msgid "Las subcarpetas pinned/ y exclude/ siempre están protegidas."
+msgid "Subfolders pinned/ and exclude/ are always protected."
 msgstr "pinned/ 및 exclude/ 하위 폴더는 항상 보호됩니다."
 
-msgid "Ambos conjuntos (Claro y Oscuro - Recomendado)"
+msgid "Both collections (Light and Dark - Recommended)"
 msgstr "두 컬렉션 모두(라이트 및 다크 - 권장)"
 
-msgid "Solo conjunto Claro (Reevaluar y mover fondos oscuros)"
+msgid "Light collection only (Reevaluate and move dark wallpapers)"
 msgstr "라이트 컬렉션만(어두운 배경 화면 재평가 및 이동)"
 
-msgid "Solo conjunto Oscuro (Reevaluar y mover fondos claros)"
+msgid "Dark collection only (Reevaluate and move light wallpapers)"
 msgstr "다크 컬렉션만(밝은 배경 화면 재평가 및 이동)"
 
-msgid "Carpeta personalizada (Analizar y clasificar imágenes hacia Claro/Oscuro)"
+msgid "Custom folder (Analyze and classify images into Light/Dark)"
 msgstr "사용자 지정 폴더(이미지 분석 및 라이트/다크로 분류)"
 
-msgid "Carpeta a clasificar"
+msgid "Folder to classify"
 msgstr "분류할 폴더"
 
-msgid "Ninguna carpeta seleccionada"
+msgid "No folder selected"
 msgstr "선택된 폴더 없음"
 
-msgid "Seleccionar carpeta..."
+msgid "Select folder..."
 msgstr "폴더 선택..."
 
-msgid "Seleccionar carpeta personalizada"
+msgid "Select custom folder"
 msgstr "사용자 지정 폴더 선택"
 
-msgid "Iniciar clasificación"
+msgid "Start classification"
 msgstr "분류 시작"
 
-msgid "Clasificando fondos mediante CIELAB L*..."
+msgid "Classifying wallpapers via CIELAB L*..."
 msgstr "CIELAB L*로 배경 화면 분류 중..."
 
-msgid "Evaluando brillo perceptual y percentil 65 en cada imagen..."
+msgid "Evaluating perceptual lightness and 65th percentile for each image..."
 msgstr "각 이미지의 지각 밝기 및 65 백분위수 평가 중..."
 
-msgid "Movidos a Claro"
+msgid "Moved to Light"
 msgstr "라이트로 이동됨"
 
-msgid "Movidos a Oscuro"
+msgid "Moved to Dark"
 msgstr "다크로 이동됨"
 
-msgid "Iniciando análisis..."
+msgid "Starting analysis..."
 msgstr "분석 시작 중..."
 
-msgid "Las subcarpetas"
+msgid "Subfolders"
 msgstr "하위 폴더"
 
-msgid "fondos fijados"
+msgid "pinned wallpapers"
 msgstr "고정된 배경 화면"
 
-msgid "y"
+msgid "and"
 msgstr "및"
 
-msgid "fondos excluidos"
+msgid "excluded wallpapers"
 msgstr "제외된 배경 화면"
 
-msgid "están protegidas y no se moverán."
+msgid "are protected and will not be moved."
 msgstr "은 보호되며 이동되지 않습니다."
 
-msgid "Escaneando y clasificando fondos..."
+msgid "Scanning and classifying wallpapers..."
 msgstr "배경 화면 스캔 및 분류 중..."
 
-msgid "Analizando brillo perceptual (CIELAB L*) y percentil 65 en cada imagen"
+msgid "Analyzing perceptual lightness (CIELAB L*) and 65th percentile on each image"
 msgstr "각 이미지의 지각 밝기(CIELAB L*) 및 65 백분위수 분석 중"
 
-msgid "Detener"
+msgid "Stop"
 msgstr "중지"
 
-msgid "Cerrar"
+msgid "Close"
 msgstr "닫기"
 
-msgid "Proceso detenido por el usuario"
+msgid "Process stopped by user"
 msgstr "사용자가 처리를 중지함"
 
-msgid "Clasificación completada"
+msgid "Classification completed"
 msgstr "분류 완료"
 
-msgid "¡Colecciones ya equilibradas!"
+msgid "Collections already balanced!"
 msgstr "컬렉션이 이미 균형을 이루고 있습니다!"
 
-msgid "Todos los fondos ya se encuentran en su carpeta adecuada según el umbral seleccionado."
+msgid "All wallpapers are already in their appropriate folder according to the selected threshold."
 msgstr "선택한 임계값에 따라 모든 배경 화면이 적절한 폴더에 배치되어 있습니다."
 
-msgid "Colecciones equilibradas"
+msgid "Balanced collections"
 msgstr "균형 잡힌 컬렉션"
 
-msgid "No se requirió mover ningún fondo. Ambas carpetas coinciden con sus perfiles de luminosidad."
+msgid "No wallpapers needed to be moved. Both folders match their lightness profiles."
 msgstr "배경 화면을 이동할 필요가 없었습니다. 두 폴더 모두 밝기 프로필과 일치합니다."
 
-msgid "Clasificación finalizada con éxito"
+msgid "Classification completed successfully"
 msgstr "분류가 성공적으로 완료되었습니다"
 
-msgid "mostrando los últimos"
+msgid "showing last"
 msgstr "최근 항목 표시"
 
-msgid "en vivo"
+msgid "live"
 msgstr "실시간"
 
-msgid "Se movieron"
+msgid "Moved"
 msgstr "총"
 
-msgid "a claro y"
+msgid "to light and"
 msgstr "개를 라이트로,"
 
-msgid "a oscuro en total"
+msgid "to dark in total"
 msgstr "개를 다크로 이동함"
 
-msgid "Clasificación de fondos finalizada"
+msgid "Wallpaper classification completed"
 msgstr "배경 화면 분류 완료"
 
-msgid "Evaluando:"
+msgid "Evaluating:"
 msgstr "평가 중:"
 
-msgid "Brillo L*"
+msgid "Lightness L*"
 msgstr "밝기 L*"
 
-msgid "Reescalado Inteligente (Real-CUGAN)"
+msgid "Smart Upscale (Real-CUGAN)"
 msgstr "스마트 초해상도 확대 (Real-CUGAN)"
 
-msgid "El proceso de reescalado utiliza aceleración neuronal por GPU (Vulkan). Puede tardar en completarse y ocasionar pérdida temporal de rendimiento mientras se ejecuta."
+msgid "The upscaling process uses Vulkan GPU neural acceleration. It may take some time and temporarily affect performance while running."
 msgstr "업스케일링 처리는 GPU 신경망 가속(Vulkan)을 사용합니다. 완료까지 시간이 걸릴 수 있으며 실행 중에 일시적인 성능 저하가 발생할 수 있습니다."
 
-msgid "Parámetros del Reescalado IA"
+msgid "AI Upscale Parameters"
 msgstr "AI 업스케일 매개변수"
 
-msgid "Acelera la nitidez y resolución usando Real-CUGAN."
+msgid "Enhance sharpness and resolution using Real-CUGAN."
 msgstr "Real-CUGAN을 사용하여 선명도와 해상도를 높입니다."
 
-msgid "GPU detectada:"
+msgid "Detected GPU:"
 msgstr "감지된 GPU:"
 
-msgid "Carpeta a reescalar"
+msgid "Folder to upscale"
 msgstr "업스케일할 폴더"
 
-msgid "☀️ Conjunto claro"
+msgid "☀️ Light collection"
 msgstr "☀️ 라이트 컬렉션"
 
-msgid "🌙 Conjunto oscuro"
+msgid "🌙 Dark collection"
 msgstr "🌙 다크 컬렉션"
 
-msgid "🌓 Ambos conjuntos (claro y oscuro)"
+msgid "🌓 Both collections (light and dark)"
 msgstr "🌓 두 컬렉션 모두(라이트 및 다크)"
 
-msgid "Factor de escala"
+msgid "Scale factor"
 msgstr "배율 인수"
 
-msgid "Multiplicador de resolución"
+msgid "Resolution multiplier"
 msgstr "해상도 배율"
 
-msgid "2x (Recomendado para 1080p -> 4K)"
+msgid "2x (Recommended for 1080p -> 4K)"
 msgstr "2x (1080p -> 4K 권장)"
 
-msgid "Reducción de ruido (Denoise)"
+msgid "Noise Reduction (Denoise)"
 msgstr "노이즈 감소 (Denoise)"
 
-msgid "Nivel de limpieza de artefactos y compresión"
+msgid "Artifact and compression cleanup level"
 msgstr "압축 아티팩트 제거 수준"
 
-msgid "Nivel 0 - Predeterminado (Nitidez óptima)"
+msgid "Level 0 - Default (Optimal sharpness)"
 msgstr "레벨 0 - 기본값(최적의 선명도)"
 
-msgid "Nivel 1 - Suave"
+msgid "Level 1 - Soft"
 msgstr "레벨 1 - 부드러움"
 
-msgid "Nivel 2 - Medio"
+msgid "Level 2 - Medium"
 msgstr "레벨 2 - 중간"
 
-msgid "Nivel 3 - Intenso"
+msgid "Level 3 - Strong"
 msgstr "레벨 3 - 강함"
 
-msgid "Nivel -1 - Sin denoise (Preserva grano)"
+msgid "Level -1 - No denoise (Preserves grain)"
 msgstr "레벨 -1 - 노이즈 제거 없음(필름 그레인 유지)"
 
-msgid "Límite de resolución"
+msgid "Resolution limit"
 msgstr "해상도 제한"
 
-msgid "Omitir imágenes que ya alcancen o superen este tamaño"
+msgid "Skip images that already reach or exceed this size"
 msgstr "이미 이 크기에 도달하거나 초과하는 이미지는 건너뜁니다"
 
-msgid "2560x1440 (2K QHD - Recomendado)"
+msgid "2560x1440 (2K QHD - Recommended)"
 msgstr "2560x1440 (2K QHD - 권장)"
 
 msgid "1920x1080 (Full HD)"
@@ -650,72 +647,104 @@ msgstr "1920x1080 (Full HD)"
 msgid "3840x2160 (4K UHD)"
 msgstr "3840x2160 (4K UHD)"
 
-msgid "Sin límite (procesar todas las imágenes)"
+msgid "No limit (process all images)"
 msgstr "제한 없음(모든 이미지 처리)"
 
-msgid "Copia de seguridad"
+msgid "Backup copy"
 msgstr "백업 사본"
 
-msgid "Guardar copia de las imágenes originales en exclude/backup_upscale_original/"
+msgid "Save copy of original images in exclude/backup_upscale_original/"
 msgstr "원본 이미지 사본을 exclude/backup_upscale_original/에 저장"
 
-msgid "Ignorar etiqueta de reescalado previo"
+msgid "Ignore previous upscale tag"
 msgstr "이전 업스케일 태그 무시"
 
-msgid "Permite reescalar imágenes que ya fueron procesadas anteriormente con IA"
+msgid "Allows re-upscaling images previously processed with AI"
 msgstr "이전에 AI로 처리된 이미지를 다시 업스케일할 수 있도록 허용합니다"
 
-msgid "¿Ignorar etiqueta de reescalado previo?"
+msgid "Ignore previous upscale tag?"
 msgstr "이전 업스케일 태그를 무시하시겠습니까?"
 
-msgid "Advertencia: Reescalar sucesivamente una imagen ya procesada con IA puede introducir artefactos no deseados o degradar la calidad original."
+msgid "Warning: Repeatedly upscaling an AI-processed image may introduce unwanted artifacts or degrade quality."
 msgstr "경고: 이미 AI로 처리된 이미지를 반복해서 업스케일하면 원치 않는 왜곡이 발생하거나 원본 품질이 저하될 수 있습니다."
 
-msgid "¿Estás seguro de que deseas forzar el reescalado sobre imágenes previamente tratadas?"
+msgid "Are you sure you want to force upscaling on previously treated images?"
 msgstr "이미 처리된 이미지를 강제로 다시 업스케일하시겠습니까?"
 
-msgid "Activar de todos modos"
+msgid "Enable anyway"
 msgstr "그래도 활성화"
 
-msgid "Iniciar reescalado"
+msgid "Start upscaling"
 msgstr "업스케일 시작"
 
-msgid "Reescalando fondos con Real-CUGAN..."
+msgid "Upscaling wallpapers with Real-CUGAN..."
 msgstr "Real-CUGAN으로 배경 화면 업스케일 중..."
 
-msgid "Iniciando..."
+msgid "Starting..."
 msgstr "시작 중..."
 
-msgid "Reescalado con IA finalizado"
+msgid "AI Upscaling completed"
 msgstr "AI 업스케일 완료"
 
-msgid "Analizando candidatos:"
+msgid "Analyzing candidates:"
 msgstr "후보 이미지 분석 중:"
 
-msgid "de"
+msgid "of"
 msgstr "/"
 
-msgid "Comprobando resolución y firmas de reescalado previo..."
+msgid "Checking resolution and previous upscale signatures..."
 msgstr "해상도 및 이전 업스케일 서명 확인 중..."
 
-msgid "procesadas"
+msgid "processed"
 msgstr "처리됨"
 
-msgid "Reescalando"
+msgid "Upscaling"
 msgstr "업스케일 중"
 
-msgid "Completada"
+msgid "Completed"
 msgstr "완료됨"
 
-msgid "guardada exitosamente"
+msgid "saved successfully"
 msgstr "성공적으로 저장됨"
 
-msgid "Reescalado completado"
+msgid "Upscaling completed"
 msgstr "업스케일 완료"
 
-msgid "Procesamiento de carpeta finalizado"
+msgid "Folder processing finished"
 msgstr "폴더 처리 완료"
 
-msgid "Sin imágenes pendientes por procesar"
+msgid "No pending images to process"
 msgstr "처리 대기 중인 이미지가 없습니다"
 
+msgid "View ignored combinations"
+msgstr ""
+
+msgid "Combinations you choose to ignore will appear here so you can restore them."
+msgstr ""
+
+msgid "image"
+msgstr ""
+
+msgid "images"
+msgstr ""
+
+msgid "No images"
+msgstr ""
+
+msgid "Add wallpapers to folders or select one containing images to enable rotation and tools."
+msgstr ""
+
+msgid "Checking Python dependencies and Real-CUGAN engine availability..."
+msgstr ""
+
+msgid "Hide from panel"
+msgstr ""
+
+msgid "Ignored"
+msgstr ""
+
+msgid "No compatible images detected in collections"
+msgstr ""
+
+msgid "Additional minutes (0 to 59)"
+msgstr ""

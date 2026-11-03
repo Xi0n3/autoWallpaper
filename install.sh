@@ -71,6 +71,7 @@ if [ "$1" = "--pack" ] || [ "$1" = "-p" ]; then
     if command -v python3 >/dev/null 2>&1 && [ -f "$SCRIPT_DIR/compile_locales.py" ]; then
         python3 "$SCRIPT_DIR/compile_locales.py"
     fi
+    # Para cumplir con las políticas de EGO (GNOME 44+), el zip NO debe incluir gschemas.compiled
     rm -f "$SCRIPT_DIR/extension/schemas/gschemas.compiled"
     gnome-extensions pack "$SCRIPT_DIR/extension" \
         --force \
@@ -79,6 +80,7 @@ if [ "$1" = "--pack" ] || [ "$1" = "-p" ]; then
         --extra-source="locale" \
         --extra-source="scripts" \
         --out-dir="$SCRIPT_DIR"
+    # Recompilar esquema localmente para pruebas de desarrollo
     if command -v glib-compile-schemas >/dev/null 2>&1 && [ -d "$SCRIPT_DIR/extension/schemas" ]; then
         glib-compile-schemas "$SCRIPT_DIR/extension/schemas/"
     fi

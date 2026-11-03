@@ -1,0 +1,15 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# OS / Editor temporary files
+.DS_Store
+*~
+*.swp
+*.log
+
+# GNOME Shell / GSettings compiled schemas (EGO packages source XML only)
+extension/schemas/gschemas.compiled
+gschemas.compiled
+
